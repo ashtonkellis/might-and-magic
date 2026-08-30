@@ -20,5 +20,9 @@ mechanics only — no names, no art, no artist, no rarity, no pricing — with
 faction and species traits abstracted to `[TRAIT A]` / `[TRAIT B]` placeholders.
 Cards naming another specific card were excluded.
 
+Arena (ground/space) is also stripped, since the game this feeds has no
+equivalent. Two cards whose targeting *was* the arena choice now read as
+unconditional board sweeps.
+
 Each entry carries an opaque `id`, `type`, `cost`, `power`, `hp`, `unique`,
-`aspects`, `arenas`, `keywords`, `traitCount`, and rules text.
+`aspects`, `keywords`, `traitCount`, and rules text.
