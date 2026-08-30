@@ -1,0 +1,1453 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>:root{color-scheme:light dark}body{margin:0;padding:0}img{max-width:100%}</style>
+</head>
+<body>
+<title>Might &amp; Magic Class Bible</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Karla:wght@400;500;700&family=JetBrains+Mono:wght@400;700&display=swap">
+
+<style>
+:root {
+  --ground:      #EEEDF2;
+  --surface:     #FBFAFD;
+  --surface-alt: #E5E3EC;
+  --ink:         #1A1826;
+  --ink-soft:    #423E55;
+  --muted:       #6B6879;
+  --rule:        rgba(26, 24, 38, 0.13);
+  --rule-strong: rgba(26, 24, 38, 0.26);
+  --chip:        rgba(26, 24, 38, 0.06);
+
+  --c-red:    #C8342B;
+  --c-orange: #CE7A16;
+  --c-green:  #2C8C4E;
+  --c-blue:   #3256C6;
+  --c-purple: #7A3B9E;
+  --c-brown:  #7C5433;
+
+  --tint: 0.10;
+
+  --display: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --body: "Karla", "Helvetica Neue", Arial, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+  --measure: 68ch;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ground:      #131220;
+    --surface:     #1C1A2B;
+    --surface-alt: #242135;
+    --ink:         #E9E7F1;
+    --ink-soft:    #C3BFD6;
+    --muted:       #9A96AE;
+    --rule:        rgba(233, 231, 241, 0.16);
+    --rule-strong: rgba(233, 231, 241, 0.32);
+    --chip:        rgba(233, 231, 241, 0.08);
+
+    --c-red:    #E85A4E;
+    --c-orange: #E39B3A;
+    --c-green:  #48B26E;
+    --c-blue:   #6E8CEA;
+    --c-purple: #A96BCB;
+    --c-brown:  #B0824F;
+
+    --tint: 0.16;
+  }
+}
+
+:root[data-theme="dark"] {
+  --ground:      #131220;
+  --surface:     #1C1A2B;
+  --surface-alt: #242135;
+  --ink:         #E9E7F1;
+  --ink-soft:    #C3BFD6;
+  --muted:       #9A96AE;
+  --rule:        rgba(233, 231, 241, 0.16);
+  --rule-strong: rgba(233, 231, 241, 0.32);
+  --chip:        rgba(233, 231, 241, 0.08);
+
+  --c-red:    #E85A4E;
+  --c-orange: #E39B3A;
+  --c-green:  #48B26E;
+  --c-blue:   #6E8CEA;
+  --c-purple: #A96BCB;
+  --c-brown:  #B0824F;
+
+  --tint: 0.16;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  background: var(--ground);
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 16.5px;
+  line-height: 1.62;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: clamp(2rem, 6vw, 5rem) clamp(1.1rem, 4vw, 3rem) 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(3rem, 6vw, 5rem);
+}
+
+/* ---------- masthead ---------- */
+
+.masthead { display: flex; flex-direction: column; gap: 1.1rem; }
+
+.eyebrow {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+h1 {
+  font-family: var(--display);
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: clamp(2.5rem, 7vw, 4.4rem);
+  line-height: 0.98;
+  letter-spacing: -0.02em;
+  margin: 0;
+  text-wrap: balance;
+}
+
+.deck {
+  font-size: 1.12rem;
+  color: var(--ink-soft);
+  max-width: var(--measure);
+  margin: 0;
+}
+
+.spectrum {
+  height: 6px;
+  border-radius: 3px;
+  background: linear-gradient(to right,
+    var(--c-red), var(--c-orange), var(--c-green),
+    var(--c-blue), var(--c-purple), var(--c-brown));
+}
+
+/* ---------- generic section ---------- */
+
+section { display: flex; flex-direction: column; gap: 1.5rem; }
+
+h2 {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  letter-spacing: -0.015em;
+  line-height: 1.15;
+  margin: 0;
+  text-wrap: balance;
+}
+
+.section-head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--rule-strong);
+}
+
+.section-head p { margin: 0; max-width: var(--measure); color: var(--ink-soft); }
+
+/* ---------- roster math ---------- */
+
+.math {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1px;
+  background: var(--rule);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.math div { background: var(--surface); padding: 1rem 1.1rem; }
+
+.math .n {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 1.9rem;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  display: block;
+}
+
+.math .lab {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--muted);
+  display: block;
+  margin-top: 0.45rem;
+}
+
+/* ---------- matrix ---------- */
+
+.matrix-scroll { overflow-x: auto; padding-bottom: 0.4rem; }
+
+table.matrix {
+  border-collapse: collapse;
+  font-size: 0.74rem;
+  min-width: 640px;
+  width: 100%;
+}
+
+table.matrix th, table.matrix td {
+  border: 1px solid var(--rule);
+  padding: 0.5rem 0.4rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+table.matrix th {
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 0.66rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  background: var(--chip);
+  white-space: nowrap;
+}
+
+table.matrix th.rowhead { text-align: right; padding-right: 0.7rem; }
+
+table.matrix td.cell {
+  font-family: var(--body);
+  font-weight: 500;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+table.matrix td.mono-cell { font-weight: 700; }
+table.matrix td.empty { background: transparent; border-color: transparent; }
+
+/* ---------- class entries ---------- */
+
+.entries { display: flex; flex-direction: column; gap: 1.4rem; }
+
+article.klass {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.spine { height: 5px; }
+
+.klass-inner {
+  padding: clamp(1.2rem, 3vw, 1.9rem);
+  display: flex;
+  flex-direction: column;
+  gap: 1.15rem;
+}
+
+.klass-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.55rem 1rem;
+}
+
+.slug {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  border: 1px solid var(--rule-strong);
+  border-radius: 3px;
+  padding: 0.14rem 0.42rem;
+  white-space: nowrap;
+}
+
+.hero-name {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: clamp(1.5rem, 3.4vw, 2.05rem);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.klass-name {
+  font-family: var(--body);
+  font-weight: 700;
+  font-size: 0.78rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.status {
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  padding: 0.22rem 0.5rem;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+.status.locked { background: var(--ink); color: var(--surface); font-weight: 700; }
+
+.counter {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  background: var(--chip);
+  color: var(--ink-soft);
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+.klass p.char { margin: 0; max-width: var(--measure); color: var(--ink-soft); }
+
+.klass p.char b { color: var(--ink); font-weight: 700; }
+
+.source {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  margin: 0;
+  padding: 0.4rem 0 0;
+  border-top: 1px dotted var(--rule-strong);
+}
+.source b { color: var(--ink-soft); font-weight: 700; }
+
+/* art spec */
+
+.art {
+  border-top: 1px solid var(--rule);
+  padding-top: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.art-title {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 1.12rem;
+  line-height: 1.25;
+  margin: 0;
+}
+
+.art-title .tag {
+  font-family: var(--mono);
+  font-size: 0.63rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: 400;
+}
+
+dl.spec {
+  display: grid;
+  grid-template-columns: minmax(6.5rem, max-content) 1fr;
+  gap: 0.42rem 1.1rem;
+  margin: 0;
+  font-size: 0.92rem;
+}
+
+dl.spec dt {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding-top: 0.28rem;
+}
+
+dl.spec dd { margin: 0; color: var(--ink-soft); }
+
+.swatches { display: flex; gap: 0.3rem; flex-wrap: wrap; margin-top: 0.35rem; }
+.swatches i {
+  width: 1.15rem; height: 1.15rem;
+  border-radius: 2px;
+  border: 1px solid var(--rule-strong);
+  display: inline-block;
+}
+
+/* ---------- constants / notes ---------- */
+
+.notes {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--rule-strong);
+  border-radius: 4px;
+  padding: clamp(1.2rem, 3vw, 1.8rem);
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.notes h3 {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 1.15rem;
+  margin: 0;
+}
+
+.notes p, .notes li { color: var(--ink-soft); margin: 0; max-width: var(--measure); }
+.notes ul { margin: 0; padding-left: 1.15rem; display: flex; flex-direction: column; gap: 0.5rem; }
+.notes b { color: var(--ink); }
+
+code {
+  font-family: var(--mono);
+  font-size: 0.86em;
+  background: var(--chip);
+  padding: 0.08em 0.34em;
+  border-radius: 3px;
+}
+
+footer {
+  border-top: 1px solid var(--rule);
+  padding-top: 1.4rem;
+  font-size: 0.88rem;
+  color: var(--muted);
+  max-width: var(--measure);
+}
+
+/* ---------- color identity ---------- */
+
+table.matrix.idtable th.l,
+table.matrix.idtable td.l { text-align: left; }
+
+table.matrix.idtable td { white-space: nowrap; }
+
+table.matrix.idtable td.ident {
+  font-family: var(--mono);
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  color: var(--ink);
+}
+
+table.matrix.idtable td.hex,
+table.matrix.idtable td.slugcell {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  color: var(--muted);
+}
+
+.dots { display: inline-flex; gap: 0.2rem; vertical-align: -0.1rem; }
+.dots i {
+  width: 0.78rem; height: 0.78rem;
+  border-radius: 2px;
+  border: 1px solid var(--rule-strong);
+  display: inline-block;
+}
+
+
+@media (max-width: 560px) {
+  dl.spec { grid-template-columns: 1fr; gap: 0.15rem; }
+  dl.spec dt { padding-top: 0.5rem; }
+  .counter { margin-left: 0; }
+}
+</style>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="spectrum"></div>
+    <span class="eyebrow">Might &amp; Magic — class &amp; art direction bible</span>
+    <h1>Twenty-one classes, twenty-one hands</h1>
+    <p class="deck">Six colors, closed. Every class gets a character with something to want, and a distinct artistic tradition to be drawn in — so a player can name the class from across the table without reading a word. All twenty-one traditions are settled and ready to generate against. They stay settled until the images themselves argue otherwise — a style changes on evidence from a real render, not on a second guess.</p>
+  </header>
+
+  <!-- ================= ROSTER ================= -->
+  <section>
+    <div class="section-head">
+      <h2>The roster closes at 21</h2>
+      <p>Six colors yield six pure classes and fifteen pairs — and every one of the fifteen is already in the list, with no duplicates and nothing missing. The wheel is whole and it is closed.</p>
+    </div>
+
+    <div class="math">
+      <div><span class="n">6</span><span class="lab">Colors</span></div>
+      <div><span class="n">6</span><span class="lab">Pure classes</span></div>
+      <div><span class="n">15</span><span class="lab">Pairs · C(6,2)</span></div>
+      <div><span class="n">21</span><span class="lab">Total classes</span></div>
+    </div>
+
+    <div class="matrix-scroll">
+      <table class="matrix">
+        <thead>
+          <tr>
+            <th></th>
+            <th style="color:var(--c-red)">Fire</th>
+            <th style="color:var(--c-orange)">Arcane</th>
+            <th style="color:var(--c-green)">Nature</th>
+            <th style="color:var(--c-blue)">Frost</th>
+            <th style="color:var(--c-purple)">Shadow</th>
+            <th style="color:var(--c-brown)">Physical</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th class="rowhead" style="color:var(--c-red)">Fire</th>
+            <td class="cell mono-cell" style="background:color-mix(in srgb, var(--c-red) calc(var(--tint)*100%), transparent)">Pyromancer</td>
+            <td class="cell" style="background:linear-gradient(115deg, color-mix(in srgb, var(--c-red) calc(var(--tint)*100%), transparent), color-mix(in srgb, var(--c-orange) calc(var(--tint)*100%), transparent))">Wizard</td>
+            <td class="cell" style="background:linear-gradient(115deg, color-mix(in srgb, var(--c-red) calc(var(--tint)*100%), transparent), color-mix(in srgb, var(--c-green) calc(var(--tint)*100%), transparent))">Shaman</td>
+            <td class="cell" style="background:linear-gradient(115deg, color-mix(in srgb, var(--c-red) calc(var(--tint)*100%), transparent), color-mix(in srgb, var(--c-blue) calc(var(--tint)*100%), transparent))">Trinket-mage</td>
+            <td class="cell" style="background:linear-gradient(115deg, color-mix(in srgb, var(--c-red) calc(var(--tint)*100%), transparent), color-mix(in srgb, var(--c-purple) calc(var(--tint)*100%), transparent))">Warlock</td>
+            <td class="cell" style="background:linear-gradient(115deg, color-mix(in srgb, var(--c-red) calc(var(--tint)*100%), transparent), color-mix(in srgb, var(--c-brown) calc(var(--tint)*100%), transparent))">Demon Hunter</td>
+          </tr>
+          <tr>
+            <th class="rowhead" style="color:var(--c-orange)">Arcane</th>
+            <td class="empty"></td>
+            <td class="cell mono-cell" style="background:color-mix(in srgb, var(--c-orange) calc(var(--tint)*100%), transparent)">Chronomancer</td>
+            <td class="cell" style="background:linear-gradient(115deg, color-mix(in srgb, var(--c-orange) calc(var(--tint)*100%), transparent), color-mix(in srgb, var(--c-green) calc(var(--tint)*100%), transparent))">Windrunner</td>
+            <td class="cell" style="background:linear-gradient(115deg, color-mix(in srgb, var(--c-orange) calc(var(--tint)*100%), transparent), color-mix(in srgb, var(--c-blue) calc(var(--tint)*100%), transparent))">Edgedancer</td>
+            <td class="cell" style="background:linear-gradient(115deg, color-mix(in srgb, var(--c-orange) calc(var(--tint)*100%), transparent), color-mix(in srgb, var(--c-purple) calc(var(--tint)*100%), transparent))">Soulcaster</td>
+            <td class="cell" style="background:linear-gradient(115deg, color-mix(in srgb, var(--c-orange) calc(var(--tint)*100%), transparent), color-mix(in srgb, var(--c-brown) calc(var(--tint)*100%), transparent))">Runeblade</td>
+          </tr>
+          <tr>
+            <th class="rowhead" style="color:var(--c-green)">Nature</th>
+            <td class="empty"></td><td class="empty"></td>
+            <td class="cell mono-cell" style="background:color-mix(in srgb, var(--c-green) calc(var(--tint)*100%), transparent)">Druid</td>
+            <td class="cell" style="background:linear-gradient(115deg, color-mix(in srgb, var(--c-green) calc(var(--tint)*100%), transparent), color-mix(in srgb, var(--c-blue) calc(var(--tint)*100%), transparent))">Shapeshifter</td>
+            <td class="cell" style="background:linear-gradient(115deg, color-mix(in srgb, var(--c-green) calc(var(--tint)*100%), transparent), color-mix(in srgb, var(--c-purple) calc(var(--tint)*100%), transparent))">Witch Doctor</td>
+            <td class="cell" style="background:linear-gradient(115deg, color-mix(in srgb, var(--c-green) calc(var(--tint)*100%), transparent), color-mix(in srgb, var(--c-brown) calc(var(--tint)*100%), transparent))">Ranger</td>
+          </tr>
+          <tr>
+            <th class="rowhead" style="color:var(--c-blue)">Frost</th>
+            <td class="empty"></td><td class="empty"></td><td class="empty"></td>
+            <td class="cell mono-cell" style="background:color-mix(in srgb, var(--c-blue) calc(var(--tint)*100%), transparent)">Sorceress</td>
+            <td class="cell" style="background:linear-gradient(115deg, color-mix(in srgb, var(--c-blue) calc(var(--tint)*100%), transparent), color-mix(in srgb, var(--c-purple) calc(var(--tint)*100%), transparent))">Lich</td>
+            <td class="cell" style="background:linear-gradient(115deg, color-mix(in srgb, var(--c-blue) calc(var(--tint)*100%), transparent), color-mix(in srgb, var(--c-brown) calc(var(--tint)*100%), transparent))">Death Knight</td>
+          </tr>
+          <tr>
+            <th class="rowhead" style="color:var(--c-purple)">Shadow</th>
+            <td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td>
+            <td class="cell mono-cell" style="background:color-mix(in srgb, var(--c-purple) calc(var(--tint)*100%), transparent)">Necromancer</td>
+            <td class="cell" style="background:linear-gradient(115deg, color-mix(in srgb, var(--c-purple) calc(var(--tint)*100%), transparent), color-mix(in srgb, var(--c-brown) calc(var(--tint)*100%), transparent))">Assassin</td>
+          </tr>
+          <tr>
+            <th class="rowhead" style="color:var(--c-brown)">Physical</th>
+            <td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td>
+            <td class="cell mono-cell" style="background:color-mix(in srgb, var(--c-brown) calc(var(--tint)*100%), transparent)">Warrior</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ================= COLOR IDENTITY ================= -->
+  <section>
+    <div class="section-head">
+      <h2>Color identity, in full</h2>
+      <p>The wheel says which classes exist. This says what the colors <em>are</em> — the element each one argues for, the character it is cost in, and the hex it prints at. Every class is a color doubled or a pair of colors, and that one fact drives its mana ladder, its power budget and the gradient across its card face.</p>
+    </div>
+
+    <div class="matrix-scroll">
+      <table class="matrix idtable">
+        <thead>
+          <tr>
+            <th class="l">Color</th>
+            <th class="l">Element</th>
+            <th>Mana</th>
+            <th>Symbol</th>
+            <th class="l">Counter it anchors</th>
+            <th class="l">Hex</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td class="l"><span class="dots"><i style="background:var(--c-red)"></i></span> Red</td>
+              <td class="l" style="color:var(--c-red)">Fire</td>
+              <td class="ident">R</td>
+              <td>🔴</td>
+              <td class="l">Flame 🔥</td>
+              <td class="hex l">#C8342B</td>
+            </tr>
+            <tr>
+              <td class="l"><span class="dots"><i style="background:var(--c-orange)"></i></span> Orange</td>
+              <td class="l" style="color:var(--c-orange)">Arcane</td>
+              <td class="ident">O</td>
+              <td>🟠</td>
+              <td class="l">Time ⏳</td>
+              <td class="hex l">#CE7A16</td>
+            </tr>
+            <tr>
+              <td class="l"><span class="dots"><i style="background:var(--c-green)"></i></span> Green</td>
+              <td class="l" style="color:var(--c-green)">Nature</td>
+              <td class="ident">G</td>
+              <td>🟢</td>
+              <td class="l">Growth 🌿</td>
+              <td class="hex l">#2C8C4E</td>
+            </tr>
+            <tr>
+              <td class="l"><span class="dots"><i style="background:var(--c-blue)"></i></span> Blue</td>
+              <td class="l" style="color:var(--c-blue)">Frost</td>
+              <td class="ident">B</td>
+              <td>🔵</td>
+              <td class="l">Frost ❄️</td>
+              <td class="hex l">#3256C6</td>
+            </tr>
+            <tr>
+              <td class="l"><span class="dots"><i style="background:var(--c-purple)"></i></span> Purple</td>
+              <td class="l" style="color:var(--c-purple)">Shadow</td>
+              <td class="ident">P</td>
+              <td>🟣</td>
+              <td class="l">Soul 🪦</td>
+              <td class="hex l">#7A3B9E</td>
+            </tr>
+            <tr>
+              <td class="l"><span class="dots"><i style="background:var(--c-brown)"></i></span> Brown</td>
+              <td class="l" style="color:var(--c-brown)">Physical</td>
+              <td class="ident">F</td>
+              <td>🟤</td>
+              <td class="l">Durability 🛡️</td>
+              <td class="hex l">#7C5433</td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+    <div class="matrix-scroll">
+      <table class="matrix idtable">
+        <thead>
+          <tr>
+            <th class="l">Slug</th>
+            <th class="l">Hero</th>
+            <th class="l">Class</th>
+            <th>Colors</th>
+            <th>Identity</th>
+            <th class="l">Kind</th>
+            <th class="l">Counter</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td class="l slugcell">01-pyromancer</td>
+              <td class="l">Caine</td>
+              <td class="l">Pyromancer</td>
+              <td><span class="dots"><i style="background:var(--c-red)"></i><i style="background:var(--c-red)"></i></span></td>
+              <td class="ident">RR</td>
+              <td class="l">Pure</td>
+              <td class="l">Flame 🔥</td>
+            </tr>
+            <tr>
+              <td class="l slugcell">02-chronomancer</td>
+              <td class="l">Vesper</td>
+              <td class="l">Chronomancer</td>
+              <td><span class="dots"><i style="background:var(--c-orange)"></i><i style="background:var(--c-orange)"></i></span></td>
+              <td class="ident">OO</td>
+              <td class="l">Pure</td>
+              <td class="l">Time ⏳</td>
+            </tr>
+            <tr>
+              <td class="l slugcell">03-druid</td>
+              <td class="l">Briar</td>
+              <td class="l">Druid</td>
+              <td><span class="dots"><i style="background:var(--c-green)"></i><i style="background:var(--c-green)"></i></span></td>
+              <td class="ident">GG</td>
+              <td class="l">Pure</td>
+              <td class="l">Growth 🌿</td>
+            </tr>
+            <tr>
+              <td class="l slugcell">04-sorceress</td>
+              <td class="l">Crystal</td>
+              <td class="l">Sorceress</td>
+              <td><span class="dots"><i style="background:var(--c-blue)"></i><i style="background:var(--c-blue)"></i></span></td>
+              <td class="ident">BB</td>
+              <td class="l">Pure</td>
+              <td class="l">Frost ❄️</td>
+            </tr>
+            <tr>
+              <td class="l slugcell">05-necromancer</td>
+              <td class="l">Viol</td>
+              <td class="l">Necromancer</td>
+              <td><span class="dots"><i style="background:var(--c-purple)"></i><i style="background:var(--c-purple)"></i></span></td>
+              <td class="ident">PP</td>
+              <td class="l">Pure</td>
+              <td class="l">Soul 🪦</td>
+            </tr>
+            <tr>
+              <td class="l slugcell">06-warrior</td>
+              <td class="l">Hale</td>
+              <td class="l">Warrior</td>
+              <td><span class="dots"><i style="background:var(--c-brown)"></i><i style="background:var(--c-brown)"></i></span></td>
+              <td class="ident">FF</td>
+              <td class="l">Pure</td>
+              <td class="l">Durability 🛡️</td>
+            </tr>
+            <tr>
+              <td class="l slugcell">07-wizard</td>
+              <td class="l">Arc</td>
+              <td class="l">Wizard</td>
+              <td><span class="dots"><i style="background:var(--c-red)"></i><i style="background:var(--c-orange)"></i></span></td>
+              <td class="ident">RO</td>
+              <td class="l">Blend</td>
+              <td class="l">Plasma 💥</td>
+            </tr>
+            <tr>
+              <td class="l slugcell">08-shaman</td>
+              <td class="l">Ash</td>
+              <td class="l">Shaman</td>
+              <td><span class="dots"><i style="background:var(--c-red)"></i><i style="background:var(--c-green)"></i></span></td>
+              <td class="ident">RG</td>
+              <td class="l">Blend</td>
+              <td class="l">Magma 🌋</td>
+            </tr>
+            <tr>
+              <td class="l slugcell">09-trinket-mage</td>
+              <td class="l">Quench</td>
+              <td class="l">Trinket-mage</td>
+              <td><span class="dots"><i style="background:var(--c-red)"></i><i style="background:var(--c-blue)"></i></span></td>
+              <td class="ident">RB</td>
+              <td class="l">Blend</td>
+              <td class="l">Charge 🫧</td>
+            </tr>
+            <tr>
+              <td class="l slugcell">10-warlock</td>
+              <td class="l">Brand</td>
+              <td class="l">Warlock</td>
+              <td><span class="dots"><i style="background:var(--c-red)"></i><i style="background:var(--c-purple)"></i></span></td>
+              <td class="ident">RP</td>
+              <td class="l">Blend</td>
+              <td class="l">Debt ☄️</td>
+            </tr>
+            <tr>
+              <td class="l slugcell">11-demon-hunter</td>
+              <td class="l">Kell</td>
+              <td class="l">Demon Hunter</td>
+              <td><span class="dots"><i style="background:var(--c-red)"></i><i style="background:var(--c-brown)"></i></span></td>
+              <td class="ident">RF</td>
+              <td class="l">Blend</td>
+              <td class="l">Fury 🔺</td>
+            </tr>
+            <tr>
+              <td class="l slugcell">12-windrunner</td>
+              <td class="l">Gale</td>
+              <td class="l">Windrunner</td>
+              <td><span class="dots"><i style="background:var(--c-orange)"></i><i style="background:var(--c-green)"></i></span></td>
+              <td class="ident">OG</td>
+              <td class="l">Blend</td>
+              <td class="l">Terrain 🌎</td>
+            </tr>
+            <tr>
+              <td class="l slugcell">13-edgedancer</td>
+              <td class="l">Prism</td>
+              <td class="l">Edgedancer</td>
+              <td><span class="dots"><i style="background:var(--c-orange)"></i><i style="background:var(--c-blue)"></i></span></td>
+              <td class="ident">OB</td>
+              <td class="l">Blend</td>
+              <td class="l">Facet 💠</td>
+            </tr>
+            <tr>
+              <td class="l slugcell">14-soulcaster</td>
+              <td class="l">Mirren</td>
+              <td class="l">Soulcaster</td>
+              <td><span class="dots"><i style="background:var(--c-orange)"></i><i style="background:var(--c-purple)"></i></span></td>
+              <td class="ident">OP</td>
+              <td class="l">Blend</td>
+              <td class="l">Essence 🔮</td>
+            </tr>
+            <tr>
+              <td class="l slugcell">15-runeblade</td>
+              <td class="l">Stave</td>
+              <td class="l">Runeblade</td>
+              <td><span class="dots"><i style="background:var(--c-orange)"></i><i style="background:var(--c-brown)"></i></span></td>
+              <td class="ident">OF</td>
+              <td class="l">Blend</td>
+              <td class="l">Rune ᛞ</td>
+            </tr>
+            <tr>
+              <td class="l slugcell">16-shapeshifter</td>
+              <td class="l">Pelt</td>
+              <td class="l">Shapeshifter</td>
+              <td><span class="dots"><i style="background:var(--c-green)"></i><i style="background:var(--c-blue)"></i></span></td>
+              <td class="ident">GB</td>
+              <td class="l">Blend</td>
+              <td class="l">Feral 🐾</td>
+            </tr>
+            <tr>
+              <td class="l slugcell">17-witch-doctor</td>
+              <td class="l">Mire</td>
+              <td class="l">Witch Doctor</td>
+              <td><span class="dots"><i style="background:var(--c-green)"></i><i style="background:var(--c-purple)"></i></span></td>
+              <td class="ident">GP</td>
+              <td class="l">Blend</td>
+              <td class="l">Spore 🦠</td>
+            </tr>
+            <tr>
+              <td class="l slugcell">18-ranger</td>
+              <td class="l">Fletch</td>
+              <td class="l">Ranger</td>
+              <td><span class="dots"><i style="background:var(--c-green)"></i><i style="background:var(--c-brown)"></i></span></td>
+              <td class="ident">GF</td>
+              <td class="l">Blend</td>
+              <td class="l">Mark 🎯</td>
+            </tr>
+            <tr>
+              <td class="l slugcell">19-lich</td>
+              <td class="l">Rime</td>
+              <td class="l">Lich</td>
+              <td><span class="dots"><i style="background:var(--c-blue)"></i><i style="background:var(--c-purple)"></i></span></td>
+              <td class="ident">BP</td>
+              <td class="l">Blend</td>
+              <td class="l">Web 🕸️</td>
+            </tr>
+            <tr>
+              <td class="l slugcell">20-death-knight</td>
+              <td class="l">Pall</td>
+              <td class="l">Death Knight</td>
+              <td><span class="dots"><i style="background:var(--c-blue)"></i><i style="background:var(--c-brown)"></i></span></td>
+              <td class="ident">BF</td>
+              <td class="l">Blend</td>
+              <td class="l">Chill 🧊</td>
+            </tr>
+            <tr>
+              <td class="l slugcell">21-assassin</td>
+              <td class="l">Hush</td>
+              <td class="l">Assassin</td>
+              <td><span class="dots"><i style="background:var(--c-purple)"></i><i style="background:var(--c-brown)"></i></span></td>
+              <td class="ident">PF</td>
+              <td class="l">Blend</td>
+              <td class="l">Contract 🗡</td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ================= CONSTANTS ================= -->
+  <section>
+    <div class="section-head">
+      <h2>What holds 21 art styles together</h2>
+      <p>Giving every class its own artistic tradition is the bold move here, and it will read beautifully — or fall apart into 21 unrelated games. It only works if a hard set of constants runs underneath every style. Vary the <em>hand</em>; never vary the frame. These are now calibrated against the locked Pyromancer, so the numbers below are real targets rather than intentions.</p>
+    </div>
+    <div class="notes">
+      <ul>
+        <li><b>One value structure — mid-key.</b> Measured off the Pyromancer reference: keep near-black (below value 32) under about 2% of pixels, hold roughly two-thirds of the image in the 64–159 midrange, and land mean luminance near 113/255. The subject reads as the <em>dark</em> shape against a lit ground. This is the single constant most likely to be violated by an image generator, which defaults to dramatic low-key lighting — check it numerically, don't eyeball it.</li>
+        <li><b>One crop discipline.</b> Same aspect ratio, same safe margins, subject occupying the same portion of frame per card type. A Follower reads as a Follower in all 21 styles.</li>
+        <li><b>Color obeys the class, not the style.</b> Each tradition gets adapted into that class's two hues. A cave painting for the Shaman still resolves red-and-green; a sumi-e for the Shapeshifter still resolves green-and-blue. The card face itself is painted as a left-to-right gradient between the class’s two hues — the art has to sit on that without fighting it.</li>
+        <li><b>Edges are shared.</b> One border treatment, one nameplate, one type-line across the whole game. All the variety lives inside the art box.</li>
+        <li><b>Saturation ceiling — lower than instinct says.</b> The Pyromancer reference contains no pure black and no saturated cadmium red; its dominant colors are warm-neutral browns (<code>#936151</code>, <code>#563C38</code>) with oxide reds doing the work. Every class holds this restraint in its own hue family. Letting some classes run hot and some run muted is the fastest way to make 21 styles look like 21 games.</li>
+        <li><b>Twenty-nine images per class.</b> Eight followers, eight minions, eight spells, and five singles — hero, champion, ultimate, weapon, armor. Across the full roster that is <b>609 images</b>. Worth knowing before commissioning.</li>
+        <li><b>One aspect ratio, decided before the next generation run.</b> The existing placeholder art is 1600×2200, 768×768, 1024×1024, 2304×1792 and 512×512 across five images — five different shapes for one class. Fix the ratio and the safe margins first; everything generated after that is reusable and everything before it isn't.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= EXISTING ART ================= -->
+  <section>
+    <div class="section-head">
+      <h2>The existing Pyromancer art is placeholder</h2>
+      <p>Answering the open question from the brief: the twenty-nine existing Pyromancer images are not the target and shouldn't constrain the style.</p>
+    </div>
+    <div class="notes">
+      <ul>
+        <li><b>Watermarked.</b> At least three of five sampled images carry generator watermarks — two "Created with Imagine", one "Adobe Firefly". Unusable on a printed card regardless of style.</li>
+        <li><b>Five styles across five images.</b> A painterly old man, a 3D-rendered lava demon, a photoreal architectural scene, a flat vector phoenix, and a photograph of a woman in a forest. No two share a hand.</li>
+        <li><b>Content drift.</b> One follower image is a woman in a red dress kneeling on a road holding a bowl — the card it fills is <em>Flamelash Conjurer</em>. Image and card were never checked against one another.</li>
+        <li><b>Verdict:</b> regenerate the full set against the locked spec. Nothing here is worth preserving, which is good news — it means the style above is unconstrained by sunk cost.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= PURE ================= -->
+  <section>
+    <div class="section-head">
+      <h2>The six pure classes</h2>
+      <p>These are the anchors — each one is the undiluted argument for its color, and its art style should be the most <em>classical</em> reading of that element. Four of these heroes were named long before this document and keep their names.</p>
+    </div>
+
+    <div class="entries">
+
+      <!-- PYROMANCER -->
+      <article class="klass">
+        <div class="spine" style="background:linear-gradient(to right, var(--c-red), var(--c-red))"></div>
+        <div class="klass-inner">
+          <div class="klass-head">
+            <span class="slug">01-pyromancer</span>
+            <h3 class="hero-name">Caine</h3>
+            <span class="klass-name">Pyromancer · 🔴🔴</span>
+            <span class="counter">Flame 🔥</span>
+            <span class="status locked">Locked</span>
+          </div>
+          <p class="char">An arsonist-scholar who holds that fire is the only honest element — it never negotiates, never persists, never pretends to be something else. Caine burns his own spellbook page by page on the theory that <b>memorized magic is dead magic</b>, which is charming right up until you realize he means it about people too. Twitchy, badly scarred, treating the scars as decoration. His card text already says it: he discards to draw. He is always spending something he can't get back, and he is always <em>delighted</em> about it — the reference locks joy as the emotional register for this class. <b>Caine is laughing in most of his cards.</b> Not smirking, not grim: openly, inappropriately laughing.</p>
+          <div class="art">
+            <p class="art-title"><span class="tag">Art tradition · calibrated against reference</span>Polished digital illustration, fire-lit and mid-key</p>
+            <dl class="spec">
+              <dt>Medium</dt><dd>Smooth, blended digital painting — rendered and illustrative, with no visible paint texture. Detail concentrates in the face and falls off outward; the flame stays loose and gestural while the face is the only fully resolved thing in frame.</dd>
+              <dt>Light</dt><dd>Fire is the only light source and it sits <em>inside the frame</em>, behind and beside the subject. Rim-light along hair, shoulder and forearm; the subject's front stays in warm shadow.</dd>
+              <dt>Value</dt><dd><b>Mid-key, not low-key.</b> Measured off the reference: only 1.7% of pixels fall below value 32, 65% sit in the 64–159 midrange, mean luminance 113/255. The figure is a <em>dark shape in a hot bright field</em> — never a lit shape in darkness. At thumbnail it reads as dark silhouette on glowing ground.</dd>
+              <dt>Composition</dt><dd>Three-quarter to full figure with air around it. Dynamic diagonal, weight off-center, arms open, caught mid-gesture. No environment whatsoever — flame and smoke are the entire background and all depth comes from value.</dd>
+              <dt>Signature</dt><dd>The flame is <em>becoming something</em>. In the reference a phoenix head resolves out of the fire behind the subject's shoulder, at low contrast — visible only on a second look. Every Pyromancer card carries one of these.</dd>
+              <dt>Edges</dt><dd>Lost-and-found. Hair and shoulders dissolve into the flame; the silhouette is never fully closed.</dd>
+              <dt>Palette</dt><dd>Sampled from the reference — note there is <b>no pure black and no saturated cadmium red</b>. The dominant notes are warm-neutral browns and oxide reds; that restraint is what lets the few bright spots read as heat.<div class="swatches"><i style="background:#4B1E17"></i><i style="background:#903827"></i><i style="background:#A2503C"></i><i style="background:#CA6938"></i><i style="background:#D38C4A"></i><i style="background:#936151"></i><i style="background:#EDD19B"></i></div></dd>
+            </dl>
+          </div>
+        </div>
+      </article>
+
+      <!-- CHRONOMANCER -->
+      <article class="klass">
+        <div class="spine" style="background:linear-gradient(to right, var(--c-orange), var(--c-orange))"></div>
+        <div class="klass-inner">
+          <div class="klass-head">
+            <span class="slug">02-chronomancer</span>
+            <h3 class="hero-name">Vesper</h3>
+            <span class="klass-name">Chronomancer · 🟠🟠</span>
+            <span class="counter">Time ⏳</span>
+            <span class="status locked">Locked</span>
+          </div>
+          <p class="char">Not a wizard who stops time — one who has <b>already lived this battle and is bored of it</b>. Vesper speaks in the past tense about things that haven't happened, and is ageless in a subtly wrong way: too smooth, too still, blinking out of rhythm with everyone else. Her tragedy is that she can see every branch and is therefore never surprised and never delighted. She fights not to win but to find an outcome she hasn't already sat through. The one villain-coded hero who isn't a villain.</p>
+          <div class="art">
+            <p class="art-title"><span class="tag">Art tradition</span>Copperplate etching with chromatic ghosting</p>
+            <dl class="spec">
+              <dt>Medium</dt><dd>Fine engraved line and crosshatch modeling — 18th-century scientific plate, no painterly texture anywhere.</dd>
+              <dt>Light</dt><dd>Flat, even, sourceless. Form built entirely by hatch density.</dd>
+              <dt>Composition</dt><dd>Each figure printed three times in slight registration offset — one cyan-shifted behind, one amber-shifted ahead, the true figure sharp between them.</dd>
+              <dt>Signature</dt><dd>The only class on a <em>pale</em> ground. Against the rest of the set it reads as a page from a different, older book.</dd>
+              <dt>Palette</dt><dd>Plate white · sepia ink · registration cyan · registration amber<div class="swatches"><i style="background:#F0EBE0"></i><i style="background:#4A3A28"></i><i style="background:#7FB2C4"></i><i style="background:#CE7A16"></i></div></dd>
+            </dl>
+          </div>
+        </div>
+      </article>
+
+      <!-- DRUID -->
+      <article class="klass">
+        <div class="spine" style="background:linear-gradient(to right, var(--c-green), var(--c-green))"></div>
+        <div class="klass-inner">
+          <div class="klass-head">
+            <span class="slug">03-druid</span>
+            <h3 class="hero-name">Briar</h3>
+            <span class="klass-name">Druid · 🟢🟢</span>
+            <span class="counter">Growth 🌿</span>
+            <span class="status locked">Locked</span>
+          </div>
+          <p class="char">Not a gentle nature-lover — a combatant on the forest's side of a war humans didn't notice starting. Briar is <b>patient to the point of cruelty</b>: she will let a wound fester if the rot feeds something downstream. Bark-scarred forearms, seed pouches, a voice like a slow tree. She measures time in seasons and finds urgency vulgar, which makes her genuinely difficult to be around and completely impossible to rush.</p>
+          <div class="art">
+            <p class="art-title"><span class="tag">Art tradition</span>Art Nouveau botanical plate</p>
+            <dl class="spec">
+              <dt>Medium</dt><dd>Flat decorative color under a heavy confident contour line. Gold-leaf ornament crowding inward from the frame edge.</dd>
+              <dt>Light</dt><dd>None — this style is decorative, not illuminated. Depth comes from layering and line weight.</dd>
+              <dt>Composition</dt><dd>Symmetrical, mandorla-framed, subject centered and static. Deliberately the stillest cards in the game.</dd>
+              <dt>Signature</dt><dd>Ornament density scales with the card's cost. Cheap cards are nearly bare; expensive ones are <em>overgrown</em>, the border eating into the art.</dd>
+              <dt>Palette</dt><dd>Sap green · ochre · dusty rose · leaf gold<div class="swatches"><i style="background:#2C8C4E"></i><i style="background:#7E8B3C"></i><i style="background:#C08A7E"></i><i style="background:#C9A227"></i><i style="background:#EFE9D8"></i></div></dd>
+            </dl>
+          </div>
+        </div>
+      </article>
+
+      <!-- SORCERESS -->
+      <article class="klass">
+        <div class="spine" style="background:linear-gradient(to right, var(--c-blue), var(--c-blue))"></div>
+        <div class="klass-inner">
+          <div class="klass-head">
+            <span class="slug">04-sorceress</span>
+            <h3 class="hero-name">Crystal</h3>
+            <span class="klass-name">Sorceress · 🔵🔵</span>
+            <span class="counter">Frost ❄️</span>
+            <span class="status locked">Locked</span>
+          </div>
+          <p class="char">Not cold-hearted — the opposite. Crystal froze the world around her to stop herself feeling it, and it worked, which is the tragedy. Aristocratic bearing, surgical diction, profoundly lonely. Everything she touches lasts forever whether it wanted to or not; <b>her purest expression of love is preservation</b>, and nobody she has ever loved has enjoyed receiving it. Mechanically that is the frost mage's whole thesis and it lines up exactly: <b>she does not kill you, she stops you.</b> Slow, root, freeze, deny — the opponent is rarely destroyed so much as never permitted to act, and control is just preservation aimed at someone else.</p>
+          <p class="source"><b>Modeled on:</b> World of Warcraft frost mage. Her eight effects are already that kit verbatim — Frost Bolt, Ice Lance, Snap, Frost Nova, Ice Block, Blizzard, Endless Winter, Frostbite. Her minions are all cold-climate beasts; the one iconic frost-mage summon missing is a water elemental, which is worth adding as her signature champion.</p>
+          <div class="art">
+            <p class="art-title"><span class="tag">Art tradition</span>Silverpoint on prepared blue-grey paper</p>
+            <dl class="spec">
+              <dt>Medium</dt><dd>Silverpoint line with drybrush white gouache highlights. Almost no color anywhere — the most restrained hand in the set.</dd>
+              <dt>Light</dt><dd>Cold, diffuse, directionless, like an overcast snowfield. No shadow has an edge.</dd>
+              <dt>Composition</dt><dd>Extreme negative space. The subject occupies roughly a third of the frame; the rest is empty pale field. Small figure, enormous silence.</dd>
+              <dt>Structure</dt><dd>Hard crystalline geometry is the one thing drawn with conviction — faceted ice growing in straight runs and sharp terminations, cutting across all that soft grey. Everything organic is barely indicated; everything frozen is exact.</dd>
+              <dt>Signature</dt><dd>Everything is <em>almost</em> not there, except one saturated cold glow at the point of casting. Where the Pyromancer is a dark figure in a hot bright field, the Sorceress inverts it exactly: a pale figure in a pale field with a single blue note. She is the quiet card you lean in to see — and the deliberate opposite pole from the locked class, which is what makes her the right second lock.</dd>
+              <dt>Palette</dt><dd>Paper blue-grey · graphite · lead white · one saturated glacial blue<div class="swatches"><i style="background:#B9C2D2"></i><i style="background:#5A6478"></i><i style="background:#F4F6FA"></i><i style="background:#8FD3F0"></i><i style="background:#3256C6"></i></div></dd>
+            </dl>
+          </div>
+        </div>
+      </article>
+
+      <!-- NECROMANCER -->
+      <article class="klass">
+        <div class="spine" style="background:linear-gradient(to right, var(--c-purple), var(--c-purple))"></div>
+        <div class="klass-inner">
+          <div class="klass-head">
+            <span class="slug">05-necromancer</span>
+            <h3 class="hero-name">Viol</h3>
+            <span class="klass-name">Necromancer · 🟣🟣</span>
+            <span class="counter">Soul 🪦</span>
+            <span class="status locked">Locked</span>
+          </div>
+          <p class="char">A grief-worker, not a villain. Viol raises the dead because he refuses the premise that anyone should simply be <em>gone</em>, and he keeps a written ledger of every soul he has spent doing it. Soft-spoken, apologetic, entirely unstoppable. <b>He looks tired in every single card</b> — that's the note to hold across the whole class. He is not enjoying this and he is not going to stop.</p>
+          <div class="art">
+            <p class="art-title"><span class="tag">Art tradition</span>Dutch vanitas in charcoal and bone black</p>
+            <dl class="spec">
+              <dt>Medium</dt><dd>Dry media — charcoal, bone black, chalk — smudged with the hand. Leave the fingerprints in.</dd>
+              <dt>Light</dt><dd>Hard chiaroscuro from a single candle just outside frame. Deep, swallowing shadow across two-thirds of every image.</dd>
+              <dt>Composition</dt><dd>Still-life logic even in action shots: objects arranged, not caught. Everything looks posed for a portrait nobody survived.</dd>
+              <dt>Signature</dt><dd>A memento mori tucked in every frame — guttering candle, a fly, a tipped glass, a stopped watch. Never the focus, always present.</dd>
+              <dt>Palette</dt><dd>Bone white · bitumen brown · violet-black · muted gold<div class="swatches"><i style="background:#E3DCCB"></i><i style="background:#4A3626"></i><i style="background:#1E1526"></i><i style="background:#7A3B9E"></i><i style="background:#9A7B3A"></i></div></dd>
+            </dl>
+          </div>
+        </div>
+      </article>
+
+      <!-- WARRIOR -->
+      <article class="klass">
+        <div class="spine" style="background:linear-gradient(to right, var(--c-brown), var(--c-brown))"></div>
+        <div class="klass-inner">
+          <div class="klass-head">
+            <span class="slug">06-warrior</span>
+            <h3 class="hero-name">Hale</h3>
+            <span class="klass-name">Warrior · 🟤🟤</span>
+            <span class="counter">Durability 🛡️</span>
+            <span class="status locked">Locked</span>
+          </div>
+          <p class="char">The only hero in the game with no magic and no interest in acquiring any. Hale's entire thesis is that <b>a person who refuses to fall beats a person who can do anything once</b>. Dry, unimpressed, and startlingly kind to whoever is standing behind them. Their armor is old and has been repaired many times, and not one of the repairs has been hidden.</p>
+          <div class="art">
+            <p class="art-title"><span class="tag">Art tradition</span>Carved stone relief</p>
+            <dl class="spec">
+              <dt>Medium</dt><dd>Shallow bas-relief chiseled into weathered limestone. Tool marks, chip damage, and lichen at the edges.</dd>
+              <dt>Light</dt><dd>Hard raking sidelight — the only thing creating form is the shadow cast by physical depth.</dd>
+              <dt>Composition</dt><dd>Friezelike and frontal. Figures in profile or full-face, arranged along a baseline like a procession.</dd>
+              <dt>Signature</dt><dd><em>Zero luminous effects anywhere in the class.</em> No glow, no particles, no magic. In a game where everything else radiates, the Warrior is the one thing that's just an object — and that's the whole read.</dd>
+              <dt>Palette</dt><dd>Limestone buff · iron-oxide stain · verdigris · shadow grey<div class="swatches"><i style="background:#C9BCA4"></i><i style="background:#7C5433"></i><i style="background:#5E7A66"></i><i style="background:#4A443C"></i></div></dd>
+            </dl>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ================= DUALS ================= -->
+  <section>
+    <div class="section-head">
+      <h2>The fifteen blends</h2>
+      <p>Each dual class should feel like it <em>needed</em> both parents — not a compromise between them but a third thing neither could reach alone. The art tradition blends the same way: pick a medium that sits genuinely between the two pure styles rather than splitting the difference in color only.</p>
+    </div>
+
+    <div class="entries">
+
+      <!-- WIZARD -->
+      <article class="klass">
+        <div class="spine" style="background:linear-gradient(to right, var(--c-red), var(--c-orange))"></div>
+        <div class="klass-inner">
+          <div class="klass-head">
+            <span class="slug">07-wizard</span>
+            <h3 class="hero-name">Arc</h3>
+            <span class="klass-name">Wizard · 🔴🟠</span>
+            <span class="counter">Plasma 💥</span>
+            <span class="status locked">Locked</span>
+          </div>
+          <p class="char">Fire without the honesty, arcane without the patience. Arc discovered that if you push flame past the point where it is still fire, you get something with <b>no name and no rules</b>, and he has been pushing ever since. Manic, over-caffeinated, speaks in incomplete equations and finishes none of them because he is already testing the next thing. Permanently missing one eyebrow. The spell-heavy card mix is his character rather than a stat line: <b>Arc does not delegate.</b> He fields almost no creatures because he has never once trusted a problem to anything he didn't personally detonate. Every other class brings an army; he brings a handful of things he is about to do himself.</p>
+          <p class="source"><b>Card mix:</b> spell-dense, creature-light — the most spells and the fewest bodies in the game.</p>
+          <div class="art">
+            <p class="art-title"><span class="tag">Art tradition</span>Long-exposure light painting on a lab plate</p>
+            <dl class="spec">
+              <dt>Medium</dt><dd>Photographic, not painted. Long-exposure light trails with genuine lens artifacts — bloom, flare, magenta fringing at the highlight edges.</dd>
+              <dt>Light</dt><dd>The subject <em>is</em> the light source and it is overexposed. Blown-out blue-white core losing all detail.</dd>
+              <dt>Composition</dt><dd>Centered and radial, set against a gridded scientific plate with handwritten annotations and exposure data in the margins.</dd>
+              <dt>Signature</dt><dd>Motion trails that record where the subject was a second ago. Nothing in this class is ever still.</dd>
+              <dt>Palette</dt><dd>Plate black · electric blue-white · magenta fringe · arc orange<div class="swatches"><i style="background:#0D0F16"></i><i style="background:#D8ECFF"></i><i style="background:#D14CA8"></i><i style="background:#CE7A16"></i><i style="background:#C8342B"></i></div></dd>
+            </dl>
+          </div>
+        </div>
+      </article>
+
+      <!-- SHAMAN -->
+      <article class="klass">
+        <div class="spine" style="background:linear-gradient(to right, var(--c-red), var(--c-green))"></div>
+        <div class="klass-inner">
+          <div class="klass-head">
+            <span class="slug">08-shaman</span>
+            <h3 class="hero-name">Ash</h3>
+            <span class="klass-name">Shaman · 🔴🟢</span>
+            <span class="counter">Magma 🌋</span>
+            <span class="status locked">Locked</span>
+          </div>
+          <p class="char">Fire and growth are the same cycle observed at different points. Ash tends volcanic soil and understands that <b>the mountain isn't angry, it's fertile</b> — the eruption and the orchard are one process with a gap in the middle. Ritual-minded, unhurried, treats catastrophe as a season that will pass. The name works twice, which is the point: ash is what the volcano leaves and ash is a tree.</p>
+          <div class="art">
+            <p class="art-title"><span class="tag">Art tradition</span>Ochre-and-charcoal cave painting</p>
+            <dl class="spec">
+              <dt>Medium</dt><dd>Ritual pigment applied to rough rock — red ochre, charcoal, white clay, blown and hand-pressed rather than brushed.</dd>
+              <dt>Light</dt><dd>Flickering and warm, as if lit by a torch held at arm's length. Deep pitting in the stone catches real shadow.</dd>
+              <dt>Composition</dt><dd>Simplified powerful animal forms, overlapping without perspective. Hand stencils in the margins.</dd>
+              <dt>Signature</dt><dd>Deliberately the most <em>primitive</em>-looking cards in the game. The rock's grain and irregularity show through every mark — the surface is half the image.</dd>
+              <dt>Palette</dt><dd>Red ochre · charcoal · white clay · basalt<div class="swatches"><i style="background:#A8442A"></i><i style="background:#2A2420"></i><i style="background:#DCD3BE"></i><i style="background:#4E4A46"></i><i style="background:#2C8C4E"></i></div></dd>
+            </dl>
+          </div>
+        </div>
+      </article>
+
+      <!-- TRINKET-MAGE -->
+      <article class="klass">
+        <div class="spine" style="background:linear-gradient(to right, var(--c-red), var(--c-blue))"></div>
+        <div class="klass-inner">
+          <div class="klass-head">
+            <span class="slug">09-trinket-mage</span>
+            <h3 class="hero-name">Quench</h3>
+            <span class="klass-name">Trinket-mage · 🔴🔵</span>
+            <span class="counter">Charge 🫧</span>
+            <span class="status locked">Locked</span>
+          </div>
+          <p class="char">Cannot cast a single spell directly — everything Quench does runs through a device, and every device works the same way: <b>put fire and ice in the same small box and contain the argument</b>. An artificer in a dream-punk register: brass, pressure gauges, condensation beading on cold pipe, steam under genuine load — machines built to a plausible engineering logic that then do something no engine could. Tinkerer's optimism, singed fingertips, pockets full of prototypes that mostly work. He is item-heavy because <b>his power is inventory, not talent</b>: take the contraptions away and there is no wizard underneath, and he knows it, and it doesn't bother him nearly as much as it should.</p>
+          <p class="source"><b>Card mix:</b> item-dense — the most equipment, weapon and armor cards in the game. <b>Aesthetic:</b> dream-punk artificer, steam-powered.</p>
+          <div class="art">
+            <p class="art-title"><span class="tag">Art tradition</span>Exploded-view patent plate, brass and blueprint</p>
+            <dl class="spec">
+              <dt>Medium</dt><dd>Isometric technical illustration on aged drafting paper — parts floating apart along thin leader lines with numbered callouts — but the metal is rendered as real material: brass, copper, cold-sweating steel.</dd>
+              <dt>Light</dt><dd>Schematic flatness for the linework, with genuine specular hits on the brass. The drawing is a document; the machine in it is an object.</dd>
+              <dt>Composition</dt><dd>Blueprint ground with white line and a second annotation layer in heat-orange marking where fire meets frost. Condensation and escaping steam are drawn with the same technical precision as the parts.</dd>
+              <dt>Signature</dt><dd>Dream-punk, not steampunk: every diagram is <em>plausible right up until it isn't</em>. The tolerances are believable, the callouts are numbered, and the machine described could not possibly work. Precise, warm, and slightly absurd given what the things do.</dd>
+              <dt>Palette</dt><dd>Drafting blue · brass · copper · white line · heat orange<div class="swatches"><i style="background:#1B3A6B"></i><i style="background:#C9A227"></i><i style="background:#B87333"></i><i style="background:#EFF4FA"></i><i style="background:#E8811C"></i></div></dd>
+            </dl>
+          </div>
+        </div>
+      </article>
+
+      <!-- WARLOCK -->
+      <article class="klass">
+        <div class="spine" style="background:linear-gradient(to right, var(--c-red), var(--c-purple))"></div>
+        <div class="klass-inner">
+          <div class="klass-head">
+            <span class="slug">10-warlock</span>
+            <h3 class="hero-name">Brand</h3>
+            <span class="klass-name">Warlock · 🔴🟣</span>
+            <span class="counter">Debt ☄️</span>
+            <span class="status locked">Locked</span>
+          </div>
+          <p class="char">Made a deal, then made a second deal to cover the first, and is now several layers deep in an arrangement he no longer fully understands. Charming in a way that is visibly load-bearing. Fire and shadow both take payment in advance, and <b>Brand is running out of things to sell</b>. Funny, generous, and doing arithmetic behind his eyes the entire time you're talking to him.</p>
+          <div class="art">
+            <p class="art-title"><span class="tag">Art tradition</span>Scorched illuminated manuscript</p>
+            <dl class="spec">
+              <dt>Medium</dt><dd>Blackletter marginalia and gold rubrication on vellum — then burned. Charred edges, holes eaten through the page, the illustration continuing around the damage.</dd>
+              <dt>Light</dt><dd>Flat medieval illumination with no modeling, undercut by real scorch shadow where the page has curled.</dd>
+              <dt>Composition</dt><dd>Text-block logic: the figure occupies an initial capital or a margin, with grotesques and small demons crawling the border.</dd>
+              <dt>Signature</dt><dd>Annotations in a second, later hand — red ink corrections by someone who read this after Brand did and was alarmed.</dd>
+              <dt>Palette</dt><dd>Vellum cream · iron-gall black · minium red · gold · char<div class="swatches"><i style="background:#E4D9BE"></i><i style="background:#241E1A"></i><i style="background:#C8342B"></i><i style="background:#C9A227"></i><i style="background:#7A3B9E"></i></div></dd>
+            </dl>
+          </div>
+        </div>
+      </article>
+
+      <!-- DEMON HUNTER -->
+      <article class="klass">
+        <div class="spine" style="background:linear-gradient(to right, var(--c-red), var(--c-brown))"></div>
+        <div class="klass-inner">
+          <div class="klass-head">
+            <span class="slug">11-demon-hunter</span>
+            <h3 class="hero-name">Kell</h3>
+            <span class="klass-name">Demon Hunter · 🔴🟤</span>
+            <span class="counter">Fury 🔺</span>
+            <span class="status locked">Locked</span>
+          </div>
+          <p class="char">Took the enemy's power in order to fight the enemy, and is now on a clock nobody else can see. Kell is fast, physical, and has traded something irreplaceable for it — the deal is already done and there is no version of this that ends well. Grim, unexpectedly funny, <b>refuses to plan past the current month</b> because planning implies there'll be one after.</p>
+          <div class="art">
+            <p class="art-title"><span class="tag">Art tradition</span>Ukiyo-e woodblock with horror hatching</p>
+            <dl class="spec">
+              <dt>Medium</dt><dd>Woodblock print — flat color fills with visible grain, hard spot-blacks, and dense hatching borrowed from horror manga where the shadow gets bad.</dd>
+              <dt>Light</dt><dd>No gradient. Light is a shape you cut, not a falloff you render.</dd>
+              <dt>Composition</dt><dd>Aggressively diagonal and off-balance, with kinetic speed-lines and impact bursts breaking the frame edge.</dd>
+              <dt>Signature</dt><dd>Every composition is mid-motion and slightly unstable — the class that never has its feet under it.</dd>
+              <dt>Palette</dt><dd>Indigo · bone · vermilion · block black<div class="swatches"><i style="background:#26355C"></i><i style="background:#E8DFCB"></i><i style="background:#C8342B"></i><i style="background:#7C5433"></i><i style="background:#141210"></i></div></dd>
+            </dl>
+          </div>
+        </div>
+      </article>
+
+      <!-- WINDRUNNER -->
+      <article class="klass">
+        <div class="spine" style="background:linear-gradient(to right, var(--c-orange), var(--c-green))"></div>
+        <div class="klass-inner">
+          <div class="klass-head">
+            <span class="slug">12-windrunner</span>
+            <h3 class="hero-name">Gale</h3>
+            <span class="klass-name">Windrunner · 🟠🟢</span>
+            <span class="counter">Terrain 🌎</span>
+            <span class="status locked">Locked</span>
+          </div>
+          <p class="char">Not a courier — a <b>protector</b>, and the flying is incidental to that. What matters is that Gale puts herself between people and the thing coming for them, and that she has said so out loud: her oaths are spoken, binding, and each one costs her something to mean. She glows faintly when it's working, leaking luminous vapor at the seams. The trait that should drive her card design is smaller than the flight — <b>Windrunners bring others up with them.</b> Where every other hero's power is measured in what she can do, Gale's is measured in what the units around her can suddenly do.</p>
+          <p class="source"><b>Modeled on:</b> the Windrunners of Brandon Sanderson's Stormlight Archive.</p>
+          <div class="art">
+            <p class="art-title"><span class="tag">Art tradition</span>Storm chart with a luminous figure</p>
+            <dl class="spec">
+              <dt>Medium</dt><dd>Meteorological drafting — isobars, wind barbs, pressure gradients and storm-track projections on aged chart paper with fold creases and margin coordinates.</dd>
+              <dt>Light</dt><dd>The chart itself is flat and unlit. The <em>figure</em> is the only luminous thing on it, glowing from within and leaking bright vapor at the shoulders and heels.</dd>
+              <dt>Composition</dt><dd>Ground is drawn in the language of the map; the subject sits above the chart plane, out of its coordinate system. She is the one thing on the page the survey couldn't fix a position for.</dd>
+              <dt>Signature</dt><dd>One flight path traced across every card, entering one edge and leaving another — and where it passes an ally, that unit is drawn glowing too. The class is the only one whose art shows its power landing on someone else.</dd>
+              <dt>Palette</dt><dd>Chart buff · survey green · ink brown · storm grey · Stormlight white-gold<div class="swatches"><i style="background:#E8DFC8"></i><i style="background:#2C8C4E"></i><i style="background:#6B5333"></i><i style="background:#6E7684"></i><i style="background:#F5E6B0"></i></div></dd>
+            </dl>
+          </div>
+        </div>
+      </article>
+
+      <!-- EDGEDANCER -->
+      <article class="klass">
+        <div class="spine" style="background:linear-gradient(to right, var(--c-orange), var(--c-blue))"></div>
+        <div class="klass-inner">
+          <div class="klass-head">
+            <span class="slug">13-edgedancer</span>
+            <h3 class="hero-name">Prism</h3>
+            <span class="klass-name">Edgedancer · 🟠🔵</span>
+            <span class="counter">Facet 💠</span>
+            <span class="status locked">Locked</span>
+          </div>
+          <p class="char">Frictionless. Nothing holds Prism, nothing slows her, nothing has ever successfully cornered her — she goes over and around and is simply elsewhere, and the precision reads as grace rather than calculation. Frost is the right color for it: <b>ice is what the absence of friction looks like.</b> But her defining trait is smaller and stranger than the mobility. <b>She remembers the people nobody remembers</b> — the servant, the extra, the name left off the list. In a cast of the cursed and the bargained-away, hers is the only power that cost nothing and the only oath that is simply about paying attention.</p>
+          <p class="source"><b>Modeled on:</b> the Edgedancers of Brandon Sanderson's Stormlight Archive.</p>
+          <div class="art">
+            <p class="art-title"><span class="tag">Art tradition</span>Faceted crystalline geometry</p>
+            <dl class="spec">
+              <dt>Medium</dt><dd>Everything constructed from flat planes and hard vector edges — low-poly form language, but rendered with real refraction.</dd>
+              <dt>Light</dt><dd>Each facet carries a shifted, displaced copy of what sits behind it. Prismatic dispersion fringing every edge.</dd>
+              <dt>Composition</dt><dd>Strict geometric armature — golden-section or radial grid, visible if you look for it — cut by one long unbroken glide path. Every figure is mid-slide, never mid-step; no card in this class shows a planted foot.</dd>
+              <dt>Signature</dt><dd>The cleanest, most machined-looking cards in the game, with not one soft edge — and somewhere in each frame, one ordinary overlooked person rendered at the same fidelity as the hero. Nobody in an Edgedancer card is background.</dd>
+              <dt>Palette</dt><dd>Glacier white · cobalt · aurora teal · spectral fringe<div class="swatches"><i style="background:#EAF2F8"></i><i style="background:#3256C6"></i><i style="background:#3FA8A0"></i><i style="background:#CE7A16"></i><i style="background:#C06BD6"></i></div></dd>
+            </dl>
+          </div>
+        </div>
+      </article>
+
+      <!-- SOULCASTER -->
+      <article class="klass">
+        <div class="spine" style="background:linear-gradient(to right, var(--c-orange), var(--c-purple))"></div>
+        <div class="klass-inner">
+          <div class="klass-head">
+            <span class="slug">14-soulcaster</span>
+            <h3 class="hero-name">Mirren</h3>
+            <span class="klass-name">Soulcaster · 🟠🟣</span>
+            <span class="counter">Essence 🔮</span>
+            <span class="status locked">Locked</span>
+          </div>
+          <p class="char">Mirren doesn't destroy things — she <b>argues with them until they agree to be something else</b>. Stone into smoke, air into glass, a wall into not much at all. It is a negotiation rather than a blast, and she wins it because she is more certain of what the thing ought to be than the thing is. The cost runs in the other direction: it is slowly transmuting <b>her</b>. Crystal has grown along her left forearm and up under the jaw, and one eye has already gone to smoke. She is unhurried about this. She has done the arithmetic and finds the trade acceptable.</p>
+          <p class="source"><b>Modeled on:</b> Soulcasting in Brandon Sanderson's Stormlight Archive — transmutation by persuasion, and the crystallization it costs the user.</p>
+          <div class="art">
+            <p class="art-title"><span class="tag">Art tradition</span>Dark stained glass, mid-transmutation</p>
+            <dl class="spec">
+              <dt>Medium</dt><dd>Leaded came dividing every form into flat colored panes, darker and more saturated than church glass. The medium is the argument: glass is sand that was persuaded, by fire, to become light.</dd>
+              <dt>Light</dt><dd>From <em>behind</em> the image, always. The subject is a silhouette made of colored light, never lit from the viewer's side.</dd>
+              <dt>Composition</dt><dd>Each card catches one substance partway into becoming another — half the panel still stone, half already smoke, the boundary irregular and mid-negotiation.</dd>
+              <dt>Signature</dt><dd>The came doesn't just divide the image, it <em>spreads</em> — lead lines creeping across the hero herself like the crystal growing up her arm. In every card she is a little further along than she was in the last one.</dd>
+              <dt>Palette</dt><dd>Cobalt · amethyst · amber · lead grey<div class="swatches"><i style="background:#1F3A8C"></i><i style="background:#7A3B9E"></i><i style="background:#CE7A16"></i><i style="background:#4A4A52"></i><i style="background:#120E1A"></i></div></dd>
+            </dl>
+          </div>
+        </div>
+      </article>
+
+      <!-- RUNEBLADE -->
+      <article class="klass">
+        <div class="spine" style="background:linear-gradient(to right, var(--c-orange), var(--c-brown))"></div>
+        <div class="klass-inner">
+          <div class="klass-head">
+            <span class="slug">15-runeblade</span>
+            <h3 class="hero-name">Stave</h3>
+            <span class="klass-name">Runeblade · 🟠🟤</span>
+            <span class="counter">Rune ᛞ</span>
+            <span class="status locked">Locked</span>
+          </div>
+          <p class="char">Wrote the spell into the steel so the steel could remember it, and considers this obviously superior to remembering it himself. Stave is <b>a smith first and a caster second</b> and thinks the distinction is meaningless posturing. Methodical, literal-minded, quietly and enormously proud of work nobody will ever notice — the inside of a joint, the balance of a tang. His mechanical signature is deferred damage: <b>the runes he carves keep going off after he has moved on.</b> He doesn't win the exchange he is in, he wins the one three turns out, having set it up while you were watching something else.</p>
+          <p class="source"><b>Modeled on:</b> the Runeblade class in Flesh and Blood — weapon attacks that seed accumulating arcane damage resolving on a delay.</p>
+          <div class="art">
+            <p class="art-title"><span class="tag">Art tradition</span>Damascened metal inlay</p>
+            <dl class="spec">
+              <dt>Medium</dt><dd>Pattern-welded steel — real watered-damascus swirl as the ground — with imagery inlaid in gold and silver wire.</dd>
+              <dt>Light</dt><dd>Specular and anisotropic. Highlights streak along the grain of the steel rather than pooling.</dd>
+              <dt>Composition</dt><dd>Knotwork borders that interlace with the subject, so figure and frame are one continuous line.</dd>
+              <dt>Signature</dt><dd>Rune channels cut into the metal and glowing from within — the only light in the class that isn't reflected.</dd>
+              <dt>Palette</dt><dd>Watered steel · gold inlay · silver · ember channel<div class="swatches"><i style="background:#6E7178"></i><i style="background:#C9A227"></i><i style="background:#D6D9DE"></i><i style="background:#CE7A16"></i><i style="background:#7C5433"></i></div></dd>
+            </dl>
+          </div>
+        </div>
+      </article>
+
+      <!-- SHAPESHIFTER -->
+      <article class="klass">
+        <div class="spine" style="background:linear-gradient(to right, var(--c-green), var(--c-blue))"></div>
+        <div class="klass-inner">
+          <div class="klass-head">
+            <span class="slug">16-shapeshifter</span>
+            <h3 class="hero-name">Pelt</h3>
+            <span class="klass-name">Shapeshifter · 🟢🔵</span>
+            <span class="counter">Feral 🐾</span>
+            <span class="status locked">Locked</span>
+          </div>
+          <p class="char">Has been a person for so few of the last ten years that "Pelt" is a name other people use rather than one they answer to. Nature's adaptability plus frost's patience produces an ambush predator who <b>waits out entire winters</b> for a single opening. Communicates in roughly forty words total. Trusts animals immediately and people provisionally, and has never been given cause to revise either policy.</p>
+          <div class="art">
+            <p class="art-title"><span class="tag">Art tradition</span>Sumi-e ink wash, single-breath brushwork</p>
+            <dl class="spec">
+              <dt>Medium</dt><dd>Ink on unbleached paper. One continuous loaded stroke per form — no correction, no second pass, visible dry-brush split at the stroke's end.</dd>
+              <dt>Light</dt><dd>None. Value is ink dilution and nothing else.</dd>
+              <dt>Composition</dt><dd>Enormous empty ground, subject placed hard off-center, weight in one corner.</dd>
+              <dt>Signature</dt><dd>The form never fully resolves — a human shoulder becomes an elk foreleg <em>within the same stroke</em>. You can't point to where the change happens.</dd>
+              <dt>Palette</dt><dd>Black ink · cold slate wash · raw paper · one vermilion seal<div class="swatches"><i style="background:#1C1A18"></i><i style="background:#5C7488"></i><i style="background:#E6E0D2"></i><i style="background:#2C8C4E"></i><i style="background:#B03A2E"></i></div></dd>
+            </dl>
+          </div>
+        </div>
+      </article>
+
+      <!-- WITCH DOCTOR -->
+      <article class="klass">
+        <div class="spine" style="background:linear-gradient(to right, var(--c-green), var(--c-purple))"></div>
+        <div class="klass-inner">
+          <div class="klass-head">
+            <span class="slug">17-witch-doctor</span>
+            <h3 class="hero-name">Mire</h3>
+            <span class="klass-name">Witch Doctor · 🟢🟣</span>
+            <span class="counter">Spore 🦠</span>
+            <span class="status locked">Locked</span>
+          </div>
+          <p class="char">Rot is just growth pointed the other way, and Mire has never understood why this upsets people. A healer whose methods everyone objects to right up until the moment they need them, with <b>no bedside manner and a spotless success rate</b>. Keeps things in jars. Labels the jars. Does not explain the labels.</p>
+          <div class="art">
+            <p class="art-title"><span class="tag">Art tradition</span>Bio-culture bloom on batik</p>
+            <dl class="spec">
+              <dt>Medium</dt><dd>Actual growth patterns — mold colonies, bacterial culture, radial and fractal and irregular — laid over hand-dyed wax-resist cloth.</dd>
+              <dt>Light</dt><dd>Damp and ambient, like a cellar. Nothing casts a clean shadow because nothing has a clean edge.</dd>
+              <dt>Composition</dt><dd>Growth radiates outward from a point of infection somewhere in the frame. Composition is colonization.</dd>
+              <dt>Signature</dt><dd>Not one straight line anywhere in the class. Where every other style has an edge, this one has a bloom.</dd>
+              <dt>Palette</dt><dd>Swamp green · bruise purple · mud ochre · bone<div class="swatches"><i style="background:#3E5B2E"></i><i style="background:#6B3A72"></i><i style="background:#8A6A38"></i><i style="background:#D8CFB8"></i><i style="background:#2C8C4E"></i></div></dd>
+            </dl>
+          </div>
+        </div>
+      </article>
+
+      <!-- RANGER -->
+      <article class="klass">
+        <div class="spine" style="background:linear-gradient(to right, var(--c-green), var(--c-brown))"></div>
+        <div class="klass-inner">
+          <div class="klass-head">
+            <span class="slug">18-ranger</span>
+            <h3 class="hero-name">Fletch</h3>
+            <span class="klass-name">Ranger · 🟢🟤</span>
+            <span class="counter">Mark 🎯</span>
+            <span class="status locked">Locked</span>
+          </div>
+          <p class="char">The most competent ordinary person alive. No pact, no curse, no tragic backstory — <b>Fletch simply out-prepared everyone else</b> and finds the rest of the roster's suffering somewhat self-inflicted. Dry, self-sufficient, quietly amused. In a cast of people who paid terrible prices for power, she is the argument that you didn't have to.</p>
+          <div class="art">
+            <p class="art-title"><span class="tag">Art tradition</span>Naturalist field-journal gouache</p>
+            <dl class="spec">
+              <dt>Medium</dt><dd>Quick, confident gouache studies on tea-stained sketchbook paper. Pencil underdrawing left visible.</dd>
+              <dt>Light</dt><dd>Plain daylight, observed rather than composed. Nothing dramatized.</dd>
+              <dt>Composition</dt><dd>Several small studies per card rather than one hero image — three views of the same subject, a detail, a measurement.</dd>
+              <dt>Signature</dt><dd>Handwritten annotation and specimen labels in the margins, in the hero's own hand. The only class whose cards contain her <em>notes</em> as well as her image.</dd>
+              <dt>Palette</dt><dd>Paper tan · moss · umber · sky wash · red ink<div class="swatches"><i style="background:#DCCFB0"></i><i style="background:#5C7A3E"></i><i style="background:#7C5433"></i><i style="background:#9FBCCB"></i><i style="background:#B03A2E"></i></div></dd>
+            </dl>
+          </div>
+        </div>
+      </article>
+
+      <!-- LICH -->
+      <article class="klass">
+        <div class="spine" style="background:linear-gradient(to right, var(--c-blue), var(--c-purple))"></div>
+        <div class="klass-inner">
+          <div class="klass-head">
+            <span class="slug">19-lich</span>
+            <h3 class="hero-name">Rime</h3>
+            <span class="klass-name">Lich · 🔵🟣</span>
+            <span class="counter">Web 🕸️</span>
+            <span class="status locked">Locked</span>
+          </div>
+          <p class="char">Chose to stop dying partway through the process and now lives permanently in the pause. Frost preserved the body; shadow keeps the mind running. Rime is <b>unfailingly polite and completely without appetite</b> — curious about the living the way one is curious about weather, with no stake in the outcome. Has all the time there is and no particular plan for it.</p>
+          <div class="art">
+            <p class="art-title"><span class="tag">Art tradition</span>Frost-fogged daguerreotype</p>
+            <dl class="spec">
+              <dt>Medium</dt><dd>Tintype photography — silver-halide bloom, heavy vignetting, chemical staining at the plate edges.</dd>
+              <dt>Light</dt><dd>Long-exposure studio light, harsh and frontal. Eyes never quite in focus because the sitter moved.</dd>
+              <dt>Composition</dt><dd>Formal portrait staging. Everyone posed, centered, and holding still far too long.</dd>
+              <dt>Signature</dt><dd>Spiderweb cracks in the emulsion radiating outward from the subject — the plate is failing where the figure touches it.</dd>
+              <dt>Palette</dt><dd>Silver · plate grey · tarnish violet · black<div class="swatches"><i style="background:#B8BCC4"></i><i style="background:#5A6068"></i><i style="background:#6B4A82"></i><i style="background:#3256C6"></i><i style="background:#16141C"></i></div></dd>
+            </dl>
+          </div>
+        </div>
+      </article>
+
+      <!-- DEATH KNIGHT -->
+      <article class="klass">
+        <div class="spine" style="background:linear-gradient(to right, var(--c-blue), var(--c-brown))"></div>
+        <div class="klass-inner">
+          <div class="klass-head">
+            <span class="slug">20-death-knight</span>
+            <h3 class="hero-name">Pall</h3>
+            <span class="klass-name">Death Knight · 🔵🟤</span>
+            <span class="counter">Chill 🧊</span>
+            <span class="status locked">Locked</span>
+          </div>
+          <p class="char">Died in armor and got up still wearing it — raised by <b>someone else's will</b>, then freed of it later, which turned out to be the harder half. Pall keeps an oath he cannot remember taking and can no longer tell which of his choices were ever his. Slow, implacable, unbothered by damage. Speaks rarely and always finishes the sentence. Blue light where the eyes were, and a blade cold enough that carrying it is part of the sentence. Set him against the Runeblade deliberately: <b>Stave's runes are authored, Pall's were inflicted</b> — the same marks with opposite consent, and that is the entire distinction between the two classes.</p>
+          <p class="source"><b>Modeled on:</b> World of Warcraft's frost-spec death knight.</p>
+          <div class="art">
+            <p class="art-title"><span class="tag">Art tradition</span>Funerary brass rubbing over frozen steel</p>
+            <dl class="spec">
+              <dt>Medium</dt><dd>Wax rubbing taken from a memorial brass — the flat, formal, full-length effigy with hands crossed and heraldry at the feet.</dd>
+              <dt>Light</dt><dd>None in the rubbing itself; all light comes from rime crystal blooming across the surface afterward.</dd>
+              <dt>Composition</dt><dd>Rigidly symmetrical and full-length. Every figure laid out like a tomb slab, even mid-swing.</dd>
+              <dt>Signature</dt><dd>Frost growing <em>on top of</em> the image, obscuring parts of it. The rubbing is a record of someone already gone, and it's icing over as you look.</dd>
+              <dt>Palette</dt><dd>Rubbing black · brass · frost white · steel blue<div class="swatches"><i style="background:#1E1C1A"></i><i style="background:#9A7B3A"></i><i style="background:#E8EEF4"></i><i style="background:#3256C6"></i><i style="background:#7C5433"></i></div></dd>
+            </dl>
+          </div>
+        </div>
+      </article>
+
+      <!-- ASSASSIN -->
+      <article class="klass">
+        <div class="spine" style="background:linear-gradient(to right, var(--c-purple), var(--c-brown))"></div>
+        <div class="klass-inner">
+          <div class="klass-head">
+            <span class="slug">21-assassin</span>
+            <h3 class="hero-name">Hush</h3>
+            <span class="klass-name">Assassin · 🟣🟤</span>
+            <span class="counter">Contract 🗡</span>
+            <span class="status locked">Locked</span>
+          </div>
+          <p class="char">The most professional person in the game. No ideology, no grudge, no tortured relationship with the work — Hush kills people and then goes home and has dinner. In a cast of the cursed, the bargained-away and the grieving, <b>the one who is simply fine is the most unsettling thing on the table</b>. Punctual. Reasonable rates.</p>
+          <div class="art">
+            <p class="art-title"><span class="tag">Art tradition</span>Shadow-puppet silhouette</p>
+            <dl class="spec">
+              <dt>Medium</dt><dd>Cut-paper figures against a lit screen — wayang logic. Articulated joints and control rods visible as part of the design.</dd>
+              <dt>Light</dt><dd>From behind the screen, warm and even. Figures are pure negative shapes; the ground is the only thing that glows.</dd>
+              <dt>Composition</dt><dd>Everything told in outline and gesture. No interior detail at all — silhouette carries 100% of the read.</dd>
+              <dt>Signature</dt><dd>Exactly one accent color per card, used exactly once. Usually blood; occasionally not.</dd>
+              <dt>Palette</dt><dd>Lamp amber ground · pure black · one red note<div class="swatches"><i style="background:#D9A441"></i><i style="background:#0E0C10"></i><i style="background:#7A3B9E"></i><i style="background:#7C5433"></i><i style="background:#B0201C"></i></div></dd>
+            </dl>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ================= IMPLICATIONS ================= -->
+  <section>
+    <div class="section-head">
+      <h2>What the inspirations change</h2>
+      <p>Three of these names belong to someone else, and that is worth deciding about early rather than late.</p>
+    </div>
+    <div class="notes">
+      <h3>Three names are Brandon Sanderson's</h3>
+      <p><b>Windrunner</b>, <b>Edgedancer</b> and <b>Soulcaster</b> are specific coinages from the Stormlight Archive — an ongoing, actively published series — not general fantasy vocabulary. That's fine for a project that stays yours. It becomes a real problem the moment this is sold, crowdfunded or published, and renaming twenty-one classes late is exactly the kind of thing that doesn't get done. If you want the option later, the concepts survive a rename cleanly: <b>Skybinder</b>, <b>Slipdancer</b>, <b>Essencewright</b>. The heroes — Gale, Prism, Mirren — are unaffected either way.</p>
+      <p>Runeblade, Death Knight and frost mage are a different case: all three long predate the specific games you're referencing them from, and are generic enough to use as-is.</p>
+      <p><b>One collision worth knowing:</b> your Druid is named <b>Briar</b> with a <b>Growth</b> counter. Flesh and Blood's <em>Briar, Warden of Thorns</em> is a <b>Runeblade</b> hero built around growth mechanics. Since you're explicitly modeling your Runeblade on that class, having your Druid carry the name of theirs is going to confuse anyone who plays both. Briar is already in use, so this is a live rename decision rather than a hypothetical.</p>
+    </div>
+  </section>
+
+  <footer>
+    Hero names for Pyromancer, Druid, Sorceress and Necromancer are the ones already in use. The remaining seventeen follow the same convention: single ordinary English words that double as names. <b>All 21 classes locked</b>, 8 with a stated inspiration recorded. The Pyromancer is the one calibrated against outside reference art — Kano (Flesh and Blood, Legend Story Studios, art by Alexander Mokhov), used for its lighting, value structure and palette rather than as art to reproduce — which is why its spec carries measured numbers where the other twenty carry described ones.
+  </footer>
+
+</div>
+
+
+</body>
+</html>
