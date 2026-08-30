@@ -17,6 +17,19 @@ The page fetches `card-list.json`, which browsers block on `file://`. To preview
 locally, serve the folder — `python3 -m http.server` — rather than opening the
 file directly. On the deployed site it just works.
 
+### Installable and offline
+
+The site is a PWA: it can be installed to a phone or tablet home screen and
+works with no network, which is the point at a playtest table. Card data is
+served **network-first**, so an online visit always shows the latest deploy and
+the cache is only a fallback; art is cache-first, since it never changes once
+added.
+
+The version badge beside the title changes on every deploy. It is the staleness
+check — if it does not show the version you were told to expect, you are looking
+at a cached copy. Run `node bump-version.mjs` before every push to increment it;
+see `CLAUDE.md` for the full release workflow.
+
 ## `class-bible.html`
 
 The class, character and art-direction bible. Six colors — Fire, Arcane, Nature,
