@@ -1,5 +1,5 @@
 {
-  "description": "Star Wars: Unlimited mechanics reference. Card names, subtitles, art, artist, rarity and pricing removed; trait names abstracted to placeholders; arena (ground/space) removed, as the game this feeds has no equivalent.",
+  "description": "Card list drawn from the first three Star Wars: Unlimited sets, kept as a source of mechanics to design against. Card names, subtitles, art, artist, rarity and pricing removed; trait names abstracted to placeholders; arena (ground/space) removed, as the game this feeds has no equivalent.",
   "sets": [
     "SOR",
     "SHD",
