@@ -26,3 +26,12 @@ unconditional board sweeps.
 
 Each entry carries an opaque `id`, `type`, `cost`, `power`, `hp`, `unique`,
 `aspects`, `keywords`, `traitCount`, and rules text.
+
+### Class assignments
+
+Every entry also carries a `class` field: the Might & Magic class that card was
+chosen to represent, or `null` if unassigned. A card belongs to at most one
+class. Twelve cards are assigned to each of the twenty-one classes — 252 of the
+755 — picked so that each class's twelve span the cost curve from its cheapest
+rung to its most expensive and cover at least four of the five card types. The
+top-level `classes` object lists the twelve card ids per class.
