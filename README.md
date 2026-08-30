@@ -2,6 +2,21 @@
 
 Design reference for the Might & Magic card game.
 
+## `index.html`
+
+A browser for the card list, served as the site's home page. Every card renders
+in the colors of the class it was chosen for, filterable by class, type, cost
+and rules text, with a **Print these cards** button that lays the current
+selection out at true card size — 2.5in x 3.5in, nine to a Letter page, with
+dashed cut guides.
+
+Card art is not in place yet; each card shows its class glyph and card id until
+images land. See `art/README.md` for how to add them.
+
+The page fetches `card-list.json`, which browsers block on `file://`. To preview
+locally, serve the folder — `python3 -m http.server` — rather than opening the
+file directly. On the deployed site it just works.
+
 ## `class-bible.html`
 
 The class, character and art-direction bible. Six colors — Fire, Arcane, Nature,
