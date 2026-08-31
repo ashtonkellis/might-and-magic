@@ -66,29 +66,49 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
       padding:1.2rem clamp(1rem,4vw,2.5rem)4rem}
 .empty{padding:3rem clamp(1rem,4vw,2.5rem);color:var(--muted)}
 
-/* ---------- the card ---------- */
-.card{border-radius:9px;overflow:hidden;display:flex;flex-direction:column;
-      color:#fff;box-shadow:0 1px 3px rgba(0,0,0,.22);position:relative}
-.card .head{display:flex;align-items:center;gap:.4rem;padding:.38rem .45rem;font-family:var(--mono);font-size:.6rem;
-      letter-spacing:.06em;text-transform:uppercase;background:rgba(0,0,0,.22)}
-.cost{font-family:var(--display);font-weight:700;font-size:.95rem;line-height:1;background:rgba(255,255,255,.92);
-      color:#141018;border-radius:50%;width:1.45rem;height:1.45rem;display:grid;place-items:center;flex:none}
-.klass{font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.uniq{margin-left:auto;flex:none;opacity:.9}
-.art{aspect-ratio:5/3;flex:0 0 auto;background:rgba(0,0,0,.16);display:grid;place-items:center;overflow:hidden;position:relative}
+/* ---------- the card ----------
+   Top to bottom: name, art, type bar, rules. The mana column sits top-left as
+   a vertical stack. Power and HP flank the type bar, left and right. */
+.card{border-radius:9px;overflow:hidden;display:flex;flex-direction:column;color:#fff;
+      box-shadow:0 1px 3px rgba(0,0,0,.22);position:relative}
+
+.name{display:flex;align-items:center;gap:.4rem;background:rgba(0,0,0,.28);
+      padding:.42rem .5rem .42rem 2.35rem;min-height:2rem}
+.name .t{font-family:var(--display);font-weight:700;font-size:.86rem;line-height:1.05;
+      letter-spacing:-.01em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.name .u{margin-left:auto;flex:none;opacity:.85;font-size:.7rem}
+
+/* vertical mana column, overlapping the name bar and art */
+.pips{position:absolute;top:.34rem;left:.36rem;z-index:2;display:flex;flex-direction:column;gap:.16rem}
+.pip{width:1.42rem;height:1.42rem;border-radius:50%;display:grid;place-items:center;
+     font-family:var(--display);font-weight:700;font-size:.8rem;line-height:1;
+     border:1.5px solid rgba(255,255,255,.9);box-shadow:0 1px 2px rgba(0,0,0,.4)}
+.pip.generic{background:#FBFAFD;color:#141018}
+
+.art{aspect-ratio:5/3;flex:0 0 auto;background:rgba(0,0,0,.16);display:grid;place-items:center;
+     overflow:hidden;position:relative}
 .art img{width:100%;height:100%;object-fit:cover;display:block}
-.ph{display:grid;place-items:center;gap:.15rem;text-align:center;opacity:.5;padding:.3rem}
-.ph .glyph{font-size:1.5rem;line-height:1}
-.ph .cid{font-family:var(--mono);font-size:.5rem;letter-spacing:.08em}
-.meta{background:rgba(0,0,0,.3);padding:.3rem .45rem;font-family:var(--mono);font-size:.55rem;
-      letter-spacing:.05em;text-transform:uppercase;display:flex;gap:.35rem}
-.meta .kw{margin-left:auto;opacity:.85;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-transform:none;letter-spacing:0}
+.ph{display:grid;place-items:center;opacity:.45}
+.ph .glyph{font-size:1.7rem;line-height:1}
+
+.typebar{display:grid;grid-template-columns:2.1rem 1fr 2.1rem;align-items:center;gap:.25rem;
+     background:rgba(0,0,0,.46);padding:.32rem .4rem}
+.typebar .ty{text-align:center;font-family:var(--mono);font-size:.56rem;letter-spacing:.07em;
+     text-transform:uppercase;line-height:1.3;color:#fff}
+/* an explicit colour, not opacity: the gradient behind this bar runs light on
+   some classes and dark on others, and opacity loses the fight on the light ones */
+.typebar .ty .sub{display:block;color:rgba(255,255,255,.86);font-size:.52rem;letter-spacing:.04em;
+     text-transform:none;margin-top:.08em}
+.stat{font-family:var(--display);font-weight:700;font-size:.92rem;line-height:1;text-align:center;
+     background:rgba(0,0,0,.5);border-radius:4px;padding:.13rem 0}
+.stat.empty{background:none}
+
 .rules{flex:1 1 auto;background:rgba(255,255,255,.94);color:#1A1826;font-size:.6rem;line-height:1.32;
-      padding:.4rem .45rem 1.15rem;min-height:4.4em}
+     padding:.4rem .45rem;min-height:4.2em}
 .rules p{margin:0 0 .28em}
 .rules p:last-child{margin:0}
-.stats{position:absolute;right:.4rem;bottom:.32rem;font-family:var(--display);font-weight:700;font-size:.78rem;
-      background:rgba(0,0,0,.55);border-radius:4px;padding:.05rem .34rem;letter-spacing:.03em}
+.kw{display:block;font-family:var(--mono);font-size:.53rem;letter-spacing:.03em;
+     color:#423E55;opacity:.8;margin-bottom:.2em}
 
 /* ---------- print: real 2.5in x 3.5in cards, 9 to a letter page ---------- */
 @page{size:letter portrait;margin:.2in}
@@ -101,8 +121,15 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
         outline:.5pt dashed rgba(0,0,0,.35);outline-offset:-.5pt;break-inside:avoid;page-break-inside:avoid;
         -webkit-print-color-adjust:exact;print-color-adjust:exact}
   .art{aspect-ratio:auto;flex:1 1 auto;min-height:0}
-  .rules{font-size:6.6pt;line-height:1.25;min-height:0;flex:0 0 auto;max-height:1.5in;overflow:hidden;
-         padding:.06in .07in .17in}
+  .rules{font-size:6.6pt;line-height:1.25;min-height:0;flex:0 0 auto;max-height:1.45in;overflow:hidden;
+         padding:.06in .07in}
+  .name{padding-left:.32in;min-height:.26in}
+  .name .t{font-size:9pt}
+  .pip{width:.24in;height:.24in;font-size:8pt}
+  .typebar{padding:.03in .04in}
+  .typebar .ty{font-size:5.4pt;line-height:1.25}
+  .typebar .ty .sub{font-size:5pt}
+  .stat{font-size:9pt}
   .meta{font-size:6pt}
   .card .head{font-size:7pt}
 }
@@ -112,7 +139,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 
 <header class="top">
   <div class="spectrum"></div>
-  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V5</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
+  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V6</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
   <p class="sub">Every card in the list, in the colors of the class it was chosen for.
      Art slots are empty until images land in <code>art/</code>.
      The classes themselves live in the <a href="class-bible.html">class bible</a>.</p>
@@ -148,26 +175,45 @@ function artHTML(c){
   const file = ART[c.id];
   if (file) return `<div class="art"><img alt="" loading="lazy" src="art/${encodeURIComponent(file)}"></div>`;
   const glyph = k ? k.counter.split(' ').pop() : '\u25C7';
-  return `<div class="art"><div class="ph"><span class="glyph">${glyph}</span>
-    <span class="cid">${esc(c.id)}</span></div></div>`;
+  return `<div class="art"><div class="ph"><span class="glyph">${glyph}</span></div></div>`;
+}
+
+/* The source gives one number for cost plus a list of aspects, not a printed
+   mana string. So the column is derived: one coloured pip per aspect, in the
+   class's own two colours, then a single generic pip for whatever cost is
+   left. A cost of 8 on a two-aspect card reads as two colours over a 6. */
+function pipsHTML(c){
+  const k = BY_SLUG[c['class']];
+  const cols = k ? [k.c1, k.c2] : ['#6B6879', '#423E55'];
+  if (c.cost === null) return '';                     // heroes are not cast
+  const coloured = Math.min(c.aspects.length, c.cost);
+  const generic = c.cost - coloured;
+  const out = [];
+  for (let i = 0; i < coloured; i++)
+    out.push(`<span class="pip" style="background:${cols[i % 2]}"></span>`);
+  if (generic > 0 || c.cost === 0)
+    out.push(`<span class="pip generic">${generic}</span>`);
+  return `<div class="pips">${out.join('')}</div>`;
 }
 
 function cardHTML(c){
   const k = BY_SLUG[c['class']];
   const bg = k ? `linear-gradient(150deg, ${k.c1}, ${k.c2})` : 'linear-gradient(150deg,#6B6879,#423E55)';
-  const cost = c.cost === null ? '—' : c.cost;
-  const stats = c.power !== null && c.hp !== null ? `${c.power}/${c.hp}`
-              : (c.hp !== null ? `${c.hp} HP` : '');
-  const rules = (c.text || '').split('\n').filter(Boolean).map(l => `<p>${esc(l)}</p>`).join('') ||
-                '<p style="opacity:.45">No rules text.</p>';
+  const sub = c.flanks.length ? `${c.flanks[0]} flank` : '';
+  const stat = (v) => v === null || v === undefined
+      ? '<span class="stat empty"></span>' : `<span class="stat">${esc(v)}</span>`;
+  const rules = (c.text || '').split('\n').filter(Boolean).map(l => `<p>${esc(l)}</p>`).join('')
+              || '<p style="opacity:.45">No rules text.</p>';
   return `<article class="card" style="background:${bg}">
-    <div class="head"><span class="cost">${esc(cost)}</span>
-      <span class="klass">${esc(k ? k.name : 'Unassigned')}</span>
-      ${c.unique ? '<span class="uniq">◆</span>' : ''}</div>
+    ${pipsHTML(c)}
+    <div class="name"><span class="t">${esc(c.id)}</span>${c.unique ? '<span class="u">\u25C6</span>' : ''}</div>
     ${artHTML(c)}
-    <div class="meta"><span>${esc(c.type)}</span>${c.keywords.length ? `<span class="kw">${esc(c.keywords.join(' · '))}</span>` : ''}</div>
-    <div class="rules">${rules}</div>
-    ${stats ? `<span class="stats">${esc(stats)}</span>` : ''}
+    <div class="typebar">
+      ${stat(c.power)}
+      <span class="ty">${esc(c.type)}${sub ? `<span class="sub">${esc(sub)}</span>` : ''}</span>
+      ${stat(c.hp)}
+    </div>
+    <div class="rules">${c.keywords.length ? `<span class="kw">${esc(c.keywords.join(' \u00B7 '))}</span>` : ''}${rules}</div>
   </article>`;
 }
 

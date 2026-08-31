@@ -10,6 +10,13 @@ and rules text, with a **Print these cards** button that lays the current
 selection out at true card size — 2.5in x 3.5in, nine to a Letter page, with
 dashed cut guides.
 
+The card face reads top to bottom: **name**, **art**, **type bar**, **rules
+box**. The mana cost sits top-left as a vertical column — one coloured pip per
+aspect in the class's own two colours, then a single generic pip for the rest
+of the cost, so an 8-cost two-aspect card reads as two colours over a 6. Power
+and HP sit at the left and right ends of the type bar, which also carries the
+card's flank.
+
 Card art is not in place yet; each card shows its class glyph and card id until
 images land. See `art/README.md` for how to add them.
 
