@@ -23,12 +23,21 @@
   --rule-strong: rgba(26, 24, 38, 0.26);
   --chip:        rgba(26, 24, 38, 0.06);
 
-  --c-red:    #C8342B;
-  --c-orange: #CE7A16;
-  --c-green:  #2C8C4E;
-  --c-blue:   #3256C6;
-  --c-purple: #7A3B9E;
-  --c-brown:  #7C5433;
+  --c-red:    #D3082F;
+  --c-orange: #F5B202;
+  --c-green:  #2A8934;
+  --c-blue:   #0189C4;
+  --c-purple: #81377B;
+  --c-brown:  #9FA8B4;
+  /* Two of Lorcana's inks are pale enough that they fail as text on the page
+     ground -- amber reads 1.79:1, steel 2.31:1. Swatches keep the true ink;
+     anything set in it uses these, darkened only as far as 4.5:1 requires. */
+  --c-red-text:    #D3082F;
+  --c-orange-text: #936B01;
+  --c-green-text:  #288432;
+  --c-blue-text:   #017BB0;
+  --c-purple-text: #81377B;
+  --c-brown-text:  #6C727A;
 
   --tint: 0.10;
 
@@ -51,12 +60,18 @@
     --rule-strong: rgba(233, 231, 241, 0.32);
     --chip:        rgba(233, 231, 241, 0.08);
 
-    --c-red:    #E85A4E;
-    --c-orange: #E39B3A;
-    --c-green:  #48B26E;
-    --c-blue:   #6E8CEA;
-    --c-purple: #A96BCB;
-    --c-brown:  #B0824F;
+    --c-red:    #DD3E5D;
+    --c-orange: #F7C33A;
+    --c-green:  #59A361;
+    --c-blue:   #39A3D1;
+    --c-purple: #9D6398;
+    --c-brown:  #B4BBC4;
+    --c-red-text:    #E0516D;
+    --c-orange-text: #F7C33A;
+    --c-green-text:  #59A361;
+    --c-blue-text:   #39A3D1;
+    --c-purple-text: #A773A2;
+    --c-brown-text:  #B4BBC4;
 
     --tint: 0.16;
   }
@@ -73,12 +88,18 @@
   --rule-strong: rgba(233, 231, 241, 0.32);
   --chip:        rgba(233, 231, 241, 0.08);
 
-  --c-red:    #E85A4E;
-  --c-orange: #E39B3A;
-  --c-green:  #48B26E;
-  --c-blue:   #6E8CEA;
-  --c-purple: #A96BCB;
-  --c-brown:  #B0824F;
+  --c-red:    #DD3E5D;
+  --c-orange: #F7C33A;
+  --c-green:  #59A361;
+  --c-blue:   #39A3D1;
+  --c-purple: #9D6398;
+  --c-brown:  #B4BBC4;
+    --c-red-text:    #E0516D;
+    --c-orange-text: #F7C33A;
+    --c-green-text:  #59A361;
+    --c-blue-text:   #39A3D1;
+    --c-purple-text: #A773A2;
+    --c-brown-text:  #B4BBC4;
 
   --tint: 0.16;
 }
@@ -494,17 +515,17 @@ table.matrix.idtable td.slugcell {
         <thead>
           <tr>
             <th></th>
-            <th style="color:var(--c-red)">Fire</th>
-            <th style="color:var(--c-orange)">Arcane</th>
-            <th style="color:var(--c-green)">Nature</th>
-            <th style="color:var(--c-blue)">Frost</th>
-            <th style="color:var(--c-purple)">Shadow</th>
-            <th style="color:var(--c-brown)">Physical</th>
+            <th style="color:var(--c-red-text)">Fire</th>
+            <th style="color:var(--c-orange-text)">Arcane</th>
+            <th style="color:var(--c-green-text)">Nature</th>
+            <th style="color:var(--c-blue-text)">Frost</th>
+            <th style="color:var(--c-purple-text)">Shadow</th>
+            <th style="color:var(--c-brown-text)">Physical</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th class="rowhead" style="color:var(--c-red)">Fire</th>
+            <th class="rowhead" style="color:var(--c-red-text)">Fire</th>
             <td class="cell mono-cell" style="background:color-mix(in srgb, var(--c-red) calc(var(--tint)*100%), transparent)">Pyromancer</td>
             <td class="cell" style="background:linear-gradient(115deg, color-mix(in srgb, var(--c-red) calc(var(--tint)*100%), transparent), color-mix(in srgb, var(--c-orange) calc(var(--tint)*100%), transparent))">Wizard</td>
             <td class="cell" style="background:linear-gradient(115deg, color-mix(in srgb, var(--c-red) calc(var(--tint)*100%), transparent), color-mix(in srgb, var(--c-green) calc(var(--tint)*100%), transparent))">Shaman</td>
@@ -513,7 +534,7 @@ table.matrix.idtable td.slugcell {
             <td class="cell" style="background:linear-gradient(115deg, color-mix(in srgb, var(--c-red) calc(var(--tint)*100%), transparent), color-mix(in srgb, var(--c-brown) calc(var(--tint)*100%), transparent))">Demon Hunter</td>
           </tr>
           <tr>
-            <th class="rowhead" style="color:var(--c-orange)">Arcane</th>
+            <th class="rowhead" style="color:var(--c-orange-text)">Arcane</th>
             <td class="empty"></td>
             <td class="cell mono-cell" style="background:color-mix(in srgb, var(--c-orange) calc(var(--tint)*100%), transparent)">Chronomancer</td>
             <td class="cell" style="background:linear-gradient(115deg, color-mix(in srgb, var(--c-orange) calc(var(--tint)*100%), transparent), color-mix(in srgb, var(--c-green) calc(var(--tint)*100%), transparent))">Windrunner</td>
@@ -522,7 +543,7 @@ table.matrix.idtable td.slugcell {
             <td class="cell" style="background:linear-gradient(115deg, color-mix(in srgb, var(--c-orange) calc(var(--tint)*100%), transparent), color-mix(in srgb, var(--c-brown) calc(var(--tint)*100%), transparent))">Runeblade</td>
           </tr>
           <tr>
-            <th class="rowhead" style="color:var(--c-green)">Nature</th>
+            <th class="rowhead" style="color:var(--c-green-text)">Nature</th>
             <td class="empty"></td><td class="empty"></td>
             <td class="cell mono-cell" style="background:color-mix(in srgb, var(--c-green) calc(var(--tint)*100%), transparent)">Druid</td>
             <td class="cell" style="background:linear-gradient(115deg, color-mix(in srgb, var(--c-green) calc(var(--tint)*100%), transparent), color-mix(in srgb, var(--c-blue) calc(var(--tint)*100%), transparent))">Shapeshifter</td>
@@ -530,20 +551,20 @@ table.matrix.idtable td.slugcell {
             <td class="cell" style="background:linear-gradient(115deg, color-mix(in srgb, var(--c-green) calc(var(--tint)*100%), transparent), color-mix(in srgb, var(--c-brown) calc(var(--tint)*100%), transparent))">Ranger</td>
           </tr>
           <tr>
-            <th class="rowhead" style="color:var(--c-blue)">Frost</th>
+            <th class="rowhead" style="color:var(--c-blue-text)">Frost</th>
             <td class="empty"></td><td class="empty"></td><td class="empty"></td>
             <td class="cell mono-cell" style="background:color-mix(in srgb, var(--c-blue) calc(var(--tint)*100%), transparent)">Sorceress</td>
             <td class="cell" style="background:linear-gradient(115deg, color-mix(in srgb, var(--c-blue) calc(var(--tint)*100%), transparent), color-mix(in srgb, var(--c-purple) calc(var(--tint)*100%), transparent))">Lich</td>
             <td class="cell" style="background:linear-gradient(115deg, color-mix(in srgb, var(--c-blue) calc(var(--tint)*100%), transparent), color-mix(in srgb, var(--c-brown) calc(var(--tint)*100%), transparent))">Death Knight</td>
           </tr>
           <tr>
-            <th class="rowhead" style="color:var(--c-purple)">Shadow</th>
+            <th class="rowhead" style="color:var(--c-purple-text)">Shadow</th>
             <td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td>
             <td class="cell mono-cell" style="background:color-mix(in srgb, var(--c-purple) calc(var(--tint)*100%), transparent)">Necromancer</td>
             <td class="cell" style="background:linear-gradient(115deg, color-mix(in srgb, var(--c-purple) calc(var(--tint)*100%), transparent), color-mix(in srgb, var(--c-brown) calc(var(--tint)*100%), transparent))">Assassin</td>
           </tr>
           <tr>
-            <th class="rowhead" style="color:var(--c-brown)">Physical</th>
+            <th class="rowhead" style="color:var(--c-brown-text)">Physical</th>
             <td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td>
             <td class="cell mono-cell" style="background:color-mix(in srgb, var(--c-brown) calc(var(--tint)*100%), transparent)">Warrior</td>
           </tr>
@@ -574,51 +595,51 @@ table.matrix.idtable td.slugcell {
         <tbody>
             <tr>
               <td class="l"><span class="dots"><i style="background:var(--c-red)"></i></span> Red</td>
-              <td class="l" style="color:var(--c-red)">Fire</td>
+              <td class="l" style="color:var(--c-red-text)">Fire</td>
               <td class="ident">R</td>
               <td>🔴</td>
               <td class="l">Flame 🔥</td>
-              <td class="hex l">#C8342B</td>
+              <td class="hex l">#D3082F</td>
             </tr>
             <tr>
-              <td class="l"><span class="dots"><i style="background:var(--c-orange)"></i></span> Orange</td>
-              <td class="l" style="color:var(--c-orange)">Arcane</td>
+              <td class="l"><span class="dots"><i style="background:var(--c-orange)"></i></span> Amber</td>
+              <td class="l" style="color:var(--c-orange-text)">Arcane</td>
               <td class="ident">O</td>
-              <td>🟠</td>
+              <td>🟡</td>
               <td class="l">Time ⏳</td>
-              <td class="hex l">#CE7A16</td>
+              <td class="hex l">#F5B202</td>
             </tr>
             <tr>
               <td class="l"><span class="dots"><i style="background:var(--c-green)"></i></span> Green</td>
-              <td class="l" style="color:var(--c-green)">Nature</td>
+              <td class="l" style="color:var(--c-green-text)">Nature</td>
               <td class="ident">G</td>
               <td>🟢</td>
               <td class="l">Growth 🌿</td>
-              <td class="hex l">#2C8C4E</td>
+              <td class="hex l">#2A8934</td>
             </tr>
             <tr>
               <td class="l"><span class="dots"><i style="background:var(--c-blue)"></i></span> Blue</td>
-              <td class="l" style="color:var(--c-blue)">Frost</td>
+              <td class="l" style="color:var(--c-blue-text)">Frost</td>
               <td class="ident">B</td>
               <td>🔵</td>
               <td class="l">Frost ❄️</td>
-              <td class="hex l">#3256C6</td>
+              <td class="hex l">#0189C4</td>
             </tr>
             <tr>
               <td class="l"><span class="dots"><i style="background:var(--c-purple)"></i></span> Purple</td>
-              <td class="l" style="color:var(--c-purple)">Shadow</td>
+              <td class="l" style="color:var(--c-purple-text)">Shadow</td>
               <td class="ident">P</td>
               <td>🟣</td>
               <td class="l">Soul 🪦</td>
-              <td class="hex l">#7A3B9E</td>
+              <td class="hex l">#81377B</td>
             </tr>
             <tr>
-              <td class="l"><span class="dots"><i style="background:var(--c-brown)"></i></span> Brown</td>
-              <td class="l" style="color:var(--c-brown)">Physical</td>
+              <td class="l"><span class="dots"><i style="background:var(--c-brown)"></i></span> Steel</td>
+              <td class="l" style="color:var(--c-brown-text)">Physical</td>
               <td class="ident">F</td>
-              <td>🟤</td>
+              <td>⚪</td>
               <td class="l">Durability 🛡️</td>
-              <td class="hex l">#7C5433</td>
+              <td class="hex l">#9FA8B4</td>
             </tr>
         </tbody>
       </table>
@@ -895,7 +916,7 @@ table.matrix.idtable td.slugcell {
           <div class="klass-head">
             <span class="slug">02-chronomancer</span>
             <h3 class="hero-name">Vesper</h3>
-            <span class="klass-name">Chronomancer · 🟠🟠</span>
+            <span class="klass-name">Chronomancer · 🟡🟡</span>
             <span class="counter">Time ⏳</span>
             <span class="status locked">Locked</span>
           </div>
@@ -997,7 +1018,7 @@ table.matrix.idtable td.slugcell {
           <div class="klass-head">
             <span class="slug">06-warrior</span>
             <h3 class="hero-name">Hale</h3>
-            <span class="klass-name">Warrior · 🟤🟤</span>
+            <span class="klass-name">Warrior · ⚪⚪</span>
             <span class="counter">Durability 🛡️</span>
             <span class="status locked">Locked</span>
           </div>
@@ -1034,7 +1055,7 @@ table.matrix.idtable td.slugcell {
           <div class="klass-head">
             <span class="slug">07-wizard</span>
             <h3 class="hero-name">Arc</h3>
-            <span class="klass-name">Wizard · 🔴🟠</span>
+            <span class="klass-name">Wizard · 🔴🟡</span>
             <span class="counter">Plasma 💥</span>
             <span class="status locked">Locked</span>
           </div>
@@ -1136,7 +1157,7 @@ table.matrix.idtable td.slugcell {
           <div class="klass-head">
             <span class="slug">11-demon-hunter</span>
             <h3 class="hero-name">Kell</h3>
-            <span class="klass-name">Demon Hunter · 🔴🟤</span>
+            <span class="klass-name">Demon Hunter · 🔴⚪</span>
             <span class="counter">Fury 🔺</span>
             <span class="status locked">Locked</span>
           </div>
@@ -1161,7 +1182,7 @@ table.matrix.idtable td.slugcell {
           <div class="klass-head">
             <span class="slug">12-windrunner</span>
             <h3 class="hero-name">Gale</h3>
-            <span class="klass-name">Windrunner · 🟠🟢</span>
+            <span class="klass-name">Windrunner · 🟡🟢</span>
             <span class="counter">Terrain 🌎</span>
             <span class="status locked">Locked</span>
           </div>
@@ -1187,7 +1208,7 @@ table.matrix.idtable td.slugcell {
           <div class="klass-head">
             <span class="slug">13-edgedancer</span>
             <h3 class="hero-name">Prism</h3>
-            <span class="klass-name">Edgedancer · 🟠🔵</span>
+            <span class="klass-name">Edgedancer · 🟡🔵</span>
             <span class="counter">Facet 💠</span>
             <span class="status locked">Locked</span>
           </div>
@@ -1213,7 +1234,7 @@ table.matrix.idtable td.slugcell {
           <div class="klass-head">
             <span class="slug">14-soulcaster</span>
             <h3 class="hero-name">Mirren</h3>
-            <span class="klass-name">Soulcaster · 🟠🟣</span>
+            <span class="klass-name">Soulcaster · 🟡🟣</span>
             <span class="counter">Essence 🔮</span>
             <span class="status locked">Locked</span>
           </div>
@@ -1239,7 +1260,7 @@ table.matrix.idtable td.slugcell {
           <div class="klass-head">
             <span class="slug">15-runeblade</span>
             <h3 class="hero-name">Stave</h3>
-            <span class="klass-name">Runeblade · 🟠🟤</span>
+            <span class="klass-name">Runeblade · 🟡⚪</span>
             <span class="counter">Rune ᛞ</span>
             <span class="status locked">Locked</span>
           </div>
@@ -1315,7 +1336,7 @@ table.matrix.idtable td.slugcell {
           <div class="klass-head">
             <span class="slug">18-ranger</span>
             <h3 class="hero-name">Fletch</h3>
-            <span class="klass-name">Ranger · 🟢🟤</span>
+            <span class="klass-name">Ranger · 🟢⚪</span>
             <span class="counter">Mark 🎯</span>
             <span class="status locked">Locked</span>
           </div>
@@ -1365,7 +1386,7 @@ table.matrix.idtable td.slugcell {
           <div class="klass-head">
             <span class="slug">20-death-knight</span>
             <h3 class="hero-name">Pall</h3>
-            <span class="klass-name">Death Knight · 🔵🟤</span>
+            <span class="klass-name">Death Knight · 🔵⚪</span>
             <span class="counter">Chill 🧊</span>
             <span class="status locked">Locked</span>
           </div>
@@ -1391,7 +1412,7 @@ table.matrix.idtable td.slugcell {
           <div class="klass-head">
             <span class="slug">21-assassin</span>
             <h3 class="hero-name">Hush</h3>
-            <span class="klass-name">Assassin · 🟣🟤</span>
+            <span class="klass-name">Assassin · 🟣⚪</span>
             <span class="counter">Contract 🗡</span>
             <span class="status locked">Locked</span>
           </div>

@@ -43,7 +43,7 @@ header.top{padding:1.6rem clamp(1rem,4vw,2.5rem) .9rem;display:flex;flex-directi
   border:1px solid var(--rule-strong);border-radius:999px;padding:.16rem .55rem;color:var(--ink-soft);background:var(--chip)}
 .offline{font-family:var(--mono);font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;
   color:var(--muted);border:1px dashed var(--rule-strong);border-radius:999px;padding:.14rem .5rem}
-.spectrum{height:5px;border-radius:3px;background:linear-gradient(to right,#C8342B,#CE7A16,#2C8C4E,#3256C6,#7A3B9E,#7C5433)}
+.spectrum{height:5px;border-radius:3px;background:linear-gradient(to right,#D3082F,#F5B202,#2A8934,#0189C4,#81377B,#9FA8B4)}
 h1{font-family:var(--display);font-weight:700;font-size:clamp(1.7rem,4vw,2.6rem);margin:.5rem 0 0;letter-spacing:-.02em}
 .sub{color:var(--ink-soft);margin:0;max-width:62ch}
 .sub a{color:inherit}
@@ -167,7 +167,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 
 <header class="top">
   <div class="spectrum"></div>
-  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V11</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
+  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V12</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
   <p class="sub">Every card in the list, in the colors of the class it was chosen for.
      Art slots are empty until images land in <code>art/</code>.
      The classes themselves live in the <a href="class-bible.html">class bible</a>.</p>
@@ -188,7 +188,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 <div id="empty" class="empty" hidden></div>
 
 <script>
-const CLASSES = [{"slug": "01-pyromancer","hero": "Caine","name": "Pyromancer","counter": "Flame 🔥","c1": "#C8342B","c2": "#C8342B"},{"slug": "02-chronomancer","hero": "Vesper","name": "Chronomancer","counter": "Time ⏳","c1": "#CE7A16","c2": "#CE7A16"},{"slug": "03-druid","hero": "Briar","name": "Druid","counter": "Growth 🌿","c1": "#2C8C4E","c2": "#2C8C4E"},{"slug": "04-sorceress","hero": "Crystal","name": "Sorceress","counter": "Frost ❄️","c1": "#3256C6","c2": "#3256C6"},{"slug": "05-necromancer","hero": "Viol","name": "Necromancer","counter": "Soul 🪦","c1": "#7A3B9E","c2": "#7A3B9E"},{"slug": "06-warrior","hero": "Hale","name": "Warrior","counter": "Durability 🛡️","c1": "#7C5433","c2": "#7C5433"},{"slug": "07-wizard","hero": "Arc","name": "Wizard","counter": "Plasma 💥","c1": "#C8342B","c2": "#CE7A16"},{"slug": "08-shaman","hero": "Ash","name": "Shaman","counter": "Magma 🌋","c1": "#C8342B","c2": "#2C8C4E"},{"slug": "09-trinket-mage","hero": "Quench","name": "Trinket-mage","counter": "Charge 🫧","c1": "#C8342B","c2": "#3256C6"},{"slug": "10-warlock","hero": "Brand","name": "Warlock","counter": "Debt ☄️","c1": "#C8342B","c2": "#7A3B9E"},{"slug": "11-demon-hunter","hero": "Kell","name": "Demon Hunter","counter": "Fury 🔺","c1": "#C8342B","c2": "#7C5433"},{"slug": "12-windrunner","hero": "Gale","name": "Windrunner","counter": "Terrain 🌎","c1": "#CE7A16","c2": "#2C8C4E"},{"slug": "13-edgedancer","hero": "Prism","name": "Edgedancer","counter": "Facet 💠","c1": "#CE7A16","c2": "#3256C6"},{"slug": "14-soulcaster","hero": "Mirren","name": "Soulcaster","counter": "Essence 🔮","c1": "#CE7A16","c2": "#7A3B9E"},{"slug": "15-runeblade","hero": "Stave","name": "Runeblade","counter": "Rune ᛞ","c1": "#CE7A16","c2": "#7C5433"},{"slug": "16-shapeshifter","hero": "Pelt","name": "Shapeshifter","counter": "Feral 🐾","c1": "#2C8C4E","c2": "#3256C6"},{"slug": "17-witch-doctor","hero": "Mire","name": "Witch Doctor","counter": "Spore 🦠","c1": "#2C8C4E","c2": "#7A3B9E"},{"slug": "18-ranger","hero": "Fletch","name": "Ranger","counter": "Mark 🎯","c1": "#2C8C4E","c2": "#7C5433"},{"slug": "19-lich","hero": "Rime","name": "Lich","counter": "Web 🕸️","c1": "#3256C6","c2": "#7A3B9E"},{"slug": "20-death-knight","hero": "Pall","name": "Death Knight","counter": "Chill 🧊","c1": "#3256C6","c2": "#7C5433"},{"slug": "21-assassin","hero": "Hush","name": "Assassin","counter": "Contract 🗡","c1": "#7A3B9E","c2": "#7C5433"}];
+const CLASSES = [{"slug": "01-pyromancer","hero": "Caine","name": "Pyromancer","counter": "Flame 🔥","c1": "#D3082F","c2": "#D3082F"},{"slug": "02-chronomancer","hero": "Vesper","name": "Chronomancer","counter": "Time ⏳","c1": "#F5B202","c2": "#F5B202"},{"slug": "03-druid","hero": "Briar","name": "Druid","counter": "Growth 🌿","c1": "#2A8934","c2": "#2A8934"},{"slug": "04-sorceress","hero": "Crystal","name": "Sorceress","counter": "Frost ❄️","c1": "#0189C4","c2": "#0189C4"},{"slug": "05-necromancer","hero": "Viol","name": "Necromancer","counter": "Soul 🪦","c1": "#81377B","c2": "#81377B"},{"slug": "06-warrior","hero": "Hale","name": "Warrior","counter": "Durability 🛡️","c1": "#9FA8B4","c2": "#9FA8B4"},{"slug": "07-wizard","hero": "Arc","name": "Wizard","counter": "Plasma 💥","c1": "#D3082F","c2": "#F5B202"},{"slug": "08-shaman","hero": "Ash","name": "Shaman","counter": "Magma 🌋","c1": "#D3082F","c2": "#2A8934"},{"slug": "09-trinket-mage","hero": "Quench","name": "Trinket-mage","counter": "Charge 🫧","c1": "#D3082F","c2": "#0189C4"},{"slug": "10-warlock","hero": "Brand","name": "Warlock","counter": "Debt ☄️","c1": "#D3082F","c2": "#81377B"},{"slug": "11-demon-hunter","hero": "Kell","name": "Demon Hunter","counter": "Fury 🔺","c1": "#D3082F","c2": "#9FA8B4"},{"slug": "12-windrunner","hero": "Gale","name": "Windrunner","counter": "Terrain 🌎","c1": "#F5B202","c2": "#2A8934"},{"slug": "13-edgedancer","hero": "Prism","name": "Edgedancer","counter": "Facet 💠","c1": "#F5B202","c2": "#0189C4"},{"slug": "14-soulcaster","hero": "Mirren","name": "Soulcaster","counter": "Essence 🔮","c1": "#F5B202","c2": "#81377B"},{"slug": "15-runeblade","hero": "Stave","name": "Runeblade","counter": "Rune ᛞ","c1": "#F5B202","c2": "#9FA8B4"},{"slug": "16-shapeshifter","hero": "Pelt","name": "Shapeshifter","counter": "Feral 🐾","c1": "#2A8934","c2": "#0189C4"},{"slug": "17-witch-doctor","hero": "Mire","name": "Witch Doctor","counter": "Spore 🦠","c1": "#2A8934","c2": "#81377B"},{"slug": "18-ranger","hero": "Fletch","name": "Ranger","counter": "Mark 🎯","c1": "#2A8934","c2": "#9FA8B4"},{"slug": "19-lich","hero": "Rime","name": "Lich","counter": "Web 🕸️","c1": "#0189C4","c2": "#81377B"},{"slug": "20-death-knight","hero": "Pall","name": "Death Knight","counter": "Chill 🧊","c1": "#0189C4","c2": "#9FA8B4"},{"slug": "21-assassin","hero": "Hush","name": "Assassin","counter": "Contract 🗡","c1": "#81377B","c2": "#9FA8B4"}];
 const BY_SLUG = Object.fromEntries(CLASSES.map(c => [c.slug, c]));
 const esc = s => String(s).replace(/[&<>"]/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
 const $ = id => document.getElementById(id);
@@ -228,8 +228,12 @@ function pipsHTML(c){
 function cardHTML(c){
   const k = BY_SLUG[c['class']];
   const bg = k ? `linear-gradient(155deg, ${k.c1}, ${k.c2})` : 'linear-gradient(155deg,#6B6879,#423E55)';
-  const banner = k ? `linear-gradient(90deg, ${k.c1} 0 44%, ${k.c2} 56% 100%)`
-                   : 'linear-gradient(90deg,#6B6879 0 44%,#423E55 56% 100%)';
+  // Two of the six inks are far too light to carry white text on their own, and
+  // a blend can pair a light ink with a dark one, so a constant wash sits over
+  // the whole banner: the hues stay exact, the title stays legible on all 21.
+  const wash = 'linear-gradient(rgba(0,0,0,.40),rgba(0,0,0,.40))';
+  const banner = k ? `${wash}, linear-gradient(90deg, ${k.c1} 0 44%, ${k.c2} 56% 100%)`
+                   : `${wash}, linear-gradient(90deg,#6B6879 0 44%,#423E55 56% 100%)`;
   // a spell has no power or HP: leave the grid cell empty rather than render an
   // empty shape, which otherwise takes height and squeezes the art
   const isUp = c.type === 'Upgrade';
