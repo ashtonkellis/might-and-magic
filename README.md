@@ -15,7 +15,8 @@ The card face reads top to bottom: a **title banner** carrying the class's two
 colours — solid for a pure class, split down the middle for a blend — then the
 **art panel**, a **stat line** where power and HP flank the card type, and the
 **rules box**. Power is drawn as a blade point and HP as a shield, so the two
-numbers are told apart by shape as well as colour. An upgrade puts those two
+numbers are told apart by shape as well as colour — a red blade and a green
+shield. An upgrade puts those two
 numbers in the bottom corners of the card instead of the stat line, since they
 modify the unit it attaches to rather than describing the card itself. A credit band appears under
 the rules once the card has art.
@@ -87,3 +88,8 @@ it does not belong in a class's twelve.
 Each class's twelve reach across the whole curve — every one of them covers all
 five cost bands (0-1, 2-3, 4-5, 6-7, 8+) and carries at least three of the four
 card types. The top-level `classes` object lists the twelve card ids per class.
+
+Each assigned card also carries a `name`, written for the class that chose it
+from that class's character in the bible and the card's own effect — so the
+Warlock's twelve read as instalments and collateral, and the Chronomancer's as
+rehearsals and foreseen arrivals. Unassigned cards have no name.

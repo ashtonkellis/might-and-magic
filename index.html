@@ -74,11 +74,12 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
       color:#fff;position:relative;box-shadow:0 1px 3px rgba(0,0,0,.25);border:1px solid rgba(0,0,0,.35)}
 
 /* the title, centred on its own band */
-.title{color:#fff;text-align:center;padding:.28rem .5rem .28rem 2.5rem;
-      font-family:var(--display);font-weight:700;font-size:.92rem;line-height:1.15;
+.title{color:#fff;text-align:center;padding:.28rem .45rem .28rem 2.45rem;
+      font-family:var(--display);font-weight:700;font-size:.8rem;line-height:1.14;
       letter-spacing:-.01em;text-shadow:0 1px 2px rgba(0,0,0,.55);
       border-bottom:1px solid rgba(0,0,0,.35);
-      overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+      /* names run longer than ids, so wrap rather than truncate */
+      text-wrap:balance;min-height:1.9rem;display:grid;align-content:center}
 .title .uniq{color:#F5E6B0;margin-right:.15em}
 
 /* cost: a vertical column in the top-left, overlapping the bars above the art */
@@ -91,7 +92,8 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 .art{flex:1 1 auto;min-height:0;background:rgba(0,0,0,.18);display:grid;place-items:center;
      overflow:hidden;position:relative}
 .art img{width:100%;height:100%;object-fit:cover;display:block}
-.ph{display:grid;place-items:center;opacity:.45}
+.ph{display:grid;place-items:center;gap:.15rem;opacity:.45}
+.ph .cid{font-family:var(--mono);font-size:.48rem;letter-spacing:.08em}
 .ph .glyph{font-size:1.8rem;line-height:1}
 
 /* power and HP flank a centred line, sitting across the art's lower edge */
@@ -114,7 +116,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 /* attack: a blade point, driving downward */
 .stat.pow{background:#B33127;clip-path:polygon(50% 0,100% 30%,78% 100%,22% 100%,0 30%)}
 /* health: a shield, closing underneath */
-.stat.hp{background:#2F6BC4;clip-path:polygon(0 0,100% 0,100% 58%,50% 100%,0 58%)}
+.stat.hp{background:#27753F;clip-path:polygon(0 0,100% 0,100% 58%,50% 100%,0 58%)}
 /* an upgrade modifies the unit it attaches to, so its numbers sit in the
    bottom corners of the card rather than in the middle stat line */
 .stat.corner{position:absolute;bottom:.26rem;z-index:3}
@@ -144,7 +146,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
         -webkit-print-color-adjust:exact;print-color-adjust:exact}
   .rules{font-size:calc(6.6pt * var(--fit, 1));line-height:1.26;flex:0 0 31%;overflow:hidden;padding:.06in .07in}
   .art{flex:1 1 auto;min-height:0}
-      .title{padding:.025in .05in .025in .34in;font-size:9.5pt}
+      .title{padding:.03in .05in .03in .33in;font-size:8pt;min-height:.26in}
     .pips{top:.025in;left:.03in}
   .pip{width:.26in;height:.26in;font-size:9pt;border-radius:.05in}
   .statline{padding:.025in .03in;min-height:.16in}
@@ -165,7 +167,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 
 <header class="top">
   <div class="spectrum"></div>
-  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V10</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
+  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V11</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
   <p class="sub">Every card in the list, in the colors of the class it was chosen for.
      Art slots are empty until images land in <code>art/</code>.
      The classes themselves live in the <a href="class-bible.html">class bible</a>.</p>
@@ -201,7 +203,8 @@ function artHTML(c){
   const file = ART[c.id];
   if (file) return `<div class="art"><img alt="" loading="lazy" src="art/${encodeURIComponent(file)}"></div>`;
   const glyph = k ? k.counter.split(' ').pop() : '\u25C7';
-  return `<div class="art"><div class="ph"><span class="glyph">${glyph}</span></div></div>`;
+  return `<div class="art"><div class="ph"><span class="glyph">${glyph}</span>
+    <span class="cid">${esc(c.id)}</span></div></div>`;
 }
 
 /* The source gives one number for cost plus a list of aspects, not a printed
@@ -238,7 +241,7 @@ function cardHTML(c){
               || '<p style="opacity:.45">No rules text.</p>';
   return `<article class="card${isUp ? ' up' : ''}" style="background:${bg}">
     ${pipsHTML(c)}
-    <div class="title" style="background:${banner}">${c.unique ? '<span class="uniq">\u25C6</span>' : ''}${esc(c.id)}</div>
+    <div class="title" style="background:${banner}">${c.unique ? '<span class="uniq">\u25C6</span>' : ''}${esc(c.name || c.id)}</div>
     ${artHTML(c)}
     <div class="statline">
       ${stat(c.power, 'pow')}
