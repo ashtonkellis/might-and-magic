@@ -115,6 +115,12 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 .stat.pow{background:#B33127;clip-path:polygon(50% 0,100% 30%,78% 100%,22% 100%,0 30%)}
 /* health: a shield, closing underneath */
 .stat.hp{background:#2F6BC4;clip-path:polygon(0 0,100% 0,100% 58%,50% 100%,0 58%)}
+/* an upgrade modifies the unit it attaches to, so its numbers sit in the
+   bottom corners of the card rather than in the middle stat line */
+.stat.corner{position:absolute;bottom:.26rem;z-index:3}
+.stat.corner.l{left:.3rem}
+.stat.corner.r{right:.3rem}
+.card.up .rules{padding-bottom:2.1rem}
 
 .rules{flex:0 0 31%;background:#F4F2EC;color:#1A1826;line-height:1.34;padding:.42rem .48rem;
      overflow:hidden;
@@ -145,6 +151,10 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
   .statline .mid{font-size:5.6pt}
   .statline .kws{font-size:4.8pt}
   .stat{font-size:10pt;width:.30in;height:.30in}
+  .stat.corner{bottom:.04in}
+  .stat.corner.l{left:.05in}
+  .stat.corner.r{right:.05in}
+  .card.up .rules{padding-bottom:.34in}
   .credit{font-size:4.4pt;padding:.015in .05in}
   .meta{font-size:6pt}
   .card .head{font-size:7pt}
@@ -155,7 +165,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 
 <header class="top">
   <div class="spectrum"></div>
-  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V9</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
+  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V10</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
   <p class="sub">Every card in the list, in the colors of the class it was chosen for.
      Art slots are empty until images land in <code>art/</code>.
      The classes themselves live in the <a href="class-bible.html">class bible</a>.</p>
@@ -219,11 +229,14 @@ function cardHTML(c){
                    : 'linear-gradient(90deg,#6B6879 0 44%,#423E55 56% 100%)';
   // a spell has no power or HP: leave the grid cell empty rather than render an
   // empty shape, which otherwise takes height and squeezes the art
-  const stat = (v, cls) => v === null || v === undefined
+  const isUp = c.type === 'Upgrade';
+  const stat = (v, cls) => v === null || v === undefined || isUp
       ? '<span></span>' : `<span class="stat ${cls}">${esc(v)}</span>`;
+  const corner = (v, cls, side) => !isUp || v === null || v === undefined
+      ? '' : `<span class="stat ${cls} corner ${side}">${esc(v)}</span>`;
   const rules = (c.text || '').split('\n').filter(Boolean).map(l => `<p>${esc(l)}</p>`).join('')
               || '<p style="opacity:.45">No rules text.</p>';
-  return `<article class="card" style="background:${bg}">
+  return `<article class="card${isUp ? ' up' : ''}" style="background:${bg}">
     ${pipsHTML(c)}
     <div class="title" style="background:${banner}">${c.unique ? '<span class="uniq">\u25C6</span>' : ''}${esc(c.id)}</div>
     ${artHTML(c)}
@@ -234,6 +247,7 @@ function cardHTML(c){
       ${stat(c.hp, 'hp')}
     </div>
     <div class="rules">${rules}</div>
+    ${corner(c.power, 'pow', 'l')}${corner(c.hp, 'hp', 'r')}
     ${ART[c.id] ? `<div class="credit">art \u00B7 ${esc(ART[c.id])}</div>` : ''}
   </article>`;
 }

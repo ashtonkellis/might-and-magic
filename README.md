@@ -15,7 +15,9 @@ The card face reads top to bottom: a **title banner** carrying the class's two
 colours — solid for a pure class, split down the middle for a blend — then the
 **art panel**, a **stat line** where power and HP flank the card type, and the
 **rules box**. Power is drawn as a blade point and HP as a shield, so the two
-numbers are told apart by shape as well as colour. A credit band appears under
+numbers are told apart by shape as well as colour. An upgrade puts those two
+numbers in the bottom corners of the card instead of the stat line, since they
+modify the unit it attaches to rather than describing the card itself. A credit band appears under
 the rules once the card has art.
 
 The mana cost sits top-left as a vertical column — one coloured pip per aspect
