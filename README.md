@@ -50,12 +50,14 @@ Cards naming another specific card were excluded. The card a player defends is a
 **Hero**, not a base — renamed throughout, in card types and rules text alike, so
 damage is dealt to heroes.
 
-Arena (ground/space) is also stripped, since the game this feeds has no
-equivalent. Two cards whose targeting *was* the arena choice now read as
-unconditional board sweeps.
+The board is split into a **left flank** and a **right flank**, replacing the
+source game's ground and space arenas. Units are played into one flank and act
+within it; `flanks` on each entry says which one, and the rules text follows —
+"a left flank unit", "units in this flank". The card a player defends is a
+**Hero**, and the round's reset is the **rest phase**.
 
 Each entry carries an opaque `id`, `type`, `cost`, `power`, `hp`, `unique`,
-`aspects`, `keywords`, `traitCount`, and rules text.
+`aspects`, `flanks`, `keywords`, `traitCount`, and rules text.
 
 ### Class assignments
 
