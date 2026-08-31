@@ -70,8 +70,8 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
    Structure, top to bottom: a type/flank bar, a title bar, a subtitle bar, the
    art panel, then a stat line where power and HP flank a centred keyword line,
    then the rules box. Cost stacks vertically in the top-left corner. */
-.card{border-radius:10px;overflow:hidden;display:flex;flex-direction:column;color:#fff;position:relative;
-      box-shadow:0 1px 3px rgba(0,0,0,.25);border:1px solid rgba(0,0,0,.35)}
+.card{aspect-ratio:2.5/3.5;border-radius:10px;overflow:hidden;display:flex;flex-direction:column;
+      color:#fff;position:relative;box-shadow:0 1px 3px rgba(0,0,0,.25);border:1px solid rgba(0,0,0,.35)}
 
 /* top bar: type on the left, flank on the right */
 .topbar{display:flex;align-items:center;gap:.4rem;background:rgba(0,0,0,.5);
@@ -97,7 +97,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
      border:1.5px solid rgba(255,255,255,.92);box-shadow:0 1px 2px rgba(0,0,0,.45)}
 .pip.generic{background:#F2EFE6;color:#141018;border-color:rgba(0,0,0,.35)}
 
-.art{aspect-ratio:5/3.4;flex:0 0 auto;background:rgba(0,0,0,.18);display:grid;place-items:center;
+.art{flex:1 1 auto;min-height:0;background:rgba(0,0,0,.18);display:grid;place-items:center;
      overflow:hidden;position:relative}
 .art img{width:100%;height:100%;object-fit:cover;display:block}
 .ph{display:grid;place-items:center;opacity:.45}
@@ -115,8 +115,11 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 .stat.hp{background:#2F6BC4}
 .stat.empty{background:none;border:none;box-shadow:none}
 
-.rules{flex:1 1 auto;background:#F4F2EC;color:#1A1826;font-size:.6rem;line-height:1.34;
-     padding:.42rem .48rem;min-height:4em}
+.rules{flex:0 0 31%;background:#F4F2EC;color:#1A1826;line-height:1.34;padding:.42rem .48rem;
+     overflow:hidden;
+     /* --fit is set per card by the fitter below; print scales from the same
+        factor so the sheet matches what the grid shows */
+     font-size:calc(.6rem * var(--fit, 1))}
 .rules p{margin:0 0 .3em}
 .rules p:last-child{margin:0}
 .credit{background:rgba(0,0,0,.5);font-family:var(--mono);font-size:.46rem;letter-spacing:.1em;
@@ -132,8 +135,8 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
   .card{width:2.5in;height:3.5in;aspect-ratio:auto;border-radius:0;box-shadow:none;
         outline:.5pt dashed rgba(0,0,0,.35);outline-offset:-.5pt;break-inside:avoid;page-break-inside:avoid;
         -webkit-print-color-adjust:exact;print-color-adjust:exact}
-  .art{aspect-ratio:auto;flex:1 1 auto;min-height:0}
-  .rules{font-size:6.4pt;line-height:1.26;min-height:0;flex:1 1 auto;overflow:hidden;padding:.06in .07in}
+  .rules{font-size:calc(6.6pt * var(--fit, 1));line-height:1.26;flex:0 0 31%;overflow:hidden;padding:.06in .07in}
+  .art{flex:1 1 auto;min-height:0}
     .topbar{padding:.02in .05in .02in .34in;font-size:4.8pt;min-height:.11in}
   .title{padding:.025in .05in .025in .34in;font-size:9.5pt}
   .subtitle{padding:.01in .05in .015in .34in;font-size:5pt}
@@ -152,7 +155,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 
 <header class="top">
   <div class="spectrum"></div>
-  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V7</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
+  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V8</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
   <p class="sub">Every card in the list, in the colors of the class it was chosen for.
      Art slots are empty until images land in <code>art/</code>.
      The classes themselves live in the <a href="class-bible.html">class bible</a>.</p>
@@ -233,6 +236,18 @@ function cardHTML(c){
   </article>`;
 }
 
+/* Rules text must fit a fixed box now that the card is a fixed shape. Shrink
+   only the cards that overflow, in batched passes so layout is read then
+   written rather than thrashed per card. */
+function fitRules(root){
+  const steps = [1, .94, .88, .82, .76, .70, .64];
+  let live = [...root.querySelectorAll('.rules')];
+  for (let i = 1; i < steps.length && live.length; i++) {
+    live = live.filter(el => el.scrollHeight > el.clientHeight + 1);   // read all
+    live.forEach(el => el.style.setProperty('--fit', steps[i]));       // then write all
+  }
+}
+
 function apply(){
   const cls = $('f-class').value, ty = $('f-type').value, co = $('f-cost').value;
   const q = $('f-text').value.trim().toLowerCase();
@@ -246,6 +261,7 @@ function apply(){
     return true;
   });
   $('grid').innerHTML = out.map(cardHTML).join('');
+  fitRules($('grid'));
   $('count').textContent = `${out.length} card${out.length === 1 ? '' : 's'}`;
   $('empty').hidden = out.length > 0;
   $('empty').textContent = out.length ? '' : 'No cards match those filters.';

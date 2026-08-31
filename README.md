@@ -8,7 +8,8 @@ A browser for the card list, served as the site's home page. Every card renders
 in the colors of the class it was chosen for, filterable by class, type, cost
 and rules text, with a **Print these cards** button that lays the current
 selection out at true card size — 2.5in x 3.5in, nine to a Letter page, with
-dashed cut guides.
+dashed cut guides. The cards on screen hold those same proportions, so the grid
+is a preview of the sheet rather than a different shape from it.
 
 The card face reads top to bottom: a **type / flank bar**, a **title**, a
 **subtitle** naming the class, the **art panel**, a **stat line** where power
