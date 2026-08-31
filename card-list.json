@@ -1,5 +1,5 @@
 {
-  "description": "Card list drawn from the first three Star Wars: Unlimited sets, kept as a source of mechanics to design against. Card names, subtitles, art, artist, rarity and pricing removed; trait names abstracted to placeholders; arena (ground/space) removed; the card a player defends is a Hero, not a base. Each entry's \"class\" field names the Might & Magic class it was chosen to represent, or is null if unassigned; a card belongs to at most one class. Heroes are never assigned.",
+  "description": "Card list drawn from the first three Star Wars: Unlimited sets, kept as a source of mechanics to design against. Card names, subtitles, art, artist, rarity and pricing removed; trait names abstracted to placeholders; arena (ground/space) removed; the card a player defends is a Hero, not a base, and the round's reset is the rest phase. Each entry's \"class\" field names the Might & Magic class it was chosen to represent, or is null if unassigned; a card belongs to at most one class. Heroes are never assigned.",
   "sets": [
     "SOR",
     "SHD",
@@ -275,7 +275,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "When the regroup phase starts: Discard a card from your deck.",
+      "text": "When the rest phase starts: Discard a card from your deck.",
       "backText": "While there are 5 or more different costs among cards in your discard pile, this unit gets +3/+0.\nWhen Deployed: Choose 3 cards in your discard pile with different names. If you do, return 1 of them at random to your hand.",
       "epicAction": "Epic Action: If you control 5 or more resources, deploy this leader."
     },
@@ -3655,7 +3655,7 @@
         "Smuggle"
       ],
       "traitCount": 1,
-      "text": "On Attack: Draw a card. At the start of the regroup phase, discard a card from your hand. \nSmuggle [6 resources Cunning Heroism]",
+      "text": "On Attack: Draw a card. At the start of the rest phase, discard a card from your hand. \nSmuggle [6 resources Cunning Heroism]",
       "backText": null,
       "epicAction": null
     },
@@ -3748,7 +3748,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Ready each unit you control. At the start of the regroup phase, you lose the game.",
+      "text": "Ready each unit you control. At the start of the rest phase, you lose the game.",
       "backText": null,
       "epicAction": null
     },
@@ -4038,7 +4038,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Attach to a non-Vehicle unit. \nWhen Played: Give a Shield token to attached unit. At the start of the regroup phase, defeat that token.\nSmuggle [4 resources Cunning]",
+      "text": "Attach to a non-Vehicle unit. \nWhen Played: Give a Shield token to attached unit. At the start of the rest phase, defeat that token.\nSmuggle [4 resources Cunning]",
       "backText": null,
       "epicAction": null
     },
@@ -4055,7 +4055,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Attach to a non-leader unit. \nAttached unit gains: \"BOUNTY - Play this unit for free (under your control). It enters play ready. At the start of the regroup phase, defeat it.\"",
+      "text": "Attach to a non-leader unit. \nAttached unit gains: \"BOUNTY - Play this unit for free (under your control). It enters play ready. At the start of the rest phase, defeat it.\"",
       "backText": null,
       "epicAction": null
     },
@@ -4715,7 +4715,7 @@
       "keywords": [],
       "traitCount": 2,
       "text": "Action [[exhaust]]: Give a unit +0/+2 for this phase.",
-      "backText": "During the action phase, this unit isn't defeated by having no remaining HP. (During the regroup phase, if he has no remaining HP, defeat him.)",
+      "backText": "During the action phase, this unit isn't defeated by having no remaining HP. (During the rest phase, if he has no remaining HP, defeat him.)",
       "epicAction": "Epic Action: If you control 5 or more resources, deploy this leader."
     },
     {
@@ -7985,7 +7985,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Exhaust a unit. That unit can't ready this round (including during the regroup phase).",
+      "text": "Exhaust a unit. That unit can't ready this round (including during the rest phase).",
       "backText": null,
       "epicAction": null
     },
@@ -8113,7 +8113,7 @@
       ],
       "keywords": [],
       "traitCount": 3,
-      "text": "This unit enters play ready. \nWhen you ready cards during the regroup phase: Either pay 1 or return this unit to her owner's hand.",
+      "text": "This unit enters play ready. \nWhen you ready cards during the rest phase: Either pay 1 or return this unit to her owner's hand.",
       "backText": null,
       "epicAction": null
     },
@@ -8588,7 +8588,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Play a unit from your hand. It costs 3 less and enters play ready. At the start of the regroup phase, defeat it.",
+      "text": "Play a unit from your hand. It costs 3 less and enters play ready. At the start of the rest phase, defeat it.",
       "backText": null,
       "epicAction": null
     },
@@ -8673,7 +8673,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Take control of a non-leader unit. At the start of the regroup phase, its owner takes control of it.",
+      "text": "Take control of a non-leader unit. At the start of the rest phase, its owner takes control of it.",
       "backText": null,
       "epicAction": null
     },
@@ -9346,7 +9346,7 @@
         "Saboteur"
       ],
       "traitCount": 2,
-      "text": "Action [1 resource, Exhaust]: Deal damage to a unit equal to the number of cards you’ve drawn this phase. (This doesn’t include cards drawn in the regroup phase.)",
+      "text": "Action [1 resource, Exhaust]: Deal damage to a unit equal to the number of cards you’ve drawn this phase. (This doesn’t include cards drawn in the rest phase.)",
       "backText": "While you have 3 or more cards in your hand, this unit gains Saboteur.\nWhile you have 6 or more cards in your hand, this unit gets +2/+0.",
       "epicAction": "Epic Action: If you control 5 or more resources, deploy this leader."
     },
@@ -10389,7 +10389,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "When Played: Give each enemy unit -5/-0 for this phase. \nWhen the regroup phase starts: Heal 5 damage from this unit.",
+      "text": "When Played: Give each enemy unit -5/-0 for this phase. \nWhen the rest phase starts: Heal 5 damage from this unit.",
       "backText": null,
       "epicAction": null
     },
@@ -10406,7 +10406,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Attached unit gains: \"When the regroup phase starts (before drawing cards): Name a card, then look at the top card of your deck. If it's the named card, you may reveal and draw it.\"",
+      "text": "Attached unit gains: \"When the rest phase starts (before drawing cards): Name a card, then look at the top card of your deck. If it's the named card, you may reveal and draw it.\"",
       "backText": null,
       "epicAction": null
     },
@@ -12603,7 +12603,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Play a unit that was defeated this phase from your discard pile. It costs 2 less and enters play ready. At the start of the regroup phase, defeat it.",
+      "text": "Play a unit that was defeated this phase from your discard pile. It costs 2 less and enters play ready. At the start of the rest phase, defeat it.",
       "backText": null,
       "epicAction": null
     },
@@ -12883,7 +12883,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Choose a ready non-leader unit controlled by each player. If you do, each player takes control of the chosen unit controlled by the player to their right. At the start of the regroup phase, each player takes control of each unit they own that was chosen for this ability.",
+      "text": "Choose a ready non-leader unit controlled by each player. If you do, each player takes control of the chosen unit controlled by the player to their right. At the start of the rest phase, each player takes control of each unit they own that was chosen for this ability.",
       "backText": null,
       "epicAction": null
     },
@@ -13006,7 +13006,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "When Played: Take control of an enemy token unit and ready it. At the start of the regroup phase, that token unit's owner takes control of it.",
+      "text": "When Played: Take control of an enemy token unit and ready it. At the start of the rest phase, that token unit's owner takes control of it.",
       "backText": null,
       "epicAction": null
     },
