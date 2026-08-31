@@ -60,6 +60,10 @@ Each entry carries an opaque `id`, `type`, `cost`, `power`, `hp`, `unique`,
 Every entry also carries a `class` field: the Might & Magic class that card was
 chosen to represent, or `null` if unassigned. A card belongs to at most one
 class. Twelve cards are assigned to each of the twenty-one classes — 252 of the
-755 — picked so that each class's twelve span the cost curve from its cheapest
-rung to its most expensive and cover at least four of the five card types. The
-top-level `classes` object lists the twelve card ids per class.
+755 — drawn from units, events, upgrades and leaders. **Bases are never
+assigned**: a base is a starting card rather than something drawn and played, so
+it does not belong in a class's twelve.
+
+Each class's twelve reach across the whole curve — every one of them covers all
+five cost bands (0-1, 2-3, 4-5, 6-7, 8+) and carries at least three of the four
+card types. The top-level `classes` object lists the twelve card ids per class.
