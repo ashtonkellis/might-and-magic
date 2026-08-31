@@ -11,10 +11,12 @@ selection out at true card size — 2.5in x 3.5in, nine to a Letter page, with
 dashed cut guides. The cards on screen hold those same proportions, so the grid
 is a preview of the sheet rather than a different shape from it.
 
-The card face reads top to bottom: a **type / flank bar**, a **title**, a
-**subtitle** naming the class, the **art panel**, a **stat line** where power
-and HP flank the card's keywords, and the **rules box**. A credit band appears
-under the rules once the card has art.
+The card face reads top to bottom: a **title banner** carrying the class's two
+colours — solid for a pure class, split down the middle for a blend — then the
+**art panel**, a **stat line** where power and HP flank the card type, and the
+**rules box**. Power is drawn as a blade point and HP as a shield, so the two
+numbers are told apart by shape as well as colour. A credit band appears under
+the rules once the card has art.
 
 The mana cost sits top-left as a vertical column — one coloured pip per aspect
 in the class's own two colours, then a single generic pip for the rest of the
@@ -62,21 +64,21 @@ Cards naming another specific card were excluded. The card a player defends is a
 **Hero**, not a base — renamed throughout, in card types and rules text alike, so
 damage is dealt to heroes.
 
-The board is split into a **left flank** and a **right flank**, replacing the
-source game's ground and space arenas. Units are played into one flank and act
-within it; `flanks` on each entry says which one, and the rules text follows —
-"a left flank unit", "units in this flank". The card a player defends is a
-**Hero**, and the round's reset is the **rest phase**.
+The board is split into a **left flank** and a **right flank**, but no card
+dictates which one it enters — that is the player's choice at the moment of
+play. Rules text still speaks of flanks relationally ("units in this flank",
+"the same flank"); it never names one. Events are **spells**, the card a player
+defends is a **Hero**, and the round's reset is the **rest phase**.
 
 Each entry carries an opaque `id`, `type`, `cost`, `power`, `hp`, `unique`,
-`aspects`, `flanks`, `keywords`, `traitCount`, and rules text.
+`aspects`, `keywords`, `traitCount`, and rules text.
 
 ### Class assignments
 
 Every entry also carries a `class` field: the Might & Magic class that card was
 chosen to represent, or `null` if unassigned. A card belongs to at most one
 class. Twelve cards are assigned to each of the twenty-one classes — 252 of the
-755 — drawn from units, events, upgrades and leaders. **Heroes are never
+755 — drawn from units, spells, upgrades and leaders. **Heroes are never
 assigned**: a hero is a starting card rather than something drawn and played, so
 it does not belong in a class's twelve.
 

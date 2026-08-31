@@ -67,28 +67,19 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 .empty{padding:3rem clamp(1rem,4vw,2.5rem);color:var(--muted)}
 
 /* ---------- the card ----------
-   Structure, top to bottom: a type/flank bar, a title bar, a subtitle bar, the
-   art panel, then a stat line where power and HP flank a centred keyword line,
-   then the rules box. Cost stacks vertically in the top-left corner. */
+   Structure, top to bottom: a title bar, the art panel, then a stat line where
+   power and HP flank the card type, then the rules box. Cost stacks vertically
+   in the top-left corner. */
 .card{aspect-ratio:2.5/3.5;border-radius:10px;overflow:hidden;display:flex;flex-direction:column;
       color:#fff;position:relative;box-shadow:0 1px 3px rgba(0,0,0,.25);border:1px solid rgba(0,0,0,.35)}
 
-/* top bar: type on the left, flank on the right */
-.topbar{display:flex;align-items:center;gap:.4rem;background:rgba(0,0,0,.5);
-      padding:.2rem .45rem .2rem 2.5rem;font-family:var(--mono);font-size:.5rem;
-      letter-spacing:.13em;text-transform:uppercase;min-height:1.05rem}
-.topbar .flank{margin-left:auto;color:rgba(255,255,255,.78)}
-
-/* title and subtitle, both centred, on their own bands */
-.title{background:rgba(255,255,255,.93);color:#141018;text-align:center;
-      padding:.24rem .5rem .24rem 2.5rem;font-family:var(--display);font-weight:700;
-      font-size:.92rem;line-height:1.1;letter-spacing:-.01em;
+/* the title, centred on its own band */
+.title{color:#fff;text-align:center;padding:.28rem .5rem .28rem 2.5rem;
+      font-family:var(--display);font-weight:700;font-size:.92rem;line-height:1.15;
+      letter-spacing:-.01em;text-shadow:0 1px 2px rgba(0,0,0,.55);
+      border-bottom:1px solid rgba(0,0,0,.35);
       overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.title .uniq{color:#8A6A38;margin-right:.15em}
-.subtitle{background:rgba(255,255,255,.8);color:#3A3446;text-align:center;
-      padding:.1rem .5rem .12rem 2.5rem;font-family:var(--body);font-weight:700;
-      font-size:.52rem;letter-spacing:.14em;text-transform:uppercase;
-      overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.title .uniq{color:#F5E6B0;margin-right:.15em}
 
 /* cost: a vertical column in the top-left, overlapping the bars above the art */
 .pips{position:absolute;top:.22rem;left:.28rem;z-index:3;display:flex;flex-direction:column;gap:.14rem}
@@ -104,16 +95,26 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 .ph .glyph{font-size:1.8rem;line-height:1}
 
 /* power and HP flank a centred line, sitting across the art's lower edge */
-.statline{position:relative;display:grid;grid-template-columns:2.2rem 1fr 2.2rem;align-items:center;
-     gap:.3rem;background:rgba(255,255,255,.9);color:#2A2536;padding:.26rem .3rem;min-height:1.5rem}
-.statline .mid{text-align:center;font-family:var(--body);font-weight:700;font-style:italic;
-     font-size:.55rem;letter-spacing:.07em;text-transform:uppercase;line-height:1.2;color:#3A3446}
-.stat{font-family:var(--display);font-weight:700;font-size:1rem;line-height:1;text-align:center;
-     color:#fff;border-radius:7px;padding:.16rem 0;border:1.5px solid rgba(255,255,255,.85);
-     box-shadow:0 1px 2px rgba(0,0,0,.35)}
-.stat.pow{background:#B33127}
-.stat.hp{background:#2F6BC4}
-.stat.empty{background:none;border:none;box-shadow:none}
+.statline{position:relative;display:grid;grid-template-columns:2rem 1fr 2rem;align-items:center;
+     justify-items:center;gap:.3rem;background:rgba(255,255,255,.9);color:#2A2536;
+     padding:.22rem .32rem;min-height:1.5rem;
+     /* content height only: with flex-shrink allowed, a spell's empty stat slots
+        let this band take the slack that belongs to the art */
+     flex:0 0 auto}
+.statline .mid{text-align:center;font-family:var(--body);font-weight:700;font-size:.6rem;
+     letter-spacing:.1em;text-transform:uppercase;line-height:1.2;color:#2A2536}
+.statline .kws{display:block;font-family:var(--mono);font-weight:400;font-size:.5rem;
+     letter-spacing:.02em;text-transform:none;color:#5A5468;margin-top:.1em}
+.stat{font-family:var(--display);font-weight:700;font-size:.95rem;line-height:1;
+     display:grid;place-items:center;width:2rem;height:2rem;color:#fff;
+     text-shadow:0 1px 2px rgba(0,0,0,.5);
+     /* clip-path carries the silhouette, so definition comes from a drop-shadow:
+        a border would be clipped away with the corners */
+     filter:drop-shadow(0 1px 1.5px rgba(0,0,0,.45))}
+/* attack: a blade point, driving downward */
+.stat.pow{background:#B33127;clip-path:polygon(50% 0,100% 30%,78% 100%,22% 100%,0 30%)}
+/* health: a shield, closing underneath */
+.stat.hp{background:#2F6BC4;clip-path:polygon(0 0,100% 0,100% 58%,50% 100%,0 58%)}
 
 .rules{flex:0 0 31%;background:#F4F2EC;color:#1A1826;line-height:1.34;padding:.42rem .48rem;
      overflow:hidden;
@@ -137,14 +138,13 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
         -webkit-print-color-adjust:exact;print-color-adjust:exact}
   .rules{font-size:calc(6.6pt * var(--fit, 1));line-height:1.26;flex:0 0 31%;overflow:hidden;padding:.06in .07in}
   .art{flex:1 1 auto;min-height:0}
-    .topbar{padding:.02in .05in .02in .34in;font-size:4.8pt;min-height:.11in}
-  .title{padding:.025in .05in .025in .34in;font-size:9.5pt}
-  .subtitle{padding:.01in .05in .015in .34in;font-size:5pt}
-  .pips{top:.025in;left:.03in}
+      .title{padding:.025in .05in .025in .34in;font-size:9.5pt}
+    .pips{top:.025in;left:.03in}
   .pip{width:.26in;height:.26in;font-size:9pt;border-radius:.05in}
   .statline{padding:.025in .03in;min-height:.16in}
-  .statline .mid{font-size:5.2pt}
-  .stat{font-size:10pt;border-radius:.05in}
+  .statline .mid{font-size:5.6pt}
+  .statline .kws{font-size:4.8pt}
+  .stat{font-size:10pt;width:.30in;height:.30in}
   .credit{font-size:4.4pt;padding:.015in .05in}
   .meta{font-size:6pt}
   .card .head{font-size:7pt}
@@ -155,7 +155,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 
 <header class="top">
   <div class="spectrum"></div>
-  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V8</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
+  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V9</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
   <p class="sub">Every card in the list, in the colors of the class it was chosen for.
      Art slots are empty until images land in <code>art/</code>.
      The classes themselves live in the <a href="class-bible.html">class bible</a>.</p>
@@ -215,20 +215,22 @@ function pipsHTML(c){
 function cardHTML(c){
   const k = BY_SLUG[c['class']];
   const bg = k ? `linear-gradient(155deg, ${k.c1}, ${k.c2})` : 'linear-gradient(155deg,#6B6879,#423E55)';
-  const flank = c.flanks.length ? `${c.flanks[0]} flank` : '';
+  const banner = k ? `linear-gradient(90deg, ${k.c1} 0 44%, ${k.c2} 56% 100%)`
+                   : 'linear-gradient(90deg,#6B6879 0 44%,#423E55 56% 100%)';
+  // a spell has no power or HP: leave the grid cell empty rather than render an
+  // empty shape, which otherwise takes height and squeezes the art
   const stat = (v, cls) => v === null || v === undefined
-      ? '<span class="stat empty"></span>' : `<span class="stat ${cls}">${esc(v)}</span>`;
+      ? '<span></span>' : `<span class="stat ${cls}">${esc(v)}</span>`;
   const rules = (c.text || '').split('\n').filter(Boolean).map(l => `<p>${esc(l)}</p>`).join('')
               || '<p style="opacity:.45">No rules text.</p>';
   return `<article class="card" style="background:${bg}">
     ${pipsHTML(c)}
-    <div class="topbar"><span>${esc(c.type)}</span><span class="flank">${esc(flank)}</span></div>
-    <div class="title">${c.unique ? '<span class="uniq">\u25C6</span>' : ''}${esc(c.id)}</div>
-    <div class="subtitle">${esc(k ? k.name : 'Unassigned')}</div>
+    <div class="title" style="background:${banner}">${c.unique ? '<span class="uniq">\u25C6</span>' : ''}${esc(c.id)}</div>
     ${artHTML(c)}
     <div class="statline">
       ${stat(c.power, 'pow')}
-      <span class="mid">${esc(c.keywords.join(' \u00B7 '))}</span>
+      <span class="mid">${esc(c.type)}${c.keywords.length
+          ? `<span class="kws">${esc(c.keywords.join(' \u00B7 '))}</span>` : ''}</span>
       ${stat(c.hp, 'hp')}
     </div>
     <div class="rules">${rules}</div>
