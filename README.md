@@ -46,7 +46,9 @@ A card list drawn from the first three Star Wars: Unlimited sets, kept as a
 source of mechanics to design against. 755 cards, stripped to
 mechanics only — no names, no art, no artist, no rarity, no pricing — with
 faction and species traits abstracted to `[TRAIT A]` / `[TRAIT B]` placeholders.
-Cards naming another specific card were excluded.
+Cards naming another specific card were excluded. The card a player defends is a
+**Hero**, not a base — renamed throughout, in card types and rules text alike, so
+damage is dealt to heroes.
 
 Arena (ground/space) is also stripped, since the game this feeds has no
 equivalent. Two cards whose targeting *was* the arena choice now read as
@@ -60,8 +62,8 @@ Each entry carries an opaque `id`, `type`, `cost`, `power`, `hp`, `unique`,
 Every entry also carries a `class` field: the Might & Magic class that card was
 chosen to represent, or `null` if unassigned. A card belongs to at most one
 class. Twelve cards are assigned to each of the twenty-one classes — 252 of the
-755 — drawn from units, events, upgrades and leaders. **Bases are never
-assigned**: a base is a starting card rather than something drawn and played, so
+755 — drawn from units, events, upgrades and leaders. **Heroes are never
+assigned**: a hero is a starting card rather than something drawn and played, so
 it does not belong in a class's twelve.
 
 Each class's twelve reach across the whole curve — every one of them covers all

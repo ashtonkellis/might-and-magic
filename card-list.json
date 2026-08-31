@@ -1,5 +1,5 @@
 {
-  "description": "Card list drawn from the first three Star Wars: Unlimited sets, kept as a source of mechanics to design against. Card names, subtitles, art, artist, rarity and pricing removed; trait names abstracted to placeholders; arena (ground/space) removed. Each entry's \"class\" field names the Might & Magic class it was chosen to represent, or is null if unassigned; a card belongs to at most one class. Bases are never assigned.",
+  "description": "Card list drawn from the first three Star Wars: Unlimited sets, kept as a source of mechanics to design against. Card names, subtitles, art, artist, rarity and pricing removed; trait names abstracted to placeholders; arena (ground/space) removed; the card a player defends is a Hero, not a base. Each entry's \"class\" field names the Might & Magic class it was chosen to represent, or is null if unassigned; a card belongs to at most one class. Heroes are never assigned.",
   "sets": [
     "SOR",
     "SHD",
@@ -78,7 +78,7 @@
       "keywords": [],
       "traitCount": 2,
       "text": "Action [[1 resource], [exhaust]]: Give an Experience token to a unit with 2 or less power.",
-      "backText": "RESTORE 3 (When this unit attacks, heal 3 damage from your base.)\nOn Attack: You may give an Experience token to a unit with 2 or less power.",
+      "backText": "RESTORE 3 (When this unit attacks, heal 3 damage from your hero.)\nOn Attack: You may give an Experience token to a unit with 2 or less power.",
       "epicAction": "Epic Action: If you control 6 or more resources, deploy this leader."
     },
     {
@@ -132,7 +132,7 @@
       "keywords": [],
       "traitCount": 2,
       "text": "Action [[exhaust]]: Attack with a unit that costs 3 or less. If it's attacking a unit, it gets +1/+0 for this attack.",
-      "backText": "OVERWHELM (When attacking an enemy unit, deal excess damage to the opponent's base.)\nEach friendly unit that costs 3 or less gets +1/+0 and gains OVERWHELM while attacking an enemy unit.",
+      "backText": "OVERWHELM (When attacking an enemy unit, deal excess damage to the opponent's hero.)\nEach friendly unit that costs 3 or less gets +1/+0 and gains OVERWHELM while attacking an enemy unit.",
       "epicAction": "Epic Action: If you control 5 or more resources, deploy this leader. (Flip him, ready him.)"
     },
     {
@@ -336,7 +336,7 @@
     {
       "id": "SHD-019",
       "class": null,
-      "type": "Base",
+      "type": "Hero",
       "cost": null,
       "power": null,
       "hp": 30,
@@ -353,7 +353,7 @@
     {
       "id": "SHD-020",
       "class": null,
-      "type": "Base",
+      "type": "Hero",
       "cost": null,
       "power": null,
       "hp": 30,
@@ -370,7 +370,7 @@
     {
       "id": "SHD-021",
       "class": null,
-      "type": "Base",
+      "type": "Hero",
       "cost": null,
       "power": null,
       "hp": 30,
@@ -387,7 +387,7 @@
     {
       "id": "SHD-022",
       "class": null,
-      "type": "Base",
+      "type": "Hero",
       "cost": null,
       "power": null,
       "hp": 30,
@@ -404,7 +404,7 @@
     {
       "id": "SHD-023",
       "class": null,
-      "type": "Base",
+      "type": "Hero",
       "cost": null,
       "power": null,
       "hp": 30,
@@ -421,7 +421,7 @@
     {
       "id": "SHD-024",
       "class": null,
-      "type": "Base",
+      "type": "Hero",
       "cost": null,
       "power": null,
       "hp": 30,
@@ -438,7 +438,7 @@
     {
       "id": "SHD-025",
       "class": null,
-      "type": "Base",
+      "type": "Hero",
       "cost": null,
       "power": null,
       "hp": 30,
@@ -455,7 +455,7 @@
     {
       "id": "SHD-026",
       "class": null,
-      "type": "Base",
+      "type": "Hero",
       "cost": null,
       "power": null,
       "hp": 30,
@@ -524,7 +524,7 @@
         "Sentinel"
       ],
       "traitCount": 1,
-      "text": "Sentinel (Units can't attack your non-Sentinel units or your base.)",
+      "text": "Sentinel (Units can't attack your non-Sentinel units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -563,7 +563,7 @@
         "Shielded"
       ],
       "traitCount": 2,
-      "text": "Shielded \nAction[Exhaust]: Choose a unit. For this phase, it gains: \"Bounty - Heal 5 damage from a base.\" (When this unit is defeated or captured, its opponent collects its bounty.)",
+      "text": "Shielded \nAction[Exhaust]: Choose a unit. For this phase, it gains: \"Bounty - Heal 5 damage from a hero.\" (When this unit is defeated or captured, its opponent collects its bounty.)",
       "backText": null,
       "epicAction": null
     },
@@ -604,7 +604,7 @@
         "Grit"
       ],
       "traitCount": 1,
-      "text": "Grit \nWhile this unit is exhausted, she gains, \"Bounty - Deal 5 damage to a base.\" (When this unit is defeated or captured, your opponent collects its bounty.)",
+      "text": "Grit \nWhile this unit is exhausted, she gains, \"Bounty - Deal 5 damage to a hero.\" (When this unit is defeated or captured, your opponent collects its bounty.)",
       "backText": null,
       "epicAction": null
     },
@@ -625,7 +625,7 @@
         "Shielded"
       ],
       "traitCount": 3,
-      "text": "Shielded (When you play this unit, give a Shield token to it.) \nWhile this unit is upgraded, it gains Sentinel. (Units can't attack your non-Sentinel units or your base.)",
+      "text": "Shielded (When you play this unit, give a Shield token to it.) \nWhile this unit is upgraded, it gains Sentinel. (Units can't attack your non-Sentinel units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -645,7 +645,7 @@
         "Sentinel"
       ],
       "traitCount": 3,
-      "text": "Sentinel (Units can't attack your non-Sentinel units or your base.) \nWhen this unit is attacked: You may give an Experience token to a unit (before damage is dealt).",
+      "text": "Sentinel (Units can't attack your non-Sentinel units or your hero.) \nWhen this unit is attacked: You may give an Experience token to a unit (before damage is dealt).",
       "backText": null,
       "epicAction": null
     },
@@ -760,7 +760,7 @@
         "Restore"
       ],
       "traitCount": 1,
-      "text": "Restore 1 (When this unit attacks, heal 1 damage from your base.) \nOn Attack: Discard a card from your deck. If it shares an aspect with your base, return it to your hand.",
+      "text": "Restore 1 (When this unit attacks, heal 1 damage from your hero.) \nOn Attack: Discard a card from your deck. If it shares an aspect with your hero, return it to your hand.",
       "backText": null,
       "epicAction": null
     },
@@ -780,7 +780,7 @@
         "Sentinel"
       ],
       "traitCount": 3,
-      "text": "Sentinel (Units can't attack your non-Sentinel units or your base.) \nThis unit gets +2/+0 while defending.",
+      "text": "Sentinel (Units can't attack your non-Sentinel units or your hero.) \nThis unit gets +2/+0 while defending.",
       "backText": null,
       "epicAction": null
     },
@@ -801,7 +801,7 @@
         "Shielded"
       ],
       "traitCount": 1,
-      "text": "Sentinel (Units can't attack your non-Sentinel units or your base.) \nShielded (When you play this unit, give a Shield token to it.)",
+      "text": "Sentinel (Units can't attack your non-Sentinel units or your hero.) \nShielded (When you play this unit, give a Shield token to it.)",
       "backText": null,
       "epicAction": null
     },
@@ -821,7 +821,7 @@
         "Restore"
       ],
       "traitCount": 3,
-      "text": "Restore 2 (When this unit attacks, heal 2 damage from your base.) \nWhen Played: You may return an upgrade from your discard pile to your hand.",
+      "text": "Restore 2 (When this unit attacks, heal 2 damage from your hero.) \nWhen Played: You may return an upgrade from your discard pile to your hand.",
       "backText": null,
       "epicAction": null
     },
@@ -1014,7 +1014,7 @@
         "Restore"
       ],
       "traitCount": 1,
-      "text": "Restore 2 (When this unit attacks, heal 2 damage from your base.)",
+      "text": "Restore 2 (When this unit attacks, heal 2 damage from your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -1139,7 +1139,7 @@
         "Sentinel"
       ],
       "traitCount": 1,
-      "text": "Sentinel (Units can't attack your non-Sentinel units or your base.)",
+      "text": "Sentinel (Units can't attack your non-Sentinel units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -1158,7 +1158,7 @@
         "Sentinel"
       ],
       "traitCount": 2,
-      "text": "Sentinel (Units can't attack your non-Sentinel units or your base.)",
+      "text": "Sentinel (Units can't attack your non-Sentinel units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -1195,7 +1195,7 @@
         "Smuggle"
       ],
       "traitCount": 2,
-      "text": "Sentinel (Units can't attack your non-Sentinel units or your base.) \nSmuggle [7 resources Vigilance] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
+      "text": "Sentinel (Units can't attack your non-Sentinel units or your hero.) \nSmuggle [7 resources Vigilance] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
       "backText": null,
       "epicAction": null
     },
@@ -1214,7 +1214,7 @@
         "Shielded"
       ],
       "traitCount": 2,
-      "text": "Shielded (When you play this unit, give a Shield token to it.) \nWhen Played: If you control another Vigilance unit, heal 4 damage from your base.",
+      "text": "Shielded (When you play this unit, give a Shield token to it.) \nWhen Played: If you control another Vigilance unit, heal 4 damage from your hero.",
       "backText": null,
       "epicAction": null
     },
@@ -1299,7 +1299,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Attached unit gains: \"Bounty - Heal 4 damage from a unit or base. If this unit is unique, heal 6 damage instead.\" (When this unit is defeated or captured, its opponent collects its bounty.)",
+      "text": "Attached unit gains: \"Bounty - Heal 4 damage from a unit or hero. If this unit is unique, heal 6 damage instead.\" (When this unit is defeated or captured, its opponent collects its bounty.)",
       "backText": null,
       "epicAction": null
     },
@@ -1453,7 +1453,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "When Played: Heal 1 damage from your base. \nAction [Exhaust, return this unit to his owner's hand]: Deal 1 damage to a unit.",
+      "text": "When Played: Heal 1 damage from your hero. \nAction [Exhaust, return this unit to his owner's hand]: Deal 1 damage to a unit.",
       "backText": null,
       "epicAction": null
     },
@@ -1527,7 +1527,7 @@
         "Sentinel"
       ],
       "traitCount": 3,
-      "text": "Sentinel (Units can't attack your non-Sentinel units or your base.) \nWhen combat damage is dealt to this unit: Give an Experience token to this unit (if it survives the damage).",
+      "text": "Sentinel (Units can't attack your non-Sentinel units or your hero.) \nWhen combat damage is dealt to this unit: Give an Experience token to this unit (if it survives the damage).",
       "backText": null,
       "epicAction": null
     },
@@ -1601,7 +1601,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "On Attack: Choose an enemy non-leader unit that attacked your base this phase. A friendly unit captures that unit. (Put the captured card facedown under the friendly unit until the friendly unit leaves play.)",
+      "text": "On Attack: Choose an enemy non-leader unit that attacked your hero this phase. A friendly unit captures that unit. (Put the captured card facedown under the friendly unit until the friendly unit leaves play.)",
       "backText": null,
       "epicAction": null
     },
@@ -1622,7 +1622,7 @@
         "Smuggle"
       ],
       "traitCount": 3,
-      "text": "Sentinel (Units can't attack your non-Sentinel units or your base.) \nSmuggle [7 resources Command Villainy] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
+      "text": "Sentinel (Units can't attack your non-Sentinel units or your hero.) \nSmuggle [7 resources Command Villainy] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
       "backText": null,
       "epicAction": null
     },
@@ -1718,7 +1718,7 @@
         "Restore"
       ],
       "traitCount": 2,
-      "text": "Restore 1 (When this unit attacks, heal 1 damage from your base.) \nBounty - Draw a card. (When this unit is defeated or captured, your opponent collects its bounty.)",
+      "text": "Restore 1 (When this unit attacks, heal 1 damage from your hero.) \nBounty - Draw a card. (When this unit is defeated or captured, your opponent collects its bounty.)",
       "backText": null,
       "epicAction": null
     },
@@ -1777,7 +1777,7 @@
         "Restore"
       ],
       "traitCount": 2,
-      "text": "Raid 2 (This unit gets +2/+0 while attacking.) \nRestore 2 (When this unit attacks, heal 2 damage from your base.)",
+      "text": "Raid 2 (This unit gets +2/+0 while attacking.) \nRestore 2 (When this unit attacks, heal 2 damage from your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -1928,7 +1928,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "A friendly unit captures each enemy non-leader unit that attacked your base this phase.",
+      "text": "A friendly unit captures each enemy non-leader unit that attacked your hero this phase.",
       "backText": null,
       "epicAction": null
     },
@@ -2039,7 +2039,7 @@
         "Sentinel"
       ],
       "traitCount": 1,
-      "text": "While you control another Command unit, this unit gains Sentinel. (Units can't attack your non-Sentinel units or your base.)",
+      "text": "While you control another Command unit, this unit gains Sentinel. (Units can't attack your non-Sentinel units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -2147,7 +2147,7 @@
         "Overwhelm"
       ],
       "traitCount": 2,
-      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's base.) \nOn Attack: You may exhaust another friendly unit. If you do, this unit gets +3/+0 for this attack.",
+      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's hero.) \nOn Attack: You may exhaust another friendly unit. If you do, this unit gets +3/+0 for this attack.",
       "backText": null,
       "epicAction": null
     },
@@ -2204,7 +2204,7 @@
         "Overwhelm"
       ],
       "traitCount": 2,
-      "text": "Ambush (When you play this unit, it may ready and attack an enemy unit.)\nOverwhelm (When attacking an enemy unit, deal excess damage to the opponent's base.)",
+      "text": "Ambush (When you play this unit, it may ready and attack an enemy unit.)\nOverwhelm (When attacking an enemy unit, deal excess damage to the opponent's hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -2471,7 +2471,7 @@
         "Overwhelm"
       ],
       "traitCount": 2,
-      "text": "Grit (This unit gets +1/+0 for each damage on it.) \nOverwhelm (When attacking an enemy unit, deal excess damage to the opponent's base.)",
+      "text": "Grit (This unit gets +1/+0 for each damage on it.) \nOverwhelm (When attacking an enemy unit, deal excess damage to the opponent's hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -2547,7 +2547,7 @@
         "Overwhelm"
       ],
       "traitCount": 2,
-      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's base.) \nWhen Played: If an enemy unit has a Bounty, give an Experience token to this unit.",
+      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's hero.) \nWhen Played: If an enemy unit has a Bounty, give an Experience token to this unit.",
       "backText": null,
       "epicAction": null
     },
@@ -2583,7 +2583,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Attached unit gains: \"When this unit attacks and defeats a unit: Deal 2 damage to the defending player's base.\"",
+      "text": "Attached unit gains: \"When this unit attacks and defeats a unit: Deal 2 damage to the defending player's hero.\"",
       "backText": null,
       "epicAction": null
     },
@@ -2619,7 +2619,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Attack with up to 3 units (one at a time). They can't attack bases for these attacks. Each [TRAIT A] that attacks this way gets +2/+0 for its attack.",
+      "text": "Attack with up to 3 units (one at a time). They can't attack heroes for these attacks. Each [TRAIT A] that attacks this way gets +2/+0 for its attack.",
       "backText": null,
       "epicAction": null
     },
@@ -2659,7 +2659,7 @@
         "Saboteur"
       ],
       "traitCount": 3,
-      "text": "Saboteur (When this unit attacks, ignore Sentinel and defeat the defender's Shields.) \nWhen this unit deals combat damage to a base: You may defeat an upgrade that costs 2 or less.",
+      "text": "Saboteur (When this unit attacks, ignore Sentinel and defeat the defender's Shields.) \nWhen this unit deals combat damage to a hero: You may defeat an upgrade that costs 2 or less.",
       "backText": null,
       "epicAction": null
     },
@@ -2773,7 +2773,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "On Attack: Discard up to 3 cards from your hand. For each card discarded this way, choose a different option:\nDeal 2 damage to a unit or base.\nDefeat an upgrade.\nDn opponent discards a card from their hand.",
+      "text": "On Attack: Discard up to 3 cards from your hand. For each card discarded this way, choose a different option:\nDeal 2 damage to a unit or hero.\nDefeat an upgrade.\nDn opponent discards a card from their hand.",
       "backText": null,
       "epicAction": null
     },
@@ -2847,7 +2847,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "When Defeated: For each player with 15 or more damage on their base, draw a card.",
+      "text": "When Defeated: For each player with 15 or more damage on their hero, draw a card.",
       "backText": null,
       "epicAction": null
     },
@@ -2885,7 +2885,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Deal damage to each player's base equal to the number of cards in that player's hand.",
+      "text": "Deal damage to each player's hero equal to the number of cards in that player's hand.",
       "backText": null,
       "epicAction": null
     },
@@ -2904,7 +2904,7 @@
         "Smuggle"
       ],
       "traitCount": 1,
-      "text": "When Played: Deal 1 damage to each base. \nSmuggle [3 resources Aggression] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
+      "text": "When Played: Deal 1 damage to each hero. \nSmuggle [3 resources Aggression] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
       "backText": null,
       "epicAction": null
     },
@@ -2959,7 +2959,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "When a player discards a card from their hand: You may deal 2 damage to a unit or base. Use this ability only once each round.",
+      "text": "When a player discards a card from their hand: You may deal 2 damage to a unit or hero. Use this ability only once each round.",
       "backText": null,
       "epicAction": null
     },
@@ -2976,7 +2976,7 @@
       ],
       "keywords": [],
       "traitCount": 3,
-      "text": "When Defeated: Deal 1 damage to a unit or base.",
+      "text": "When Defeated: Deal 1 damage to a unit or hero.",
       "backText": null,
       "epicAction": null
     },
@@ -2996,7 +2996,7 @@
         "Saboteur"
       ],
       "traitCount": 3,
-      "text": "Saboteur \nWhile this unit is exhausted, it gains: \"Bounty - Heal 5 damage from your base.\" (When this unit is defeated or captured, your opponent collects its bounty.)",
+      "text": "Saboteur \nWhile this unit is exhausted, it gains: \"Bounty - Heal 5 damage from your hero.\" (When this unit is defeated or captured, your opponent collects its bounty.)",
       "backText": null,
       "epicAction": null
     },
@@ -3071,7 +3071,7 @@
         "Raid"
       ],
       "traitCount": 2,
-      "text": "Raid 3 (This unit gets +3/+0 while attacking.) \nWhile this unit is upgraded, it gains Overwhelm. (When attacking an enemy unit, deal excess damage to the opponent's base.)",
+      "text": "Raid 3 (This unit gets +3/+0 while attacking.) \nWhile this unit is upgraded, it gains Overwhelm. (When attacking an enemy unit, deal excess damage to the opponent's hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -3124,7 +3124,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Overwhelm\nWhen an opponent plays a card: You may deal damage equal to that card's cost to their base or a unit they control.",
+      "text": "Overwhelm\nWhen an opponent plays a card: You may deal damage equal to that card's cost to their hero or a unit they control.",
       "backText": null,
       "epicAction": null
     },
@@ -3141,7 +3141,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Attached unit gains: \"Bounty - Deal 2 damage to a base. If this unit is unique, deal 3 damage instead.\" (When this unit is defeated or captured, its opponent collects its bounty.)",
+      "text": "Attached unit gains: \"Bounty - Deal 2 damage to a hero. If this unit is unique, deal 3 damage instead.\" (When this unit is defeated or captured, its opponent collects its bounty.)",
       "backText": null,
       "epicAction": null
     },
@@ -3226,7 +3226,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Deal 2 damage to a unit or base.",
+      "text": "Deal 2 damage to a unit or hero.",
       "backText": null,
       "epicAction": null
     },
@@ -4210,7 +4210,7 @@
         "Overwhelm"
       ],
       "traitCount": 2,
-      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's base.) \nWhen Played: Deal 2 damage to a friendly unit.",
+      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's hero.) \nWhen Played: Deal 2 damage to a friendly unit.",
       "backText": null,
       "epicAction": null
     },
@@ -4246,7 +4246,7 @@
         "Sentinel"
       ],
       "traitCount": 3,
-      "text": "Sentinel (Units can't attack your non-Sentinel units or your base.)",
+      "text": "Sentinel (Units can't attack your non-Sentinel units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -4265,7 +4265,7 @@
         "Sentinel"
       ],
       "traitCount": 2,
-      "text": "Sentinel (Units can't attack your non-Sentinel units or your base.)",
+      "text": "Sentinel (Units can't attack your non-Sentinel units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -4318,7 +4318,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "When an enemy unit attacks your base: Give a Shield token to a friendly unit.",
+      "text": "When an enemy unit attacks your hero: Give a Shield token to a friendly unit.",
       "backText": null,
       "epicAction": null
     },
@@ -4386,7 +4386,7 @@
       ],
       "keywords": [],
       "traitCount": 3,
-      "text": "On Attack: An opponent chooses a unit or base they control. You may deal 2 damage to it.",
+      "text": "On Attack: An opponent chooses a unit or hero they control. You may deal 2 damage to it.",
       "backText": null,
       "epicAction": null
     },
@@ -4405,7 +4405,7 @@
         "Sentinel"
       ],
       "traitCount": 1,
-      "text": "While this unit is upgraded, it gains Sentinel. (Units can't attack your non-Sentinel units or your base.)",
+      "text": "While this unit is upgraded, it gains Sentinel. (Units can't attack your non-Sentinel units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -4481,7 +4481,7 @@
         "Smuggle"
       ],
       "traitCount": 1,
-      "text": "Heal 3 damage from your base. \nSmuggle [3 resources Heroism] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
+      "text": "Heal 3 damage from your hero. \nSmuggle [3 resources Heroism] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
       "backText": null,
       "epicAction": null
     },
@@ -4528,7 +4528,7 @@
       "aspects": [],
       "keywords": [],
       "traitCount": 1,
-      "text": "When you play another [TRAIT A] card: You may deal 1 damage to a base.",
+      "text": "When you play another [TRAIT A] card: You may deal 1 damage to a hero.",
       "backText": null,
       "epicAction": null
     },
@@ -4590,7 +4590,7 @@
         "Restore"
       ],
       "traitCount": 3,
-      "text": "Restore 2 (When this unit attacks, heal 2 damage from your base.)",
+      "text": "Restore 2 (When this unit attacks, heal 2 damage from your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -4656,7 +4656,7 @@
       ],
       "traitCount": 2,
       "text": "Each friendly damaged unit gets +1/+0.",
-      "backText": "Restore 2 (When this unit attacks, heal 2 damage from your base.) Each friendly damaged unit gets +1/+0.",
+      "backText": "Restore 2 (When this unit attacks, heal 2 damage from your hero.) Each friendly damaged unit gets +1/+0.",
       "epicAction": "Epic Action: If you control 5 or more resources, deploy this leader."
     },
     {
@@ -4675,8 +4675,8 @@
         "Shielded"
       ],
       "traitCount": 2,
-      "text": "Action [[exhaust]]: If an enemy unit was defeated this phase, heal 1 damage from your base.",
-      "backText": "SHIELDED (When you deploy this leader, give her a Shield token.)\nWhen an enemy unit is defeated: Heal 1 damage from your base.",
+      "text": "Action [[exhaust]]: If an enemy unit was defeated this phase, heal 1 damage from your hero.",
+      "backText": "SHIELDED (When you deploy this leader, give her a Shield token.)\nWhen an enemy unit is defeated: Heal 1 damage from your hero.",
       "epicAction": "Epic Action: If you control 6 or more resources, deploy this leader."
     },
     {
@@ -4697,7 +4697,7 @@
       ],
       "traitCount": 2,
       "text": "Action [[exhaust]]: Play a unit that costs 3 or less from your hand (paying its cost). It gains Sentinel for this phase.",
-      "backText": "SENTINEL (Units can't attack your non-Sentinel units or your base.)\nGRIT (This unit gets +1/+0 for each damage on it.)",
+      "backText": "SENTINEL (Units can't attack your non-Sentinel units or your hero.)\nGRIT (This unit gets +1/+0 for each damage on it.)",
       "epicAction": "Epic Action: If you control 7 or more resources, deploy this leader."
     },
     {
@@ -4824,7 +4824,7 @@
       ],
       "keywords": [],
       "traitCount": 3,
-      "text": "Action [[1 resource], [exhaust]]: If you played a Villainy card this phase, deal 1 damage to a unit and 1 damage to a base.",
+      "text": "Action [[1 resource], [exhaust]]: If you played a Villainy card this phase, deal 1 damage to a unit and 1 damage to a hero.",
       "backText": "On Attack: You may deal 2 damage to a unit.",
       "epicAction": "Epic Action: If you control 7 or more resources, deploy this leader. (Flip him, ready him.)"
     },
@@ -4882,8 +4882,8 @@
         "Saboteur"
       ],
       "traitCount": 1,
-      "text": "Action [1, [exhaust]]: If you've dealt 3 or more damage to an enemy base this phase, draw a card.",
-      "backText": "SABOTEUR (When this unit attacks, ignore Sentinel and defeat the defender's Shields.)\nWhen you deal damage to an enemy base: You may draw a card. Use this ability only once each round.",
+      "text": "Action [1, [exhaust]]: If you've dealt 3 or more damage to an enemy hero this phase, draw a card.",
+      "backText": "SABOTEUR (When this unit attacks, ignore Sentinel and defeat the defender's Shields.)\nWhen you deal damage to an enemy hero: You may draw a card. Use this ability only once each round.",
       "epicAction": "Epic Action: If you control 6 or more resources, deploy this leader."
     },
     {
@@ -4900,8 +4900,8 @@
       ],
       "keywords": [],
       "traitCount": 3,
-      "text": "Action [[exhaust]]: Deal 1 damage to each base.",
-      "backText": "On Attack: Deal 1 damage to each enemy base.",
+      "text": "Action [[exhaust]]: Deal 1 damage to each hero.",
+      "backText": "On Attack: Deal 1 damage to each enemy hero.",
       "epicAction": "Epic Action: If you control 4 or more resources, deploy this leader."
     },
     {
@@ -4979,7 +4979,7 @@
     {
       "id": "SOR-019",
       "class": null,
-      "type": "Base",
+      "type": "Hero",
       "cost": null,
       "power": null,
       "hp": 25,
@@ -4996,7 +4996,7 @@
     {
       "id": "SOR-020",
       "class": null,
-      "type": "Base",
+      "type": "Hero",
       "cost": null,
       "power": null,
       "hp": 30,
@@ -5013,7 +5013,7 @@
     {
       "id": "SOR-021",
       "class": null,
-      "type": "Base",
+      "type": "Hero",
       "cost": null,
       "power": null,
       "hp": 30,
@@ -5030,7 +5030,7 @@
     {
       "id": "SOR-022",
       "class": null,
-      "type": "Base",
+      "type": "Hero",
       "cost": null,
       "power": null,
       "hp": 25,
@@ -5049,7 +5049,7 @@
     {
       "id": "SOR-023",
       "class": null,
-      "type": "Base",
+      "type": "Hero",
       "cost": null,
       "power": null,
       "hp": 30,
@@ -5066,7 +5066,7 @@
     {
       "id": "SOR-024",
       "class": null,
-      "type": "Base",
+      "type": "Hero",
       "cost": null,
       "power": null,
       "hp": 30,
@@ -5083,7 +5083,7 @@
     {
       "id": "SOR-025",
       "class": null,
-      "type": "Base",
+      "type": "Hero",
       "cost": null,
       "power": null,
       "hp": 25,
@@ -5100,7 +5100,7 @@
     {
       "id": "SOR-026",
       "class": null,
-      "type": "Base",
+      "type": "Hero",
       "cost": null,
       "power": null,
       "hp": 30,
@@ -5117,7 +5117,7 @@
     {
       "id": "SOR-027",
       "class": null,
-      "type": "Base",
+      "type": "Hero",
       "cost": null,
       "power": null,
       "hp": 30,
@@ -5134,7 +5134,7 @@
     {
       "id": "SOR-028",
       "class": null,
-      "type": "Base",
+      "type": "Hero",
       "cost": null,
       "power": null,
       "hp": 25,
@@ -5151,7 +5151,7 @@
     {
       "id": "SOR-029",
       "class": null,
-      "type": "Base",
+      "type": "Hero",
       "cost": null,
       "power": null,
       "hp": 30,
@@ -5168,7 +5168,7 @@
     {
       "id": "SOR-030",
       "class": null,
-      "type": "Base",
+      "type": "Hero",
       "cost": null,
       "power": null,
       "hp": 30,
@@ -5254,7 +5254,7 @@
         "Restore"
       ],
       "traitCount": 2,
-      "text": "Restore 1 (When this unit attacks, heal 1 damage from your base.) \nEach event an opponent plays costs 1 more.",
+      "text": "Restore 1 (When this unit attacks, heal 1 damage from your hero.) \nEach event an opponent plays costs 1 more.",
       "backText": null,
       "epicAction": null
     },
@@ -5274,7 +5274,7 @@
         "Sentinel"
       ],
       "traitCount": 2,
-      "text": "Sentinel (Units can't attack your non-sentinel units or your base.)\nWhen Played: Reveal up to 4 Vigilance cards from your hand. For each card revealed this way, give an Experience token to this unit.",
+      "text": "Sentinel (Units can't attack your non-sentinel units or your hero.)\nWhen Played: Reveal up to 4 Vigilance cards from your hand. For each card revealed this way, give an Experience token to this unit.",
       "backText": null,
       "epicAction": null
     },
@@ -5312,7 +5312,7 @@
         "Sentinel"
       ],
       "traitCount": 3,
-      "text": "SENTINEL (Units can't attack your non-Sentinel units or your base.) \nWhen Played: Give an Experience token to each friendly damaged unit.",
+      "text": "SENTINEL (Units can't attack your non-Sentinel units or your hero.) \nWhen Played: Give an Experience token to each friendly damaged unit.",
       "backText": null,
       "epicAction": null
     },
@@ -5442,7 +5442,7 @@
         "Restore"
       ],
       "traitCount": 3,
-      "text": "Restore 1 (When this unit attacks, heal 1 damage from your base.)",
+      "text": "Restore 1 (When this unit attacks, heal 1 damage from your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -5462,7 +5462,7 @@
         "Restore"
       ],
       "traitCount": 2,
-      "text": "Restore 2 (When this unit attacks, heal 2 damage from your base.)\nWhen Defeated: Choose any number of players. They each draw a card.",
+      "text": "Restore 2 (When this unit attacks, heal 2 damage from your hero.)\nWhen Defeated: Choose any number of players. They each draw a card.",
       "backText": null,
       "epicAction": null
     },
@@ -5498,7 +5498,7 @@
       ],
       "keywords": [],
       "traitCount": 4,
-      "text": "On Attack: You may discard 1 card from the defending player's deck for each friendly [TRAIT A] unit. Heal 1 damage from your base for each different aspect among the discarded cards.",
+      "text": "On Attack: You may discard 1 card from the defending player's deck for each friendly [TRAIT A] unit. Heal 1 damage from your hero for each different aspect among the discarded cards.",
       "backText": null,
       "epicAction": null
     },
@@ -5518,7 +5518,7 @@
         "Sentinel"
       ],
       "traitCount": 1,
-      "text": "While this unit is undamaged, it gains Sentinel (Units can't attack your non-Sentinel units or your base.)",
+      "text": "While this unit is undamaged, it gains Sentinel (Units can't attack your non-Sentinel units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -5538,7 +5538,7 @@
         "Sentinel"
       ],
       "traitCount": 2,
-      "text": "Sentinel (Units can't attack your non-Sentinel units or your base.) \nWhen Defeated: Give 2 Experience tokens to another friendly unit. If it's a [TRAIT A] unit, draw a card.",
+      "text": "Sentinel (Units can't attack your non-Sentinel units or your hero.) \nWhen Defeated: Give 2 Experience tokens to another friendly unit. If it's a [TRAIT A] unit, draw a card.",
       "backText": null,
       "epicAction": null
     },
@@ -5598,7 +5598,7 @@
         "Sentinel"
       ],
       "traitCount": 3,
-      "text": "SENTINEL (Units can't attack your non-Sentinel units or your base.) \nWhen Played: Heal up to 8 total damage from any number of units and/or bases. Deal that much damage to this unit.",
+      "text": "SENTINEL (Units can't attack your non-Sentinel units or your hero.) \nWhen Played: Heal up to 8 total damage from any number of units and/or heroes. Deal that much damage to this unit.",
       "backText": null,
       "epicAction": null
     },
@@ -5654,7 +5654,7 @@
         "Sentinel"
       ],
       "traitCount": 2,
-      "text": "SENTINEL (Units can't attack your non-Sentinel units or your base.) \nOn Attack: The next non-Heroism, non-Villainy card you play this phase costs 2 less.",
+      "text": "SENTINEL (Units can't attack your non-Sentinel units or your hero.) \nOn Attack: The next non-Heroism, non-Villainy card you play this phase costs 2 less.",
       "backText": null,
       "epicAction": null
     },
@@ -5674,7 +5674,7 @@
         "Sentinel"
       ],
       "traitCount": 1,
-      "text": "Attached unit gains SENTINEL. (Units can't attack your non-Sentinel units or your base.)",
+      "text": "Attached unit gains SENTINEL. (Units can't attack your non-Sentinel units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -5692,7 +5692,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Choose two, in any order:\nDiscard 6 cards from an opponent's deck. \nHeal 5 damage from a base. \nDefeat a unit with 3 or less remaining HP. \nGive a Shield token to a unit.",
+      "text": "Choose two, in any order:\nDiscard 6 cards from an opponent's deck. \nHeal 5 damage from a hero. \nDefeat a unit with 3 or less remaining HP. \nGive a Shield token to a unit.",
       "backText": null,
       "epicAction": null
     },
@@ -5779,7 +5779,7 @@
         "Sentinel"
       ],
       "traitCount": 2,
-      "text": "Sentinel (Units can't attack your non-Sentinel units or your base.)",
+      "text": "Sentinel (Units can't attack your non-Sentinel units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -5818,7 +5818,7 @@
         "Sentinel"
       ],
       "traitCount": 1,
-      "text": "GRIT (This unit gets +1/+0 for each damage on him.)\nWhile you have the initiative, this unit gains SENTINEL. (Units can't attack your non-Sentinel units or your base.)",
+      "text": "GRIT (This unit gets +1/+0 for each damage on him.)\nWhile you have the initiative, this unit gains SENTINEL. (Units can't attack your non-Sentinel units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -5837,7 +5837,7 @@
         "Sentinel"
       ],
       "traitCount": 2,
-      "text": "Sentinel (Units can't attack your non-Sentinel units or your base.)",
+      "text": "Sentinel (Units can't attack your non-Sentinel units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -5875,7 +5875,7 @@
         "Shielded"
       ],
       "traitCount": 2,
-      "text": "SHIELDED (When you play this unit, give a Shield token to it.)\nWhen Played: If you control another Vigilance unit, heal 4 damage from your base.",
+      "text": "SHIELDED (When you play this unit, give a Shield token to it.)\nWhen Played: If you control another Vigilance unit, heal 4 damage from your hero.",
       "backText": null,
       "epicAction": null
     },
@@ -5911,7 +5911,7 @@
         "Restore"
       ],
       "traitCount": 1,
-      "text": "Attached unit gains RESTORE 2. (When this unit attacks, heal 2 damage from its controller's base.)",
+      "text": "Attached unit gains RESTORE 2. (When this unit attacks, heal 2 damage from its controller's hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -5945,7 +5945,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Attached unit can't attack bases.",
+      "text": "Attached unit can't attack heroes.",
       "backText": null,
       "epicAction": null
     },
@@ -5979,7 +5979,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Heal 3 damage from a unit or base.",
+      "text": "Heal 3 damage from a unit or hero.",
       "backText": null,
       "epicAction": null
     },
@@ -6013,7 +6013,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Give a unit -2/-2 for this phase. Heal 2 damage from your base.",
+      "text": "Give a unit -2/-2 for this phase. Heal 2 damage from your hero.",
       "backText": null,
       "epicAction": null
     },
@@ -6179,7 +6179,7 @@
         "Sentinel"
       ],
       "traitCount": 3,
-      "text": "When Played: Give a unit Sentinel for this phase. (Units can't attack your non-Sentinel units or your base.)",
+      "text": "When Played: Give a unit Sentinel for this phase. (Units can't attack your non-Sentinel units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -6384,7 +6384,7 @@
         "Restore"
       ],
       "traitCount": 2,
-      "text": "Restore 1 (When this unit attacks, heal 1 damage from your base.)\nWhen Played: You may deal damage to a unit equal to the number of units you control.",
+      "text": "Restore 1 (When this unit attacks, heal 1 damage from your hero.)\nWhen Played: You may deal damage to a unit equal to the number of units you control.",
       "backText": null,
       "epicAction": null
     },
@@ -6404,7 +6404,7 @@
         "Sentinel"
       ],
       "traitCount": 2,
-      "text": "SENTINEL (Units can't attack your non-Sentinel units or your base.)",
+      "text": "SENTINEL (Units can't attack your non-Sentinel units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -6424,7 +6424,7 @@
         "Sentinel"
       ],
       "traitCount": 3,
-      "text": "SENTINEL (Units can't attack your non-Sentinel units or your base.)\nWhen Played: You may return a friendly non-leader unit to its owner's hand. if you do, draw a card.",
+      "text": "SENTINEL (Units can't attack your non-Sentinel units or your hero.)\nWhen Played: You may return a friendly non-leader unit to its owner's hand. if you do, draw a card.",
       "backText": null,
       "epicAction": null
     },
@@ -6608,7 +6608,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "When you play a Command unit (including this one): Heal 1 damage from your base.",
+      "text": "When you play a Command unit (including this one): Heal 1 damage from your hero.",
       "backText": null,
       "epicAction": null
     },
@@ -6625,7 +6625,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Action [defeat this unit]: Attack with a unit, even if it's exhausted. it can't attack bases for this attack.",
+      "text": "Action [defeat this unit]: Attack with a unit, even if it's exhausted. it can't attack heroes for this attack.",
       "backText": null,
       "epicAction": null
     },
@@ -6661,7 +6661,7 @@
         "Restore"
       ],
       "traitCount": 3,
-      "text": "While you have the initiative, this unit gains RESTORE 2. (When this unit attacks, heal 2 damage from your base.)",
+      "text": "While you have the initiative, this unit gains RESTORE 2. (When this unit attacks, heal 2 damage from your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -6680,7 +6680,7 @@
         "Sentinel"
       ],
       "traitCount": 2,
-      "text": "While you control 6 or more resources, this unit gains SENTINEL. (Units can't attack your non-Sentinel units or your base.)",
+      "text": "While you control 6 or more resources, this unit gains SENTINEL. (Units can't attack your non-Sentinel units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -6737,7 +6737,7 @@
         "Overwhelm"
       ],
       "traitCount": 1,
-      "text": "OVERWHELM (When attacking an enemy unit, deal excess damage to the opponent's base.)\nOn Attack: If you control a leader unit, give a friendly unit +2/+2 for this phase.",
+      "text": "OVERWHELM (When attacking an enemy unit, deal excess damage to the opponent's hero.)\nOn Attack: If you control a leader unit, give a friendly unit +2/+2 for this phase.",
       "backText": null,
       "epicAction": null
     },
@@ -6757,7 +6757,7 @@
         "Overwhelm"
       ],
       "traitCount": 2,
-      "text": "AMBUSH (After you play this unit, it may ready and attack an enemy unit.)\nOVERWHELM (When attacking an enemy unit, deal excess damage to the opponent's base.)",
+      "text": "AMBUSH (After you play this unit, it may ready and attack an enemy unit.)\nOVERWHELM (When attacking an enemy unit, deal excess damage to the opponent's hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -6791,7 +6791,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "When Played/On Attack: Look at the top card of your deck. Either draw that card or discard it and heal 3 damage from your base.",
+      "text": "When Played/On Attack: Look at the top card of your deck. Either draw that card or discard it and heal 3 damage from your hero.",
       "backText": null,
       "epicAction": null
     },
@@ -6825,7 +6825,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Attach to a [TRAIT A] unit.\nAttached unit gains: \"On Attack: If this unit isn't attacking a base, you may deal 2 damage to a unit.\"",
+      "text": "Attach to a [TRAIT A] unit.\nAttached unit gains: \"On Attack: If this unit isn't attacking a hero, you may deal 2 damage to a unit.\"",
       "backText": null,
       "epicAction": null
     },
@@ -6983,7 +6983,7 @@
         "Overwhelm"
       ],
       "traitCount": 2,
-      "text": "While attacking a damaged unit, this unit gets +2/+0 and gains Overwhelm. (Deal excess damage to the opponent's base.)",
+      "text": "While attacking a damaged unit, this unit gets +2/+0 and gains Overwhelm. (Deal excess damage to the opponent's hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -7041,7 +7041,7 @@
         "Saboteur"
       ],
       "traitCount": 3,
-      "text": "SABOTEUR (When this unit attacks, ignore Sentinel and defeat the defender's Shields.)\nWhen this unit deals combat damage to an opponent's base: You may deal 3 damage to a unit that opponent controls.",
+      "text": "SABOTEUR (When this unit attacks, ignore Sentinel and defeat the defender's Shields.)\nWhen this unit deals combat damage to an opponent's hero: You may deal 3 damage to a unit that opponent controls.",
       "backText": null,
       "epicAction": null
     },
@@ -7059,7 +7059,7 @@
       ],
       "keywords": [],
       "traitCount": 3,
-      "text": "When Played/When Defeated: Deal 2 damage to an enemy base and 2 damage to an enemy unit.",
+      "text": "When Played/When Defeated: Deal 2 damage to an enemy hero and 2 damage to an enemy unit.",
       "backText": null,
       "epicAction": null
     },
@@ -7079,7 +7079,7 @@
         "Overwhelm"
       ],
       "traitCount": 4,
-      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's base.) \nWhen Played: Deal 6 damage divided as you choose among enemy units.",
+      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's hero.) \nWhen Played: Deal 6 damage divided as you choose among enemy units.",
       "backText": null,
       "epicAction": null
     },
@@ -7191,7 +7191,7 @@
       ],
       "keywords": [],
       "traitCount": 3,
-      "text": "While there are at least 3 aspects among other friendly units, this unit can't be attacked (unless she gains Sentinel). \nOn Attack: You may deal 1 damage to the defender or to a base.",
+      "text": "While there are at least 3 aspects among other friendly units, this unit can't be attacked (unless she gains Sentinel). \nOn Attack: You may deal 1 damage to the defender or to a hero.",
       "backText": null,
       "epicAction": null
     },
@@ -7211,7 +7211,7 @@
         "Saboteur"
       ],
       "traitCount": 2,
-      "text": "Saboteur (When this unit attacks, ignore Sentinel and defeat the defender's Shields.) \nWhen you play another aggression card: You may deal 1 damage to a base.",
+      "text": "Saboteur (When this unit attacks, ignore Sentinel and defeat the defender's Shields.) \nWhen you play another aggression card: You may deal 1 damage to a hero.",
       "backText": null,
       "epicAction": null
     },
@@ -7251,7 +7251,7 @@
         "Overwhelm"
       ],
       "traitCount": 2,
-      "text": "OVERWHELM\nWhen Defeated: For each opponent, choose one: either deal 3 damage to that player's base, or that player discards a card from their hand.",
+      "text": "OVERWHELM\nWhen Defeated: For each opponent, choose one: either deal 3 damage to that player's hero, or that player discards a card from their hand.",
       "backText": null,
       "epicAction": null
     },
@@ -7307,7 +7307,7 @@
         "Grit"
       ],
       "traitCount": 3,
-      "text": "GRIT (This unit gets +1/+0 for each damage on it.)\nWhen Played: If a base has 15 or more damage on it, ready this unit.",
+      "text": "GRIT (This unit gets +1/+0 for each damage on it.)\nWhen Played: If a hero has 15 or more damage on it, ready this unit.",
       "backText": null,
       "epicAction": null
     },
@@ -7381,7 +7381,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Reveal the top 4 cards of your deck. For each Heroism card revealed this way, deal 1 damage to an enemy base. You may discard any of the revealed cards and put the rest back on top of your deck in any order.",
+      "text": "Reveal the top 4 cards of your deck. For each Heroism card revealed this way, deal 1 damage to an enemy hero. You may discard any of the revealed cards and put the rest back on top of your deck in any order.",
       "backText": null,
       "epicAction": null
     },
@@ -7399,7 +7399,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "As an additional cost for each opponent to play an event, they must deal 2 damage to their base.",
+      "text": "As an additional cost for each opponent to play an event, they must deal 2 damage to their hero.",
       "backText": null,
       "epicAction": null
     },
@@ -7494,7 +7494,7 @@
         "Saboteur"
       ],
       "traitCount": 1,
-      "text": "SABOTEUR (When this unit attacks, ignore Sentinel and defeat the defender's Shields.)\nOn Attack: If you control a leader unit, deal 2 damage to a unit or a base.",
+      "text": "SABOTEUR (When this unit attacks, ignore Sentinel and defeat the defender's Shields.)\nOn Attack: If you control a leader unit, deal 2 damage to a unit or a hero.",
       "backText": null,
       "epicAction": null
     },
@@ -7532,7 +7532,7 @@
         "Saboteur"
       ],
       "traitCount": 2,
-      "text": "SABOTEUR (When this unit attacks, ignore Sentinel and defeat the defender's Shields.)\nWhen Played/On Attack: Bases can't be healed for this phase.",
+      "text": "SABOTEUR (When this unit attacks, ignore Sentinel and defeat the defender's Shields.)\nWhen Played/On Attack: Heroes can't be healed for this phase.",
       "backText": null,
       "epicAction": null
     },
@@ -7602,7 +7602,7 @@
         "Overwhelm"
       ],
       "traitCount": 1,
-      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's base.)",
+      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -7795,7 +7795,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Draw 2 cards. Each opponent whose base you've damaged this phase discards 2 cards from their hand.",
+      "text": "Draw 2 cards. Each opponent whose hero you've damaged this phase discards 2 cards from their hand.",
       "backText": null,
       "epicAction": null
     },
@@ -8174,7 +8174,7 @@
         "Sentinel"
       ],
       "traitCount": 2,
-      "text": "Sentinel (Units can't attack your non-Sentinel units or your base.)\nWhen this unit is attacked: Ready him.",
+      "text": "Sentinel (Units can't attack your non-Sentinel units or your hero.)\nWhen this unit is attacked: Ready him.",
       "backText": null,
       "epicAction": null
     },
@@ -8450,7 +8450,7 @@
         "Sentinel"
       ],
       "traitCount": 1,
-      "text": "While you control another Cunning unit, this unit gains SENTINEL. (Units can't attack your non-Sentinel units or your base.)",
+      "text": "While you control another Cunning unit, this unit gains SENTINEL. (Units can't attack your non-Sentinel units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -8760,7 +8760,7 @@
         "Sentinel"
       ],
       "traitCount": 2,
-      "text": "Sentinel (Units can't attack your non-Sentinel units or your base.)",
+      "text": "Sentinel (Units can't attack your non-Sentinel units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -8813,7 +8813,7 @@
         "Overwhelm"
       ],
       "traitCount": 3,
-      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's base.)",
+      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -8864,7 +8864,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Play a non-Heroism unit from your hand for free. Deal damage to your base equal to its cost.",
+      "text": "Play a non-Heroism unit from your hand for free. Deal damage to your hero equal to its cost.",
       "backText": null,
       "epicAction": null
     },
@@ -9004,7 +9004,7 @@
         "Restore"
       ],
       "traitCount": 1,
-      "text": "RESTORE 2 (When this unit attacks, heal 2 damage from your base.)",
+      "text": "RESTORE 2 (When this unit attacks, heal 2 damage from your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -9057,7 +9057,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Look at the top card of your deck. You may play it. It costs 5 less. If your base has 5 or less remaining HP, you may play it for free instead.",
+      "text": "Look at the top card of your deck. You may play it. It costs 5 less. If your hero has 5 or less remaining HP, you may play it for free instead.",
       "backText": null,
       "epicAction": null
     },
@@ -9123,7 +9123,7 @@
         "Sentinel"
       ],
       "traitCount": 2,
-      "text": "SENTINEL (Units can't attack your non-Sentinel units or your base.)",
+      "text": "SENTINEL (Units can't attack your non-Sentinel units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -9172,7 +9172,7 @@
       "keywords": [],
       "traitCount": 1,
       "text": "Ignore the aspect penalty on [TRAIT A] units you play.",
-      "backText": "Ignore the aspect penalty on [TRAIT A] units you play.\nEach friendly [TRAIT A] unit gains: \"When Defeated: Heal 2 damage from your base.\"",
+      "backText": "Ignore the aspect penalty on [TRAIT A] units you play.\nEach friendly [TRAIT A] unit gains: \"When Defeated: Heal 2 damage from your hero.\"",
       "epicAction": "Epic Action: If you control 6 or more resources, deploy this leader."
     },
     {
@@ -9210,7 +9210,7 @@
       ],
       "traitCount": 3,
       "text": "Action [Exhaust]: Heal 1 damage from a unit.",
-      "backText": "Sentinel (Units can't attack your non-Sentinel units or your base.)\nOn Attack: Heal 1 damage from a unit. If you do, deal 1 damage to a different unit.",
+      "backText": "Sentinel (Units can't attack your non-Sentinel units or your hero.)\nOn Attack: Heal 1 damage from a unit. If you do, deal 1 damage to a different unit.",
       "epicAction": "Epic Action: If you control 6 or more resources, deploy this leader."
     },
     {
@@ -9250,7 +9250,7 @@
       ],
       "traitCount": 3,
       "text": "Action [Exhaust]: Play a [TRAIT A] card from your hand. It gains Exploit 1. (You may defeat 1 unit you control. If you do, that card costs 2 less.)",
-      "backText": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's base.)\nOn Attack: The next [TRAIT A] card you play this phase gains Exploit 3.",
+      "backText": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's hero.)\nOn Attack: The next [TRAIT A] card you play this phase gains Exploit 3.",
       "epicAction": "Epic Action: If you control 7 or more resources, deploy this leader."
     },
     {
@@ -9307,7 +9307,7 @@
       ],
       "traitCount": 3,
       "text": "Coordinate — Action [1 resource, Exhaust]: Search the top 3 cards of your deck for a [TRAIT A] card, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order. Gain this ability while you control 3 or more units.)",
-      "backText": "Restore 1 (When this unit attacks, heal 1 damage from your base.)\nCoordinate - On Attack: Search the top 3 cards of your deck for a [TRAIT A] card, reveal it, and draw it.",
+      "backText": "Restore 1 (When this unit attacks, heal 1 damage from your hero.)\nCoordinate - On Attack: Search the top 3 cards of your deck for a [TRAIT A] card, reveal it, and draw it.",
       "epicAction": "Epic Action: If you control 5 or more resources, deploy this leader."
     },
     {
@@ -9326,7 +9326,7 @@
         "Overwhelm"
       ],
       "traitCount": 2,
-      "text": "Action [Exhaust]: Attack with a unit. It gains Overwhelm for this attack. (When attacking an enemy unit, deal excess damage to the opponent’s base.)",
+      "text": "Action [Exhaust]: Attack with a unit. It gains Overwhelm for this attack. (When attacking an enemy unit, deal excess damage to the opponent’s hero.)",
       "backText": "Overwhelm\nEach other friendly unit gains Overwhelm.",
       "epicAction": "Epic Action: If you control 6 or more resources, deploy this leader."
     },
@@ -9386,8 +9386,8 @@
         "Overwhelm"
       ],
       "traitCount": 3,
-      "text": "Action [Exhaust, deal 2 damage to your base]: Attack with a unit. If it’s attacking a unit, it gets +2/+0 for this attack.",
-      "backText": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent’s base.)\nThis unit gets +1/+0 for every 5 damage on your base.",
+      "text": "Action [Exhaust, deal 2 damage to your hero]: Attack with a unit. If it’s attacking a unit, it gets +2/+0 for this attack.",
+      "backText": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent’s hero.)\nThis unit gets +1/+0 for every 5 damage on your hero.",
       "epicAction": "Epic Action: If you control 6 or more resources, deploy this leader."
     },
     {
@@ -9442,7 +9442,7 @@
         "Sentinel"
       ],
       "traitCount": 2,
-      "text": "Action [Exhaust]: Give a [TRAIT A] unit Sentinel for this phase. (Units can't attack your non-Sentinel units or your base.)",
+      "text": "Action [Exhaust]: Give a [TRAIT A] unit Sentinel for this phase. (Units can't attack your non-Sentinel units or your hero.)",
       "backText": "On Attack: You may give a [TRAIT A] unit +1/+0 and Sentinel for this phase.",
       "epicAction": "Epic Action: If you control 6 or more resources, deploy this leader. (Flip him, ready him.)"
     },
@@ -9479,8 +9479,8 @@
       ],
       "keywords": [],
       "traitCount": 5,
-      "text": "This leader starts the game with this side faceup.\nAction [Exhaust]: If a friendly Heroism unit was defeated this phase, draw a card, heal 2 damage from your base, then flip this leader.",
-      "backText": "Action [Exhaust]: If you played a Villainy card this phase, create a [TRAIT B] [TRAIT A] token, deal 2 damage to each enemy base, then flip this leader.",
+      "text": "This leader starts the game with this side faceup.\nAction [Exhaust]: If a friendly Heroism unit was defeated this phase, draw a card, heal 2 damage from your hero, then flip this leader.",
+      "backText": "Action [Exhaust]: If you played a Villainy card this phase, create a [TRAIT B] [TRAIT A] token, deal 2 damage to each enemy hero, then flip this leader.",
       "epicAction": null
     },
     {
@@ -9504,7 +9504,7 @@
     {
       "id": "TWI-019",
       "class": null,
-      "type": "Base",
+      "type": "Hero",
       "cost": null,
       "power": null,
       "hp": 26,
@@ -9521,7 +9521,7 @@
     {
       "id": "TWI-020",
       "class": null,
-      "type": "Base",
+      "type": "Hero",
       "cost": null,
       "power": null,
       "hp": 30,
@@ -9538,7 +9538,7 @@
     {
       "id": "TWI-021",
       "class": null,
-      "type": "Base",
+      "type": "Hero",
       "cost": null,
       "power": null,
       "hp": 30,
@@ -9555,7 +9555,7 @@
     {
       "id": "TWI-022",
       "class": null,
-      "type": "Base",
+      "type": "Hero",
       "cost": null,
       "power": null,
       "hp": 24,
@@ -9572,7 +9572,7 @@
     {
       "id": "TWI-023",
       "class": null,
-      "type": "Base",
+      "type": "Hero",
       "cost": null,
       "power": null,
       "hp": 30,
@@ -9589,7 +9589,7 @@
     {
       "id": "TWI-024",
       "class": null,
-      "type": "Base",
+      "type": "Hero",
       "cost": null,
       "power": null,
       "hp": 30,
@@ -9606,7 +9606,7 @@
     {
       "id": "TWI-025",
       "class": null,
-      "type": "Base",
+      "type": "Hero",
       "cost": null,
       "power": null,
       "hp": 25,
@@ -9623,7 +9623,7 @@
     {
       "id": "TWI-026",
       "class": null,
-      "type": "Base",
+      "type": "Hero",
       "cost": null,
       "power": null,
       "hp": 30,
@@ -9640,7 +9640,7 @@
     {
       "id": "TWI-027",
       "class": null,
-      "type": "Base",
+      "type": "Hero",
       "cost": null,
       "power": null,
       "hp": 30,
@@ -9657,7 +9657,7 @@
     {
       "id": "TWI-028",
       "class": null,
-      "type": "Base",
+      "type": "Hero",
       "cost": null,
       "power": null,
       "hp": 26,
@@ -9674,7 +9674,7 @@
     {
       "id": "TWI-029",
       "class": null,
-      "type": "Base",
+      "type": "Hero",
       "cost": null,
       "power": null,
       "hp": 30,
@@ -9691,7 +9691,7 @@
     {
       "id": "TWI-030",
       "class": null,
-      "type": "Base",
+      "type": "Hero",
       "cost": null,
       "power": null,
       "hp": 30,
@@ -9757,7 +9757,7 @@
         "Sentinel"
       ],
       "traitCount": 2,
-      "text": "When Played/When a friendly unit is defeated: This unit gains Sentinel for this phase. (Units can't attack your non-Sentinel units or your base.)",
+      "text": "When Played/When a friendly unit is defeated: This unit gains Sentinel for this phase. (Units can't attack your non-Sentinel units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -9833,7 +9833,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Exploit 2 (While playing this card, defeat up to 2 units you control. This card costs 2 less for each unit defeated this way.) \nSentinel (Units can't attack your non-Sentinel units or your base.)",
+      "text": "Exploit 2 (While playing this card, defeat up to 2 units you control. This card costs 2 less for each unit defeated this way.) \nSentinel (Units can't attack your non-Sentinel units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -9908,7 +9908,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Defeat a non-leader unit. Deal damage to your base equal to that unit's power.",
+      "text": "Defeat a non-leader unit. Deal damage to your hero equal to that unit's power.",
       "backText": null,
       "epicAction": null
     },
@@ -9946,7 +9946,7 @@
         "Sentinel"
       ],
       "traitCount": 2,
-      "text": "While you control another [TRAIT A] unit, this unit gains Sentinel. (Units can't attack your non-Sentinel units or your base.) \nWhen Defeated: Create a [TRAIT C] [TRAIT B] token.",
+      "text": "While you control another [TRAIT A] unit, this unit gains Sentinel. (Units can't attack your non-Sentinel units or your hero.) \nWhen Defeated: Create a [TRAIT C] [TRAIT B] token.",
       "backText": null,
       "epicAction": null
     },
@@ -10081,7 +10081,7 @@
         "Grit"
       ],
       "traitCount": 3,
-      "text": "Coordinate - Grit (Gain this keyword while you control 3 or more units. This unit gets +1/+0 for each damage on her.) \nWhen Played: Choose a base. Heal 1 damage from it for each unit you control.",
+      "text": "Coordinate - Grit (Gain this keyword while you control 3 or more units. This unit gets +1/+0 for each damage on her.) \nWhen Played: Choose a hero. Heal 1 damage from it for each unit you control.",
       "backText": null,
       "epicAction": null
     },
@@ -10156,7 +10156,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "While an opponent controls 3 or more units, this unit gains Sentinel. (Units can't attack your non-Sentinel units or your base.)",
+      "text": "While an opponent controls 3 or more units, this unit gains Sentinel. (Units can't attack your non-Sentinel units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -10191,7 +10191,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Action [2 resources, exhaust]: Heal 2 damage from a unit or base.",
+      "text": "Action [2 resources, exhaust]: Heal 2 damage from a unit or hero.",
       "backText": null,
       "epicAction": null
     },
@@ -10279,7 +10279,7 @@
         "Sentinel"
       ],
       "traitCount": 3,
-      "text": "Coordinate - Sentinel (Gain this keyword while you control 3 or more units. Units can't attack your non-Sentinel units or your base.)",
+      "text": "Coordinate - Sentinel (Gain this keyword while you control 3 or more units. Units can't attack your non-Sentinel units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -10298,7 +10298,7 @@
         "Restore"
       ],
       "traitCount": 2,
-      "text": "While this unit is undamaged, it gains Restore 2. (When this unit attacks, heal 2 damage from your base.)",
+      "text": "While this unit is undamaged, it gains Restore 2. (When this unit attacks, heal 2 damage from your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -10353,7 +10353,7 @@
         "Sentinel"
       ],
       "traitCount": 3,
-      "text": "Sentinel (Units can't attack your non-Sentinel units or your base.)",
+      "text": "Sentinel (Units can't attack your non-Sentinel units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -10459,7 +10459,7 @@
         "Sentinel"
       ],
       "traitCount": 1,
-      "text": "Attached unit gains Sentinel. (Units can't attack your non-Sentinel units or your base.)",
+      "text": "Attached unit gains Sentinel. (Units can't attack your non-Sentinel units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -10512,7 +10512,7 @@
         "Sentinel"
       ],
       "traitCount": 1,
-      "text": "Give a unit Sentinel for this phase. (Units can't attack your non-Sentinel units or your base.) If you have the initiative, also give that unit +2/+2 for this phase.",
+      "text": "Give a unit Sentinel for this phase. (Units can't attack your non-Sentinel units or your hero.) If you have the initiative, also give that unit +2/+2 for this phase.",
       "backText": null,
       "epicAction": null
     },
@@ -10864,7 +10864,7 @@
         "Overwhelm"
       ],
       "traitCount": 3,
-      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's base.)",
+      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -10960,7 +10960,7 @@
         "Sentinel"
       ],
       "traitCount": 3,
-      "text": "This unit costs 1 less to play for each unit controlled by the opponent who controls the most units. Sentinel (Units can't attack your non-Sentinel units or your base.)",
+      "text": "This unit costs 1 less to play for each unit controlled by the opponent who controls the most units. Sentinel (Units can't attack your non-Sentinel units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -11159,7 +11159,7 @@
       ],
       "keywords": [],
       "traitCount": 3,
-      "text": "When Played: If you control another [TRAIT A] unit, you may heal 3 damage from a base.",
+      "text": "When Played: If you control another [TRAIT A] unit, you may heal 3 damage from a hero.",
       "backText": null,
       "epicAction": null
     },
@@ -11232,7 +11232,7 @@
         "Sentinel"
       ],
       "traitCount": 3,
-      "text": "Sentinel (Units can't attack your non-Sentinel units or your base.) \nOverwhelm (When attacking an enemy unit, deal excess damage to the opponent's base.)",
+      "text": "Sentinel (Units can't attack your non-Sentinel units or your hero.) \nOverwhelm (When attacking an enemy unit, deal excess damage to the opponent's hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -11252,7 +11252,7 @@
         "Overwhelm"
       ],
       "traitCount": 3,
-      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's base.) \nCoordinate - Each other friendly unit gets +1/+1 and gains Overwhelm. (Gain this ability while you control 3 or more units.)",
+      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's hero.) \nCoordinate - Each other friendly unit gets +1/+1 and gains Overwhelm. (Gain this ability while you control 3 or more units.)",
       "backText": null,
       "epicAction": null
     },
@@ -11349,7 +11349,7 @@
         "Overwhelm"
       ],
       "traitCount": 1,
-      "text": "Attach to a token unit. \nAttached unit gains Overwhelm. (When attacking an enemy unit, deal excess damage to the opponent's base.)",
+      "text": "Attach to a token unit. \nAttached unit gains Overwhelm. (When attacking an enemy unit, deal excess damage to the opponent's hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -11560,7 +11560,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "When Defeated: Deal 2 damage to a base.",
+      "text": "When Defeated: Deal 2 damage to a hero.",
       "backText": null,
       "epicAction": null
     },
@@ -11578,7 +11578,7 @@
       ],
       "keywords": [],
       "traitCount": 4,
-      "text": "Bases can't be healed.",
+      "text": "Heroes can't be healed.",
       "backText": null,
       "epicAction": null
     },
@@ -11767,7 +11767,7 @@
       ],
       "keywords": [],
       "traitCount": 4,
-      "text": "While your base has 15 or more damage on it, this unit gets +2/+0.",
+      "text": "While your hero has 15 or more damage on it, this unit gets +2/+0.",
       "backText": null,
       "epicAction": null
     },
@@ -11843,7 +11843,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "When Played/When Defeated: You may deal 2 damage to your base. If you do, search the top 8 cards of your deck for a [TRAIT A] card, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order.)",
+      "text": "When Played/When Defeated: You may deal 2 damage to your hero. If you do, search the top 8 cards of your deck for a [TRAIT A] card, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order.)",
       "backText": null,
       "epicAction": null
     },
@@ -11903,7 +11903,7 @@
         "Overwhelm"
       ],
       "traitCount": 3,
-      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's base.) \nWhen Played: Choose an enemy unit. Deal 1 damage to it for each friendly [TRAIT A] unit.",
+      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's hero.) \nWhen Played: Choose an enemy unit. Deal 1 damage to it for each friendly [TRAIT A] unit.",
       "backText": null,
       "epicAction": null
     },
@@ -11923,7 +11923,7 @@
         "Raid"
       ],
       "traitCount": 2,
-      "text": "Raid 2 \nOn Attack: If your base has 15 or more damage on it, deal 1 damage to each enemy unit.",
+      "text": "Raid 2 \nOn Attack: If your hero has 15 or more damage on it, deal 1 damage to each enemy unit.",
       "backText": null,
       "epicAction": null
     },
@@ -11941,7 +11941,7 @@
       ],
       "keywords": [],
       "traitCount": 3,
-      "text": "This unit costs 1 less to play for every 5 damage on your base. \nWhen Played/On Attack: Deal 2 damage to an enemy unit and each other enemy unit with the same name as that unit.",
+      "text": "This unit costs 1 less to play for every 5 damage on your hero. \nWhen Played/On Attack: Deal 2 damage to an enemy unit and each other enemy unit with the same name as that unit.",
       "backText": null,
       "epicAction": null
     },
@@ -12030,7 +12030,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Action [2 resources, exhaust]: Deal 2 damage to a base.",
+      "text": "Action [2 resources, exhaust]: Deal 2 damage to a hero.",
       "backText": null,
       "epicAction": null
     },
@@ -12068,7 +12068,7 @@
         "Overwhelm"
       ],
       "traitCount": 2,
-      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's base.)",
+      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -12085,7 +12085,7 @@
       ],
       "keywords": [],
       "traitCount": 4,
-      "text": "When Played: If you control another [TRAIT A] unit, deal 2 damage to an enemy base.",
+      "text": "When Played: If you control another [TRAIT A] unit, deal 2 damage to an enemy hero.",
       "backText": null,
       "epicAction": null
     },
@@ -12199,7 +12199,7 @@
         "Overwhelm"
       ],
       "traitCount": 2,
-      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's base.) \nWhen an enemy unit attacks your base: Ready this unit.",
+      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's hero.) \nWhen an enemy unit attacks your hero: Ready this unit.",
       "backText": null,
       "epicAction": null
     },
@@ -12271,7 +12271,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Deal 2 damage to a unit or base.",
+      "text": "Deal 2 damage to a unit or hero.",
       "backText": null,
       "epicAction": null
     },
@@ -12715,7 +12715,7 @@
       ],
       "keywords": [],
       "traitCount": 3,
-      "text": "While this unit is exhausted, she can't be attacked (unless she gains Sentinel). \nOn Attack: You may discard a card from your deck. If it doesn't share an aspect with your base, deal 2 damage to a unit.",
+      "text": "While this unit is exhausted, she can't be attacked (unless she gains Sentinel). \nOn Attack: You may discard a card from your deck. If it doesn't share an aspect with your hero, deal 2 damage to a unit.",
       "backText": null,
       "epicAction": null
     },
@@ -12847,7 +12847,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "On Attack: Deal 2 damage to a random unit or base.",
+      "text": "On Attack: Deal 2 damage to a random unit or hero.",
       "backText": null,
       "epicAction": null
     },
@@ -12938,7 +12938,7 @@
         "Sentinel"
       ],
       "traitCount": 3,
-      "text": "Sentinel (Units can't attack your non-Sentinel units or your base.)",
+      "text": "Sentinel (Units can't attack your non-Sentinel units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -13381,7 +13381,7 @@
         "Sentinel"
       ],
       "traitCount": 3,
-      "text": "Sentinel (Units can't attack your non-Sentinel units or your base.)",
+      "text": "Sentinel (Units can't attack your non-Sentinel units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -13417,7 +13417,7 @@
       ],
       "keywords": [],
       "traitCount": 3,
-      "text": "When Played: Create 4 Battle [TRAIT B] tokens. \nOn Attack: Exhaust any number of friendly [TRAIT A] units. Deal 1 damage to the defending player's base for each unit exhausted this way.",
+      "text": "When Played: Create 4 Battle [TRAIT B] tokens. \nOn Attack: Exhaust any number of friendly [TRAIT A] units. Deal 1 damage to the defending player's hero for each unit exhausted this way.",
       "backText": null,
       "epicAction": null
     },
@@ -13581,7 +13581,7 @@
         "Restore"
       ],
       "traitCount": 3,
-      "text": "Restore 2 (When this unit attacks, heal 2 damage from your base.)",
+      "text": "Restore 2 (When this unit attacks, heal 2 damage from your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -13600,7 +13600,7 @@
         "Sentinel"
       ],
       "traitCount": 3,
-      "text": "Sentinel (Units can't attack your non-Sentinel units or your base.)",
+      "text": "Sentinel (Units can't attack your non-Sentinel units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -13636,7 +13636,7 @@
         "Restore"
       ],
       "traitCount": 3,
-      "text": "Restore 3 (When this unit attacks, heal 3 damage from your base.) \nWhen Defeated: Create 2 [TRAIT B] [TRAIT A] tokens.",
+      "text": "Restore 3 (When this unit attacks, heal 3 damage from your hero.) \nWhen Defeated: Create 2 [TRAIT B] [TRAIT A] tokens.",
       "backText": null,
       "epicAction": null
     },
