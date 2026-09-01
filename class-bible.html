@@ -409,6 +409,16 @@ dl.spec dd { margin: 0; color: var(--ink-soft); }
   border: 1px solid var(--rule-strong);
   display: inline-block;
 }
+/* The paint notes are what the illustrator mixes; the ink is what the card
+   frame prints. Rounding the ink and setting it off keeps the two from being
+   read as one ramp -- Pyromancer's art direction forbids the saturated red
+   its own ink is made of. */
+.swatches i.ink {
+  border-radius: 50%;
+  border-color: transparent;
+  box-shadow: 0 0 0 1px var(--surface), 0 0 0 2px var(--rule-strong);
+}
+.swatches i:not(.ink) + i.ink { margin-left: 0.5rem; }
 
 /* ---------- constants / notes ---------- */
 
@@ -903,7 +913,7 @@ table.matrix.idtable td.slugcell {
               <dt>Composition</dt><dd>Three-quarter to full figure with air around it. Dynamic diagonal, weight off-center, arms open, caught mid-gesture. No environment whatsoever — flame and smoke are the entire background and all depth comes from value.</dd>
               <dt>Signature</dt><dd>The flame is <em>becoming something</em>. A phoenix head resolves out of the fire behind the subject's shoulder, at low contrast — visible only on a second look. Every Pyromancer card carries one of these.</dd>
               <dt>Edges</dt><dd>Lost-and-found. Hair and shoulders dissolve into the flame; the silhouette is never fully closed.</dd>
-              <dt>Palette</dt><dd><b>No pure black and no saturated cadmium red.</b> The dominant notes are warm-neutral browns and oxide reds; that restraint is what lets the few bright spots read as heat.<div class="swatches"><i style="background:#4B1E17"></i><i style="background:#903827"></i><i style="background:#A2503C"></i><i style="background:#CA6938"></i><i style="background:#D38C4A"></i><i style="background:#936151"></i><i style="background:#EDD19B"></i></div></dd>
+              <dt>Palette</dt><dd><b>No pure black and no saturated cadmium red.</b> The dominant notes are warm-neutral browns and oxide reds; that restraint is what lets the few bright spots read as heat.<div class="swatches"><i style="background:#4B1E17"></i><i style="background:#903827"></i><i style="background:#A2503C"></i><i style="background:#CA6938"></i><i style="background:#D38C4A"></i><i style="background:#936151"></i><i style="background:#EDD19B"></i><i class="ink" style="background:#D3082F" title="Red — identity ink"></i></div></dd>
             </dl>
           </div>
         </div>
@@ -928,7 +938,7 @@ table.matrix.idtable td.slugcell {
               <dt>Light</dt><dd>Flat, even, sourceless. Form built entirely by hatch density.</dd>
               <dt>Composition</dt><dd>Each figure printed three times in slight registration offset — one cyan-shifted behind, one amber-shifted ahead, the true figure sharp between them.</dd>
               <dt>Signature</dt><dd>The only class on a <em>pale</em> ground. Against the rest of the set it reads as a page from a different, older book.</dd>
-              <dt>Palette</dt><dd>Plate white · sepia ink · registration cyan · registration amber<div class="swatches"><i style="background:#F0EBE0"></i><i style="background:#4A3A28"></i><i style="background:#7FB2C4"></i><i style="background:#CE7A16"></i></div></dd>
+              <dt>Palette</dt><dd>Plate white · sepia ink · registration cyan · registration amber<div class="swatches"><i style="background:#F0EBE0" title="Plate white"></i><i style="background:#4A3A28" title="sepia ink"></i><i style="background:#7FB2C4" title="registration cyan"></i><i style="background:#F5B202" title="registration amber"></i><i class="ink" style="background:#F5B202" title="Amber — identity ink"></i></div></dd>
             </dl>
           </div>
         </div>
@@ -953,7 +963,7 @@ table.matrix.idtable td.slugcell {
               <dt>Light</dt><dd>None — this style is decorative, not illuminated. Depth comes from layering and line weight.</dd>
               <dt>Composition</dt><dd>Symmetrical, mandorla-framed, subject centered and static. Deliberately the stillest cards in the game.</dd>
               <dt>Signature</dt><dd>Ornament density scales with the card's cost. Cheap cards are nearly bare; expensive ones are <em>overgrown</em>, the border eating into the art.</dd>
-              <dt>Palette</dt><dd>Sap green · ochre · dusty rose · leaf gold<div class="swatches"><i style="background:#2C8C4E"></i><i style="background:#7E8B3C"></i><i style="background:#C08A7E"></i><i style="background:#C9A227"></i><i style="background:#EFE9D8"></i></div></dd>
+              <dt>Palette</dt><dd>Sap green · ochre · dusty rose · leaf gold · paper cream<div class="swatches"><i style="background:#3A7D44" title="Sap green"></i><i style="background:#7E8B3C" title="ochre"></i><i style="background:#C08A7E" title="dusty rose"></i><i style="background:#C9A227" title="leaf gold"></i><i style="background:#EFE9D8" title="paper cream"></i><i class="ink" style="background:#2A8934" title="Green — identity ink"></i></div></dd>
             </dl>
           </div>
         </div>
@@ -980,7 +990,7 @@ table.matrix.idtable td.slugcell {
               <dt>Composition</dt><dd>Extreme negative space. The subject occupies roughly a third of the frame; the rest is empty pale field. Small figure, enormous silence.</dd>
               <dt>Structure</dt><dd>Hard crystalline geometry is the one thing drawn with conviction — faceted ice growing in straight runs and sharp terminations, cutting across all that soft grey. Everything organic is barely indicated; everything frozen is exact.</dd>
               <dt>Signature</dt><dd>Everything is <em>almost</em> not there, except one saturated cold glow at the point of casting. Where the Pyromancer is a dark figure in a hot bright field, the Sorceress inverts it exactly: a pale figure in a pale field with a single blue note. She is the quiet card you lean in to see — and the deliberate opposite pole from the locked class, which is what makes her the right second lock.</dd>
-              <dt>Palette</dt><dd>Paper blue-grey · graphite · lead white · one saturated glacial blue<div class="swatches"><i style="background:#B9C2D2"></i><i style="background:#5A6478"></i><i style="background:#F4F6FA"></i><i style="background:#8FD3F0"></i><i style="background:#3256C6"></i></div></dd>
+              <dt>Palette</dt><dd>Paper blue-grey · graphite · lead white · one saturated glacial blue<div class="swatches"><i style="background:#B9C2D2" title="Paper blue-grey"></i><i style="background:#5A6478" title="graphite"></i><i style="background:#F4F6FA" title="lead white"></i><i style="background:#8FD3F0" title="one saturated glacial blue"></i><i class="ink" style="background:#0189C4" title="Blue — identity ink"></i></div></dd>
             </dl>
           </div>
         </div>
@@ -1005,7 +1015,7 @@ table.matrix.idtable td.slugcell {
               <dt>Light</dt><dd>Hard chiaroscuro from a single candle just outside frame. Deep, swallowing shadow across two-thirds of every image.</dd>
               <dt>Composition</dt><dd>Still-life logic even in action shots: objects arranged, not caught. Everything looks posed for a portrait nobody survived.</dd>
               <dt>Signature</dt><dd>A memento mori tucked in every frame — guttering candle, a fly, a tipped glass, a stopped watch. Never the focus, always present.</dd>
-              <dt>Palette</dt><dd>Bone white · bitumen brown · violet-black · muted gold<div class="swatches"><i style="background:#E3DCCB"></i><i style="background:#4A3626"></i><i style="background:#1E1526"></i><i style="background:#7A3B9E"></i><i style="background:#9A7B3A"></i></div></dd>
+              <dt>Palette</dt><dd>Bone white · bitumen brown · violet-black · muted gold<div class="swatches"><i style="background:#E3DCCB" title="Bone white"></i><i style="background:#4A3626" title="bitumen brown"></i><i style="background:#1E1526" title="violet-black"></i><i style="background:#9A7B3A" title="muted gold"></i><i class="ink" style="background:#81377B" title="Purple — identity ink"></i></div></dd>
             </dl>
           </div>
         </div>
@@ -1030,7 +1040,7 @@ table.matrix.idtable td.slugcell {
               <dt>Light</dt><dd>Hard raking sidelight — the only thing creating form is the shadow cast by physical depth.</dd>
               <dt>Composition</dt><dd>Friezelike and frontal. Figures in profile or full-face, arranged along a baseline like a procession.</dd>
               <dt>Signature</dt><dd><em>Zero luminous effects anywhere in the class.</em> No glow, no particles, no magic. In a game where everything else radiates, the Warrior is the one thing that's just an object — and that's the whole read.</dd>
-              <dt>Palette</dt><dd>Limestone buff · iron-oxide stain · verdigris · shadow grey<div class="swatches"><i style="background:#C9BCA4"></i><i style="background:#7C5433"></i><i style="background:#5E7A66"></i><i style="background:#4A443C"></i></div></dd>
+              <dt>Palette</dt><dd>Limestone buff · iron-oxide stain · verdigris · shadow grey<div class="swatches"><i style="background:#C9BCA4" title="Limestone buff"></i><i style="background:#7C5433" title="iron-oxide stain"></i><i style="background:#5E7A66" title="verdigris"></i><i style="background:#4A443C" title="shadow grey"></i><i class="ink" style="background:#9FA8B4" title="Steel — identity ink"></i></div></dd>
             </dl>
           </div>
         </div>
@@ -1068,7 +1078,7 @@ table.matrix.idtable td.slugcell {
               <dt>Light</dt><dd>The subject <em>is</em> the light source and it is overexposed. Blown-out blue-white core losing all detail.</dd>
               <dt>Composition</dt><dd>Centered and radial, set against a gridded scientific plate with handwritten annotations and exposure data in the margins.</dd>
               <dt>Signature</dt><dd>Motion trails that record where the subject was a second ago. Nothing in this class is ever still.</dd>
-              <dt>Palette</dt><dd>Plate black · electric blue-white · magenta fringe · arc orange<div class="swatches"><i style="background:#0D0F16"></i><i style="background:#D8ECFF"></i><i style="background:#D14CA8"></i><i style="background:#CE7A16"></i><i style="background:#C8342B"></i></div></dd>
+              <dt>Palette</dt><dd>Plate black · electric blue-white · magenta fringe · arc orange<div class="swatches"><i style="background:#0D0F16" title="Plate black"></i><i style="background:#D8ECFF" title="electric blue-white"></i><i style="background:#D14CA8" title="magenta fringe"></i><i style="background:#CE7A16" title="arc orange"></i><i class="ink" style="background:#D3082F" title="Red — identity ink"></i><i class="ink" style="background:#F5B202" title="Amber — identity ink"></i></div></dd>
             </dl>
           </div>
         </div>
@@ -1093,7 +1103,7 @@ table.matrix.idtable td.slugcell {
               <dt>Light</dt><dd>Flickering and warm, as if lit by a torch held at arm's length. Deep pitting in the stone catches real shadow.</dd>
               <dt>Composition</dt><dd>Simplified powerful animal forms, overlapping without perspective. Hand stencils in the margins.</dd>
               <dt>Signature</dt><dd>Deliberately the most <em>primitive</em>-looking cards in the game. The rock's grain and irregularity show through every mark — the surface is half the image.</dd>
-              <dt>Palette</dt><dd>Red ochre · charcoal · white clay · basalt<div class="swatches"><i style="background:#A8442A"></i><i style="background:#2A2420"></i><i style="background:#DCD3BE"></i><i style="background:#4E4A46"></i><i style="background:#2C8C4E"></i></div></dd>
+              <dt>Palette</dt><dd>Red ochre · charcoal · white clay · basalt<div class="swatches"><i style="background:#A8442A" title="Red ochre"></i><i style="background:#2A2420" title="charcoal"></i><i style="background:#DCD3BE" title="white clay"></i><i style="background:#4E4A46" title="basalt"></i><i class="ink" style="background:#D3082F" title="Red — identity ink"></i><i class="ink" style="background:#2A8934" title="Green — identity ink"></i></div></dd>
             </dl>
           </div>
         </div>
@@ -1119,7 +1129,7 @@ table.matrix.idtable td.slugcell {
               <dt>Light</dt><dd>Schematic flatness for the linework, with genuine specular hits on the brass. The drawing is a document; the machine in it is an object.</dd>
               <dt>Composition</dt><dd>Blueprint ground with white line and a second annotation layer in heat-orange marking where fire meets frost. Condensation and escaping steam are drawn with the same technical precision as the parts.</dd>
               <dt>Signature</dt><dd>Dream-punk, not steampunk: every diagram is <em>plausible right up until it isn't</em>. The tolerances are believable, the callouts are numbered, and the machine described could not possibly work. Precise, warm, and slightly absurd given what the things do.</dd>
-              <dt>Palette</dt><dd>Drafting blue · brass · copper · white line · heat orange<div class="swatches"><i style="background:#1B3A6B"></i><i style="background:#C9A227"></i><i style="background:#B87333"></i><i style="background:#EFF4FA"></i><i style="background:#E8811C"></i></div></dd>
+              <dt>Palette</dt><dd>Drafting blue · brass · copper · white line · heat orange<div class="swatches"><i style="background:#1B3A6B" title="Drafting blue"></i><i style="background:#C9A227" title="brass"></i><i style="background:#B87333" title="copper"></i><i style="background:#EFF4FA" title="white line"></i><i style="background:#E8811C" title="heat orange"></i><i class="ink" style="background:#D3082F" title="Red — identity ink"></i><i class="ink" style="background:#0189C4" title="Blue — identity ink"></i></div></dd>
             </dl>
           </div>
         </div>
@@ -1144,7 +1154,7 @@ table.matrix.idtable td.slugcell {
               <dt>Light</dt><dd>Flat medieval illumination with no modeling, undercut by real scorch shadow where the page has curled.</dd>
               <dt>Composition</dt><dd>Text-block logic: the figure occupies an initial capital or a margin, with grotesques and small demons crawling the border.</dd>
               <dt>Signature</dt><dd>Annotations in a second, later hand — red ink corrections by someone who read this after Brand did and was alarmed.</dd>
-              <dt>Palette</dt><dd>Vellum cream · iron-gall black · minium red · gold · char<div class="swatches"><i style="background:#E4D9BE"></i><i style="background:#241E1A"></i><i style="background:#C8342B"></i><i style="background:#C9A227"></i><i style="background:#7A3B9E"></i></div></dd>
+              <dt>Palette</dt><dd>Vellum cream · iron-gall black · minium red · gold · char<div class="swatches"><i style="background:#E4D9BE" title="Vellum cream"></i><i style="background:#241E1A" title="iron-gall black"></i><i style="background:#C8342B" title="minium red"></i><i style="background:#C9A227" title="gold"></i><i style="background:#2A211C" title="char"></i><i class="ink" style="background:#D3082F" title="Red — identity ink"></i><i class="ink" style="background:#81377B" title="Purple — identity ink"></i></div></dd>
             </dl>
           </div>
         </div>
@@ -1169,7 +1179,7 @@ table.matrix.idtable td.slugcell {
               <dt>Light</dt><dd>No gradient. Light is a shape you cut, not a falloff you render.</dd>
               <dt>Composition</dt><dd>Aggressively diagonal and off-balance, with kinetic speed-lines and impact bursts breaking the frame edge.</dd>
               <dt>Signature</dt><dd>Every composition is mid-motion and slightly unstable — the class that never has its feet under it.</dd>
-              <dt>Palette</dt><dd>Indigo · bone · vermilion · block black<div class="swatches"><i style="background:#26355C"></i><i style="background:#E8DFCB"></i><i style="background:#C8342B"></i><i style="background:#7C5433"></i><i style="background:#141210"></i></div></dd>
+              <dt>Palette</dt><dd>Indigo · bone · vermilion · block black<div class="swatches"><i style="background:#26355C" title="Indigo"></i><i style="background:#E8DFCB" title="bone"></i><i style="background:#C8342B" title="vermilion"></i><i style="background:#141210" title="block black"></i><i class="ink" style="background:#D3082F" title="Red — identity ink"></i><i class="ink" style="background:#9FA8B4" title="Steel — identity ink"></i></div></dd>
             </dl>
           </div>
         </div>
@@ -1195,7 +1205,7 @@ table.matrix.idtable td.slugcell {
               <dt>Light</dt><dd>The chart itself is flat and unlit. The <em>figure</em> is the only luminous thing on it, glowing from within and leaking bright vapor at the shoulders and heels.</dd>
               <dt>Composition</dt><dd>Ground is drawn in the language of the map; the subject sits above the chart plane, out of its coordinate system. She is the one thing on the page the survey couldn't fix a position for.</dd>
               <dt>Signature</dt><dd>One flight path traced across every card, entering one edge and leaving another — and where it passes an ally, that unit is drawn glowing too. The class is the only one whose art shows its power landing on someone else.</dd>
-              <dt>Palette</dt><dd>Chart buff · survey green · ink brown · storm grey · Stormlight white-gold<div class="swatches"><i style="background:#E8DFC8"></i><i style="background:#2C8C4E"></i><i style="background:#6B5333"></i><i style="background:#6E7684"></i><i style="background:#F5E6B0"></i></div></dd>
+              <dt>Palette</dt><dd>Chart buff · survey green · ink brown · storm grey · Stormlight white-gold<div class="swatches"><i style="background:#E8DFC8" title="Chart buff"></i><i style="background:#2C8C4E" title="survey green"></i><i style="background:#6B5333" title="ink brown"></i><i style="background:#6E7684" title="storm grey"></i><i style="background:#F5E6B0" title="Stormlight white-gold"></i><i class="ink" style="background:#F5B202" title="Amber — identity ink"></i><i class="ink" style="background:#2A8934" title="Green — identity ink"></i></div></dd>
             </dl>
           </div>
         </div>
@@ -1221,7 +1231,7 @@ table.matrix.idtable td.slugcell {
               <dt>Light</dt><dd>Each facet carries a shifted, displaced copy of what sits behind it. Prismatic dispersion fringing every edge.</dd>
               <dt>Composition</dt><dd>Strict geometric armature — golden-section or radial grid, visible if you look for it — cut by one long unbroken glide path. Every figure is mid-slide, never mid-step; no card in this class shows a planted foot.</dd>
               <dt>Signature</dt><dd>The cleanest, most machined-looking cards in the game, with not one soft edge — and somewhere in each frame, one ordinary overlooked person rendered at the same fidelity as the hero. Nobody in an Edgedancer card is background.</dd>
-              <dt>Palette</dt><dd>Glacier white · cobalt · aurora teal · spectral fringe<div class="swatches"><i style="background:#EAF2F8"></i><i style="background:#3256C6"></i><i style="background:#3FA8A0"></i><i style="background:#CE7A16"></i><i style="background:#C06BD6"></i></div></dd>
+              <dt>Palette</dt><dd>Glacier white · cobalt · aurora teal · spectral fringe<div class="swatches"><i style="background:#EAF2F8" title="Glacier white"></i><i style="background:#3256C6" title="cobalt"></i><i style="background:#3FA8A0" title="aurora teal"></i><i style="background:#C06BD6" title="spectral fringe"></i><i class="ink" style="background:#F5B202" title="Amber — identity ink"></i><i class="ink" style="background:#0189C4" title="Blue — identity ink"></i></div></dd>
             </dl>
           </div>
         </div>
@@ -1247,7 +1257,7 @@ table.matrix.idtable td.slugcell {
               <dt>Light</dt><dd>From <em>behind</em> the image, always. The subject is a silhouette made of colored light, never lit from the viewer's side.</dd>
               <dt>Composition</dt><dd>Each card catches one substance partway into becoming another — half the panel still stone, half already smoke, the boundary irregular and mid-negotiation.</dd>
               <dt>Signature</dt><dd>The came doesn't just divide the image, it <em>spreads</em> — lead lines creeping across the hero herself like the crystal growing up her arm. In every card she is a little further along than she was in the last one.</dd>
-              <dt>Palette</dt><dd>Cobalt · amethyst · amber · lead grey<div class="swatches"><i style="background:#1F3A8C"></i><i style="background:#7A3B9E"></i><i style="background:#CE7A16"></i><i style="background:#4A4A52"></i><i style="background:#120E1A"></i></div></dd>
+              <dt>Palette</dt><dd>Cobalt · amethyst · amber · lead grey · void black<div class="swatches"><i style="background:#1F3A8C" title="Cobalt"></i><i style="background:#81377B" title="amethyst"></i><i style="background:#F5B202" title="amber"></i><i style="background:#4A4A52" title="lead grey"></i><i style="background:#120E1A" title="void black"></i><i class="ink" style="background:#F5B202" title="Amber — identity ink"></i><i class="ink" style="background:#81377B" title="Purple — identity ink"></i></div></dd>
             </dl>
           </div>
         </div>
@@ -1273,7 +1283,7 @@ table.matrix.idtable td.slugcell {
               <dt>Light</dt><dd>Specular and anisotropic. Highlights streak along the grain of the steel rather than pooling.</dd>
               <dt>Composition</dt><dd>Knotwork borders that interlace with the subject, so figure and frame are one continuous line.</dd>
               <dt>Signature</dt><dd>Rune channels cut into the metal and glowing from within — the only light in the class that isn't reflected.</dd>
-              <dt>Palette</dt><dd>Watered steel · gold inlay · silver · ember channel<div class="swatches"><i style="background:#6E7178"></i><i style="background:#C9A227"></i><i style="background:#D6D9DE"></i><i style="background:#CE7A16"></i><i style="background:#7C5433"></i></div></dd>
+              <dt>Palette</dt><dd>Watered steel · gold inlay · silver · ember channel<div class="swatches"><i style="background:#6E7178" title="Watered steel"></i><i style="background:#C9A227" title="gold inlay"></i><i style="background:#D6D9DE" title="silver"></i><i style="background:#CE7A16" title="ember channel"></i><i class="ink" style="background:#F5B202" title="Amber — identity ink"></i><i class="ink" style="background:#9FA8B4" title="Steel — identity ink"></i></div></dd>
             </dl>
           </div>
         </div>
@@ -1298,7 +1308,7 @@ table.matrix.idtable td.slugcell {
               <dt>Light</dt><dd>None. Value is ink dilution and nothing else.</dd>
               <dt>Composition</dt><dd>Enormous empty ground, subject placed hard off-center, weight in one corner.</dd>
               <dt>Signature</dt><dd>The form never fully resolves — a human shoulder becomes an elk foreleg <em>within the same stroke</em>. You can't point to where the change happens.</dd>
-              <dt>Palette</dt><dd>Black ink · cold slate wash · raw paper · one vermilion seal<div class="swatches"><i style="background:#1C1A18"></i><i style="background:#5C7488"></i><i style="background:#E6E0D2"></i><i style="background:#2C8C4E"></i><i style="background:#B03A2E"></i></div></dd>
+              <dt>Palette</dt><dd>Black ink · cold slate wash · raw paper · one vermilion seal<div class="swatches"><i style="background:#1C1A18" title="Black ink"></i><i style="background:#5C7488" title="cold slate wash"></i><i style="background:#E6E0D2" title="raw paper"></i><i style="background:#B03A2E" title="one vermilion seal"></i><i class="ink" style="background:#2A8934" title="Green — identity ink"></i><i class="ink" style="background:#0189C4" title="Blue — identity ink"></i></div></dd>
             </dl>
           </div>
         </div>
@@ -1323,7 +1333,7 @@ table.matrix.idtable td.slugcell {
               <dt>Light</dt><dd>Damp and ambient, like a cellar. Nothing casts a clean shadow because nothing has a clean edge.</dd>
               <dt>Composition</dt><dd>Growth radiates outward from a point of infection somewhere in the frame. Composition is colonization.</dd>
               <dt>Signature</dt><dd>Not one straight line anywhere in the class. Where every other style has an edge, this one has a bloom.</dd>
-              <dt>Palette</dt><dd>Swamp green · bruise purple · mud ochre · bone<div class="swatches"><i style="background:#3E5B2E"></i><i style="background:#6B3A72"></i><i style="background:#8A6A38"></i><i style="background:#D8CFB8"></i><i style="background:#2C8C4E"></i></div></dd>
+              <dt>Palette</dt><dd>Swamp green · bruise purple · mud ochre · bone<div class="swatches"><i style="background:#3E5B2E" title="Swamp green"></i><i style="background:#6B3A72" title="bruise purple"></i><i style="background:#8A6A38" title="mud ochre"></i><i style="background:#D8CFB8" title="bone"></i><i class="ink" style="background:#2A8934" title="Green — identity ink"></i><i class="ink" style="background:#81377B" title="Purple — identity ink"></i></div></dd>
             </dl>
           </div>
         </div>
@@ -1348,7 +1358,7 @@ table.matrix.idtable td.slugcell {
               <dt>Light</dt><dd>Plain daylight, observed rather than composed. Nothing dramatized.</dd>
               <dt>Composition</dt><dd>Several small studies per card rather than one hero image — three views of the same subject, a detail, a measurement.</dd>
               <dt>Signature</dt><dd>Handwritten annotation and specimen labels in the margins, in the hero's own hand. The only class whose cards contain her <em>notes</em> as well as her image.</dd>
-              <dt>Palette</dt><dd>Paper tan · moss · umber · sky wash · red ink<div class="swatches"><i style="background:#DCCFB0"></i><i style="background:#5C7A3E"></i><i style="background:#7C5433"></i><i style="background:#9FBCCB"></i><i style="background:#B03A2E"></i></div></dd>
+              <dt>Palette</dt><dd>Paper tan · moss · umber · sky wash · red ink<div class="swatches"><i style="background:#DCCFB0" title="Paper tan"></i><i style="background:#5C7A3E" title="moss"></i><i style="background:#7C5433" title="umber"></i><i style="background:#9FBCCB" title="sky wash"></i><i style="background:#B03A2E" title="red ink"></i><i class="ink" style="background:#2A8934" title="Green — identity ink"></i><i class="ink" style="background:#9FA8B4" title="Steel — identity ink"></i></div></dd>
             </dl>
           </div>
         </div>
@@ -1373,7 +1383,7 @@ table.matrix.idtable td.slugcell {
               <dt>Light</dt><dd>Long-exposure studio light, harsh and frontal. Eyes never quite in focus because the sitter moved.</dd>
               <dt>Composition</dt><dd>Formal portrait staging. Everyone posed, centered, and holding still far too long.</dd>
               <dt>Signature</dt><dd>Spiderweb cracks in the emulsion radiating outward from the subject — the plate is failing where the figure touches it.</dd>
-              <dt>Palette</dt><dd>Silver · plate grey · tarnish violet · black<div class="swatches"><i style="background:#B8BCC4"></i><i style="background:#5A6068"></i><i style="background:#6B4A82"></i><i style="background:#3256C6"></i><i style="background:#16141C"></i></div></dd>
+              <dt>Palette</dt><dd>Silver · plate grey · tarnish violet · black<div class="swatches"><i style="background:#B8BCC4" title="Silver"></i><i style="background:#5A6068" title="plate grey"></i><i style="background:#6B4A82" title="tarnish violet"></i><i style="background:#16141C" title="black"></i><i class="ink" style="background:#0189C4" title="Blue — identity ink"></i><i class="ink" style="background:#81377B" title="Purple — identity ink"></i></div></dd>
             </dl>
           </div>
         </div>
@@ -1399,7 +1409,7 @@ table.matrix.idtable td.slugcell {
               <dt>Light</dt><dd>None in the rubbing itself; all light comes from rime crystal blooming across the surface afterward.</dd>
               <dt>Composition</dt><dd>Rigidly symmetrical and full-length. Every figure laid out like a tomb slab, even mid-swing.</dd>
               <dt>Signature</dt><dd>Frost growing <em>on top of</em> the image, obscuring parts of it. The rubbing is a record of someone already gone, and it's icing over as you look.</dd>
-              <dt>Palette</dt><dd>Rubbing black · brass · frost white · steel blue<div class="swatches"><i style="background:#1E1C1A"></i><i style="background:#9A7B3A"></i><i style="background:#E8EEF4"></i><i style="background:#3256C6"></i><i style="background:#7C5433"></i></div></dd>
+              <dt>Palette</dt><dd>Rubbing black · brass · frost white · steel blue<div class="swatches"><i style="background:#1E1C1A" title="Rubbing black"></i><i style="background:#9A7B3A" title="brass"></i><i style="background:#E8EEF4" title="frost white"></i><i style="background:#5A7A96" title="steel blue"></i><i class="ink" style="background:#0189C4" title="Blue — identity ink"></i><i class="ink" style="background:#9FA8B4" title="Steel — identity ink"></i></div></dd>
             </dl>
           </div>
         </div>
@@ -1424,7 +1434,7 @@ table.matrix.idtable td.slugcell {
               <dt>Light</dt><dd>From behind the screen, warm and even. Figures are pure negative shapes; the ground is the only thing that glows.</dd>
               <dt>Composition</dt><dd>Everything told in outline and gesture. No interior detail at all — silhouette carries 100% of the read.</dd>
               <dt>Signature</dt><dd>Exactly one accent color per card, used exactly once. Usually blood; occasionally not.</dd>
-              <dt>Palette</dt><dd>Lamp amber ground · pure black · one red note<div class="swatches"><i style="background:#D9A441"></i><i style="background:#0E0C10"></i><i style="background:#7A3B9E"></i><i style="background:#7C5433"></i><i style="background:#B0201C"></i></div></dd>
+              <dt>Palette</dt><dd>Lamp amber ground · pure black · one red note<div class="swatches"><i style="background:#D9A441" title="Lamp amber ground"></i><i style="background:#0E0C10" title="pure black"></i><i style="background:#B0201C" title="one red note"></i><i class="ink" style="background:#81377B" title="Purple — identity ink"></i><i class="ink" style="background:#9FA8B4" title="Steel — identity ink"></i></div></dd>
             </dl>
           </div>
         </div>
