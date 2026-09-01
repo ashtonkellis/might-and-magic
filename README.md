@@ -27,8 +27,27 @@ cost, so an 8-cost two-aspect card reads as two colours over a 6. A pure class
 shows two pips of one colour and a blend one of each, which makes colour
 identity readable without reading anything.
 
-Card art is not in place yet; each card shows its class glyph and card id until
-images land. See `art/README.md` for how to add them.
+### Resource cards
+
+Six cards, one per ink, and the only ones that are ours rather than adapted
+from the imported corpus — so they are defined in `index.html` beside the class
+table rather than added to `card-list.json`, which stays what it claims to be.
+
+They are the exception to every rule the other cards follow. Landscape rather
+than portrait, 3.5in by 2.5in. No name, no cost, no stat line, no rules box —
+nothing printed on them at all. A resource is identified by its art and by the
+ink of its border, which is why that border is heavier than it would be
+anywhere else: it is the only chrome the card has.
+
+Their art lives in `art/resources/<ink>.png` and is found by deriving the path
+from the ink, so it bypasses `art/index.json` — that manifest exists to map
+corpus ids to filenames, and a resource has neither. Filtering keeps them out
+of every class-shaped view; they appear under their own option and under
+Everything. A print sheet of nothing but resources retracks to two landscape
+cards across, eight to a page.
+
+Card art for the other 252 is not in place yet; each shows its class glyph and
+card id until images land. See `art/README.md` for how to add them.
 
 The page fetches `card-list.json`, which browsers block on `file://`. To preview
 locally, serve the folder — `python3 -m http.server` — rather than opening the

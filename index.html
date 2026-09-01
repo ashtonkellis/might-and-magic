@@ -131,6 +131,15 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
      font-size:calc(.6rem * var(--fit, 1))}
 .rules p{margin:0 0 .3em}
 .rules p:last-child{margin:0}
+/* ---------- the resource card ----------
+   The one card with nothing printed on it: no name, no cost, no rules, no
+   stat line. It is identified by its art and by the ink of its border, so the
+   border is the only chrome and carries that whole job -- hence a weight that
+   would be heavy-handed anywhere else. Longhands rather than the shorthand,
+   because the colour arrives inline per ink. */
+.card.res{aspect-ratio:3.5/2.5;border-style:solid;border-width:5px;background:#0B0A11}
+.card.res img{width:100%;height:100%;object-fit:cover;display:block}
+
 .credit{background:rgba(0,0,0,.5);font-family:var(--mono);font-size:.46rem;letter-spacing:.1em;
      padding:.16rem .45rem;color:rgba(255,255,255,.72)}
 
@@ -157,6 +166,11 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
   .stat.corner.l{left:.05in}
   .stat.corner.r{right:.05in}
   .card.up .rules{padding-bottom:.34in}
+  /* landscape, so it occupies two of the 2.5in columns when it shares a sheet
+     with portrait cards; a sheet that is all resources retracks to fit 8. */
+  .card.res{width:3.5in;height:2.5in;border-width:.055in;grid-column:span 2}
+  .grid.res-sheet{grid-template-columns:repeat(2,3.5in)}
+  .grid.res-sheet .card.res{grid-column:auto}
   .credit{font-size:4.4pt;padding:.015in .05in}
   .meta{font-size:6pt}
   .card .head{font-size:7pt}
@@ -167,16 +181,18 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 
 <header class="top">
   <div class="spectrum"></div>
-  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V17</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
+  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V18</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
   <p class="sub">Every card in the list, in the colors of the class it was chosen for.
-     Art slots are empty until images land in <code>art/</code>.
+     The six resources carry their art already; the rest are placeholders until
+     images land in <code>art/</code>.
      The classes themselves live in the <a href="class-bible.html">class bible</a>.</p>
 </header>
 
 <div class="bar noprint">
   <div class="field"><label for="f-class">Class</label>
     <select id="f-class"><option value="assigned">All assigned (252)</option>
-      <option value="">Everything (755)</option><option value="none">Unassigned</option></select></div>
+      <option value="resources">Resources</option>
+      <option value="">Everything</option><option value="none">Unassigned</option></select></div>
   <div class="field"><label for="f-type">Type</label><select id="f-type"><option value="">Any</option></select></div>
   <div class="field"><label for="f-cost">Cost</label><select id="f-cost"><option value="">Any</option></select></div>
   <div class="field"><label for="f-text">Search rules text</label><input id="f-text" type="search" placeholder="e.g. exhaust, discard pile"></div>
@@ -190,6 +206,27 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 <script>
 const CLASSES = [{"slug": "01-pyromancer","hero": "Caine","name": "Pyromancer","counter": "Flame 🔥","c1": "#D3082F","c2": "#D3082F"},{"slug": "02-chronomancer","hero": "Vesper","name": "Chronomancer","counter": "Time ⏳","c1": "#F5B202","c2": "#F5B202"},{"slug": "03-druid","hero": "Briar","name": "Druid","counter": "Growth 🌿","c1": "#2A8934","c2": "#2A8934"},{"slug": "04-sorceress","hero": "Crystal","name": "Sorceress","counter": "Frost ❄️","c1": "#0189C4","c2": "#0189C4"},{"slug": "05-necromancer","hero": "Viol","name": "Necromancer","counter": "Soul 🪦","c1": "#81377B","c2": "#81377B"},{"slug": "06-warrior","hero": "Hale","name": "Warrior","counter": "Durability 🛡️","c1": "#9FA8B4","c2": "#9FA8B4"},{"slug": "07-wizard","hero": "Arc","name": "Wizard","counter": "Plasma 💥","c1": "#D3082F","c2": "#F5B202"},{"slug": "08-shaman","hero": "Ash","name": "Shaman","counter": "Magma 🌋","c1": "#D3082F","c2": "#2A8934"},{"slug": "09-trinket-mage","hero": "Quench","name": "Trinket-mage","counter": "Charge 🫧","c1": "#D3082F","c2": "#0189C4"},{"slug": "10-warlock","hero": "Brand","name": "Warlock","counter": "Debt ☄️","c1": "#D3082F","c2": "#81377B"},{"slug": "11-demon-hunter","hero": "Kell","name": "Demon Hunter","counter": "Fury 🔺","c1": "#D3082F","c2": "#9FA8B4"},{"slug": "12-windrunner","hero": "Gale","name": "Windrunner","counter": "Terrain 🌎","c1": "#F5B202","c2": "#2A8934"},{"slug": "13-edgedancer","hero": "Prism","name": "Edgedancer","counter": "Facet 💠","c1": "#F5B202","c2": "#0189C4"},{"slug": "14-soulcaster","hero": "Mirren","name": "Soulcaster","counter": "Essence 🔮","c1": "#F5B202","c2": "#81377B"},{"slug": "15-runeblade","hero": "Stave","name": "Runeblade","counter": "Rune ᛞ","c1": "#F5B202","c2": "#9FA8B4"},{"slug": "16-shapeshifter","hero": "Pelt","name": "Shapeshifter","counter": "Feral 🐾","c1": "#2A8934","c2": "#0189C4"},{"slug": "17-witch-doctor","hero": "Mire","name": "Witch Doctor","counter": "Spore 🦠","c1": "#2A8934","c2": "#81377B"},{"slug": "18-ranger","hero": "Fletch","name": "Ranger","counter": "Mark 🎯","c1": "#2A8934","c2": "#9FA8B4"},{"slug": "19-lich","hero": "Rime","name": "Lich","counter": "Web 🕸️","c1": "#0189C4","c2": "#81377B"},{"slug": "20-death-knight","hero": "Pall","name": "Death Knight","counter": "Chill 🧊","c1": "#0189C4","c2": "#9FA8B4"},{"slug": "21-assassin","hero": "Hush","name": "Assassin","counter": "Contract 🗡","c1": "#81377B","c2": "#9FA8B4"}];
 const BY_SLUG = Object.fromEntries(CLASSES.map(c => [c.slug, c]));
+
+/* The six resources. They are ours, not part of the imported corpus, so they
+   live here rather than in card-list.json -- that file stays what it says it
+   is. Their art path is derived from the ink, so they also bypass
+   art/index.json, which exists to map corpus ids to filenames. */
+const RESOURCES = [
+  {ink:'Red',    element:'Fire',     hex:'#D3082F'},
+  {ink:'Amber',  element:'Arcane',   hex:'#F5B202'},
+  {ink:'Green',  element:'Nature',   hex:'#2A8934'},
+  {ink:'Blue',   element:'Frost',    hex:'#0189C4'},
+  {ink:'Purple', element:'Shadow',   hex:'#81377B'},
+  {ink:'Steel',  element:'Physical', hex:'#9FA8B4'},
+];
+const RESOURCE_CARDS = RESOURCES.map(r => ({
+  id:`RES-${r.ink.toUpperCase()}`, kind:'resource', 'class':null,
+  name:`${r.ink} Resource`, type:'Resource',
+  cost:null, power:null, hp:null, unique:false,
+  aspects:[], keywords:[], traitCount:0, text:'', backText:null, epicAction:null,
+  ink:r.ink, element:r.element, hex:r.hex,
+  art:`art/resources/${r.ink.toLowerCase()}.png`,
+}));
 const esc = s => String(s).replace(/[&<>"]/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
 const $ = id => document.getElementById(id);
 let CARDS = [];
@@ -225,7 +262,17 @@ function pipsHTML(c){
   return `<div class="pips">${out.join('')}</div>`;
 }
 
+/* No visible text by design. The alt text and the title are for screen readers
+   and hover -- neither prints, so the printed card stays blank as intended. */
+function resourceHTML(c){
+  return `<article class="card res" style="border-color:${c.hex}"
+    title="${esc(c.ink)} \u00B7 ${esc(c.element)}">
+    <img src="${esc(c.art)}" alt="${esc(c.ink)} resource \u2014 ${esc(c.element)}">
+  </article>`;
+}
+
 function cardHTML(c){
+  if (c.kind === 'resource') return resourceHTML(c);
   const k = BY_SLUG[c['class']];
   const bg = k ? `linear-gradient(155deg, ${k.c1}, ${k.c2})` : 'linear-gradient(155deg,#6B6879,#423E55)';
   // Two of the six inks are far too light to carry white text on their own, and
@@ -275,15 +322,23 @@ function apply(){
   const cls = $('f-class').value, ty = $('f-type').value, co = $('f-cost').value;
   const q = $('f-text').value.trim().toLowerCase();
   const out = CARDS.filter(c => {
-    if (cls === 'assigned' && !c['class']) return false;
-    if (cls === 'none' && c['class']) return false;
-    if (cls && cls !== 'assigned' && cls !== 'none' && c['class'] !== cls) return false;
+    // a resource belongs to an ink, not a class, so every class-shaped filter
+    // value excludes it -- it shows under its own option and under Everything
+    const isRes = c.kind === 'resource';
+    if (cls === 'resources') { if (!isRes) return false; }
+    else if (isRes) { if (cls !== '') return false; }
+    else {
+      if (cls === 'assigned' && !c['class']) return false;
+      if (cls === 'none' && c['class']) return false;
+      if (cls && cls !== 'assigned' && cls !== 'none' && c['class'] !== cls) return false;
+    }
     if (ty && c.type !== ty) return false;
     if (co !== '' && String(c.cost) !== co) return false;
     if (q && !(c.text || '').toLowerCase().includes(q)) return false;
     return true;
   });
   $('grid').innerHTML = out.map(cardHTML).join('');
+  $('grid').classList.toggle('res-sheet', out.length > 0 && out.every(c => c.kind === 'resource'));
   fitRules($('grid'));
   $('count').textContent = `${out.length} card${out.length === 1 ? '' : 's'}`;
   $('empty').hidden = out.length > 0;
@@ -296,10 +351,14 @@ Promise.all([
 ]).then(([d, art]) => {
   for (const f of art) ART[String(f).replace(/\.[^.]+$/, '')] = f;
   const order = Object.fromEntries(CLASSES.map((c, i) => [c.slug, i]));
-  CARDS = d.data.slice().sort((a, b) =>
+  CARDS = RESOURCE_CARDS.concat(d.data.slice().sort((a, b) =>
       (order[a['class']] ?? 99) - (order[b['class']] ?? 99) ||
-      (a.cost ?? -1) - (b.cost ?? -1) || a.id.localeCompare(b.id));
+      (a.cost ?? -1) - (b.cost ?? -1) || a.id.localeCompare(b.id)));
   const sel = $('f-class');
+  const setOpt = (v, label) => { const o = sel.querySelector(`option[value="${v}"]`); if (o) o.textContent = label; };
+  setOpt('assigned', `All assigned (${CARDS.filter(c => c['class']).length})`);
+  setOpt('', `Everything (${CARDS.length})`);
+  setOpt('resources', `Resources (${RESOURCE_CARDS.length})`);
   CLASSES.forEach(c => {
     const n = CARDS.filter(x => x['class'] === c.slug).length;
     sel.insertAdjacentHTML('beforeend', `<option value="${c.slug}">${esc(c.name)} — ${esc(c.hero)} (${n})</option>`);
