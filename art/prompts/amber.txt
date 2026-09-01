@@ -1,0 +1,23 @@
+Amber / Arcane resource card — #F5B202
+Paste this whole file into a fresh chat. It is complete on its own.
+
+A faceted gemstone in gold-amber set into a brass plumb-bob, hanging from a fine
+chain and caught mid-swing. Palette: #F5B202 the stone, #705307 aged brass,
+#322504 the dark ground.
+
+Style reference — fetch and match these two images:
+https://ashtonkellis.github.io/might-and-magic/art/seeds/emerald-gemstone.jpg
+https://ashtonkellis.github.io/might-and-magic/art/seeds/amethyst-gemstone.jpg
+
+Match their rendering exactly: polished photoreal digital fantasy art, not
+painting, with a shallow depth of field that throws the background into soft
+blur and bokeh. The gemstone is the only light source — it glows from within
+and casts its colour onto everything near it. The environment behind is that
+element's own habitat, heavily out of focus and tinted the same colour, dark
+enough that the stone is the brightest thing in frame. Change only the object
+and the colour; keep the finish, the lighting logic and the depth of field.
+
+Landscape 3:2. The object is centred and fills about 40% of the frame. Full
+bleed to all four edges. No text, lettering, numerals, signatures, watermarks,
+borders, frames or card templates. No people, hands, faces or creatures. Keep
+nothing essential within the outer 4% of the left and right edges.

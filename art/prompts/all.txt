@@ -1,0 +1,152 @@
+All six resource-card prompts. Each block is complete on its own —
+run each in a FRESH chat, never one after another in the same thread,
+or the image tool treats the second request as an edit of the first.
+
+Red / Fire — #D3082F
+
+A raw uncut gemstone in deep crimson, unfaceted and rough, resting in a bed of
+live embers on cracked black basalt. Palette: #D3082F the stone, #F26E31 ember
+accent, #2B050C the dark ground.
+
+Style reference — fetch and match these two images:
+https://ashtonkellis.github.io/might-and-magic/art/seeds/emerald-gemstone.jpg
+https://ashtonkellis.github.io/might-and-magic/art/seeds/amethyst-gemstone.jpg
+
+Match their rendering exactly: polished photoreal digital fantasy art, not
+painting, with a shallow depth of field that throws the background into soft
+blur and bokeh. The gemstone is the only light source — it glows from within
+and casts its colour onto everything near it. The environment behind is that
+element's own habitat, heavily out of focus and tinted the same colour, dark
+enough that the stone is the brightest thing in frame. Change only the object
+and the colour; keep the finish, the lighting logic and the depth of field.
+
+Landscape 3:2. The object is centred and fills about 40% of the frame. Full
+bleed to all four edges. No text, lettering, numerals, signatures, watermarks,
+borders, frames or card templates. No people, hands, faces or creatures. Keep
+nothing essential within the outer 4% of the left and right edges.
+
+========================================================================
+
+Amber / Arcane — #F5B202
+
+A faceted gemstone in gold-amber set into a brass plumb-bob, hanging from a fine
+chain and caught mid-swing. Palette: #F5B202 the stone, #705307 aged brass,
+#322504 the dark ground.
+
+Style reference — fetch and match these two images:
+https://ashtonkellis.github.io/might-and-magic/art/seeds/emerald-gemstone.jpg
+https://ashtonkellis.github.io/might-and-magic/art/seeds/amethyst-gemstone.jpg
+
+Match their rendering exactly: polished photoreal digital fantasy art, not
+painting, with a shallow depth of field that throws the background into soft
+blur and bokeh. The gemstone is the only light source — it glows from within
+and casts its colour onto everything near it. The environment behind is that
+element's own habitat, heavily out of focus and tinted the same colour, dark
+enough that the stone is the brightest thing in frame. Change only the object
+and the colour; keep the finish, the lighting logic and the depth of field.
+
+Landscape 3:2. The object is centred and fills about 40% of the frame. Full
+bleed to all four edges. No text, lettering, numerals, signatures, watermarks,
+borders, frames or card templates. No people, hands, faces or creatures. Keep
+nothing essential within the outer 4% of the left and right edges.
+
+========================================================================
+
+Green / Nature — #2A8934
+
+A polished orb in deep green held in the head of a living-wood staff wrapped in
+vine — as in the reference image. Palette: #2A8934 the stone, #C9A227 leaf-gold
+accent, #0B1D0D the dark ground.
+
+Style reference — fetch and match these two images:
+https://ashtonkellis.github.io/might-and-magic/art/seeds/emerald-gemstone.jpg
+https://ashtonkellis.github.io/might-and-magic/art/seeds/amethyst-gemstone.jpg
+
+Match their rendering exactly: polished photoreal digital fantasy art, not
+painting, with a shallow depth of field that throws the background into soft
+blur and bokeh. The gemstone is the only light source — it glows from within
+and casts its colour onto everything near it. The environment behind is that
+element's own habitat, heavily out of focus and tinted the same colour, dark
+enough that the stone is the brightest thing in frame. Change only the object
+and the colour; keep the finish, the lighting logic and the depth of field.
+
+Landscape 3:2. The object is centred and fills about 40% of the frame. Full
+bleed to all four edges. No text, lettering, numerals, signatures, watermarks,
+borders, frames or card templates. No people, hands, faces or creatures. Keep
+nothing essential within the outer 4% of the left and right edges.
+
+========================================================================
+
+Blue / Frost — #0189C4
+
+A faceted gemstone in glacial blue in a silver claw setting on a ring, the ring
+resting on cracked ice. Palette: #0189C4 the stone, #A9CEDE frost, #031D28 the
+dark ground.
+
+Style reference — fetch and match these two images:
+https://ashtonkellis.github.io/might-and-magic/art/seeds/emerald-gemstone.jpg
+https://ashtonkellis.github.io/might-and-magic/art/seeds/amethyst-gemstone.jpg
+
+Match their rendering exactly: polished photoreal digital fantasy art, not
+painting, with a shallow depth of field that throws the background into soft
+blur and bokeh. The gemstone is the only light source — it glows from within
+and casts its colour onto everything near it. The environment behind is that
+element's own habitat, heavily out of focus and tinted the same colour, dark
+enough that the stone is the brightest thing in frame. Change only the object
+and the colour; keep the finish, the lighting logic and the depth of field.
+
+Landscape 3:2. The object is centred and fills about 40% of the frame. Full
+bleed to all four edges. No text, lettering, numerals, signatures, watermarks,
+borders, frames or card templates. No people, hands, faces or creatures. Keep
+nothing essential within the outer 4% of the left and right edges.
+
+========================================================================
+
+Purple / Shadow — #81377B
+
+A faceted gemstone in violet inside an open silver locket on a chain, lying on
+dark cloth. Palette: #81377B the stone, #9A7B3A tarnished gold, #1B0D1A the
+dark ground.
+
+Style reference — fetch and match these two images:
+https://ashtonkellis.github.io/might-and-magic/art/seeds/emerald-gemstone.jpg
+https://ashtonkellis.github.io/might-and-magic/art/seeds/amethyst-gemstone.jpg
+
+Match their rendering exactly: polished photoreal digital fantasy art, not
+painting, with a shallow depth of field that throws the background into soft
+blur and bokeh. The gemstone is the only light source — it glows from within
+and casts its colour onto everything near it. The environment behind is that
+element's own habitat, heavily out of focus and tinted the same colour, dark
+enough that the stone is the brightest thing in frame. Change only the object
+and the colour; keep the finish, the lighting logic and the depth of field.
+
+Landscape 3:2. The object is centred and fills about 40% of the frame. Full
+bleed to all four edges. No text, lettering, numerals, signatures, watermarks,
+borders, frames or card templates. No people, hands, faces or creatures. Keep
+nothing essential within the outer 4% of the left and right edges.
+
+========================================================================
+
+Steel / Physical — #9FA8B4
+
+A pale grey gemstone riveted into the head of a smith's hammer, resting on an
+anvil. This stone is the dimmest of the six — it catches light rather than
+throwing it. Palette: #9FA8B4 the stone, #5E7A66 verdigris, #212529 the dark
+ground.
+
+Style reference — fetch and match these two images:
+https://ashtonkellis.github.io/might-and-magic/art/seeds/emerald-gemstone.jpg
+https://ashtonkellis.github.io/might-and-magic/art/seeds/amethyst-gemstone.jpg
+
+Match their rendering exactly: polished photoreal digital fantasy art, not
+painting, with a shallow depth of field that throws the background into soft
+blur and bokeh. The gemstone is the only light source — it glows from within
+and casts its colour onto everything near it. The environment behind is that
+element's own habitat, heavily out of focus and tinted the same colour, dark
+enough that the stone is the brightest thing in frame. Change only the object
+and the colour; keep the finish, the lighting logic and the depth of field.
+
+Landscape 3:2. The object is centred and fills about 40% of the frame. Full
+bleed to all four edges. No text, lettering, numerals, signatures, watermarks,
+borders, frames or card templates. No people, hands, faces or creatures. Keep
+nothing essential within the outer 4% of the left and right edges.

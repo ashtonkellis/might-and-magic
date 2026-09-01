@@ -1,0 +1,23 @@
+Green / Nature resource card — #2A8934
+Paste this whole file into a fresh chat. It is complete on its own.
+
+A polished orb in deep green held in the head of a living-wood staff wrapped in
+vine — as in the reference image. Palette: #2A8934 the stone, #C9A227 leaf-gold
+accent, #0B1D0D the dark ground.
+
+Style reference — fetch and match these two images:
+https://ashtonkellis.github.io/might-and-magic/art/seeds/emerald-gemstone.jpg
+https://ashtonkellis.github.io/might-and-magic/art/seeds/amethyst-gemstone.jpg
+
+Match their rendering exactly: polished photoreal digital fantasy art, not
+painting, with a shallow depth of field that throws the background into soft
+blur and bokeh. The gemstone is the only light source — it glows from within
+and casts its colour onto everything near it. The environment behind is that
+element's own habitat, heavily out of focus and tinted the same colour, dark
+enough that the stone is the brightest thing in frame. Change only the object
+and the colour; keep the finish, the lighting logic and the depth of field.
+
+Landscape 3:2. The object is centred and fills about 40% of the frame. Full
+bleed to all four edges. No text, lettering, numerals, signatures, watermarks,
+borders, frames or card templates. No people, hands, faces or creatures. Keep
+nothing essential within the outer 4% of the left and right edges.
