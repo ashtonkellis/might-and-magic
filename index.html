@@ -138,6 +138,22 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
    would be heavy-handed anywhere else. Longhands rather than the shorthand,
    because the colour arrives inline per ink. */
 .card.res{aspect-ratio:3.5/2.5;border-style:solid;border-width:5px;background:#0B0A11}
+/* It is the same physical card as the others, turned on its side, and it should
+   read at that scale rather than shrinking to one column's width. So it spans
+   two tracks and then gives back the width it does not need: spanning two makes
+   100% equal 2 columns plus the gap, so (100% - gap)/2 recovers one column, and
+   1.4 of that is the long edge of a 3.5x2.5 card whose short edge is a column.
+   Below two-column width there is nothing to span, so it stays full-width. */
+@media (min-width:520px){
+  .card.res{grid-column:span 2;width:calc((100% - 1rem) / 2 * 1.4);justify-self:start}
+}
+/* Spanning two portrait tracks leaves slack the card does not use. That is the
+   price of matching scale in a mixed list, but a sheet of nothing but
+   resources has no portrait cards to line up with, so it retracks to landscape
+   columns and the cards fill them: 294px is 210 x 1.4, the same card turned,
+   which lands on the same rendered size from the other direction. */
+.grid.res-sheet{grid-template-columns:repeat(auto-fill,minmax(294px,1fr))}
+.grid.res-sheet .card.res{grid-column:auto;width:100%}
 .card.res img{width:100%;height:100%;object-fit:cover;display:block}
 
 .credit{background:rgba(0,0,0,.5);font-family:var(--mono);font-size:.46rem;letter-spacing:.1em;
@@ -181,7 +197,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 
 <header class="top">
   <div class="spectrum"></div>
-  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V18</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
+  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V19</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
   <p class="sub">Every card in the list, in the colors of the class it was chosen for.
      The six resources carry their art already; the rest are placeholders until
      images land in <code>art/</code>.
