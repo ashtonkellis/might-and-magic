@@ -1,0 +1,133 @@
+{
+  "description": "The twenty-one hero cards -- one per class. A hero is the card an opponent damages to win; it is what Star Wars: Unlimited calls a base, renamed when this project renamed bases to heroes. Each carries a starting HP and a single ability.\n\nHP economy: 20 is the notional blank baseline. Below 20 means the ability was bought with health; above means health was paid to accept a drawback, which is why the Lich sits at 25 for starting a card down.\n\n'Your leader' means the class's Leader card, a separate card from this one. The two are both called heroes in conversation and that collision is not yet resolved in the data.",
+  "baselineHP": 20,
+  "total": 21,
+  "data": [
+    {
+      "class": "01-pyromancer",
+      "hero": "Caine",
+      "hp": 16,
+      "ability": "Epic Action [discard your hand]: Deal 3 damage to each unit."
+    },
+    {
+      "class": "02-chronomancer",
+      "hero": "Vesper",
+      "hp": 17,
+      "ability": "Draw 2 more cards in your starting hand. You can’t take a mulligan."
+    },
+    {
+      "class": "03-druid",
+      "hero": "Briar",
+      "hp": 16,
+      "ability": "When the rest phase starts: Heal 1 damage from each friendly unit."
+    },
+    {
+      "class": "04-sorceress",
+      "hero": "Crystal",
+      "hp": 15,
+      "ability": "Epic Action: Exhaust each enemy unit."
+    },
+    {
+      "class": "05-necromancer",
+      "hero": "Viol",
+      "hp": 16,
+      "ability": "Epic Action: Return a unit from your discard pile to your hand."
+    },
+    {
+      "class": "06-warrior",
+      "hero": "Hale",
+      "hp": 17,
+      "ability": "When the rest phase starts: Heal 2 damage from your hero."
+    },
+    {
+      "class": "07-wizard",
+      "hero": "Arc",
+      "hp": 16,
+      "ability": "Epic Action: Play a spell from your hand. It costs 3 less. Deal 2 damage to your hero."
+    },
+    {
+      "class": "08-shaman",
+      "hero": "Ash",
+      "hp": 16,
+      "ability": "When a friendly unit is defeated: Give an Experience token to a friendly unit."
+    },
+    {
+      "class": "09-trinket-mage",
+      "hero": "Quench",
+      "hp": 16,
+      "ability": "Epic Action: Search your deck for an upgrade, reveal it, and draw it."
+    },
+    {
+      "class": "10-warlock",
+      "hero": "Brand",
+      "hp": 14,
+      "ability": "Draw 2 more cards in your starting hand."
+    },
+    {
+      "class": "11-demon-hunter",
+      "hero": "Kell",
+      "hp": 14,
+      "ability": "Your leader costs 3 less to deploy."
+    },
+    {
+      "class": "12-windrunner",
+      "hero": "Gale",
+      "hp": 15,
+      "ability": "Epic Action: Give a Shield token to each friendly unit."
+    },
+    {
+      "class": "13-edgedancer",
+      "hero": "Prism",
+      "hp": 16,
+      "ability": "Epic Action: Play a unit that costs 2 or less from your discard pile."
+    },
+    {
+      "class": "14-soulcaster",
+      "hero": "Mirren",
+      "hp": 16,
+      "ability": "Epic Action: Defeat a friendly unit. Resource the top card of your deck and ready it."
+    },
+    {
+      "class": "15-runeblade",
+      "hero": "Stave",
+      "hp": 17,
+      "ability": "When you play an upgrade: Give an Experience token to the unit it’s attached to."
+    },
+    {
+      "class": "16-shapeshifter",
+      "hero": "Pelt",
+      "hp": 15,
+      "ability": "Epic Action: Play a unit from your hand. Give it Ambush for this phase."
+    },
+    {
+      "class": "17-witch-doctor",
+      "hero": "Mire",
+      "hp": 16,
+      "ability": "Epic Action: Heal all damage from each friendly unit. Deal 1 damage to your hero for each unit healed."
+    },
+    {
+      "class": "18-ranger",
+      "hero": "Fletch",
+      "hp": 16,
+      "ability": "Epic Action: Search the top 5 cards of your deck for any card, reveal it, and draw it."
+    },
+    {
+      "class": "19-lich",
+      "hero": "Rime",
+      "hp": 25,
+      "ability": "Draw 1 less card in your starting hand."
+    },
+    {
+      "class": "20-death-knight",
+      "hero": "Pall",
+      "hp": 16,
+      "ability": "Your leader gets +0/+4."
+    },
+    {
+      "class": "21-assassin",
+      "hero": "Hush",
+      "hp": 15,
+      "ability": "Epic Action: Defeat a non-leader unit that has 3 or less remaining HP."
+    }
+  ]
+}

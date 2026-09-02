@@ -76,6 +76,23 @@ and palette.
 
 Open it in a browser.
 
+## `hero-cards.json`
+
+The twenty-one hero cards, one per class — canonical. A hero is the card an
+opponent damages to win, which is what Star Wars: Unlimited calls a base; the
+name changed when this project renamed bases to heroes. Each entry is a class
+slug, the class's hero, a starting HP and one ability.
+
+The HP is the whole design. Twenty is the notional blank baseline, so anything
+below it was bought with health and anything above was paid for by accepting a
+drawback — which is why the Lich sits at 25 for starting a card down, and the
+Warlock at 14 for starting two cards up.
+
+Class slugs and hero names are not retyped here; the generator reads them from
+the `CLASSES` table in `index.html` and fails if either has drifted.
+
+Not wired into the browser. Nothing renders these yet.
+
 ## `card-list.json`
 
 A card list drawn from the first three Star Wars: Unlimited sets, kept as a
