@@ -1,5 +1,5 @@
 {
-  "description": "The twenty-one hero cards -- one per class, and the only two-sided cards in the game. A hero is the card an opponent damages to win: what Star Wars: Unlimited calls a base, renamed when this project renamed bases to heroes.\n\nThey are kept out of card-list.json on purpose. That file is the imported corpus, one flat card shape with a single cost and a single body; a hero has no cost, two sides, and two different meanings for HP. Forcing it into that schema would break both.\n\nFRONT is the hero at rest: its starting HP and one ability. 20 is the notional blank baseline, so below 20 means the ability was bought with health, and above means health was paid to accept a drawback -- which is why the Lich sits at 25 for starting a card down.\n\nBACK is the hero once flipped: a body with power and its own HP, which is a different number from the front's and not a life total. Ported from the deployed sides of Star Wars: Unlimited leaders, mechanics only -- no card names, the same rule card-list.json was built under.\n\nOPEN: nothing flips these yet. A leader flips by paying resources to deploy; a hero is never deployed, so it needs its own trigger. Eleven backs also say “On Attack”, and a hero does not attack -- those want rephrasing around a friendly unit attacking. And “your leader” on three fronts means a separate card that is also called a hero in conversation.",
+  "description": "The twenty-one hero cards -- one per class, and the only two-sided cards in the game. A hero is the card an opponent damages to win: what Star Wars: Unlimited calls a base, renamed when this project renamed bases to heroes.\n\nThey are kept out of card-list.json on purpose. That file is the imported corpus, one flat card shape with a single cost and a single body; a hero has no cost, two sides, and two different meanings for HP. Forcing it into that schema would break both.\n\nFRONT is the hero at rest: its starting HP and one ability. 20 is the notional blank baseline, so below 20 means the ability was bought with health, and above means health was paid to accept a drawback -- which is why the Lich sits at 25 for starting a card down.\n\nBACK is the hero flipped. It enters play as an ordinary unit and can attack, so its power and HP are a real body, not a life total -- the front's HP and the back's HP are unrelated numbers that happen to share a name. Ported from the deployed sides of Star Wars: Unlimited leaders, mechanics only, no card names, the same rule card-list.json was built under.\n\nPower has a floor of 1. Because a flipped hero can attack, a 0-power body would be one that can never do anything on the attack, which is a dead card rather than a design.\n\nOPEN: what triggers the flip is still unspecified. A leader flips by paying resources to deploy; a hero is never deployed, so it needs a trigger of its own. Also, “your leader” on three fronts names a separate card that is likewise called a hero in conversation.",
   "baselineHP": 20,
   "total": 21,
   "data": [
@@ -245,7 +245,7 @@
         "ability": "Draw 1 less card in your starting hand."
       },
       "back": {
-        "power": 0,
+        "power": 1,
         "hp": 8,
         "ability": "Restore 4. (When a friendly unit attacks, heal 4 damage from your hero.)"
       }
@@ -276,5 +276,6 @@
         "ability": "Action [exhaust a friendly unit]: Play a unit from your hand. It enters play ready."
       }
     }
-  ]
+  ],
+  "minimumBackPower": 1
 }

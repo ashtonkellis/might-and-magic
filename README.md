@@ -93,17 +93,22 @@ design. Twenty is the notional blank baseline, so below it the ability was
 bought with health and above it health was paid for a drawback, which is why
 the Lich sits at 25 for starting a card down.
 
-`back` is the hero flipped: a body with power and its own HP — a different
-number from the front's, and not a life total. Ported from the deployed sides
+`back` is the hero flipped. It enters play as an ordinary unit and can attack,
+so its power and HP are a real body — the front's HP and the back's HP are
+unrelated numbers that happen to share a name. Ported from the deployed sides
 of SWU leaders, mechanics only, no card names, the same rule `card-list.json`
 was built under.
+
+Power has a floor of 1. Since a flipped hero attacks, a 0-power body would be
+one that can never do anything on the attack — a dead card rather than a
+design.
 
 Class slugs, hero names and ordering are read from the `CLASSES` table in
 `index.html` rather than retyped; the generator fails if any has drifted.
 
-Still open: nothing flips these. A leader flips by paying resources to deploy
-and a hero is never deployed, so it needs its own trigger. Nothing renders them
-either.
+Still open: what *triggers* the flip. A leader flips by paying resources to
+deploy and a hero is never deployed, so it needs a trigger of its own. Nothing
+renders these yet either.
 
 ## `card-list.json`
 
