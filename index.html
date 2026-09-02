@@ -164,6 +164,11 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
    ability is one sentence where a unit's is a paragraph, which is why the text
    gets a wide two-line box rather than a tall column. Classes are namespaced
    because .title, .art and .rules already belong to the portrait card. */
+/* the flipped side wears the unit frame, so it only needs the corrections a
+   unit's own chrome does not cover: no mana column to leave a gutter for, and
+   the rules box is a share of a shorter card */
+.card.hero.back .title{padding-left:.45rem;min-height:0}
+.card.hero.back .rules{flex:0 0 34%}
 .card.hero{display:flex;flex-direction:column;color:#16141d;background:#0B0A11;
   border:4px solid transparent;
   background-image:linear-gradient(#0B0A11,#0B0A11),linear-gradient(140deg,var(--c1),var(--c2));
@@ -256,7 +261,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 
 <header class="top">
   <div class="spectrum"></div>
-  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V26</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
+  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V27</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
   <p class="sub">In the colors of the class each card was chosen for.
      Every card in the game: twenty-one heroes, six resources, and twelve cards
      for each class. The resources carry their art; the rest are placeholders
@@ -372,26 +377,42 @@ function buildHeroes(heroes){
 
 function heroHTML(c){
   const inks = [c.c1, c.c2].map(x => `<i style="background:${x}"></i>`).join('');
-  // the front shows the flip cost and what it buys; the flipped side is a unit
-  // and shows a body instead, so power joins HP on the art
+  const bg = `linear-gradient(155deg, ${c.c1}, ${c.c2})`;
+  const wash = 'linear-gradient(rgba(0,0,0,.40),rgba(0,0,0,.40))';
+  const banner = `${wash}, linear-gradient(90deg, ${c.c1} 0 44%, ${c.c2} 56% 100%)`;
+
+  // A flipped hero enters play as an ordinary unit, so its face is the unit
+  // frame -- the same title, art, stat line and rules box, reusing those
+  // components rather than restating them. It is landscape because both sides
+  // of one physical card are, but a player reads it exactly as they read a unit.
+  if (c.side === 'back') {
+    return `<article class="card wide hero back" style="background:${bg}">
+      <div class="title" style="background:${banner}">${esc(c.hero)}</div>
+      <div class="art"><div class="ph"><span class="glyph">${c.glyph}</span></div></div>
+      <div class="statline">
+        <span class="stat pow">${c.power}</span>
+        <span class="mid">Hero<span class="kws">${esc(c.className)} \u00B7 flipped</span></span>
+        <span class="stat hp">${c.hp}</span>
+      </div>
+      <div class="rules"><p>${esc(c.text)}</p></div>
+    </article>`;
+  }
+
+  // The front is not a unit: no body, no stat line, and a flip cost no other
+  // card carries. It keeps the landscape banded layout.
   const cost = [c.c1, c.c2].map(x => `<i style="background:${x}"></i>`).join('')
              + '<i class="gen">1</i>'.repeat(c.flip.generic);
-  const foot = c.side === 'front'
-    ? `<div class="hflip"><span class="lab">Flip</span><span class="cost">${cost}</span>
-         <span class="arrow">\u2192</span>
-         <span class="becomes">${c.becomes}</span></div>`
-    : '';
-  const stats = c.side === 'front'
-    ? `<span class="hstat hp">${c.hp}</span>`
-    : `<span class="hstat hp">${c.hp}</span><span class="hstat pow">${c.power}</span>`;
   return `<article class="card wide hero" style="--c1:${c.c1};--c2:${c.c2}">
     <div class="hbanner">
-      <span class="hkind">Hero \u00B7 ${c.side === 'front' ? 'Front' : 'Flipped'}</span>
+      <span class="hkind">Hero \u00B7 Front</span>
       <span class="htitle"><b>${esc(c.hero)}</b><em>${esc(c.className)}</em></span>
       <span class="hinks">${inks}</span>
     </div>
-    <div class="hart"><span class="glyph">${c.glyph}</span>${stats}</div>
-    <div class="hfoot"><p class="hrules">${esc(c.text)}</p>${foot}</div>
+    <div class="hart"><span class="glyph">${c.glyph}</span><span class="hstat hp">${c.hp}</span></div>
+    <div class="hfoot"><p class="hrules">${esc(c.text)}</p>
+      <div class="hflip"><span class="lab">Flip</span><span class="cost">${cost}</span>
+        <span class="arrow">\u2192</span><span class="becomes">${c.becomes}</span></div>
+    </div>
   </article>`;
 }
 

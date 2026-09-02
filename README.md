@@ -123,7 +123,10 @@ bodies came from, and it reproduces them: every hero paying 2 came from a
 
 The browser renders both faces — each hero is two cards in the grid, since you
 need both to make the physical card, so twenty-one heroes are forty-two
-entries. They sit under their own **Heroes** filter option and under Everything,
+entries. The flipped side wears the **unit frame**, reusing the same title bar,
+art panel, stat line and rules box the unit cards use, because a flipped hero
+*is* a unit and should be read as one. The front keeps its own banded layout:
+it has no body, no stat line, and a flip cost no other card carries. They sit under their own **Heroes** filter option and under Everything,
 and are excluded from every class-shaped filter, so *All assigned* stays 252.
 
 ## `card-list.json`
