@@ -123,10 +123,11 @@ bodies came from, and it reproduces them: every hero paying 2 came from a
 
 The browser renders both faces — each hero is two cards in the grid, since you
 need both to make the physical card, so twenty-one heroes are forty-two
-entries. The flipped side wears the **unit frame**, reusing the same title bar,
-art panel, stat line and rules box the unit cards use, because a flipped hero
-*is* a unit and should be read as one. The front keeps its own banded layout:
-it has no body, no stat line, and a flip cost no other card carries. They sit under their own **Heroes** filter option and under Everything,
+entries, and the two faces are different shapes. A hero is **turned as well as
+flipped**: the front is landscape with a banded layout and a flip cost, the
+flipped face is portrait and full art with only its body and one rules line
+printed over the picture. Same rectangle, rotated ninety degrees — the browser
+renders the flipped face at exactly the front's height for its width. They sit under their own **Heroes** filter option and under Everything,
 and are excluded from every class-shaped filter, so *All assigned* stays 252.
 
 ## `art/prompts/`

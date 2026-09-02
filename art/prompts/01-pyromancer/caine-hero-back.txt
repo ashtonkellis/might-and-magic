@@ -2,14 +2,16 @@ Caine — hero card, portrait face (full art)
 Pyromancer · Might & Magic hero art
 Paste this whole file into a fresh chat. It is complete on its own.
 
-SUBJECT: The same man, the other scene -- Caine at the moment he burns the book.
-He holds the spellbook overhead in both hands, fully ablaze, and the fire is
-climbing: a rising column that fills the height of the frame, loose pages
-spiralling up through it and coming apart into embers as they go. He is looking
-up into it, laughing, lit from above for the only time in the class. Low camera,
-close enough that he fills the lower half and the fire owns the upper half. This
-is the most spectacular thing he does and the portrait format exists to carry
-the column of fire, so use the height.
+SUBJECT: An action shot -- Caine mid-attack, the moment the fire leaves him.
+He is lunging forward and low, one arm whipped across his body and the other
+thrown out ahead, hurling a fistful of torn burning pages that are erupting into
+a firestorm as they go. Coat and hair dragged backward by the motion. The blast
+goes up and out of the top of the frame, so the fire owns the upper two thirds
+and he is driving into the lower third from the corner. Caught at the fastest
+point of the movement, not before or after it. He is laughing into it.
+
+This is the most spectacular thing he does and the portrait format exists to
+carry the eruption, so use the height.
 
 FORMAT: full art, portrait 2:3. The image is the entire card face -- nothing
 will be printed over it and no frame will crop it, so it must carry the card by
@@ -17,9 +19,12 @@ itself. Bleed to all four edges. No text, lettering, numerals, signatures,
 watermarks, borders or frames. Keep nothing essential within the outer 4% of any
 edge.
 
-Note on the vertical composition: the class rule says fire is the only light
-source and sits inside the frame. Here it is above him rather than behind, which
-is the one deliberate departure -- everything else in the house style holds.
+Two deliberate departures from the class style, and only these two: the fire is
+ahead of and above him rather than behind, because he is throwing it; and the
+composition is a hard diagonal driving out of one corner rather than a figure
+with air around it. Everything else -- the mid-key value, the dark shape in the
+hot field, no environment, lost-and-found edges, the palette, the phoenix
+resolving out of the flame -- holds exactly.
 
 PYROMANCER HOUSE STYLE -- identical on every card in this class, do not vary it.
 
