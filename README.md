@@ -116,7 +116,10 @@ That bracketing was checked against the deploy costs of the SWU leaders these
 bodies came from, and it reproduces them: every hero paying 2 came from a
 4-cost leader, every 3 from a 5-cost, and the 4s from 6s and 7s.
 
-Nothing renders these yet.
+The browser renders both faces — each hero is two cards in the grid, since you
+need both to make the physical card, so twenty-one heroes are forty-two
+entries. They sit under their own **Heroes** filter option and under Everything,
+and are excluded from every class-shaped filter, so *All assigned* stays 252.
 
 ## `card-list.json`
 

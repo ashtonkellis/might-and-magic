@@ -137,7 +137,8 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
    border is the only chrome and carries that whole job -- hence a weight that
    would be heavy-handed anywhere else. Longhands rather than the shorthand,
    because the colour arrives inline per ink. */
-.card.res{aspect-ratio:3.5/2.5;border-style:solid;border-width:5px;background:#0B0A11}
+.card.wide{aspect-ratio:3.5/2.5}
+.card.res{border-style:solid;border-width:5px;background:#0B0A11}
 /* It is the same physical card as the others, turned on its side, and it should
    read at that scale rather than shrinking to one column's width. So it spans
    two tracks and then gives back the width it does not need: spanning two makes
@@ -145,16 +146,69 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
    1.4 of that is the long edge of a 3.5x2.5 card whose short edge is a column.
    Below two-column width there is nothing to span, so it stays full-width. */
 @media (min-width:520px){
-  .card.res{grid-column:span 2;width:calc((100% - 1rem) / 2 * 1.4);justify-self:start}
+  .card.wide{grid-column:span 2;width:calc((100% - 1rem) / 2 * 1.4);justify-self:start}
 }
 /* Spanning two portrait tracks leaves slack the card does not use. That is the
    price of matching scale in a mixed list, but a sheet of nothing but
    resources has no portrait cards to line up with, so it retracks to landscape
    columns and the cards fill them: 294px is 210 x 1.4, the same card turned,
    which lands on the same rendered size from the other direction. */
-.grid.res-sheet{grid-template-columns:repeat(auto-fill,minmax(294px,1fr))}
-.grid.res-sheet .card.res{grid-column:auto;width:100%}
+.grid.wide-sheet{grid-template-columns:repeat(auto-fill,minmax(294px,1fr))}
+.grid.wide-sheet .card.wide{grid-column:auto;width:100%}
 .card.res img{width:100%;height:100%;object-fit:cover;display:block}
+
+
+/* ---------- the hero card ----------
+   Two-sided and landscape, so the portrait card's stack of bands is rotated:
+   a banner across the top, a wide art band, then a short wide foot. A hero's
+   ability is one sentence where a unit's is a paragraph, which is why the text
+   gets a wide two-line box rather than a tall column. Classes are namespaced
+   because .title, .art and .rules already belong to the portrait card. */
+.card.hero{display:flex;flex-direction:column;color:#16141d;background:#0B0A11;
+  border:4px solid transparent;
+  background-image:linear-gradient(#0B0A11,#0B0A11),linear-gradient(140deg,var(--c1),var(--c2));
+  background-origin:border-box;background-clip:padding-box,border-box}
+.hbanner{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:.3rem;
+  padding:.16rem .4rem;color:#fff;background:
+    linear-gradient(rgba(0,0,0,.42),rgba(0,0,0,.42)),
+    linear-gradient(90deg,var(--c1) 0 44%,var(--c2) 56% 100%)}
+.hkind{font-family:var(--body);font-weight:700;font-size:.4rem;letter-spacing:.16em;
+  text-transform:uppercase;opacity:.9}
+.htitle{text-align:center;line-height:1.04;text-shadow:0 1px 2px rgba(0,0,0,.6)}
+.htitle b{display:block;font-family:var(--display);font-weight:700;font-size:.82rem;line-height:1.05}
+.htitle em{display:block;font-family:var(--body);font-style:normal;font-weight:600;
+  font-size:.38rem;letter-spacing:.14em;text-transform:uppercase;opacity:.85}
+.hinks{display:flex;gap:2px}
+.hinks i{width:.6rem;height:.6rem;border-radius:50%;display:block;
+  box-shadow:0 0 0 1.4px rgba(255,255,255,.9)}
+.hart{flex:1;min-height:0;position:relative;display:grid;place-items:center;overflow:hidden;
+  background:linear-gradient(160deg,color-mix(in srgb,var(--c1) 52%,#0b0a11),
+                                    color-mix(in srgb,var(--c2) 38%,#0b0a11))}
+.hart img{width:100%;height:100%;object-fit:cover;display:block}
+.hart .glyph{font-size:2.2rem;opacity:.5}
+/* the front's HP is a life total, the number read most often, so it is the
+   loudest thing on the card and reuses the shield the unit cards use for HP */
+.hstat{position:absolute;bottom:.2rem;width:2.1rem;height:2.1rem;display:grid;place-items:center;
+  color:#fff;font-family:var(--display);font-weight:700;font-size:1rem;z-index:2;
+  filter:drop-shadow(0 1px 2px rgba(0,0,0,.55))}
+.hstat.hp{left:.28rem;background:#27753F;clip-path:polygon(0 0,100% 0,100% 58%,50% 100%,0 58%)}
+.hstat.pow{right:.28rem;background:#B33127;clip-path:polygon(50% 0,100% 30%,78% 100%,22% 100%,0 30%)}
+.hfoot{background:#F4F2EC;padding:.24rem .34rem;display:flex;flex-direction:column;gap:.2rem}
+.hrules{margin:0;font-size:.5rem;line-height:1.3;flex:1;display:flex;align-items:center}
+/* the flip box is this card's Epic Action: set apart in gold, the cost on the
+   left and what the cost buys in the corner, as the reference card does */
+.hflip{background:#FBF2D4;border-left:3px solid #C9A227;border-radius:3px;
+  padding:.14rem .28rem;display:flex;align-items:center;gap:.26rem}
+.hflip .lab{font-family:var(--body);font-weight:700;font-size:.38rem;letter-spacing:.12em;
+  text-transform:uppercase;color:#7A5C12}
+.hflip .cost{display:flex;gap:2px}
+.hflip .cost i{width:.66rem;height:.66rem;border-radius:50%;display:grid;place-items:center;
+  font-family:var(--body);font-weight:700;font-size:.4rem;color:#fff;
+  box-shadow:0 0 0 1.2px rgba(0,0,0,.32)}
+.hflip .cost i.gen{background:#F2EFE6;color:#2A2536;box-shadow:0 0 0 1.2px rgba(0,0,0,.38)}
+.hflip .arrow{color:#9A7B3A;font-size:.5rem}
+.hflip .becomes{margin-left:auto;font-family:var(--display);font-weight:700;font-size:.66rem;color:#2A2536}
+.hflip .becomes em{font-style:normal;opacity:.45;margin:0 1px}
 
 .credit{background:rgba(0,0,0,.5);font-family:var(--mono);font-size:.46rem;letter-spacing:.1em;
      padding:.16rem .45rem;color:rgba(255,255,255,.72)}
@@ -184,9 +238,14 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
   .card.up .rules{padding-bottom:.34in}
   /* landscape, so it occupies two of the 2.5in columns when it shares a sheet
      with portrait cards; a sheet that is all resources retracks to fit 8. */
-  .card.res{width:3.5in;height:2.5in;border-width:.055in;grid-column:span 2}
-  .grid.res-sheet{grid-template-columns:repeat(2,3.5in)}
-  .grid.res-sheet .card.res{grid-column:auto}
+  .card.wide{width:3.5in;height:2.5in;grid-column:span 2}
+  .card.res{border-width:.055in}
+  .grid.wide-sheet{grid-template-columns:repeat(2,3.5in)}
+  .grid.wide-sheet .card.wide{grid-column:auto}
+  .htitle b{font-size:11pt} .htitle em{font-size:5pt} .hkind{font-size:5pt}
+  .hrules{font-size:7pt} .hflip .lab{font-size:5pt}
+  .hstat{width:.30in;height:.30in;font-size:13pt;bottom:.03in}
+  .hstat.hp{left:.04in} .hstat.pow{right:.04in}
   .credit{font-size:4.4pt;padding:.015in .05in}
   .meta{font-size:6pt}
   .card .head{font-size:7pt}
@@ -197,7 +256,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 
 <header class="top">
   <div class="spectrum"></div>
-  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V24</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
+  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V25</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
   <p class="sub">Every card in the list, in the colors of the class it was chosen for.
      The six resources carry their art already; the rest are placeholders until
      images land in <code>art/</code>.
@@ -207,6 +266,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 <div class="bar noprint">
   <div class="field"><label for="f-class">Class</label>
     <select id="f-class"><option value="assigned">All assigned (252)</option>
+      <option value="heroes">Heroes</option>
       <option value="resources">Resources</option>
       <option value="">Everything</option><option value="none">Unassigned</option></select></div>
   <div class="field"><label for="f-type">Type</label><select id="f-type"><option value="">Any</option></select></div>
@@ -287,7 +347,55 @@ function resourceHTML(c){
   </article>`;
 }
 
+/* Heroes come from hero-cards.json rather than card-list.json: they are
+   two-sided, have no cost, and their two HP numbers mean different things, none
+   of which the corpus schema holds. Each hero renders as two cards -- you need
+   both faces to make the physical card -- so 21 heroes are 42 entries here. */
+let HERO_CARDS = [];
+function buildHeroes(heroes){
+  const out = [];
+  for (const h of heroes) {
+    const k = BY_SLUG[h['class']] || {};
+    const base = {kind:'hero', 'class':h['class'], type:'Hero', cost:null, unique:false,
+                  aspects:[], keywords:[], traitCount:0, backText:null, epicAction:null,
+                  hero:h.hero, className:k.name || '', c1:k.c1, c2:k.c2,
+                  glyph:(k.counter || '').split(' ').pop() || '\u25C7', flip:h.flip};
+    out.push({...base, id:`HERO-${h.hero.toUpperCase()}-F`, side:'front',
+              name:`${h.hero} (front)`, hp:h.front.hp, power:null, text:h.front.ability,
+              becomes:`${h.back.power}<em>/</em>${h.back.hp}`});
+    out.push({...base, id:`HERO-${h.hero.toUpperCase()}-B`, side:'back',
+              name:`${h.hero} (flipped)`, hp:h.back.hp, power:h.back.power, text:h.back.ability});
+  }
+  return out;
+}
+
+function heroHTML(c){
+  const inks = [c.c1, c.c2].map(x => `<i style="background:${x}"></i>`).join('');
+  // the front shows the flip cost and what it buys; the flipped side is a unit
+  // and shows a body instead, so power joins HP on the art
+  const cost = [c.c1, c.c2].map(x => `<i style="background:${x}"></i>`).join('')
+             + '<i class="gen">1</i>'.repeat(c.flip.generic);
+  const foot = c.side === 'front'
+    ? `<div class="hflip"><span class="lab">Flip</span><span class="cost">${cost}</span>
+         <span class="arrow">\u2192</span>
+         <span class="becomes">${c.becomes}</span></div>`
+    : '';
+  const stats = c.side === 'front'
+    ? `<span class="hstat hp">${c.hp}</span>`
+    : `<span class="hstat hp">${c.hp}</span><span class="hstat pow">${c.power}</span>`;
+  return `<article class="card wide hero" style="--c1:${c.c1};--c2:${c.c2}">
+    <div class="hbanner">
+      <span class="hkind">Hero \u00B7 ${c.side === 'front' ? 'Front' : 'Flipped'}</span>
+      <span class="htitle"><b>${esc(c.hero)}</b><em>${esc(c.className)}</em></span>
+      <span class="hinks">${inks}</span>
+    </div>
+    <div class="hart"><span class="glyph">${c.glyph}</span>${stats}</div>
+    <div class="hfoot"><p class="hrules">${esc(c.text)}</p>${foot}</div>
+  </article>`;
+}
+
 function cardHTML(c){
+  if (c.kind === 'hero') return heroHTML(c);
   if (c.kind === 'resource') return resourceHTML(c);
   const k = BY_SLUG[c['class']];
   const bg = k ? `linear-gradient(155deg, ${k.c1}, ${k.c2})` : 'linear-gradient(155deg,#6B6879,#423E55)';
@@ -340,9 +448,10 @@ function apply(){
   const out = CARDS.filter(c => {
     // a resource belongs to an ink, not a class, so every class-shaped filter
     // value excludes it -- it shows under its own option and under Everything
-    const isRes = c.kind === 'resource';
+    const isRes = c.kind === 'resource', isHero = c.kind === 'hero';
     if (cls === 'resources') { if (!isRes) return false; }
-    else if (isRes) { if (cls !== '') return false; }
+    else if (cls === 'heroes') { if (!isHero) return false; }
+    else if (isRes || isHero) { if (cls !== '') return false; }
     else {
       if (cls === 'assigned' && !c['class']) return false;
       if (cls === 'none' && c['class']) return false;
@@ -354,7 +463,8 @@ function apply(){
     return true;
   });
   $('grid').innerHTML = out.map(cardHTML).join('');
-  $('grid').classList.toggle('res-sheet', out.length > 0 && out.every(c => c.kind === 'resource'));
+  const wide = c => c.kind === 'resource' || c.kind === 'hero';
+  $('grid').classList.toggle('wide-sheet', out.length > 0 && out.every(wide));
   fitRules($('grid'));
   $('count').textContent = `${out.length} card${out.length === 1 ? '' : 's'}`;
   $('empty').hidden = out.length > 0;
@@ -363,18 +473,23 @@ function apply(){
 
 Promise.all([
   fetch('card-list.json').then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
-  fetch('art/index.json').then(r => r.ok ? r.json() : []).catch(() => [])
-]).then(([d, art]) => {
+  fetch('art/index.json').then(r => r.ok ? r.json() : []).catch(() => []),
+  fetch('hero-cards.json').then(r => r.ok ? r.json() : {data:[]}).catch(() => ({data:[]}))
+]).then(([d, art, heroes]) => {
+  HERO_CARDS = buildHeroes(heroes.data || []);
   for (const f of art) ART[String(f).replace(/\.[^.]+$/, '')] = f;
   const order = Object.fromEntries(CLASSES.map((c, i) => [c.slug, i]));
-  CARDS = RESOURCE_CARDS.concat(d.data.slice().sort((a, b) =>
+  CARDS = HERO_CARDS.concat(RESOURCE_CARDS).concat(d.data.slice().sort((a, b) =>
       (order[a['class']] ?? 99) - (order[b['class']] ?? 99) ||
       (a.cost ?? -1) - (b.cost ?? -1) || a.id.localeCompare(b.id)));
   const sel = $('f-class');
   const setOpt = (v, label) => { const o = sel.querySelector(`option[value="${v}"]`); if (o) o.textContent = label; };
-  setOpt('assigned', `All assigned (${CARDS.filter(c => c['class']).length})`);
+  // heroes carry a class slug but are not one of its twelve, so the count
+  // has to exclude anything that is not a corpus card
+  setOpt('assigned', `All assigned (${CARDS.filter(c => c['class'] && !c.kind).length})`);
   setOpt('', `Everything (${CARDS.length})`);
   setOpt('resources', `Resources (${RESOURCE_CARDS.length})`);
+  setOpt('heroes', `Heroes (${HERO_CARDS.length})`);
   CLASSES.forEach(c => {
     const n = CARDS.filter(x => x['class'] === c.slug).length;
     sel.insertAdjacentHTML('beforeend', `<option value="${c.slug}">${esc(c.name)} — ${esc(c.hero)} (${n})</option>`);
