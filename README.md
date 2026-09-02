@@ -129,6 +129,26 @@ art panel, stat line and rules box the unit cards use, because a flipped hero
 it has no body, no stat line, and a flip cost no other card carries. They sit under their own **Heroes** filter option and under Everything,
 and are excluded from every class-shaped filter, so *All assigned* stays 252.
 
+## `art/prompts/`
+
+Image-generation prompts, one file per image, each complete on its own so it can
+be handed to a model as a URL with nothing else.
+
+`art/prompts/*.txt` are the six resource cards. `art/prompts/<class-slug>/` is a
+class: one prompt for each of its twelve cards plus one for each face of its
+hero, fourteen in all. The Pyromancer is done; the other twenty classes are not.
+
+Each class prompt carries a house-style block lifted from that class's entry in
+the bible rather than paraphrased from it, byte-identical across the class. Only
+the SUBJECT line differs, so the art cannot drift from the art direction — and
+subjects come from the card's own rules text, not just its name.
+
+These are sized to the slot, not to a printed card. A Star Wars: Unlimited card
+image is 1120 × 1560 because it is the whole face with frame and rules baked in;
+this project draws frames in HTML and needs only the picture inside them. That
+slot is 3:2 landscape at 47% of card height, the hero front 1.82:1, the flipped
+side a 3.29:1 letterbox. Each folder's README records the measurements.
+
 ## `card-list.json`
 
 A card list drawn from the first three Star Wars: Unlimited sets, kept as a
