@@ -70,12 +70,21 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
    Structure, top to bottom: a title bar, the art panel, then a stat line where
    power and HP flank the card type, then the rules box. Cost stacks vertically
    in the top-left corner. */
-.card{aspect-ratio:2.5/3.5;border-radius:10px;overflow:hidden;display:flex;flex-direction:column;
-      color:#fff;position:relative;box-shadow:0 1px 3px rgba(0,0,0,.25);border:1px solid rgba(0,0,0,.35)}
+/* The card's own gradient is the ground and the panels are inset from it on all
+   four sides, so the class colour frames the card rather than only banding its
+   title. Padding does it rather than a border because the frame has to be the
+   gradient, which a border-colour cannot be. Resource and hero cards already
+   frame themselves with a real border and opt out below. */
+.card{--frame:7px;--inner:5px;
+      aspect-ratio:2.5/3.5;border-radius:11px;overflow:hidden;display:flex;flex-direction:column;
+      color:#fff;position:relative;box-shadow:0 1px 3px rgba(0,0,0,.25);border:1px solid rgba(0,0,0,.35);
+      padding:var(--frame)}
+.card.res,.card.hero{--frame:0px;padding:0}
 
 /* the title, centred on its own band */
-.title{color:#fff;text-align:center;padding:.28rem .45rem .28rem 2.45rem;
-      font-family:var(--display);font-weight:700;font-size:.8rem;line-height:1.14;
+.title{border-radius:var(--inner) var(--inner) 0 0;
+      color:#fff;text-align:center;padding:.3rem .45rem .3rem 2.45rem;
+      font-family:var(--display);font-weight:700;font-size:.86rem;line-height:1.14;
       letter-spacing:-.01em;text-shadow:0 1px 2px rgba(0,0,0,.55);
       border-bottom:1px solid rgba(0,0,0,.35);
       /* names run longer than ids, so wrap rather than truncate */
@@ -83,7 +92,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 .title .uniq{color:#F5E6B0;margin-right:.15em}
 
 /* cost: a vertical column in the top-left, overlapping the bars above the art */
-.pips{position:absolute;top:.22rem;left:.28rem;z-index:3;display:flex;flex-direction:column;gap:.14rem}
+.pips{position:absolute;top:calc(.22rem + var(--frame));left:calc(.28rem + var(--frame));z-index:3;display:flex;flex-direction:column;gap:.14rem}
 .pip{width:1.5rem;height:1.5rem;border-radius:6px;display:grid;place-items:center;
      font-family:var(--display);font-weight:700;font-size:.86rem;line-height:1;color:#fff;
      border:1.5px solid rgba(255,255,255,.92);box-shadow:0 1px 2px rgba(0,0,0,.45)}
@@ -103,11 +112,9 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
      /* content height only: with flex-shrink allowed, a spell's empty stat slots
         let this band take the slack that belongs to the art */
      flex:0 0 auto}
-.statline .mid{text-align:center;font-family:var(--body);font-weight:700;font-size:.6rem;
+.statline .mid{text-align:center;font-family:var(--body);font-weight:700;font-size:.66rem;
      letter-spacing:.1em;text-transform:uppercase;line-height:1.2;color:#2A2536}
-.statline .kws{display:block;font-family:var(--mono);font-weight:400;font-size:.5rem;
-     letter-spacing:.02em;text-transform:none;color:#5A5468;margin-top:.1em}
-.stat{font-family:var(--display);font-weight:700;font-size:.95rem;line-height:1;
+.stat{font-family:var(--display);font-weight:700;font-size:1.02rem;line-height:1;
      display:grid;place-items:center;width:2rem;height:2rem;color:#fff;
      text-shadow:0 1px 2px rgba(0,0,0,.5);
      /* clip-path carries the silhouette, so definition comes from a drop-shadow:
@@ -119,16 +126,21 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 .stat.hp{background:#27753F;clip-path:polygon(0 0,100% 0,100% 58%,50% 100%,0 58%)}
 /* an upgrade modifies the unit it attaches to, so its numbers sit in the
    bottom corners of the card rather than in the middle stat line */
-.stat.corner{position:absolute;bottom:.26rem;z-index:3}
-.stat.corner.l{left:.3rem}
-.stat.corner.r{right:.3rem}
+.stat.corner{position:absolute;bottom:calc(.26rem + var(--frame));z-index:3}
+.stat.corner.l{left:calc(.3rem + var(--frame))}
+.stat.corner.r{right:calc(.3rem + var(--frame))}
 .card.up .rules{padding-bottom:2.1rem}
 
-.rules{flex:0 0 31%;background:#F4F2EC;color:#1A1826;line-height:1.34;padding:.42rem .48rem;
+/* Sized against the fitter rather than by eye: at 34% and .68rem every card is
+   at least as large as it was at the old 31%/.60 -- the most-shrunk card lands
+   at .517rem against .492rem before -- and 205 of the 252 need no shrinking at
+   all. Going further starts costing the art panel more than the text gains. */
+.rules{border-radius:0 0 var(--inner) var(--inner);
+     flex:0 0 34%;background:#F4F2EC;color:#1A1826;line-height:1.34;padding:.42rem .5rem;
      overflow:hidden;
      /* --fit is set per card by the fitter below; print scales from the same
         factor so the sheet matches what the grid shows */
-     font-size:calc(.6rem * var(--fit, 1))}
+     font-size:calc(.68rem * var(--fit, 1))}
 .rules p{margin:0 0 .3em}
 .rules p:last-child{margin:0}
 /* ---------- the resource card ----------
@@ -185,7 +197,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
   grid-template-columns:2rem 1fr 2rem;align-items:end;gap:.3rem;
   padding:.9rem .34rem .3rem;
   background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.78) 42%)}
-.brules{margin:0;color:#F4F2EC;font-size:.5rem;line-height:1.3;
+.brules{margin:0;color:#F4F2EC;font-size:.58rem;line-height:1.3;
   text-shadow:0 1px 2px rgba(0,0,0,.9);align-self:center}
 .card.hero{display:flex;flex-direction:column;color:#16141d;background:#0B0A11;
   border:4px solid transparent;
@@ -217,7 +229,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 .hstat.hp{left:.28rem;background:#27753F;clip-path:polygon(0 0,100% 0,100% 58%,50% 100%,0 58%)}
 .hstat.pow{right:.28rem;background:#B33127;clip-path:polygon(50% 0,100% 30%,78% 100%,22% 100%,0 30%)}
 .hfoot{background:#F4F2EC;padding:.24rem .34rem;display:flex;flex-direction:column;gap:.2rem}
-.hrules{margin:0;font-size:.5rem;line-height:1.3;flex:1;display:flex;align-items:center}
+.hrules{margin:0;font-size:.58rem;line-height:1.3;flex:1;display:flex;align-items:center}
 /* the flip box is this card's Epic Action: set apart in gold, the cost on the
    left and what the cost buys in the corner, as the reference card does */
 .hflip{background:#FBF2D4;border-left:3px solid #C9A227;border-radius:3px;
@@ -233,8 +245,14 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 .hflip .becomes{margin-left:auto;font-family:var(--display);font-weight:700;font-size:.66rem;color:#2A2536}
 .hflip .becomes em{font-style:normal;opacity:.45;margin:0 1px}
 
+/* The credit strip is the card's last panel when it is there at all, so it
+   takes the bottom rounding from the rules box and the upgrade's corner stats
+   step up over it rather than sitting on it. */
 .credit{background:rgba(0,0,0,.5);font-family:var(--mono);font-size:.46rem;letter-spacing:.1em;
-     padding:.16rem .45rem;color:rgba(255,255,255,.72)}
+     padding:.16rem .45rem;color:rgba(255,255,255,.72);
+     border-radius:0 0 var(--inner) var(--inner)}
+.card:has(.credit) .rules{border-radius:0}
+.card:has(.credit) .stat.corner{bottom:calc(.26rem + var(--frame) + 1.1rem)}
 
 /* ---------- print: real 2.5in x 3.5in cards, 9 to a letter page ---------- */
 @page{size:letter portrait;margin:.2in}
@@ -243,21 +261,21 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
   header.top,.bar,.empty,.noprint{display:none!important}
   body{background:#fff}
   .grid{display:grid;grid-template-columns:repeat(3,2.5in);gap:0;padding:0;justify-content:center}
-  .card{width:2.5in;height:3.5in;aspect-ratio:auto;border-radius:0;box-shadow:none;
+  .card{--frame:.055in;--inner:.02in;
+        width:2.5in;height:3.5in;aspect-ratio:auto;border-radius:0;box-shadow:none;
         outline:.5pt dashed rgba(0,0,0,.35);outline-offset:-.5pt;break-inside:avoid;page-break-inside:avoid;
         -webkit-print-color-adjust:exact;print-color-adjust:exact}
-  .rules{font-size:calc(6.6pt * var(--fit, 1));line-height:1.26;flex:0 0 31%;overflow:hidden;padding:.06in .07in}
+  .rules{font-size:calc(7.5pt * var(--fit, 1));line-height:1.26;flex:0 0 34%;overflow:hidden;padding:.06in .07in}
   .art{flex:1 1 auto;min-height:0}
-      .title{padding:.03in .05in .03in .33in;font-size:8pt;min-height:.26in}
-    .pips{top:.025in;left:.03in}
+      .title{padding:.03in .05in .03in .33in;font-size:8.6pt;min-height:.26in}
+    .pips{top:calc(.025in + var(--frame));left:calc(.03in + var(--frame))}
   .pip{width:.26in;height:.26in;font-size:9pt;border-radius:.05in}
   .statline{padding:.025in .03in;min-height:.16in}
-  .statline .mid{font-size:5.6pt}
-  .statline .kws{font-size:4.8pt}
-  .stat{font-size:10pt;width:.30in;height:.30in}
-  .stat.corner{bottom:.04in}
-  .stat.corner.l{left:.05in}
-  .stat.corner.r{right:.05in}
+  .statline .mid{font-size:6.2pt}
+  .stat{font-size:10.8pt;width:.30in;height:.30in}
+  .stat.corner{bottom:calc(.04in + var(--frame))}
+  .stat.corner.l{left:calc(.05in + var(--frame))}
+  .stat.corner.r{right:calc(.05in + var(--frame))}
   .card.up .rules{padding-bottom:.34in}
   /* landscape, so it occupies two of the 2.5in columns when it shares a sheet
      with portrait cards; a sheet that is all resources retracks to fit 8. */
@@ -267,10 +285,11 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
   .grid.wide-sheet{grid-template-columns:repeat(2,3.5in)}
   .grid.wide-sheet .card.wide{grid-column:auto}
   .htitle b{font-size:11pt} .htitle em{font-size:5pt} .hkind{font-size:5pt}
-  .hrules{font-size:7pt} .hflip .lab{font-size:5pt}
+  .hrules{font-size:7.8pt} .hflip .lab{font-size:5pt}
   .hstat{width:.30in;height:.30in;font-size:13pt;bottom:.03in}
   .hstat.hp{left:.04in} .hstat.pow{right:.04in}
   .credit{font-size:4.4pt;padding:.015in .05in}
+  .card:has(.credit) .stat.corner{bottom:calc(.04in + var(--frame) + .105in)}
   .meta{font-size:6pt}
   .card .head{font-size:7pt}
 }
@@ -280,7 +299,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 
 <header class="top">
   <div class="spectrum"></div>
-  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V40</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
+  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V41</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
   <p class="sub">In the colors of the class each card was chosen for.
      Every card in the game: twenty-one heroes, six resources, and twelve cards
      for each class. Art appears as it lands in <code>art/</code>; a card whose
@@ -372,7 +391,10 @@ function pipsHTML(c){
 /* No visible text by design. The alt text and the title are for screen readers
    and hover -- neither prints, so the printed card stays blank as intended. */
 function resourceHTML(c){
-  return `<article class="card res" style="border-color:${c.hex}"
+  // `wide` is what turns it on its side: it is the same physical card as every
+  // other, printed landscape, and the whole `.card.wide` sizing rule below --
+  // the two-track span, the print size, the wide-sheet retracking -- keys off it.
+  return `<article class="card wide res" style="border-color:${c.hex}"
     title="${esc(c.ink)} \u00B7 ${esc(c.element)}">
     <img src="${esc(c.art)}" alt="${esc(c.ink)} resource \u2014 ${esc(c.element)}">
   </article>`;
@@ -474,8 +496,7 @@ function cardHTML(c){
     ${artHTML(c)}
     <div class="statline">
       ${stat(c.power, 'pow')}
-      <span class="mid">${esc(c.type)}${c.keywords.length
-          ? `<span class="kws">${esc(c.keywords.join(' \u00B7 '))}</span>` : ''}</span>
+      <span class="mid">${esc(c.type)}</span>
       ${stat(c.hp, 'hp')}
     </div>
     <div class="rules">${rules}</div>

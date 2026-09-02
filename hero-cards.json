@@ -299,7 +299,7 @@
       "back": {
         "power": 4,
         "hp": 7,
-        "ability": "When an attack ends: You may return a friendly non-leader unit to its owner’s hand. Play a unit that costs less than the returned unit from your hand for free."
+        "ability": "When an attack ends: You may return a friendly unit to its owner’s hand. Play a unit that costs less than the returned unit from your hand for free."
       },
       "flip": {
         "total": 4,
@@ -448,7 +448,7 @@
       "hero": "Hush",
       "front": {
         "hp": 15,
-        "ability": "Epic Action: Defeat a non-leader unit that has 3 or less remaining HP."
+        "ability": "Epic Action: Defeat a unit that has 3 or less remaining HP."
       },
       "back": {
         "power": 3,

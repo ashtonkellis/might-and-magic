@@ -14,7 +14,10 @@ is a preview of the sheet rather than a different shape from it.
 The card face reads top to bottom: a **title banner** carrying the class's two
 colours — solid for a pure class, split down the middle for a blend — then the
 **art panel**, a **stat line** where power and HP flank the card type, and the
-**rules box**. Power is drawn as a blade point and HP as a shield, so the two
+**rules box**. Those panels are inset on all four sides from the card's own
+gradient, so the class colour frames the card rather than only banding its
+title. Keywords appear in the rules box and nowhere else: the stat line names
+the card type and nothing more. Power is drawn as a blade point and HP as a shield, so the two
 numbers are told apart by shape as well as colour — a red blade and a green
 shield. An upgrade puts those two
 numbers in the bottom corners of the card instead of the stat line, since they
@@ -177,9 +180,19 @@ Each entry carries an opaque `id`, `type`, `cost`, `power`, `hp`, `unique`,
 Every entry also carries a `class` field: the Might & Magic class that card was
 chosen to represent, or `null` if unassigned. A card belongs to at most one
 class. Twelve cards are assigned to each of the twenty-one classes — 252 of the
-755 — drawn from units, spells, upgrades and leaders. **Heroes are never
+755 — drawn from units, spells and upgrades. **Heroes are never
 assigned**: a hero is a starting card rather than something drawn and played, so
 it does not belong in a class's twelve.
+
+Twenty-six of the assigned cards came out of the corpus typed `Leader`, the SWU
+mechanic this game replaced with heroes. They are **Unit** here, and their
+leader-only machinery — the deployed side and the epic deploy action — is
+dropped, since a card with a cost that enters play is a unit. No assigned card
+mentions a leader in its rules any more: `non-leader unit` is now just `unit`,
+because a hero is never a unit and so every unit in play was always a non-leader
+one. The 503 unassigned corpus cards keep their original SWU wording, leaders
+included — they are reference material for mechanics, and rewriting them would
+cost them that.
 
 Each class's twelve reach across the whole curve — every one of them covers all
 five cost bands (0-1, 2-3, 4-5, 6-7, 8+) and carries at least three of the four

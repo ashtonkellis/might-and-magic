@@ -11,7 +11,7 @@
       "id": "SHD-001",
       "class": "09-trinket-mage",
       "name": "Quench, All Pockets Full",
-      "type": "Leader",
+      "type": "Unit",
       "cost": 6,
       "power": 4,
       "hp": 7,
@@ -23,14 +23,14 @@
       "keywords": [],
       "traitCount": 3,
       "text": "Each friendly upgraded unit gets +1/+0.",
-      "backText": "Each friendly upgraded unit gets +1/+0 and gains \"When Defeated: You may return an upgrade that was attached to this unit to its owner's hand.\"",
-      "epicAction": "Epic Action: If you control 6 or more resources, deploy this leader."
+      "backText": null,
+      "epicAction": null
     },
     {
       "id": "SHD-002",
       "class": "17-witch-doctor",
       "name": "Mire, No Bedside Manner",
-      "type": "Leader",
+      "type": "Unit",
       "cost": 5,
       "power": 0,
       "hp": 8,
@@ -43,15 +43,15 @@
         "Grit"
       ],
       "traitCount": 1,
-      "text": "Action [[1 resource], [exhaust]]: Deal 2 damage to a friendly unit. Then, give a Shield token to it.",
-      "backText": "GRIT (This unit gets +1/+0 for each damage on her.)\nWhen Deployed: Heal all damage from each unit. Then, deal damage to each unit equal to half its remaining HP, rounded down.",
-      "epicAction": "Epic Action: If you control 5 or more resources, deploy this leader."
+      "text": "Grit\nAction [[1 resource], [exhaust]]: Deal 2 damage to a friendly unit. Then, give a Shield token to it.",
+      "backText": null,
+      "epicAction": null
     },
     {
       "id": "SHD-003",
       "class": "15-runeblade",
       "name": "Stave, Smith First",
-      "type": "Leader",
+      "type": "Unit",
       "cost": 5,
       "power": 4,
       "hp": 6,
@@ -63,14 +63,14 @@
       "keywords": [],
       "traitCount": 2,
       "text": "Action [[exhaust]]: Defeat a friendly upgrade on a unit. If you do, give a Shield token to that unit.",
-      "backText": "On Attack: You may defeat a friendly upgrade on a unit. If you do, give a Shield token to that unit.",
-      "epicAction": "Epic Action: If you control 5 or more resources, deploy this leader."
+      "backText": null,
+      "epicAction": null
     },
     {
       "id": "SHD-004",
       "class": "08-shaman",
       "name": "Ash, Who Tends the Mountain",
-      "type": "Leader",
+      "type": "Unit",
       "cost": 6,
       "power": 2,
       "hp": 6,
@@ -82,8 +82,8 @@
       "keywords": [],
       "traitCount": 2,
       "text": "Action [[1 resource], [exhaust]]: Give an Experience token to a unit with 2 or less power.",
-      "backText": "RESTORE 3 (When this unit attacks, heal 3 damage from your hero.)\nOn Attack: You may give an Experience token to a unit with 2 or less power.",
-      "epicAction": "Epic Action: If you control 6 or more resources, deploy this leader."
+      "backText": null,
+      "epicAction": null
     },
     {
       "id": "SHD-005",
@@ -108,7 +108,7 @@
       "id": "SHD-006",
       "class": "20-death-knight",
       "name": "Pall, Bound to Another's Will",
-      "type": "Leader",
+      "type": "Unit",
       "cost": 7,
       "power": 2,
       "hp": 12,
@@ -120,14 +120,14 @@
       "keywords": [],
       "traitCount": 2,
       "text": "Action [[exhaust]]: Choose a unit. For this phase it gains: \"BOUNTY - The next unit you play this phase costs 1 less.\"",
-      "backText": "When Deployed: Another friendly unit captures an enemy non-leader unit.\nAction [[exhaust]]: Choose a unit. For this phase, it gains \"BOUNTY - The next unit you play this phase costs 2 less.\"",
-      "epicAction": "Epic Action: If you control 7 or more resources, deploy this leader."
+      "backText": null,
+      "epicAction": null
     },
     {
       "id": "SHD-007",
       "class": "13-edgedancer",
       "name": "Prism, Who Remembers",
-      "type": "Leader",
+      "type": "Unit",
       "cost": 5,
       "power": 3,
       "hp": 6,
@@ -139,14 +139,14 @@
       "keywords": [],
       "traitCount": 2,
       "text": "Action [[exhaust]]: Attack with a unit that costs 3 or less. If it's attacking a unit, it gets +1/+0 for this attack.",
-      "backText": "OVERWHELM (When attacking an enemy unit, deal excess damage to the opponent's hero.)\nEach friendly unit that costs 3 or less gets +1/+0 and gains OVERWHELM while attacking an enemy unit.",
-      "epicAction": "Epic Action: If you control 5 or more resources, deploy this leader. (Flip him, ready him.)"
+      "backText": null,
+      "epicAction": null
     },
     {
       "id": "SHD-008",
       "class": "12-windrunner",
       "name": "Gale, Who Lifts Others",
-      "type": "Leader",
+      "type": "Unit",
       "cost": 6,
       "power": 4,
       "hp": 7,
@@ -157,9 +157,9 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "When you play a unit that has 1 or more KEYWORDS: You may exhaust this leader. If you do, give a friendly unit +1/+0 for this phase.",
-      "backText": "Each other friendly unit that has 1 or more KEYWORDS gets +1/+0.",
-      "epicAction": "Epic Action: If you control 6 or more resources, deploy this leader."
+      "text": "When you play a unit that has 1 or more KEYWORDS: You may exhaust this unit. If you do, give a friendly unit +1/+0 for this phase.",
+      "backText": null,
+      "epicAction": null
     },
     {
       "id": "SHD-009",
@@ -203,7 +203,7 @@
       "id": "SHD-011",
       "class": "04-sorceress",
       "name": "Crystal, Who Preserves",
-      "type": "Leader",
+      "type": "Unit",
       "cost": 4,
       "power": 5,
       "hp": 4,
@@ -215,8 +215,8 @@
       "keywords": [],
       "traitCount": 2,
       "text": "Action [[exhaust], discard a card from your hand]: Give a unit +2/+0 for this phase.",
-      "backText": "This unit gets -1/-0 for each card in your hand.",
-      "epicAction": "Epic Action: If you control 4 or more resources, deploy this leader."
+      "backText": null,
+      "epicAction": null
     },
     {
       "id": "SHD-012",
@@ -241,7 +241,7 @@
       "id": "SHD-013",
       "class": "07-wizard",
       "name": "Arc, Who Does Not Delegate",
-      "type": "Leader",
+      "type": "Unit",
       "cost": 5,
       "power": 3,
       "hp": 6,
@@ -253,8 +253,8 @@
       "keywords": [],
       "traitCount": 1,
       "text": "Action [[exhaust]]: Play a unit from your hand. It costs 1 less. Deal 2 damage to it.",
-      "backText": "Action: Play a unit from your hand. It costs 1 less. Deal 2 damage to it.",
-      "epicAction": "Epic Action: If you control 5 or more resources, deploy this leader."
+      "backText": null,
+      "epicAction": null
     },
     {
       "id": "SHD-014",
@@ -279,7 +279,7 @@
       "id": "SHD-015",
       "class": "05-necromancer",
       "name": "Viol, Keeper of the Ledger",
-      "type": "Leader",
+      "type": "Unit",
       "cost": 5,
       "power": 2,
       "hp": 5,
@@ -291,8 +291,8 @@
       "keywords": [],
       "traitCount": 1,
       "text": "When the rest phase starts: Discard a card from your deck.",
-      "backText": "While there are 5 or more different costs among cards in your discard pile, this unit gets +3/+0.\nWhen Deployed: Choose 3 cards in your discard pile with different names. If you do, return 1 of them at random to your hand.",
-      "epicAction": "Epic Action: If you control 5 or more resources, deploy this leader."
+      "backText": null,
+      "epicAction": null
     },
     {
       "id": "SHD-016",
@@ -317,7 +317,7 @@
       "id": "SHD-017",
       "class": "19-lich",
       "name": "Rime, Without Appetite",
-      "type": "Leader",
+      "type": "Unit",
       "cost": 4,
       "power": 2,
       "hp": 5,
@@ -329,8 +329,8 @@
       "keywords": [],
       "traitCount": 1,
       "text": "Action [[exhaust]]: Play a card using SMUGGLE. It costs 2 less. Defeat a resource you own and control.",
-      "backText": "Action: Play a card using SMUGGLE. It costs 2 less. Defeat a resource you own and control. Use this ability only once each round.",
-      "epicAction": "Epic Action: If you control 4 or more resources, deploy this leader."
+      "backText": null,
+      "epicAction": null
     },
     {
       "id": "SHD-018",
@@ -702,7 +702,7 @@
         "Smuggle"
       ],
       "traitCount": 3,
-      "text": "Grit \nEach other friendly non-leader unit gains Grit. \nSmuggle [7 resources Vigilance Villainy, deal 4 damage to a friendly unit]",
+      "text": "Grit \nEach other friendly unit gains Grit. \nSmuggle [7 resources Vigilance Villainy, deal 4 damage to a friendly unit]",
       "backText": null,
       "epicAction": null
     },
@@ -723,7 +723,7 @@
         "Sentinel"
       ],
       "traitCount": 3,
-      "text": "Each enemy non-leader unit gets -2/-2.",
+      "text": "Sentinel\nEach enemy unit gets -2/-2.",
       "backText": null,
       "epicAction": null
     },
@@ -1029,7 +1029,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Attach to a non-leader unit.\nAttached unit gains: \"When Defeated: For this phase, this unit's owner may play it from their discard pile for free.\"",
+      "text": "Attach to a unit.\nAttached unit gains: \"When Defeated: For this phase, this unit's owner may play it from their discard pile for free.\"",
       "backText": null,
       "epicAction": null
     },
@@ -1751,7 +1751,7 @@
       ],
       "keywords": [],
       "traitCount": 3,
-      "text": "Overwhelm\nWhen Played: Choose any number of friendly units. Each of those units captures an enemy non-leader unit in the same flank.",
+      "text": "Overwhelm\nWhen Played: Choose any number of friendly units. Each of those units captures an enemy unit in the same flank.",
       "backText": null,
       "epicAction": null
     },
@@ -2343,7 +2343,7 @@
         "Ambush"
       ],
       "traitCount": 2,
-      "text": "Ambush \nWhen this unit attacks and defeats a non-leader unit: Put the defeated unit into play as a resource under your control.",
+      "text": "Ambush \nWhen this unit attacks and defeats a unit: Put the defeated unit into play as a resource under your control.",
       "backText": null,
       "epicAction": null
     },
@@ -3655,7 +3655,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Attach to a non-leader unit. \nAttached unit can't ready. \nWhen Played: Exhaust attached unit.",
+      "text": "Attach to a unit. \nAttached unit can't ready. \nWhen Played: Exhaust attached unit.",
       "backText": null,
       "epicAction": null
     },
@@ -3932,7 +3932,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Return a non-leader unit that costs 6 or less to its owner's hand. Then, its owner may play it for free.",
+      "text": "Return a unit that costs 6 or less to its owner's hand. Then, its owner may play it for free.",
       "backText": null,
       "epicAction": null
     },
@@ -4275,7 +4275,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Attach to a non-leader unit. \nAttached unit gains: \"BOUNTY - Play this unit for free (under your control). It enters play ready. At the start of the rest phase, defeat it.\"",
+      "text": "Attach to a unit. \nAttached unit gains: \"BOUNTY - Play this unit for free (under your control). It enters play ready. At the start of the rest phase, defeat it.\"",
       "backText": null,
       "epicAction": null
     },
@@ -4329,7 +4329,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Return a friendly non-leader [TRAIT A] unit to its owner's hand. If you do, deal 3 damage to a unit.",
+      "text": "Return a friendly [TRAIT A] unit to its owner's hand. If you do, deal 3 damage to a unit.",
       "backText": null,
       "epicAction": null
     },
@@ -4897,7 +4897,7 @@
       "id": "SOR-001",
       "class": "03-druid",
       "name": "Briar, Patient as Rot",
-      "type": "Leader",
+      "type": "Unit",
       "cost": 5,
       "power": 2,
       "hp": 7,
@@ -4910,15 +4910,15 @@
         "Restore"
       ],
       "traitCount": 2,
-      "text": "Each friendly damaged unit gets +1/+0.",
-      "backText": "Restore 2 (When this unit attacks, heal 2 damage from your hero.) Each friendly damaged unit gets +1/+0.",
-      "epicAction": "Epic Action: If you control 5 or more resources, deploy this leader."
+      "text": "Restore\nEach friendly damaged unit gets +1/+0.",
+      "backText": null,
+      "epicAction": null
     },
     {
       "id": "SOR-002",
       "class": "04-sorceress",
       "name": "Warden of the Still Halls",
-      "type": "Leader",
+      "type": "Unit",
       "cost": 6,
       "power": 4,
       "hp": 4,
@@ -4931,15 +4931,15 @@
         "Shielded"
       ],
       "traitCount": 2,
-      "text": "Action [[exhaust]]: If an enemy unit was defeated this phase, heal 1 damage from your hero.",
-      "backText": "SHIELDED (When you deploy this leader, give her a Shield token.)\nWhen an enemy unit is defeated: Heal 1 damage from your hero.",
-      "epicAction": "Epic Action: If you control 6 or more resources, deploy this leader."
+      "text": "Shielded\nAction [[exhaust]]: If an enemy unit was defeated this phase, heal 1 damage from your hero.",
+      "backText": null,
+      "epicAction": null
     },
     {
       "id": "SOR-003",
       "class": "16-shapeshifter",
       "name": "Pelt, Who Waits Out Winter",
-      "type": "Leader",
+      "type": "Unit",
       "cost": 7,
       "power": 2,
       "hp": 9,
@@ -4953,9 +4953,9 @@
         "Sentinel"
       ],
       "traitCount": 2,
-      "text": "Action [[exhaust]]: Play a unit that costs 3 or less from your hand (paying its cost). It gains Sentinel for this phase.",
-      "backText": "SENTINEL (Units in this flank can't attack your non-Sentinel units or your hero.)\nGRIT (This unit gets +1/+0 for each damage on it.)",
-      "epicAction": "Epic Action: If you control 7 or more resources, deploy this leader."
+      "text": "Grit\nAction [[exhaust]]: Play a unit that costs 3 or less from your hand (paying its cost). It gains Sentinel for this phase.",
+      "backText": null,
+      "epicAction": null
     },
     {
       "id": "SOR-004",
@@ -4980,7 +4980,7 @@
       "id": "SOR-005",
       "class": "04-sorceress",
       "name": "Keeper of Kept Things",
-      "type": "Leader",
+      "type": "Unit",
       "cost": 6,
       "power": 4,
       "hp": 7,
@@ -4992,14 +4992,14 @@
       "keywords": [],
       "traitCount": 2,
       "text": "Action [[1 resource], [exhaust]]: Give a Shield token to a Heroism unit you played this phase.",
-      "backText": "On Attack: You may give another unit a Shield token.",
-      "epicAction": "Epic Action: If you control 6 or more resources, deploy this leader. (Flip him, ready him.)"
+      "backText": null,
+      "epicAction": null
     },
     {
       "id": "SOR-006",
       "class": "14-soulcaster",
       "name": "Mirren, Half Turned to Smoke",
-      "type": "Leader",
+      "type": "Unit",
       "cost": 8,
       "power": 4,
       "hp": 10,
@@ -5011,8 +5011,8 @@
       "keywords": [],
       "traitCount": 4,
       "text": "Action [[1 resource], [exhaust], defeat a friendly unit]: Deal 1 damage to a unit and draw a card.",
-      "backText": "When Deployed: Take control of a damaged non-leader unit.\nOn Attack: You may defeat another friendly unit. If you do, deal 1 damage to a unit and draw a card.",
-      "epicAction": "Epic Action: If you control 8 or more resources, deploy this leader."
+      "backText": null,
+      "epicAction": null
     },
     {
       "id": "SOR-007",
@@ -5157,7 +5157,7 @@
       "id": "SOR-014",
       "class": "01-pyromancer",
       "name": "Caine, Gleeful Arsonist",
-      "type": "Leader",
+      "type": "Unit",
       "cost": 4,
       "power": 2,
       "hp": 5,
@@ -5169,8 +5169,8 @@
       "keywords": [],
       "traitCount": 3,
       "text": "Action [[exhaust]]: Deal 1 damage to each hero.",
-      "backText": "On Attack: Deal 1 damage to each enemy hero.",
-      "epicAction": "Epic Action: If you control 4 or more resources, deploy this leader."
+      "backText": null,
+      "epicAction": null
     },
     {
       "id": "SOR-015",
@@ -5195,7 +5195,7 @@
       "id": "SOR-016",
       "class": "02-chronomancer",
       "name": "Vesper, Bored of Victory",
-      "type": "Leader",
+      "type": "Unit",
       "cost": 6,
       "power": 3,
       "hp": 9,
@@ -5207,14 +5207,14 @@
       "keywords": [],
       "traitCount": 2,
       "text": "When the action phase starts: Look at the top card of each player's deck.\nAction [[1 resource], [exhaust]]: Reveal the top card of any player's deck. Exhaust a unit that costs the same as or less than the revealed card.",
-      "backText": "When the action phase starts: Look at the top card of each player's deck.\nOn Attack: You may reveal the top card of any player's deck. Exhaust a unit that costs the same as or less than the revealed card.",
-      "epicAction": "Epic Action: If you control 7 or more resources, deploy this leader. (Flip him, ready him.)"
+      "backText": null,
+      "epicAction": null
     },
     {
       "id": "SOR-017",
       "class": "14-soulcaster",
       "name": "Mirren, Who Persuades Stone",
-      "type": "Leader",
+      "type": "Unit",
       "cost": 6,
       "power": 4,
       "hp": 6,
@@ -5226,8 +5226,8 @@
       "keywords": [],
       "traitCount": 1,
       "text": "Action [[exhaust]]: Put a card from your hand into play as a resource and ready it. At the start of the next action phase, defeat a resource you control.",
-      "backText": "On Attack: Put the top card of your deck into play as a resource and ready it. At the start of the next action phase, defeat a resource you control.",
-      "epicAction": "Epic Action: If you control 6 or more resources, deploy this leader."
+      "backText": null,
+      "epicAction": null
     },
     {
       "id": "SOR-018",
@@ -6399,7 +6399,7 @@
         "Ambush"
       ],
       "traitCount": 2,
-      "text": "Each friendly non-leader unit that costs 6 or more gains AMBUSH. (After you play that unit, it may ready and attack an enemy unit.)",
+      "text": "Each friendly unit that costs 6 or more gains AMBUSH. (After you play that unit, it may ready and attack an enemy unit.)",
       "backText": null,
       "epicAction": null
     },
@@ -6496,7 +6496,7 @@
         "Shielded"
       ],
       "traitCount": 1,
-      "text": "SHIELDED (When you play this unit, give a Shield token to it.)\nWhen this unit deals combat damage to a non-leader unit while attacking: Defeat that unit.",
+      "text": "SHIELDED (When you play this unit, give a Shield token to it.)\nWhen this unit deals combat damage to a unit while attacking: Defeat that unit.",
       "backText": null,
       "epicAction": null
     },
@@ -7216,7 +7216,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "When this upgrade becomes attached to a non-leader unit that costs 3 or less: Take control of that unit.\nWhen this upgrade becomes unattached from a unit: That unit's owner takes control of it.",
+      "text": "When this upgrade becomes attached to a unit that costs 3 or less: Take control of that unit.\nWhen this upgrade becomes unattached from a unit: That unit's owner takes control of it.",
       "backText": null,
       "epicAction": null
     },
@@ -8853,7 +8853,7 @@
         "Raid"
       ],
       "traitCount": 3,
-      "text": "RAID 1 (This unit gets +1/+0 while attacking.) \nOn Attack: If you control a leader unit, you may exhaust a non-leader unit.",
+      "text": "RAID 1 (This unit gets +1/+0 while attacking.) \nOn Attack: If your hero is flipped, you may exhaust a unit.",
       "backText": null,
       "epicAction": null
     },
@@ -9701,7 +9701,7 @@
       "id": "TWI-003",
       "class": "06-warrior",
       "name": "Hale, Who Does Not Fall",
-      "type": "Leader",
+      "type": "Unit",
       "cost": 6,
       "power": 4,
       "hp": 7,
@@ -9714,9 +9714,9 @@
         "Sentinel"
       ],
       "traitCount": 3,
-      "text": "Action [Exhaust]: Heal 1 damage from a unit.",
-      "backText": "Sentinel (Units in this flank can't attack your non-Sentinel units or your hero.)\nOn Attack: Heal 1 damage from a unit. If you do, deal 1 damage to a different unit.",
-      "epicAction": "Epic Action: If you control 6 or more resources, deploy this leader."
+      "text": "Sentinel\nAction [Exhaust]: Heal 1 damage from a unit.",
+      "backText": null,
+      "epicAction": null
     },
     {
       "id": "TWI-004",
@@ -9802,7 +9802,7 @@
       "id": "TWI-008",
       "class": "18-ranger",
       "name": "Fletch, Simply Prepared",
-      "type": "Leader",
+      "type": "Unit",
       "cost": 5,
       "power": 2,
       "hp": 7,
@@ -9816,15 +9816,15 @@
         "Restore"
       ],
       "traitCount": 3,
-      "text": "Coordinate — Action [1 resource, Exhaust]: Search the top 3 cards of your deck for a [TRAIT A] card, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order. Gain this ability while you control 3 or more units.)",
-      "backText": "Restore 1 (When this unit attacks, heal 1 damage from your hero.)\nCoordinate - On Attack: Search the top 3 cards of your deck for a [TRAIT A] card, reveal it, and draw it.",
-      "epicAction": "Epic Action: If you control 5 or more resources, deploy this leader."
+      "text": "Restore\nCoordinate — Action [1 resource, Exhaust]: Search the top 3 cards of your deck for a [TRAIT A] card, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order. Gain this ability while you control 3 or more units.)",
+      "backText": null,
+      "epicAction": null
     },
     {
       "id": "TWI-009",
       "class": "12-windrunner",
       "name": "Windsworn Marshal",
-      "type": "Leader",
+      "type": "Unit",
       "cost": 6,
       "power": 6,
       "hp": 6,
@@ -9838,14 +9838,14 @@
       ],
       "traitCount": 2,
       "text": "Action [Exhaust]: Attack with a unit. It gains Overwhelm for this attack. (When attacking an enemy unit, deal excess damage to the opponent’s hero.)",
-      "backText": "Overwhelm\nEach other friendly unit gains Overwhelm.",
-      "epicAction": "Epic Action: If you control 6 or more resources, deploy this leader."
+      "backText": null,
+      "epicAction": null
     },
     {
       "id": "TWI-010",
       "class": "21-assassin",
       "name": "Hush, Punctual",
-      "type": "Leader",
+      "type": "Unit",
       "cost": 5,
       "power": 4,
       "hp": 6,
@@ -9858,15 +9858,15 @@
         "Saboteur"
       ],
       "traitCount": 2,
-      "text": "Action [1 resource, Exhaust]: Deal damage to a unit equal to the number of cards you’ve drawn this phase. (This doesn’t include cards drawn in the rest phase.)",
-      "backText": "While you have 3 or more cards in your hand, this unit gains Saboteur.\nWhile you have 6 or more cards in your hand, this unit gets +2/+0.",
-      "epicAction": "Epic Action: If you control 5 or more resources, deploy this leader."
+      "text": "Saboteur\nAction [1 resource, Exhaust]: Deal damage to a unit equal to the number of cards you’ve drawn this phase. (This doesn’t include cards drawn in the rest phase.)",
+      "backText": null,
+      "epicAction": null
     },
     {
       "id": "TWI-011",
       "class": "11-demon-hunter",
       "name": "Kell, Borrowed Power",
-      "type": "Leader",
+      "type": "Unit",
       "cost": 5,
       "power": 3,
       "hp": 6,
@@ -9880,14 +9880,14 @@
       ],
       "traitCount": 3,
       "text": "Coordinate — Action [Exhaust]: Attack with a unit. It gets +1/+0 for this attack. (Gain this ability while you control 3 or more units.)",
-      "backText": "Coordinate — This unit gets +2/+0.",
-      "epicAction": "Epic Action: If you control 5 or more resources, deploy this leader. (Flip her, ready her.)"
+      "backText": null,
+      "epicAction": null
     },
     {
       "id": "TWI-012",
       "class": "10-warlock",
       "name": "Brand, Several Deals Deep",
-      "type": "Leader",
+      "type": "Unit",
       "cost": 6,
       "power": 5,
       "hp": 7,
@@ -9900,9 +9900,9 @@
         "Overwhelm"
       ],
       "traitCount": 3,
-      "text": "Action [Exhaust, deal 2 damage to your hero]: Attack with a unit. If it’s attacking a unit, it gets +2/+0 for this attack.",
-      "backText": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent’s hero.)\nThis unit gets +1/+0 for every 5 damage on your hero.",
-      "epicAction": "Epic Action: If you control 6 or more resources, deploy this leader."
+      "text": "Overwhelm\nAction [Exhaust, deal 2 damage to your hero]: Attack with a unit. If it’s attacking a unit, it gets +2/+0 for this attack.",
+      "backText": null,
+      "epicAction": null
     },
     {
       "id": "TWI-013",
@@ -9927,7 +9927,7 @@
       "id": "TWI-014",
       "class": "11-demon-hunter",
       "name": "Kell, On a Clock",
-      "type": "Leader",
+      "type": "Unit",
       "cost": 4,
       "power": 3,
       "hp": 4,
@@ -9939,8 +9939,8 @@
       "keywords": [],
       "traitCount": 3,
       "text": "Action [Exhaust]: Attack with a unit. If you played a spell this phase, it gets +1/+0 for this attack.",
-      "backText": "On Attack: If you played a spell this phase, this unit gets +1/+0 for this attack and deals combat damage before the defender. (If the defender is defeated, it deals no combat damage.)",
-      "epicAction": "Epic Action: If you control 4 or more resources, deploy this leader."
+      "backText": null,
+      "epicAction": null
     },
     {
       "id": "TWI-015",
@@ -10451,7 +10451,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Defeat a non-leader unit. Deal damage to your hero equal to that unit's power.",
+      "text": "Defeat a unit. Deal damage to your hero equal to that unit's power.",
       "backText": null,
       "epicAction": null
     },
@@ -12980,7 +12980,7 @@
         "Grit"
       ],
       "traitCount": 1,
-      "text": "Attack with a non-leader unit. It gains Grit for this attack. (It gets +1/+0 for each damage on it.)",
+      "text": "Attack with a unit. It gains Grit for this attack. (It gets +1/+0 for each damage on it.)",
       "backText": null,
       "epicAction": null
     },
@@ -13330,7 +13330,7 @@
       ],
       "keywords": [],
       "traitCount": 3,
-      "text": "When Played: You may return a friendly non-leader unit to its owner's hand.",
+      "text": "When Played: You may return a friendly unit to its owner's hand.",
       "backText": null,
       "epicAction": null
     },
