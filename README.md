@@ -106,9 +106,17 @@ design.
 Class slugs, hero names and ordering are read from the `CLASSES` table in
 `index.html` rather than retyped; the generator fails if any has drifted.
 
-Still open: what *triggers* the flip. A leader flips by paying resources to
-deploy and a hero is never deployed, so it needs a trigger of its own. Nothing
-renders these yet either.
+`flip` is the cost to turn the hero over: defeat resources. The notation is the
+class's two ink letters plus any generic, so the Lich pays `BP1` — a Blue, a
+Purple, and one of any colour. The coloured half is always the class's own
+identity; the total is priced off the body being bought, because that is what
+the flip buys. Power+HP of 8 or less costs 2, 9–10 costs 3, 11 or more costs 4.
+
+That bracketing was checked against the deploy costs of the SWU leaders these
+bodies came from, and it reproduces them: every hero paying 2 came from a
+4-cost leader, every 3 from a 5-cost, and the 4s from 6s and 7s.
+
+Nothing renders these yet.
 
 ## `card-list.json`
 
