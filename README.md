@@ -137,7 +137,8 @@ be handed to a model as a URL with nothing else.
 
 `art/prompts/*.txt` are the six resource cards. `art/prompts/<class-slug>/` is a
 class: one prompt for each of its twelve cards plus one for each face of its
-hero, fourteen in all. The Pyromancer is done; the other twenty classes are not.
+hero, fourteen in all. The Pyromancer and the Chronomancer are done; the other
+nineteen classes are not.
 
 Each class prompt carries a house-style block lifted from that class's entry in
 the bible rather than paraphrased from it, byte-identical across the class. Only
@@ -147,8 +148,10 @@ subjects come from the card's own rules text, not just its name.
 These are sized to the slot, not to a printed card. A Star Wars: Unlimited card
 image is 1120 × 1560 because it is the whole face with frame and rules baked in;
 this project draws frames in HTML and needs only the picture inside them. That
-slot is 3:2 landscape at 47% of card height, the hero front 1.82:1, the flipped
-side a 3.29:1 letterbox. Each folder's README records the measurements.
+slot is 3:2 landscape at 47% of card height. The two hero images are the
+exception: both faces are full art, the picture *is* the card, so they are sized
+to the face itself -- 3:2 landscape for the front, 2:3 portrait for the flipped
+side. Each folder's README records the measurements.
 
 ## `card-list.json`
 

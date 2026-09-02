@@ -1,0 +1,41 @@
+Rehearsed Morning
+Upgrade · 1 cost · 0/2
+Chronomancer · Might & Magic card art
+Paste this whole file into a fresh chat. It is complete on its own.
+
+SUBJECT: An object rather than a figure: a single folded sheet -- a morning's schedule -- pinned flat and covered edge to edge in a neat annotating hand, every hour filled in before it happened, with corrections already made to entries further down the page. Apply the triple registration to the sheet itself: cyan copy behind, amber ahead.
+
+CHRONOMANCER HOUSE STYLE -- identical on every card in this class, do not vary it.
+
+Medium: fine engraved line and crosshatch modelling, in the manner of an
+18th-century scientific plate. No painterly texture anywhere, no digital
+airbrush, no soft gradients -- every value is built from the density of ruled
+and cross-ruled line.
+
+Light: flat, even and sourceless. There is no lamp, no sun and no cast shadow.
+Form comes only from how tightly the hatching sits.
+
+Composition, and this is the class: every figure is printed three times in
+slight registration offset. One cyan-shifted copy sits a few millimetres behind,
+one amber-shifted copy a few millimetres ahead, and the true sepia figure is
+sharp between them. The ghosts are misregistration, not motion blur -- crisp
+line work, just off-plate. The subject is standing in three moments at once.
+
+Ground: pale. This is the only class in the game printed on a light field, and
+against the rest of the set it should read as a page torn from a different,
+older book. Plate white #F0EBE0 throughout, sepia ink #4A3A28 for the line,
+registration cyan #7FB2C4 behind and registration amber #F5B202 ahead. Nothing
+saturated, nothing dark -- no black, no filled shadow masses.
+
+Plate furniture: faint ruled margins, engraved tick marks and the ghost of an
+annotation in the corners, as a scientific plate carries. Never legible as
+words -- suggestion of notation only, never actual letters or numbers.
+
+Register: boredom. Nobody in this class is surprised by anything. Where other
+classes react, these faces have already sat through it. Too smooth, too still,
+expressions arriving a beat late or not at all.
+
+FORMAT: landscape 3:2. Full bleed to all four edges. No text, lettering,
+numerals, signatures, watermarks, borders, frames or card templates -- the card
+frame is drawn separately and this image sits inside it. Keep nothing essential
+within the outer 4% of the left and right edges.
