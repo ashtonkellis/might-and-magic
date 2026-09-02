@@ -11,15 +11,21 @@ These are **art**, not finished cards. A Star Wars: Unlimited card image is
 baked in; this project draws its frames in HTML and only needs the picture that
 goes inside them. Measured in the browser, that slot is:
 
-| Slot | Shape |
-|---|---|
-| Unit / spell / upgrade / leader art panel | **3:2 landscape**, 47% of card height |
-| Hero front, full art | 1.82:1 — 3:2 crops in cleanly |
-| Hero flipped, art panel | 3.29:1 letterbox band |
+| Image | Shape | Kind |
+|---|---|---|
+| Unit / spell / upgrade / leader | **3:2 landscape**, 47% of card height | art slot |
+| Hero, landscape face | **3:2 landscape** | **full art** |
+| Hero, portrait face | **2:3 portrait** | **full art** |
 
-So every prompt asks for landscape 3:2. If you would rather generate whole card
-faces at 1120 × 1560 with the frame drawn into the image, the format paragraph
-is the only thing that changes.
+The twelve class cards are art slots: the frame is drawn in HTML and the picture
+sits inside it, so those prompts forbid frames and borders because the frame
+already exists elsewhere.
+
+The two hero images are different. They are full art — the picture *is* the card
+face, nothing printed over it — and they are two scenes of the same man, one in
+each orientation. The landscape face is Caine at rest inside his own fire; the
+portrait face is the thing he is famous for, burning the book, with the vertical
+format carrying the rising column of flame.
 
 ## The cards
 
@@ -42,8 +48,8 @@ is the only thing that changes.
 
 | File | Face |
 |---|---|
-| [`caine-hero-front.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/01-pyromancer/caine-hero-front.txt) | Front — full-art landscape |
-| [`caine-hero-back.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/01-pyromancer/caine-hero-back.txt) | Flipped — wide letterbox band |
+| [`caine-hero-front.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/01-pyromancer/caine-hero-front.txt) | Landscape — full art, Caine at rest in his fire |
+| [`caine-hero-back.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/01-pyromancer/caine-hero-back.txt) | Portrait — full art, burning the book |
 
 ## Running them
 

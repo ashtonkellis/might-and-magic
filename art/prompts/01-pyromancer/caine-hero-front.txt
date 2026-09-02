@@ -1,10 +1,20 @@
-Caine — hero card, front (full art)
+Caine — hero card, landscape face (full art)
 Pyromancer · Might & Magic hero art
 Paste this whole file into a fresh chat. It is complete on its own.
 
-SUBJECT: Caine standing in a field of his own fire, full figure, arms wide, head back, laughing openly. Burning pages lift and turn all around him and the empty spellbook spine hangs from one hand. More air around the figure than on any other card in the class -- this is the portrait the class is built around, so give it room. The phoenix behind his shoulder is the clearest it ever gets, and still takes a second look.
+SUBJECT: Caine standing in a field of his own fire, full figure, arms wide and
+weight off-centre, head back, laughing openly. Burning pages lift and turn all
+around him and the empty spellbook spine hangs from one hand. This is the class
+portrait -- the quieter of his two scenes, him at rest inside the thing he made.
+Give the figure room; more air around him than on any other card in the class.
+The phoenix behind his shoulder is the clearest it ever gets, and still takes a
+second look.
 
-FORMAT OVERRIDE: this is the full-art face of a landscape card, not an art slot. Landscape 3:2, full bleed, and the composition must carry the whole card on its own.
+FORMAT: full art, landscape 3:2. The image is the entire card face -- nothing
+will be printed over it and no frame will crop it, so it must carry the card by
+itself. Bleed to all four edges. No text, lettering, numerals, signatures,
+watermarks, borders or frames. Keep nothing essential within the outer 4% of any
+edge.
 
 PYROMANCER HOUSE STYLE -- identical on every card in this class, do not vary it.
 
@@ -40,8 +50,3 @@ Never obvious, never absent.
 
 Register: joy. This class laughs. Not smirking, not grim -- openly,
 inappropriately delighted, even mid-catastrophe.
-
-FORMAT: landscape 3:2. Full bleed to all four edges. No text, lettering,
-numerals, signatures, watermarks, borders, frames or card templates -- the card
-frame is drawn separately and this image sits inside it. Keep nothing essential
-within the outer 4% of the left and right edges.

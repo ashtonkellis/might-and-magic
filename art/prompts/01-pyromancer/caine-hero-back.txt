@@ -1,10 +1,25 @@
-Caine — hero card, flipped side (art slot)
+Caine — hero card, portrait face (full art)
 Pyromancer · Might & Magic hero art
 Paste this whole file into a fresh chat. It is complete on its own.
 
-SUBJECT: Caine mid-fight rather than mid-performance: leaning into a forward diagonal, one arm sweeping fire ahead of him, the laugh now bared teeth. Waist-up and closer than the front, filling the band. Same character, no longer playing.
+SUBJECT: The same man, the other scene -- Caine at the moment he burns the book.
+He holds the spellbook overhead in both hands, fully ablaze, and the fire is
+climbing: a rising column that fills the height of the frame, loose pages
+spiralling up through it and coming apart into embers as they go. He is looking
+up into it, laughing, lit from above for the only time in the class. Low camera,
+close enough that he fills the lower half and the fire owns the upper half. This
+is the most spectacular thing he does and the portrait format exists to carry
+the column of fire, so use the height.
 
-FORMAT OVERRIDE: this fills the art panel of the flipped side, which is a wide letterbox band -- compose for roughly 3:1 and keep the subject centred horizontally.
+FORMAT: full art, portrait 2:3. The image is the entire card face -- nothing
+will be printed over it and no frame will crop it, so it must carry the card by
+itself. Bleed to all four edges. No text, lettering, numerals, signatures,
+watermarks, borders or frames. Keep nothing essential within the outer 4% of any
+edge.
+
+Note on the vertical composition: the class rule says fire is the only light
+source and sits inside the frame. Here it is above him rather than behind, which
+is the one deliberate departure -- everything else in the house style holds.
 
 PYROMANCER HOUSE STYLE -- identical on every card in this class, do not vary it.
 
@@ -40,8 +55,3 @@ Never obvious, never absent.
 
 Register: joy. This class laughs. Not smirking, not grim -- openly,
 inappropriately delighted, even mid-catastrophe.
-
-FORMAT: landscape 3:2. Full bleed to all four edges. No text, lettering,
-numerals, signatures, watermarks, borders, frames or card templates -- the card
-frame is drawn separately and this image sits inside it. Keep nothing essential
-within the outer 4% of the left and right edges.
