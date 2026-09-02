@@ -1,0 +1,48 @@
+Cold Vanguard
+Unit · 5 cost
+Death Knight · Might & Magic card art
+Paste this whole file into a fresh chat. It is complete on its own.
+
+SUBJECT: A frieze-like rubbing of a rank of effigies laid out shoulder to shoulder across
+the full width of the frame, all identical, all symmetrical, all with hands
+crossed the same way, one continuous inscription band running above and below
+them. Rime has grown across the whole rank in one sheet, thickest at the
+center.
+
+DEATH KNIGHT HOUSE STYLE -- identical on every card in this class, do not vary it.
+
+Medium: a wax rubbing taken from a memorial brass. Flat, formal, full-length
+effigy work -- the figure rendered entirely as the texture of black wax dragged
+over an incised plate, with the line surviving only where the engraving is deep,
+and the paper's tooth showing everywhere else.
+
+Light: none in the rubbing itself. It is a flat record, not a lit scene. All
+light in the image comes from rime crystal blooming across the surface of the
+rubbing afterward, catching cold and pale on top of the black wax.
+
+Composition: rigidly symmetrical and full-length. Every figure is laid out like a
+tomb slab -- feet together at the bottom of the frame, hands crossed or on a hilt,
+heraldry at the feet, an inscription band running the border. Even mid-swing, the
+figure is composed as an effigy.
+
+Signature: frost growing on top of the image and obscuring parts of it. The
+rubbing is a record of someone already gone, and it is icing over as you look at
+it. The frost must sit above the rubbing, not inside it.
+
+Lettering: the inscription band and the heraldry carry the convincing texture of
+memorial lettering but never resolve into actual letters, words or numerals --
+the impression of an epitaph only.
+
+Ground: rubbing black #1E1C1A for the wax, brass #9A7B3A where the plate shows
+through, frost white #E8EEF4 for the rime and steel blue #5A7A96 in the cold
+shadow of it. Flat, cold and funerary.
+
+Register: raised by somebody else's will and freed of it later, which was the
+harder half. Slow, implacable, unbothered by damage, keeping an oath he cannot
+remember taking. Set against the Runeblade deliberately: these marks were
+inflicted, not authored.
+
+FORMAT: landscape 3:2. Full bleed to all four edges. No text, lettering,
+numerals, signatures, watermarks, borders, frames or card templates -- the card
+frame is drawn separately and this image sits inside it. Keep nothing essential
+within the outer 4% of the left and right edges.

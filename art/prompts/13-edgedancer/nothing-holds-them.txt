@@ -1,0 +1,44 @@
+Nothing Holds Them
+Spell · 12 cost
+Edgedancer · Might & Magic card art
+Paste this whole file into a fresh chat. It is complete on its own.
+
+SUBJECT: The longest line in the class: a single unbroken glide path entering at one corner
+and leaving at the opposite one, and strung along it three faceted figures all
+mid-slide, all fully extended, none with a planted foot. Everything built to stop
+them -- chains, a gate, a closing wall -- is rendered in the same machined facets
+and is already behind. Refraction displaces the whole barrier a few degrees.
+Standing clear at the side, watching, one ordinary person at full fidelity.
+
+EDGEDANCER HOUSE STYLE -- identical on every card in this class, do not vary it.
+
+Medium: faceted crystalline geometry. Every form in the image is constructed from
+flat planes and hard vector edges -- low-poly form language -- but rendered with
+real refraction, so the planes behave like cut glass rather than like shading.
+
+Light: each facet carries a shifted, displaced copy of whatever sits behind it,
+and prismatic dispersion fringes every edge in the frame. Light is refracted
+rather than cast; there are no soft shadows anywhere.
+
+Composition: a strict geometric armature -- golden-section or radial grid, faintly
+visible if you look for it -- cut across by one long unbroken glide path. Every
+figure is mid-slide, never mid-step. No card in this class shows a planted foot.
+
+Signature: the cleanest, most machined-looking cards in the game, with not one
+soft edge anywhere -- and somewhere in every frame, one ordinary overlooked
+person rendered at exactly the same fidelity as the hero. The servant, the
+bystander, the one left off the list. Nobody in an Edgedancer card is background.
+
+Ground: glacier white #EAF2F8 as the field, cobalt #3256C6 and aurora teal
+#3FA8A0 in the planes, and spectral fringe #C06BD6 in the dispersion at the
+edges. Cool, bright and clean throughout, with no muddy passages and no black.
+
+Register: frictionless, and kind about it. Nothing holds her, nothing slows her,
+nothing has ever cornered her -- and the precision reads as grace rather than as
+calculation. Her attention is the point: she is looking at whoever nobody else
+looked at.
+
+FORMAT: landscape 3:2. Full bleed to all four edges. No text, lettering,
+numerals, signatures, watermarks, borders, frames or card templates -- the card
+frame is drawn separately and this image sits inside it. Keep nothing essential
+within the outer 4% of the left and right edges.

@@ -1,0 +1,43 @@
+Forge-Sworn Ally
+Unit · 1 cost
+Runeblade · Might & Magic card art
+Paste this whole file into a fresh chat. It is complete on its own.
+
+SUBJECT: Two figures inlaid side by side in gold wire on the damascus ground, one handing
+the other a finished weapon across the knotwork border that links them. The
+receiver's grip is already correct. A rune channel runs from the giver's hand
+along the weapon's length and is lit ember-orange the whole way. Anisotropic
+streak along the steel behind.
+
+RUNEBLADE HOUSE STYLE -- identical on every card in this class, do not vary it.
+
+Medium: damascened metal inlay. The ground of every image is real pattern-welded
+steel -- watered-damascus swirl, the layered grain of folded metal -- and the
+imagery is inlaid into it in gold and silver wire, cut in and hammered flush.
+This is a photograph of a worked metal object, not a drawing.
+
+Light: specular and anisotropic. Highlights streak along the grain of the steel
+rather than pooling into round hot spots, and they move with the direction of the
+pattern. The metal is polished but not mirror-bright.
+
+Composition: knotwork borders that interlace with the subject, so that figure and
+frame are one continuous line entering and leaving the picture. There is no
+separate background -- the steel is the background and the subject is cut into it.
+
+Signature: rune channels cut into the metal and glowing from within -- the only
+light in this class that is not reflected. They are always already lit, and they
+are the work of somebody who set this up earlier and has since moved on.
+
+Ground: watered steel #6E7178 for the damascus, gold inlay #C9A227 and silver
+#D6D9DE for the wire, ember channel #CE7A16 for the light inside the cut. Cool
+metal, two warm notes, nothing else.
+
+Register: a smith first and a caster second, and the distinction is meaningless
+posturing. Methodical, literal-minded, quietly and enormously proud of work
+nobody will ever notice. Nothing here wins the exchange it is in; it wins the one
+three turns out, which was set up while you were watching something else.
+
+FORMAT: landscape 3:2. Full bleed to all four edges. No text, lettering,
+numerals, signatures, watermarks, borders, frames or card templates -- the card
+frame is drawn separately and this image sits inside it. Keep nothing essential
+within the outer 4% of the left and right edges.

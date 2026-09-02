@@ -1,0 +1,44 @@
+Rampart Captain
+Unit · 6 cost
+Warrior · Might & Magic card art
+Paste this whole file into a fresh chat. It is complete on its own.
+
+SUBJECT: A figure on a carved rampart line, turned three-quarters to speak down the row to
+the ranks beside them, one arm raised not in command but in the flat gesture of
+someone correcting a grip. The figures being corrected are carved shallower and
+are listening. Weathering has taken the captain's face down to the barest
+suggestion, which is fine: the posture carries it.
+
+WARRIOR HOUSE STYLE -- identical on every card in this class, do not vary it.
+
+Medium: shallow carved stone relief -- bas-relief chiseled into weathered
+limestone. Visible tool marks, chip damage at the high points, lichen and
+staining in the recesses. This is a photograph of a carved object, not a
+drawing of a scene.
+
+Light: hard raking sidelight from one side. The only thing creating form is the
+shadow cast by actual physical depth in the stone. Where the carving is shallow
+the form is faint; where it is deep the shadow is hard.
+
+Composition: friezelike and frontal. Figures in profile or full-face, arranged
+along a single baseline like a procession, with the ground line running the width
+of the frame. Shallow depth, no perspective, no recession -- everything sits in
+one plane and is stacked rather than placed behind.
+
+Signature: zero luminous effects anywhere in this class. No glow, no particles,
+no magic, no light source in frame, nothing radiant of any kind. In a game where
+every other class emits something, the Warrior is the one thing that is just an
+object -- and that absence is the entire read. Do not add light.
+
+Ground: limestone buff #C9BCA4 for the stone, iron-oxide stain #7C5433 where
+metal has bled into it, verdigris #5E7A66 in the weathered recesses and shadow
+grey #4A443C in the cut. No saturated color, no black.
+
+Register: dry, unimpressed, and startlingly kind to whoever is standing behind.
+The repairs in the armor are old and none of them has been hidden. Nothing in
+this class is dramatized; it endures, and the carving has endured too.
+
+FORMAT: landscape 3:2. Full bleed to all four edges. No text, lettering,
+numerals, signatures, watermarks, borders, frames or card templates -- the card
+frame is drawn separately and this image sits inside it. Keep nothing essential
+within the outer 4% of the left and right edges.

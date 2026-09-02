@@ -1,0 +1,48 @@
+Settled in Blood
+Spell · 4 cost
+Warlock · Might & Magic card art
+Paste this whole file into a fresh chat. It is complete on its own.
+
+SUBJECT: A settlement scene in flat medieval illumination: two figures shaking hands
+across a ruled block, one of them bleeding freely into a bowl held by a grotesque
+below, the blood drawn in minium red as ornament rather than as gore. Neither
+face registers distress. Char and a burn hole directly beneath the bowl, the
+illumination continuing around it.
+
+WARLOCK HOUSE STYLE -- identical on every card in this class, do not vary it.
+
+Medium: a scorched illuminated manuscript. Blackletter marginalia and gold
+rubrication on vellum -- and then burned. Charred edges, holes eaten right
+through the page, and the illustration continuing around the damage as though the
+damage had always been part of the design.
+
+Light: flat medieval illumination with no modelling and no cast shadow, undercut
+by real scorch shadow where the page has curled and lifted away from the plane.
+The only three-dimensional thing in the image is the burning.
+
+Composition: text-block logic. The figure occupies a historiated initial capital
+or lives in the margin, with grotesques and small demons crawling the border and
+climbing the ascenders. Register lines and a ruled text block are visible
+underneath everything.
+
+Signature: annotations in a second, later hand -- red ink corrections and marginal
+marks made by somebody who read this page after Brand did and was alarmed by it.
+The two hands should be distinguishable at a glance.
+
+Lettering: text blocks, marginal notes and the initial's own body carry the
+convincing texture of blackletter and of a later annotating hand, but no
+character is ever legible as an actual letter or word. Impression of writing
+only.
+
+Ground: vellum cream #E4D9BE, iron-gall black #241E1A for the main hand, minium
+red #C8342B for the rubrication and the alarmed later hand, gold #C9A227 for the
+leaf, and char #2A211C at every burned edge.
+
+Register: charm that is visibly load-bearing. Everybody in this class is being
+generous with something that is not theirs yet, and doing arithmetic behind their
+eyes the entire time. Fire and shadow both take payment in advance.
+
+FORMAT: landscape 3:2. Full bleed to all four edges. No text, lettering,
+numerals, signatures, watermarks, borders, frames or card templates -- the card
+frame is drawn separately and this image sits inside it. Keep nothing essential
+within the outer 4% of the left and right edges.

@@ -1,0 +1,42 @@
+No Time to Wait
+Spell · 1 cost
+Demon Hunter · Might & Magic card art
+Paste this whole file into a fresh chat. It is complete on its own.
+
+SUBJECT: A figure entering the frame from the top-left corner already at full speed, drawn
+so far into the diagonal that the composition has no vertical in it at all. Both
+feet off the ground, cloak cut into three hard flat shapes. Impact burst at the
+bottom right where it is about to arrive, breaking the frame edge. Dense hatching
+under the jaw.
+
+DEMON HUNTER HOUSE STYLE -- identical on every card in this class, do not vary it.
+
+Medium: ukiyo-e woodblock print. Flat color fills with visible woodgrain running
+through them, hard spot-blacks, and keyblock outlines of varying weight -- plus
+dense parallel hatching borrowed from horror manga wherever the shadow gets bad.
+Registration is very slightly off in places, as a real print's is.
+
+Light: no gradients anywhere. Light is a shape you cut, not a falloff you render.
+Every value in the image is a flat area with a hard edge.
+
+Composition: aggressively diagonal and off-balance. The frame is entered from a
+corner, the horizon is tilted, and kinetic speed-lines and impact bursts break
+the frame edge and run off it.
+
+Signature: every composition is mid-motion and slightly unstable -- this is the
+class that never has its feet under it. No card in this class shows a figure at
+rest on both feet on level ground.
+
+Ground: indigo #26355C and bone #E8DFCB carry the flats, vermilion #C8342B is the
+one hot note, and block black #141210 is used only as cut spot-blacks, never as
+shading. Restrained -- three or four flats per image at most.
+
+Register: on a clock nobody else can see. The deal is already done, the power is
+borrowed and the price is not negotiable, and none of that is drawn as sorrow --
+it is drawn as speed. Grim, fast, unexpectedly funny, refusing to plan past the
+current month.
+
+FORMAT: landscape 3:2. Full bleed to all four edges. No text, lettering,
+numerals, signatures, watermarks, borders, frames or card templates -- the card
+frame is drawn separately and this image sits inside it. Keep nothing essential
+within the outer 4% of the left and right edges.

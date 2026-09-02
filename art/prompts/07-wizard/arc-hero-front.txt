@@ -1,0 +1,50 @@
+Arc — hero card, landscape face (full art)
+Wizard · Might & Magic hero art
+Paste this whole file into a fresh chat. It is complete on its own.
+
+SUBJECT: Arc at rest, the class portrait, which for this man means an
+exposure that is still running. Full figure, seated sideways on the edge of a
+laboratory bench in a very dark room, one boot up, holding something small and
+overexposed in his bare fingers and looking at it with total delight. He has
+moved during the exposure: his own outline is doubled and trailing, one arm
+drawn as a bright streak across the frame from where it was to where it is. He
+is missing an eyebrow. The whole frame sits on a gridded plate with ruled
+reference marks and illegible margin annotation. Bloom, veiling flare, magenta
+fringing at every highlight edge. He is the only light in the room.
+
+FORMAT: full art, landscape 3:2. The image is the entire card face -- nothing
+will be printed over it and no frame will crop it, so it must carry the card by
+itself. Bleed to all four edges. No text, lettering, numerals, signatures,
+watermarks, borders or frames. Keep nothing essential within the outer 4% of any
+edge.
+
+WIZARD HOUSE STYLE -- identical on every card in this class, do not vary it.
+
+Medium: photographic, not painted. A long-exposure light-painting frame with
+genuine lens artifacts -- bloom around the highlights, veiling flare across the
+frame, magenta fringing at the edges of the brightest passages, and grain in the
+dark. It should look like a plate that came out of a camera in a laboratory,
+not like an illustration of one.
+
+Light: the subject IS the light source and it is overexposed. A blown-out
+blue-white core with all detail lost inside it, falling off fast into a very dark
+plate. Nothing else in the frame is lit by anything else.
+
+Composition: centered and radial, set against a gridded scientific plate --
+ruled reference squares, fiducial marks and margin annotation in a technical
+hand. The annotation is never legible as words or numbers, only the impression
+of exposure data in a margin.
+
+Signature: motion trails that record where the subject was a second ago. Every
+figure and every object drags a bright continuous streak behind it through the
+frame. Nothing in this class is ever still, and nothing in it is ever
+photographed cleanly.
+
+Ground: plate black #0D0F16, electric blue-white #D8ECFF at the overexposed
+core, magenta fringe #D14CA8 at the highlight edges and arc orange #CE7A16 in
+the warmer discharge. Very dark overall except where it is completely blown out
+-- there is almost no midtone in this class.
+
+Register: manic and unfinished. Every image is a record of an experiment already
+in progress, run by someone who is not waiting for the result before starting
+the next one. Nothing has been made safe. Nobody is standing behind glass.

@@ -1,0 +1,49 @@
+Briar — hero card, portrait face (full art)
+Druid · Might & Magic hero art
+Paste this whole file into a fresh chat. It is complete on its own.
+
+SUBJECT: An action shot, and for this class an action shot is not motion --
+it is a season going by while she declines to move. Briar standing absolutely
+still at the bottom of a tall vertical frame with her arms at her sides, and
+above and around her a whole engagement being resolved by the forest: roots
+coming up through armored feet, bramble closing over a raised weapon, a charging
+line already half-swallowed and going green. Low camera looking up the trunks so
+the closing canopy owns the upper two thirds and Briar is small and unmoved at
+the base of it. Her expression has not changed. Everything in the frame is
+losing except the plants and the woman who waited.
+
+FORMAT: full art, portrait 2:3. The image is the entire card face -- nothing
+will be printed over it and no frame will crop it, so it must carry the card by
+itself. Bleed to all four edges. No text, lettering, numerals, signatures,
+watermarks, borders or frames. Keep nothing essential within the outer 4% of any
+edge.
+
+DRUID HOUSE STYLE -- identical on every card in this class, do not vary it.
+
+Medium: Art Nouveau botanical plate. Flat decorative color under a heavy,
+confident contour line of even weight -- the line does all the drawing. Gold-leaf
+ornament crowds inward from the frame edge. No painterly texture, no
+rendering, no visible brushwork.
+
+Light: none. This style is decorative, not illuminated -- there is no light
+source, no cast shadow and no modelling. Depth is layering and line weight only.
+
+Composition: symmetrical and mandorla-framed. The subject is centered, static
+and facing forward, held inside an almond of foliage. These are deliberately the
+stillest cards in the game -- nothing is caught mid-motion, nothing is falling,
+nothing is in a hurry.
+
+Signature: ornament density scales with the card's cost, which is printed at the
+top of this file. At 1 the frame is nearly bare and the field is open paper
+cream; at 8 it is overgrown, the border eating well into the picture and the
+subject half-swallowed by it. Read the cost and set the density accordingly.
+
+Ground: warm paper cream #EFE9D8, flat, with the botanical forms drawn on it
+rather than in a space. Sap green #3A7D44 and ochre #7E8B3C carry the plant
+matter, dusty rose #C08A7E the flesh and the wounds, leaf gold #C9A227 the
+ornament. Nothing saturated, no black, no shadow mass.
+
+Register: patience to the point of cruelty. Injuries are not tended here, they
+are allowed to sit and feed something downstream, and nobody in frame is
+troubled by that. Urgency is vulgar. If a figure is bleeding, the plants are
+doing well.

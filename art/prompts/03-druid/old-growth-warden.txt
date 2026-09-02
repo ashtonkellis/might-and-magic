@@ -1,0 +1,45 @@
+Old Growth Warden
+Unit · 6 cost
+Druid · Might & Magic card art
+Paste this whole file into a fresh chat. It is complete on its own.
+
+SUBJECT: An immense figure of old wood, mostly trunk, so long-standing that a whole small
+ecology lives on it -- lichen, ferns in the joints, a bird's nest in the crook of
+one shoulder. A split runs down the length of its chest and has closed over
+thicker than the surrounding wood. It stands centered and takes the whole
+height of the frame. Heavy ornament, near the top of the range.
+
+DRUID HOUSE STYLE -- identical on every card in this class, do not vary it.
+
+Medium: Art Nouveau botanical plate. Flat decorative color under a heavy,
+confident contour line of even weight -- the line does all the drawing. Gold-leaf
+ornament crowds inward from the frame edge. No painterly texture, no
+rendering, no visible brushwork.
+
+Light: none. This style is decorative, not illuminated -- there is no light
+source, no cast shadow and no modelling. Depth is layering and line weight only.
+
+Composition: symmetrical and mandorla-framed. The subject is centered, static
+and facing forward, held inside an almond of foliage. These are deliberately the
+stillest cards in the game -- nothing is caught mid-motion, nothing is falling,
+nothing is in a hurry.
+
+Signature: ornament density scales with the card's cost, which is printed at the
+top of this file. At 1 the frame is nearly bare and the field is open paper
+cream; at 8 it is overgrown, the border eating well into the picture and the
+subject half-swallowed by it. Read the cost and set the density accordingly.
+
+Ground: warm paper cream #EFE9D8, flat, with the botanical forms drawn on it
+rather than in a space. Sap green #3A7D44 and ochre #7E8B3C carry the plant
+matter, dusty rose #C08A7E the flesh and the wounds, leaf gold #C9A227 the
+ornament. Nothing saturated, no black, no shadow mass.
+
+Register: patience to the point of cruelty. Injuries are not tended here, they
+are allowed to sit and feed something downstream, and nobody in frame is
+troubled by that. Urgency is vulgar. If a figure is bleeding, the plants are
+doing well.
+
+FORMAT: landscape 3:2. Full bleed to all four edges. No text, lettering,
+numerals, signatures, watermarks, borders, frames or card templates -- the card
+frame is drawn separately and this image sits inside it. Keep nothing essential
+within the outer 4% of the left and right edges.

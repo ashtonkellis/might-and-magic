@@ -1,0 +1,50 @@
+Bound in Purpose
+Unit · 3 cost
+Windrunner · Might & Magic card art
+Paste this whole file into a fresh chat. It is complete on its own.
+
+SUBJECT: Two figures standing back to back at the exact center of a coordinate grid, one
+glowing and one not, joined at the wrists by a drawn survey line rather than by
+anything physical -- the map's own notation used as a bond. Along that line the
+unlit figure is filling with white-gold from the wrist inward. The flight path
+circles them once and leaves at the bottom edge.
+
+WINDRUNNER HOUSE STYLE -- identical on every card in this class, do not vary it.
+
+Medium: a meteorological chart. Isobars, wind barbs, pressure gradients and
+storm-track projections drawn in fine survey ink on aged chart paper, with fold
+creases, coordinate ticks along the margins and the soft foxing of a document
+that has been carried folded for years.
+
+Light: the chart itself is flat and completely unlit -- it is a document, not a
+scene. The figure is the only luminous thing on it, glowing from within and
+leaking bright vapor at the shoulders and heels.
+
+Composition: the ground is drawn entirely in the language of the map -- contour,
+isobar, projection, coordinate grid -- and the subject sits above the chart plane,
+outside its coordinate system, casting no shadow onto it. She is the one thing on
+the page the survey could not fix a position for.
+
+Signature: one flight path traced across every card, entering at one edge and
+leaving at another, drawn as a survey line with direction arrows -- and wherever
+that path passes an ally, that figure is drawn glowing too. This is the only
+class whose art shows its power landing on somebody else. Every card needs the
+path, and every card needs somebody other than the hero lit by it.
+
+Annotation: coordinates, pressure values and margin notation are present in the
+chart's own hand but never legible as actual letters or numerals -- only the
+convincing impression of survey data.
+
+Ground: chart buff #E8DFC8 for the paper, survey green #2C8C4E and ink brown
+#6B5333 for the drawn map, storm grey #6E7684 for weather, and Stormlight
+white-gold #F5E6B0 for everything that glows. Nothing saturated. The paper stays
+paper.
+
+Register: a protector, and the flying is incidental to that. The oaths are spoken
+out loud, they bind, and each one costs something to mean. Nobody in this class
+is showing off.
+
+FORMAT: landscape 3:2. Full bleed to all four edges. No text, lettering,
+numerals, signatures, watermarks, borders, frames or card templates -- the card
+frame is drawn separately and this image sits inside it. Keep nothing essential
+within the outer 4% of the left and right edges.

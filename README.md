@@ -137,8 +137,8 @@ be handed to a model as a URL with nothing else.
 
 `art/prompts/*.txt` are the six resource cards. `art/prompts/<class-slug>/` is a
 class: one prompt for each of its twelve cards plus one for each face of its
-hero, fourteen in all. The Pyromancer and the Chronomancer are done; the other
-nineteen classes are not.
+hero, fourteen in all. All twenty-one classes are written — 294 prompts, which is
+every card in the game plus both faces of every hero.
 
 Each class prompt carries a house-style block lifted from that class's entry in
 the bible rather than paraphrased from it, byte-identical across the class. Only

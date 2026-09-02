@@ -1,0 +1,57 @@
+Quench — hero card, portrait face (full art)
+Trinket-mage · Might & Magic hero art
+Paste this whole file into a fresh chat. It is complete on its own.
+
+SUBJECT: An action shot, and for this class an action shot is a pressure
+event with the tolerances still called out. A tall vertical plate: at the bottom,
+Quench braced with both hands on the control yoke of a rig that runs the full
+height of the frame above him -- a column of brass, copper and cold-sweating steel
+venting hard at three points. The steam and the frost plume are drawn with the
+same ruled technical precision as the metal, sectioned and numbered. Dimension
+arrows across a joint that is visibly opening. The heat-orange annotation layer
+is everywhere at once because hot is meeting cold along the entire column.
+Leader lines still point neatly to parts that are in the act of leaving the
+assembly. He is grinning. The document is immaculate and the machine is not going
+to hold.
+
+FORMAT: full art, portrait 2:3. The image is the entire card face -- nothing
+will be printed over it and no frame will crop it, so it must carry the card by
+itself. Bleed to all four edges. No text, lettering, numerals, signatures,
+watermarks, borders or frames. Keep nothing essential within the outer 4% of any
+edge.
+
+TRINKET-MAGE HOUSE STYLE -- identical on every card in this class, do not vary it.
+
+Medium: an exploded-view patent plate on aged drafting paper. Isometric technical
+illustration -- parts floating apart along thin straight leader lines with
+numbered callout bubbles -- but the metal itself is rendered as real material:
+brass with genuine specular hits, copper going warm, cold-sweating steel with
+beads of condensation on it.
+
+Light: schematic flatness for the linework, real speculars on the metal. The
+drawing is a document; the machine described in it is an object. Both readings
+have to hold at once.
+
+Composition: blueprint ground with white line, plus a second annotation layer in
+heat orange marking every point where fire meets frost. Condensation, escaping
+steam and dripping meltwater are drawn with exactly the same technical precision
+as the parts -- ruled, sectioned and called out, not atmospheric.
+
+Signature: dream-punk, not steampunk. Every diagram is plausible right up until
+it isn't. The tolerances are believable, the callouts are numbered, the fasteners
+are correct -- and the machine as drawn could not possibly work. Precise, warm,
+and slightly absurd given what these things do.
+
+Annotation: callout numbers, dimension arrows and margin notes are present
+everywhere, but they are never legible as actual letters or numerals -- only the
+convincing impression of a numbered technical document.
+
+Ground: drafting blue #1B3A6B for the plate, white line #EFF4FA for the drawing,
+brass #C9A227 and copper #B87333 for the rendered metal, heat orange #E8811C for
+the second annotation layer. Restrained -- the plate reads cool and the metal
+reads warm.
+
+Register: a tinkerer's optimism. Everything here was built by someone with singed
+fingertips and full pockets who is genuinely pleased with how it came out. His
+power is inventory, not talent, and that does not bother him nearly as much as it
+should.
