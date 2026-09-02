@@ -10,6 +10,10 @@ being wrong.
 
 **Before any push that changes what the site serves:**
 
+0. If you added or removed images under `art/`, `node tools/build-art-index.mjs`
+   — the page finds art through `art/index.json` and `art/heroes/index.json`,
+   never by looking in the directory, so art pushed without a manifest rebuild
+   is invisible on the site. `--check` reports drift without writing.
 1. `node bump-version.mjs` — increments the version in the two places that must
    agree: `VERSION` in `sw.js` (which names the cache) and the badge in
    `index.html`. It prints the new number and refuses to run if the two have

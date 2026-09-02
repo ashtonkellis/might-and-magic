@@ -280,11 +280,11 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 
 <header class="top">
   <div class="spectrum"></div>
-  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V39</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
+  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V40</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
   <p class="sub">In the colors of the class each card was chosen for.
      Every card in the game: twenty-one heroes, six resources, and twelve cards
-     for each class. The resources carry their art; the rest are placeholders
-     until images land in <code>art/</code>.
+     for each class. Art appears as it lands in <code>art/</code>; a card whose
+     image has not been drawn yet shows its class glyph instead.
      The classes themselves live in the <a href="class-bible.html">class bible</a>.</p>
 </header>
 
@@ -336,6 +336,12 @@ let CARDS = [];
    names the files that exist; without it we render placeholders and make zero
    requests, rather than firing a 404 per card per extension. */
 let ART = {};
+/* Hero art is keyed by hero and face rather than by card id, because a hero's
+   two sides are one physical card and the files are named for it that way:
+   art/heroes/<hero>-hero-front.webp. Its own manifest, for the same reason
+   art/index.json exists -- a static host cannot be asked what it holds. */
+let HERO_ART = {};
+const heroArtFile = c => HERO_ART[`${String(c.hero).toLowerCase()}-${c.side}`];
 function artHTML(c){
   const k = BY_SLUG[c['class']];
   const file = ART[c.id];
@@ -408,8 +414,11 @@ function heroHTML(c){
     // Full art, and portrait where the front is landscape -- a hero is turned as
     // well as flipped. Nothing is printed over the picture except what a unit in
     // play must be readable at a glance: its body, and its one line of rules.
+    const file = heroArtFile(c);
     return `<article class="card hero back" style="background:${bg}">
-      <div class="bart"><span class="glyph">${c.glyph}</span></div>
+      <div class="bart">${file
+        ? `<img alt="" loading="lazy" src="art/heroes/${encodeURIComponent(file)}">`
+        : `<span class="glyph">${c.glyph}</span>`}</div>
       <div class="bname">${esc(c.hero)}</div>
       <div class="bfoot">
         <span class="stat pow">${c.power}</span>
@@ -429,7 +438,9 @@ function heroHTML(c){
       <span class="htitle"><b>${esc(c.hero)}</b><em>${esc(c.className)}</em></span>
       <span class="hinks">${inks}</span>
     </div>
-    <div class="hart"><span class="glyph">${c.glyph}</span><span class="hstat hp">${c.hp}</span></div>
+    <div class="hart">${heroArtFile(c)
+      ? `<img alt="" loading="lazy" src="art/heroes/${encodeURIComponent(heroArtFile(c))}">`
+      : `<span class="glyph">${c.glyph}</span>`}<span class="hstat hp">${c.hp}</span></div>
     <div class="hfoot"><p class="hrules">${esc(c.text)}</p>
       <div class="hflip"><span class="lab">Flip</span><span class="cost">${cost}</span>
         <span class="arrow">\u2192</span><span class="becomes">${c.becomes}</span></div>
@@ -516,10 +527,16 @@ function apply(){
 Promise.all([
   fetch('card-list.json').then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
   fetch('art/index.json').then(r => r.ok ? r.json() : []).catch(() => []),
+  fetch('art/heroes/index.json').then(r => r.ok ? r.json() : []).catch(() => []),
   fetch('hero-cards.json').then(r => r.ok ? r.json() : {data:[]}).catch(() => ({data:[]}))
-]).then(([d, art, heroes]) => {
+]).then(([d, art, heroArt, heroes]) => {
   HERO_CARDS = buildHeroes(heroes.data || []);
   for (const f of art) ART[String(f).replace(/\.[^.]+$/, '')] = f;
+  // caine-hero-front.webp -> key "caine-front"
+  for (const f of heroArt) {
+    const m = String(f).match(/^(.+)-hero-(front|back)\.[^.]+$/);
+    if (m) HERO_ART[`${m[1].toLowerCase()}-${m[2]}`] = f;
+  }
   const order = Object.fromEntries(CLASSES.map((c, i) => [c.slug, i]));
   // Only cards that are in the game. The 503 unassigned corpus cards were raw
   // material for choosing the twelves; keeping them in the browser put a Hero
