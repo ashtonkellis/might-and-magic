@@ -49,6 +49,11 @@ cards across, eight to a page.
 Card art for the other 252 is not in place yet; each shows its class glyph and
 card id until images land. See `art/README.md` for how to add them.
 
+The browser shows only cards that are in the game — 21 heroes as 42 faces, 6
+resources, and 12 cards for each of the 21 classes, 300 in all. The 503
+unassigned corpus cards were raw material for choosing the twelves and are not
+listed; the file still holds them.
+
 The page fetches `card-list.json`, which browsers block on `file://`. To preview
 locally, serve the folder — `python3 -m http.server` — rather than opening the
 file directly. On the deployed site it just works.

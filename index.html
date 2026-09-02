@@ -256,19 +256,20 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 
 <header class="top">
   <div class="spectrum"></div>
-  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V25</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
-  <p class="sub">Every card in the list, in the colors of the class it was chosen for.
-     The six resources carry their art already; the rest are placeholders until
-     images land in <code>art/</code>.
+  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V26</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
+  <p class="sub">In the colors of the class each card was chosen for.
+     Every card in the game: twenty-one heroes, six resources, and twelve cards
+     for each class. The resources carry their art; the rest are placeholders
+     until images land in <code>art/</code>.
      The classes themselves live in the <a href="class-bible.html">class bible</a>.</p>
 </header>
 
 <div class="bar noprint">
   <div class="field"><label for="f-class">Class</label>
-    <select id="f-class"><option value="assigned">All assigned (252)</option>
+    <select id="f-class"><option value="">Everything</option>
       <option value="heroes">Heroes</option>
       <option value="resources">Resources</option>
-      <option value="">Everything</option><option value="none">Unassigned</option></select></div>
+      <option value="classcards">Class cards</option></select></div>
   <div class="field"><label for="f-type">Type</label><select id="f-type"><option value="">Any</option></select></div>
   <div class="field"><label for="f-cost">Cost</label><select id="f-cost"><option value="">Any</option></select></div>
   <div class="field"><label for="f-text">Search rules text</label><input id="f-text" type="search" placeholder="e.g. exhaust, discard pile"></div>
@@ -449,14 +450,10 @@ function apply(){
     // a resource belongs to an ink, not a class, so every class-shaped filter
     // value excludes it -- it shows under its own option and under Everything
     const isRes = c.kind === 'resource', isHero = c.kind === 'hero';
-    if (cls === 'resources') { if (!isRes) return false; }
-    else if (cls === 'heroes') { if (!isHero) return false; }
-    else if (isRes || isHero) { if (cls !== '') return false; }
-    else {
-      if (cls === 'assigned' && !c['class']) return false;
-      if (cls === 'none' && c['class']) return false;
-      if (cls && cls !== 'assigned' && cls !== 'none' && c['class'] !== cls) return false;
-    }
+    if (cls === 'heroes') { if (!isHero) return false; }
+    else if (cls === 'resources') { if (!isRes) return false; }
+    else if (cls === 'classcards') { if (isRes || isHero) return false; }
+    else if (cls) { if (isRes || isHero || c['class'] !== cls) return false; }
     if (ty && c.type !== ty) return false;
     if (co !== '' && String(c.cost) !== co) return false;
     if (q && !(c.text || '').toLowerCase().includes(q)) return false;
@@ -479,17 +476,20 @@ Promise.all([
   HERO_CARDS = buildHeroes(heroes.data || []);
   for (const f of art) ART[String(f).replace(/\.[^.]+$/, '')] = f;
   const order = Object.fromEntries(CLASSES.map((c, i) => [c.slug, i]));
-  CARDS = HERO_CARDS.concat(RESOURCE_CARDS).concat(d.data.slice().sort((a, b) =>
+  // Only cards that are in the game. The 503 unassigned corpus cards were raw
+  // material for choosing the twelves; keeping them in the browser put a Hero
+  // type in the dropdown that matched nothing a player owns.
+  CARDS = HERO_CARDS.concat(RESOURCE_CARDS).concat(d.data.filter(c => c['class']).sort((a, b) =>
       (order[a['class']] ?? 99) - (order[b['class']] ?? 99) ||
       (a.cost ?? -1) - (b.cost ?? -1) || a.id.localeCompare(b.id)));
   const sel = $('f-class');
   const setOpt = (v, label) => { const o = sel.querySelector(`option[value="${v}"]`); if (o) o.textContent = label; };
-  // heroes carry a class slug but are not one of its twelve, so the count
-  // has to exclude anything that is not a corpus card
-  setOpt('assigned', `All assigned (${CARDS.filter(c => c['class'] && !c.kind).length})`);
+  // heroes carry a class slug but are not one of its twelve, so the class-card
+  // count has to exclude anything that is not a corpus card
   setOpt('', `Everything (${CARDS.length})`);
-  setOpt('resources', `Resources (${RESOURCE_CARDS.length})`);
   setOpt('heroes', `Heroes (${HERO_CARDS.length})`);
+  setOpt('resources', `Resources (${RESOURCE_CARDS.length})`);
+  setOpt('classcards', `Class cards (${CARDS.filter(c => c['class'] && !c.kind).length})`);
   CLASSES.forEach(c => {
     const n = CARDS.filter(x => x['class'] === c.slug).length;
     sel.insertAdjacentHTML('beforeend', `<option value="${c.slug}">${esc(c.name)} — ${esc(c.hero)} (${n})</option>`);
