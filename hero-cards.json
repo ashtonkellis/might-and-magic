@@ -1,133 +1,280 @@
 {
-  "description": "The twenty-one hero cards -- one per class. A hero is the card an opponent damages to win; it is what Star Wars: Unlimited calls a base, renamed when this project renamed bases to heroes. Each carries a starting HP and a single ability.\n\nHP economy: 20 is the notional blank baseline. Below 20 means the ability was bought with health; above means health was paid to accept a drawback, which is why the Lich sits at 25 for starting a card down.\n\n'Your leader' means the class's Leader card, a separate card from this one. The two are both called heroes in conversation and that collision is not yet resolved in the data.",
+  "description": "The twenty-one hero cards -- one per class, and the only two-sided cards in the game. A hero is the card an opponent damages to win: what Star Wars: Unlimited calls a base, renamed when this project renamed bases to heroes.\n\nThey are kept out of card-list.json on purpose. That file is the imported corpus, one flat card shape with a single cost and a single body; a hero has no cost, two sides, and two different meanings for HP. Forcing it into that schema would break both.\n\nFRONT is the hero at rest: its starting HP and one ability. 20 is the notional blank baseline, so below 20 means the ability was bought with health, and above means health was paid to accept a drawback -- which is why the Lich sits at 25 for starting a card down.\n\nBACK is the hero once flipped: a body with power and its own HP, which is a different number from the front's and not a life total. Ported from the deployed sides of Star Wars: Unlimited leaders, mechanics only -- no card names, the same rule card-list.json was built under.\n\nOPEN: nothing flips these yet. A leader flips by paying resources to deploy; a hero is never deployed, so it needs its own trigger. Eleven backs also say “On Attack”, and a hero does not attack -- those want rephrasing around a friendly unit attacking. And “your leader” on three fronts means a separate card that is also called a hero in conversation.",
   "baselineHP": 20,
   "total": 21,
   "data": [
     {
       "class": "01-pyromancer",
       "hero": "Caine",
-      "hp": 16,
-      "ability": "Epic Action [discard your hand]: Deal 3 damage to each unit."
+      "front": {
+        "hp": 16,
+        "ability": "Epic Action [discard your hand]: Deal 3 damage to each unit."
+      },
+      "back": {
+        "power": 2,
+        "hp": 7,
+        "ability": "When a friendly unit is defeated while attacking: You may deal 2 damage to a unit or hero."
+      }
     },
     {
       "class": "02-chronomancer",
       "hero": "Vesper",
-      "hp": 17,
-      "ability": "Draw 2 more cards in your starting hand. You can’t take a mulligan."
+      "front": {
+        "hp": 17,
+        "ability": "Draw 2 more cards in your starting hand. You can’t take a mulligan."
+      },
+      "back": {
+        "power": 3,
+        "hp": 6,
+        "ability": "When an attack ends: Look at the top card of your deck. You may play it, discard it, or leave it on top of your deck. If you play it, it costs 1 less."
+      }
     },
     {
       "class": "03-druid",
       "hero": "Briar",
-      "hp": 16,
-      "ability": "When the rest phase starts: Heal 1 damage from each friendly unit."
+      "front": {
+        "hp": 16,
+        "ability": "When the rest phase starts: Heal 1 damage from each friendly unit."
+      },
+      "back": {
+        "power": 2,
+        "hp": 8,
+        "ability": "When another friendly unit is dealt damage and survives: You may have that unit deal that much damage to an enemy unit. Use this ability only once each round."
+      }
     },
     {
       "class": "04-sorceress",
       "hero": "Crystal",
-      "hp": 15,
-      "ability": "Epic Action: Exhaust each enemy unit."
+      "front": {
+        "hp": 15,
+        "ability": "Epic Action: Exhaust each enemy unit."
+      },
+      "back": {
+        "power": 3,
+        "hp": 4,
+        "ability": "On Attack: An opponent chooses a ready unit they control. Exhaust that unit."
+      }
     },
     {
       "class": "05-necromancer",
       "hero": "Viol",
-      "hp": 16,
-      "ability": "Epic Action: Return a unit from your discard pile to your hand."
+      "front": {
+        "hp": 16,
+        "ability": "Epic Action: Return a unit from your discard pile to your hand."
+      },
+      "back": {
+        "power": 4,
+        "hp": 7,
+        "ability": "When you use a “When Defeated” ability: You may use that ability again. Use this ability only once each round."
+      }
     },
     {
       "class": "06-warrior",
       "hero": "Hale",
-      "hp": 17,
-      "ability": "When the rest phase starts: Heal 2 damage from your hero."
+      "front": {
+        "hp": 17,
+        "ability": "When the rest phase starts: Heal 2 damage from your hero."
+      },
+      "back": {
+        "power": 3,
+        "hp": 7,
+        "ability": "On Attack: Heal 1 damage from a friendly unit and 1 damage from another friendly unit."
+      }
     },
     {
       "class": "07-wizard",
       "hero": "Arc",
-      "hp": 16,
-      "ability": "Epic Action: Play a spell from your hand. It costs 3 less. Deal 2 damage to your hero."
+      "front": {
+        "hp": 16,
+        "ability": "Epic Action: Play a spell from your hand. It costs 3 less. Deal 2 damage to your hero."
+      },
+      "back": {
+        "power": 5,
+        "hp": 6,
+        "ability": "On Attack: Deal 1 damage to a unit and 1 damage to a different unit."
+      }
     },
     {
       "class": "08-shaman",
       "hero": "Ash",
-      "hp": 16,
-      "ability": "When a friendly unit is defeated: Give an Experience token to a friendly unit."
+      "front": {
+        "hp": 16,
+        "ability": "When a friendly unit is defeated: Give an Experience token to a friendly unit."
+      },
+      "back": {
+        "power": 3,
+        "hp": 6,
+        "ability": "On Attack: If a friendly unit was defeated this phase, you may give another unit +2/+2 for this phase."
+      }
     },
     {
       "class": "09-trinket-mage",
       "hero": "Quench",
-      "hp": 16,
-      "ability": "Epic Action: Search your deck for an upgrade, reveal it, and draw it."
+      "front": {
+        "hp": 16,
+        "ability": "Epic Action: Search your deck for an upgrade, reveal it, and draw it."
+      },
+      "back": {
+        "power": 4,
+        "hp": 6,
+        "ability": "When an attack ends: You may play an upgrade from your resources on a friendly unit. If you do, resource the top card of your deck."
+      }
     },
     {
       "class": "10-warlock",
       "hero": "Brand",
-      "hp": 14,
-      "ability": "Draw 2 more cards in your starting hand."
+      "front": {
+        "hp": 14,
+        "ability": "Draw 2 more cards in your starting hand."
+      },
+      "back": {
+        "power": 5,
+        "hp": 6,
+        "ability": "On Attack: You may defeat a friendly resource. If you do, deal 2 damage to a unit."
+      }
     },
     {
       "class": "11-demon-hunter",
       "hero": "Kell",
-      "hp": 14,
-      "ability": "Your leader costs 3 less to deploy."
+      "front": {
+        "hp": 14,
+        "ability": "Your leader costs 3 less to deploy."
+      },
+      "back": {
+        "power": 5,
+        "hp": 8,
+        "ability": "This card gains each keyword among cards in your discard pile."
+      }
     },
     {
       "class": "12-windrunner",
       "hero": "Gale",
-      "hp": 15,
-      "ability": "Epic Action: Give a Shield token to each friendly unit."
+      "front": {
+        "hp": 15,
+        "ability": "Epic Action: Give a Shield token to each friendly unit."
+      },
+      "back": {
+        "power": 5,
+        "hp": 6,
+        "ability": "On Attack: You may give a unit with less power than this unit +2/+0 for this phase."
+      }
     },
     {
       "class": "13-edgedancer",
       "hero": "Prism",
-      "hp": 16,
-      "ability": "Epic Action: Play a unit that costs 2 or less from your discard pile."
+      "front": {
+        "hp": 16,
+        "ability": "Epic Action: Play a unit that costs 2 or less from your discard pile."
+      },
+      "back": {
+        "power": 4,
+        "hp": 6,
+        "ability": "When an attack ends: You may attack with another unit that costs 4 or less."
+      }
     },
     {
       "class": "14-soulcaster",
       "hero": "Mirren",
-      "hp": 16,
-      "ability": "Epic Action: Defeat a friendly unit. Resource the top card of your deck and ready it."
+      "front": {
+        "hp": 16,
+        "ability": "Epic Action: Defeat a friendly unit. Resource the top card of your deck and ready it."
+      },
+      "back": {
+        "power": 4,
+        "hp": 7,
+        "ability": "When an attack ends: You may return a friendly non-leader unit to its owner’s hand. Play a unit that costs less than the returned unit from your hand for free."
+      }
     },
     {
       "class": "15-runeblade",
       "hero": "Stave",
-      "hp": 17,
-      "ability": "When you play an upgrade: Give an Experience token to the unit it’s attached to."
+      "front": {
+        "hp": 17,
+        "ability": "When you play an upgrade: Give an Experience token to the unit it’s attached to."
+      },
+      "back": {
+        "power": 3,
+        "hp": 6,
+        "ability": "On Attack: You may defeat a friendly upgrade. If you do, deal 2 damage to the defending unit or a hero."
+      }
     },
     {
       "class": "16-shapeshifter",
       "hero": "Pelt",
-      "hp": 15,
-      "ability": "Epic Action: Play a unit from your hand. Give it Ambush for this phase."
+      "front": {
+        "hp": 15,
+        "ability": "Epic Action: Play a unit from your hand. Give it Ambush for this phase."
+      },
+      "back": {
+        "power": 5,
+        "hp": 4,
+        "ability": "On Attack: The next unit you play this phase gains Hidden."
+      }
     },
     {
       "class": "17-witch-doctor",
       "hero": "Mire",
-      "hp": 16,
-      "ability": "Epic Action: Heal all damage from each friendly unit. Deal 1 damage to your hero for each unit healed."
+      "front": {
+        "hp": 16,
+        "ability": "Epic Action: Heal all damage from each friendly unit. Deal 1 damage to your hero for each unit healed."
+      },
+      "back": {
+        "power": 3,
+        "hp": 7,
+        "ability": "On Attack: You may give a unit -1/-1 for this phase."
+      }
     },
     {
       "class": "18-ranger",
       "hero": "Fletch",
-      "hp": 16,
-      "ability": "Epic Action: Search the top 5 cards of your deck for any card, reveal it, and draw it."
+      "front": {
+        "hp": 16,
+        "ability": "Epic Action: Search the top 5 cards of your deck for any card, reveal it, and draw it."
+      },
+      "back": {
+        "power": 4,
+        "hp": 7,
+        "ability": "While a friendly unit is attacking, the defender gets -1/-0."
+      }
     },
     {
       "class": "19-lich",
       "hero": "Rime",
-      "hp": 25,
-      "ability": "Draw 1 less card in your starting hand."
+      "front": {
+        "hp": 25,
+        "ability": "Draw 1 less card in your starting hand."
+      },
+      "back": {
+        "power": 0,
+        "hp": 8,
+        "ability": "Restore 4. (When a friendly unit attacks, heal 4 damage from your hero.)"
+      }
     },
     {
       "class": "20-death-knight",
       "hero": "Pall",
-      "hp": 16,
-      "ability": "Your leader gets +0/+4."
+      "front": {
+        "hp": 16,
+        "ability": "Your leader gets +0/+4."
+      },
+      "back": {
+        "power": 2,
+        "hp": 5,
+        "ability": "On Attack: Choose any number of friendly units. They lose all abilities for this round."
+      }
     },
     {
       "class": "21-assassin",
       "hero": "Hush",
-      "hp": 15,
-      "ability": "Epic Action: Defeat a non-leader unit that has 3 or less remaining HP."
+      "front": {
+        "hp": 15,
+        "ability": "Epic Action: Defeat a non-leader unit that has 3 or less remaining HP."
+      },
+      "back": {
+        "power": 3,
+        "hp": 4,
+        "ability": "Action [exhaust a friendly unit]: Play a unit from your hand. It enters play ready."
+      }
     }
   ]
 }
