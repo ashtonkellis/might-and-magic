@@ -228,7 +228,7 @@
       "hero": "Kell",
       "front": {
         "hp": 14,
-        "ability": "Your leader costs 3 less to deploy."
+        "ability": "Your units get +1/+0. When the rest phase starts: Deal 1 damage to your hero."
       },
       "back": {
         "power": 5,
