@@ -83,13 +83,14 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
    anyway. 3mm on a 223px card is 10.6px; 11px is the nearest whole pixel, which
    matters because a border snaps to one and the padding frame would not, and a
    class card sitting beside a hero card has to show the same edge. */
-/* Where a two-colour card changes colour. Measured off a Star Wars: Unlimited
-   two-aspect card: the boundary is a diagonal crossing the top edge at 68% of
-   the card's width and the bottom edge at 35%, blending over about 3% rather
-   than cutting hard. The angle that produces depends on the card's proportions,
-   so portrait and landscape carry their own -- both put the boundary through
-   those same two points on their own edges. */
-.card{--split:103deg;--frame:11px;--inner:5px;
+/* Where a two-colour card changes colour: straight down the middle. Measured
+   off a Star Wars: Unlimited two-aspect card, the boundary is vertical, sits at
+   54.6% of the card's width and blends over about 3% rather than cutting hard;
+   this splits at the middle, which is within 10px of that at card size and is
+   the half-and-half the reference reads as. Vertical means one value serves
+   both orientations -- unlike a diagonal, it does not depend on the card's
+   proportions. */
+.card{--split:90deg;--frame:11px;--inner:5px;
       aspect-ratio:2.5/3.5;border-radius:11px;overflow:hidden;display:flex;flex-direction:column;
       color:#fff;position:relative;box-shadow:0 1px 3px rgba(0,0,0,.25);border:1px solid rgba(0,0,0,.35);
       padding:var(--frame)}
@@ -168,7 +169,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
    border is the only chrome and carries that whole job -- hence a weight that
    would be heavy-handed anywhere else. Longhands rather than the shorthand,
    because the colour arrives inline per ink. */
-.card.wide{aspect-ratio:3.5/2.5;--split:114.5deg}
+.card.wide{aspect-ratio:3.5/2.5}
 .card.res{border-style:solid;border-width:var(--frame);background:#0B0A11}
 /* It is the same physical card as the others, turned on its side, and it should
    read at that scale rather than shrinking to one column's width. So it spans
@@ -202,7 +203,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 .card.hero.back{aspect-ratio:2.5/3.5;position:relative;display:block;
   border:var(--frame) solid transparent;
   background-image:linear-gradient(#0B0A11,#0B0A11),
-    linear-gradient(var(--split),var(--c1) 0 49.9%,var(--c2) 52.9% 100%);
+    linear-gradient(var(--split),var(--c1) 0 48.5%,var(--c2) 51.5% 100%);
   background-origin:border-box;background-clip:padding-box,border-box}
 .bart{position:absolute;inset:0;display:grid;place-items:center;overflow:hidden;
   background:linear-gradient(160deg,color-mix(in srgb,var(--c1) 52%,#0b0a11),
@@ -228,7 +229,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 .card.hero{display:flex;flex-direction:column;color:#16141d;background:#0B0A11;
   border:var(--frame) solid transparent;
   background-image:linear-gradient(#0B0A11,#0B0A11),
-    linear-gradient(var(--split),var(--c1) 0 49.9%,var(--c2) 52.9% 100%);
+    linear-gradient(var(--split),var(--c1) 0 48.5%,var(--c2) 51.5% 100%);
   background-origin:border-box;background-clip:padding-box,border-box}
 .hbanner{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:.3rem;
   padding:.2rem .4rem;color:#fff;background:
@@ -325,7 +326,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 
 <header class="top">
   <div class="spectrum"></div>
-  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V46</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
+  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V47</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
   <p class="sub">In the colors of the class each card was chosen for.
      Every card in the game: twenty-one heroes, six resources, and twelve cards
      for each class. Art appears as it lands in <code>art/</code>; a card whose
@@ -503,7 +504,7 @@ function cardHTML(c){
   if (c.kind === 'hero') return heroHTML(c);
   if (c.kind === 'resource') return resourceHTML(c);
   const k = BY_SLUG[c['class']];
-  const bg = k ? `linear-gradient(var(--split), ${k.c1} 0 49.9%, ${k.c2} 52.9% 100%)` : 'linear-gradient(var(--split),#6B6879 0 49.9%,#423E55 52.9% 100%)';
+  const bg = k ? `linear-gradient(var(--split), ${k.c1} 0 48.5%, ${k.c2} 51.5% 100%)` : 'linear-gradient(var(--split),#6B6879 0 48.5%,#423E55 51.5% 100%)';
   // Two of the six inks are far too light to carry white text on their own, and
   // a blend can pair a light ink with a dark one, so a constant wash sits over
   // the whole banner: the hues stay exact, the title stays legible on all 21.
