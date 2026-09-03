@@ -16,7 +16,10 @@ colours — solid for a pure class, split down the middle for a blend — then t
 **art panel**, a **stat line** where power and HP flank the card type, and the
 **rules box**. Those panels are inset on all four sides from the card's own
 gradient, so the class colour frames the card rather than only banding its
-title. Keywords appear in the rules box and nowhere else: the stat line names
+title. The frame is **3mm** — a Magic card's border width on a 63mm card, stated
+exactly in the print sheet and matched on screen — and every card kind carries
+the same one, whether it draws it as padding over the gradient (class cards) or
+as a real border (resources in their ink, heroes in their two-colour gradient). Keywords appear in the rules box and nowhere else: the stat line names
 the card type and nothing more. Power is drawn as a blade point and HP as a shield, so the two
 numbers are told apart by shape as well as colour — a red blade and a green
 shield. An upgrade puts those two
