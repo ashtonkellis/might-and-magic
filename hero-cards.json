@@ -1,5 +1,5 @@
 {
-  "description": "The twenty-one hero cards -- one per class, and the only two-sided cards in the game. A hero is the card an opponent damages to win: what Star Wars: Unlimited calls a base, renamed when this project renamed bases to heroes.\n\nThey are kept out of card-list.json on purpose. That file is the imported corpus, one flat card shape with a single cost and a single body; a hero has no cost, two sides, and two different meanings for HP. Forcing it into that schema would break both.\n\nFRONT is the hero at rest: its starting HP and one ability. 20 is the notional blank baseline, so below 20 means the ability was bought with health, and above means health was paid to accept a drawback -- which is why the Lich sits at 25 for starting a card down.\n\nBACK is the hero flipped. It enters play as an ordinary unit and can attack, so its power and HP are a real body, not a life total -- the front's HP and the back's HP are unrelated numbers that happen to share a name. Ported from the deployed sides of Star Wars: Unlimited leaders, mechanics only, no card names, the same rule card-list.json was built under.\n\nPower has a floor of 1. Because a flipped hero can attack, a 0-power body would be one that can never do anything on the attack, which is a dead card rather than a design.\n\nFLIP: defeat resources to turn the hero over. The notation is the class's two ink letters followed by any generic, so the Lich pays BP1 -- a Blue, a Purple and one of any colour. The coloured half is always the class identity; the total is priced off the body being bought, since that is what the flip buys: power+HP of 8 or less costs 2, 9-10 costs 3, 11 or more costs 4. Checked against the deploy costs of the leaders these bodies came from, the brackets line up -- every 2 was a 4-cost leader, every 3 a 5-cost, and the 4s are 6s and 7s.\n\nOPEN: “your leader” on three fronts names a separate card that is likewise called a hero in conversation.",
+  "description": "The twenty-one hero cards -- one per class, and the only two-sided cards in the game. A hero is the card an opponent damages to win: what Star Wars: Unlimited calls a base, renamed when this project renamed bases to heroes.\n\nThey are kept out of card-list.json on purpose. That file is the imported corpus, one flat card shape with a single cost and a single body; a hero has no cost, two sides, and two different meanings for HP. Forcing it into that schema would break both.\n\nFRONT is the hero at rest: its starting HP and one ability. 20 is the notional blank baseline, so below 20 means the ability was bought with health, and above means health was paid to accept a drawback -- which is why the Lich sits at 25 for starting a card down.\n\nBACK is the hero flipped. It enters play as an ordinary unit and can attack, so its power and HP are a real body, not a life total -- the front's HP and the back's HP are unrelated numbers that happen to share a name. Ported from the deployed sides of Star Wars: Unlimited leaders, mechanics only, no card names, the same rule card-list.json was built under.\n\nPower has a floor of 1. Because a flipped hero can attack, a 0-power body would be one that can never do anything on the attack, which is a dead card rather than a design.\n\nJOIN THE FIGHT: defeat resources to turn the hero over and put it into play. The notation is the class's two ink letters followed by any generic, so the Lich pays BP1 -- a Blue, a Purple and one of any colour. The coloured half is always the class identity; the total is priced off the body being bought, since that is what joining the fight buys: power+HP of 8 or less costs 2, 9-10 costs 3, 11 or more costs 4. Checked against the deploy costs of the leaders these bodies came from, the brackets line up -- every 2 was a 4-cost leader, every 3 a 5-cost, and the 4s are 6s and 7s.\n\nOPEN: “your leader” on three fronts names a separate card that is likewise called a hero in conversation.",
   "baselineHP": 20,
   "total": 21,
   "data": [
@@ -15,7 +15,7 @@
         "hp": 7,
         "ability": "When a friendly unit is defeated while attacking: You may deal 2 damage to a unit or hero."
       },
-      "flip": {
+      "join": {
         "total": 3,
         "notation": "RR1",
         "inks": [
@@ -37,7 +37,7 @@
         "hp": 6,
         "ability": "When an attack ends: Look at the top card of your deck. You may play it, discard it, or leave it on top of your deck. If you play it, it costs 1 less."
       },
-      "flip": {
+      "join": {
         "total": 3,
         "notation": "AA1",
         "inks": [
@@ -59,7 +59,7 @@
         "hp": 8,
         "ability": "When another friendly unit is dealt damage and survives: You may have that unit deal that much damage to an enemy unit. Use this ability only once each round."
       },
-      "flip": {
+      "join": {
         "total": 3,
         "notation": "GG1",
         "inks": [
@@ -81,7 +81,7 @@
         "hp": 4,
         "ability": "On Attack: An opponent chooses a ready unit they control. Exhaust that unit."
       },
-      "flip": {
+      "join": {
         "total": 2,
         "notation": "BB",
         "inks": [
@@ -103,7 +103,7 @@
         "hp": 7,
         "ability": "When you use a “When Defeated” ability: You may use that ability again. Use this ability only once each round."
       },
-      "flip": {
+      "join": {
         "total": 4,
         "notation": "PP2",
         "inks": [
@@ -125,7 +125,7 @@
         "hp": 7,
         "ability": "On Attack: Heal 1 damage from a friendly unit and 1 damage from another friendly unit."
       },
-      "flip": {
+      "join": {
         "total": 3,
         "notation": "SS1",
         "inks": [
@@ -147,7 +147,7 @@
         "hp": 6,
         "ability": "On Attack: Deal 1 damage to a unit and 1 damage to a different unit."
       },
-      "flip": {
+      "join": {
         "total": 4,
         "notation": "RA2",
         "inks": [
@@ -169,7 +169,7 @@
         "hp": 6,
         "ability": "On Attack: If a friendly unit was defeated this phase, you may give another unit +2/+2 for this phase."
       },
-      "flip": {
+      "join": {
         "total": 3,
         "notation": "RG1",
         "inks": [
@@ -191,7 +191,7 @@
         "hp": 6,
         "ability": "When an attack ends: You may play an upgrade from your resources on a friendly unit. If you do, resource the top card of your deck."
       },
-      "flip": {
+      "join": {
         "total": 3,
         "notation": "RB1",
         "inks": [
@@ -213,7 +213,7 @@
         "hp": 6,
         "ability": "On Attack: You may defeat a friendly resource. If you do, deal 2 damage to a unit."
       },
-      "flip": {
+      "join": {
         "total": 4,
         "notation": "RP2",
         "inks": [
@@ -235,7 +235,7 @@
         "hp": 8,
         "ability": "This card gains each keyword among cards in your discard pile."
       },
-      "flip": {
+      "join": {
         "total": 4,
         "notation": "RS2",
         "inks": [
@@ -257,7 +257,7 @@
         "hp": 6,
         "ability": "On Attack: You may give a unit with less power than this unit +2/+0 for this phase."
       },
-      "flip": {
+      "join": {
         "total": 4,
         "notation": "AG2",
         "inks": [
@@ -279,7 +279,7 @@
         "hp": 6,
         "ability": "When an attack ends: You may attack with another unit that costs 4 or less."
       },
-      "flip": {
+      "join": {
         "total": 3,
         "notation": "AB1",
         "inks": [
@@ -301,7 +301,7 @@
         "hp": 7,
         "ability": "When an attack ends: You may return a friendly unit to its owner’s hand. Play a unit that costs less than the returned unit from your hand for free."
       },
-      "flip": {
+      "join": {
         "total": 4,
         "notation": "AP2",
         "inks": [
@@ -323,7 +323,7 @@
         "hp": 6,
         "ability": "On Attack: You may defeat a friendly upgrade. If you do, deal 2 damage to the defending unit or a hero."
       },
-      "flip": {
+      "join": {
         "total": 3,
         "notation": "AS1",
         "inks": [
@@ -345,7 +345,7 @@
         "hp": 4,
         "ability": "On Attack: The next unit you play this phase gains Hidden."
       },
-      "flip": {
+      "join": {
         "total": 3,
         "notation": "GB1",
         "inks": [
@@ -367,7 +367,7 @@
         "hp": 7,
         "ability": "On Attack: You may give a unit -1/-1 for this phase."
       },
-      "flip": {
+      "join": {
         "total": 3,
         "notation": "GP1",
         "inks": [
@@ -389,7 +389,7 @@
         "hp": 7,
         "ability": "While a friendly unit is attacking, the defender gets -1/-0."
       },
-      "flip": {
+      "join": {
         "total": 4,
         "notation": "GS2",
         "inks": [
@@ -411,7 +411,7 @@
         "hp": 8,
         "ability": "Restore 4. (When a friendly unit attacks, heal 4 damage from your hero.)"
       },
-      "flip": {
+      "join": {
         "total": 3,
         "notation": "BP1",
         "inks": [
@@ -433,7 +433,7 @@
         "hp": 5,
         "ability": "On Attack: Choose any number of friendly units. They lose all abilities for this round."
       },
-      "flip": {
+      "join": {
         "total": 2,
         "notation": "BS",
         "inks": [
@@ -455,7 +455,7 @@
         "hp": 4,
         "ability": "Action [exhaust a friendly unit]: Play a unit from your hand. It enters play ready."
       },
-      "flip": {
+      "join": {
         "total": 2,
         "notation": "PS",
         "inks": [
@@ -467,5 +467,5 @@
     }
   ],
   "minimumBackPower": 1,
-  "flipRule": "Pay the hero's two class inks plus generic to reach the total. The two coloured pips are always the class's own identity; the total is set by the body on the back -- power+HP of 8 or less pays 2, 9-10 pays 3, 11+ pays 4."
+  "joinRule": "Pay the hero's two class inks plus generic to reach the total. The two coloured pips are always the class's own identity; the total is set by the body on the back -- power+HP of 8 or less pays 2, 9-10 pays 3, 11+ pays 4."
 }

@@ -117,11 +117,14 @@ design.
 Class slugs, hero names and ordering are read from the `CLASSES` table in
 `index.html` rather than retyped; the generator fails if any has drifted.
 
-`flip` is the cost to turn the hero over: defeat resources. The notation is the
+`join` is the cost to **Join the Fight** — the hero turns over and enters play,
+paid by defeating resources. It is the game term for the action; "flipped" below
+still describes the physical card, which does turn over. The notation is the
 class's two ink letters plus any generic, so the Lich pays `BP1` — a Blue, a
 Purple, and one of any colour. The coloured half is always the class's own
 identity; the total is priced off the body being bought, because that is what
-the flip buys. Power+HP of 8 or less costs 2, 9–10 costs 3, 11 or more costs 4.
+joining the fight buys. Power+HP of 8 or less costs 2, 9–10 costs 3, 11 or more
+costs 4.
 
 That bracketing was checked against the deploy costs of the SWU leaders these
 bodies came from, and it reproduces them: every hero paying 2 came from a
@@ -130,7 +133,8 @@ bodies came from, and it reproduces them: every hero paying 2 came from a
 The browser renders both faces — each hero is two cards in the grid, since you
 need both to make the physical card, so twenty-one heroes are forty-two
 entries, and the two faces are different shapes. A hero is **turned as well as
-flipped**: the front is landscape with a banded layout and a flip cost, the
+flipped**: the front is landscape with a banded layout and a Join the Fight
+cost, the
 flipped face is portrait and full art with only its body and one rules line
 printed over the picture. Same rectangle, rotated ninety degrees — the browser
 renders the flipped face at exactly the front's height for its width. They sit under their own **Heroes** filter option and under Everything,
