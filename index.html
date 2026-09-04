@@ -251,11 +251,10 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 .hart .glyph{font-size:2.2rem;opacity:.5}
 /* the front's HP is a life total, the number read most often, so it is the
    loudest thing on the card and reuses the shield the unit cards use for HP */
-.hstat{position:absolute;bottom:.2rem;width:2.3rem;height:2.3rem;display:grid;place-items:center;
+.hstat{position:absolute;bottom:.2rem;right:.28rem;width:2.3rem;height:2.3rem;display:grid;place-items:center;
   color:#fff;font-family:var(--display);font-weight:700;font-size:1.14rem;z-index:2;
   filter:drop-shadow(0 1px 2px rgba(0,0,0,.55))}
-.hstat.hp{left:.28rem;background:#27753F;clip-path:polygon(0 0,100% 0,100% 58%,50% 100%,0 58%)}
-.hstat.pow{right:.28rem;background:#B33127;clip-path:polygon(50% 0,100% 30%,78% 100%,22% 100%,0 30%)}
+.hstat.hp{background:#27753F;clip-path:polygon(0 0,100% 0,100% 58%,50% 100%,0 58%)}
 .hfoot{background:#F4F2EC;padding:.24rem .34rem;display:flex;flex-direction:column;gap:.2rem}
 .hrules{margin:0;font-size:.7rem;line-height:1.3;flex:1;display:flex;align-items:center}
 /* the flip box is this card's Epic Action: set apart in gold, the cost on the
@@ -313,8 +312,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
   .grid.wide-sheet .card.wide{grid-column:auto}
   .htitle b{font-size:13pt} .htitle em{font-size:5.8pt} .hkind{font-size:5.8pt}
   .hrules{font-size:9.4pt} .hflip .lab{font-size:6pt}
-  .hstat{width:.33in;height:.33in;font-size:15pt;bottom:.03in}
-  .hstat.hp{left:.04in} .hstat.pow{right:.04in}
+  .hstat{width:.33in;height:.33in;font-size:15pt;bottom:.03in;right:.04in}
   .credit{font-size:4.4pt;padding:.015in .05in}
   .card:has(.credit) .stat.corner{bottom:calc(.04in + var(--frame) + .105in)}
   .meta{font-size:6pt}
@@ -326,7 +324,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 
 <header class="top">
   <div class="spectrum"></div>
-  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V53</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
+  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V54</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
   <p class="sub">In the colors of the class each card was chosen for.
      Every card in the game: twenty-one heroes, six resources, and twelve cards
      for each class. Art appears as it lands in <code>art/</code>; a card whose
