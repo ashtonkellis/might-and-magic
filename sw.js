@@ -8,7 +8,7 @@
  * the badge in index.html. It names the cache, so activating a new worker
  * drops every byte the previous release cached.
  */
-const VERSION = 55;
+const VERSION = 56;
 const CACHE = `mm-v${VERSION}`;
 const SHELL = ['./', './index.html', './class-bible.html', './card-list.json',
                './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png'];
