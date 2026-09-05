@@ -550,10 +550,10 @@
         "Villainy"
       ],
       "keywords": [
-        "Sentinel"
+        "Bodyguard"
       ],
       "traitCount": 1,
-      "text": "Sentinel (Units in this flank can't attack your non-Sentinel units or your hero.)",
+      "text": "Bodyguard (Units in this flank can't attack your non-Bodyguard units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -655,11 +655,11 @@
         "Villainy"
       ],
       "keywords": [
-        "Sentinel",
+        "Bodyguard",
         "Shielded"
       ],
       "traitCount": 3,
-      "text": "Shielded (When you play this unit, give a Shield token to it.) \nWhile this unit is upgraded, it gains Sentinel. (Units in this flank can't attack your non-Sentinel units or your hero.)",
+      "text": "Shielded (When you play this unit, give a Shield token to it.) \nWhile this unit is upgraded, it gains Bodyguard. (Units in this flank can't attack your non-Bodyguard units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -677,10 +677,10 @@
         "Villainy"
       ],
       "keywords": [
-        "Sentinel"
+        "Bodyguard"
       ],
       "traitCount": 3,
-      "text": "Sentinel (Units in this flank can't attack your non-Sentinel units or your hero.) \nWhen this unit is attacked: You may give an Experience token to a unit (before damage is dealt).",
+      "text": "Bodyguard (Units in this flank can't attack your non-Bodyguard units or your hero.) \nWhen this unit is attacked: You may give an Experience token to a unit (before damage is dealt).",
       "backText": null,
       "epicAction": null
     },
@@ -720,10 +720,10 @@
         "Villainy"
       ],
       "keywords": [
-        "Sentinel"
+        "Bodyguard"
       ],
       "traitCount": 3,
-      "text": "Sentinel\nEach enemy unit gets -2/-2.",
+      "text": "Bodyguard\nEach enemy unit gets -2/-2.",
       "backText": null,
       "epicAction": null
     },
@@ -819,10 +819,10 @@
         "Heroism"
       ],
       "keywords": [
-        "Sentinel"
+        "Bodyguard"
       ],
       "traitCount": 3,
-      "text": "Sentinel (Units in this flank can't attack your non-Sentinel units or your hero.) \nThis unit gets +2/+0 while defending.",
+      "text": "Bodyguard (Units in this flank can't attack your non-Bodyguard units or your hero.) \nThis unit gets +2/+0 while defending.",
       "backText": null,
       "epicAction": null
     },
@@ -840,11 +840,11 @@
         "Heroism"
       ],
       "keywords": [
-        "Sentinel",
+        "Bodyguard",
         "Shielded"
       ],
       "traitCount": 1,
-      "text": "Sentinel (Units in this flank can't attack your non-Sentinel units or your hero.) \nShielded (When you play this unit, give a Shield token to it.)",
+      "text": "Bodyguard (Units in this flank can't attack your non-Bodyguard units or your hero.) \nShielded (When you play this unit, give a Shield token to it.)",
       "backText": null,
       "epicAction": null
     },
@@ -1006,11 +1006,11 @@
         "Vigilance"
       ],
       "keywords": [
-        "Sentinel",
+        "Bodyguard",
         "Smuggle"
       ],
       "traitCount": 2,
-      "text": "While an enemy unit is upgraded, this unit gains Sentinel. \nSmuggle [6 resources Vigilance] (If this card is a resource, you may play her for her smuggle cost. Replace her with the top card of your deck.)",
+      "text": "While an enemy unit is upgraded, this unit gains Bodyguard. \nSmuggle [6 resources Vigilance] (If this card is a resource, you may play her for her smuggle cost. Replace her with the top card of your deck.)",
       "backText": null,
       "epicAction": null
     },
@@ -1197,10 +1197,10 @@
         "Vigilance"
       ],
       "keywords": [
-        "Sentinel"
+        "Bodyguard"
       ],
       "traitCount": 1,
-      "text": "Sentinel (Units in this flank can't attack your non-Sentinel units or your hero.)",
+      "text": "Bodyguard (Units in this flank can't attack your non-Bodyguard units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -2564,7 +2564,7 @@
         "Saboteur"
       ],
       "traitCount": 2,
-      "text": "Saboteur (When this unit attacks, ignore Sentinel and defeat the defender's Shields.) \nBounty - Draw a card. (When this unit is defeated or captured, your opponent collects its bounty.)",
+      "text": "Saboteur (When this unit attacks, ignore Bodyguard and defeat the defender's Shields.) \nBounty - Draw a card. (When this unit is defeated or captured, your opponent collects its bounty.)",
       "backText": null,
       "epicAction": null
     },
@@ -2803,7 +2803,7 @@
         "Saboteur"
       ],
       "traitCount": 3,
-      "text": "Saboteur (When this unit attacks, ignore Sentinel and defeat the defender's Shields.) \nWhen this unit deals combat damage to a hero: You may defeat an upgrade that costs 2 or less.",
+      "text": "Saboteur (When this unit attacks, ignore Bodyguard and defeat the defender's Shields.) \nWhen this unit deals combat damage to a hero: You may defeat an upgrade that costs 2 or less.",
       "backText": null,
       "epicAction": null
     },
@@ -4950,10 +4950,10 @@
       ],
       "keywords": [
         "Grit",
-        "Sentinel"
+        "Bodyguard"
       ],
       "traitCount": 2,
-      "text": "Grit\nAction [[exhaust]]: Play a unit that costs 3 or less from your hand (paying its cost). It gains Sentinel for this phase.",
+      "text": "Grit\nAction [[exhaust]]: Play a unit that costs 3 or less from your hand (paying its cost). It gains Bodyguard for this phase.",
       "backText": null,
       "epicAction": null
     },
@@ -5817,10 +5817,10 @@
         "Heroism"
       ],
       "keywords": [
-        "Sentinel"
+        "Bodyguard"
       ],
       "traitCount": 1,
-      "text": "While this unit is undamaged, it gains Sentinel (Units in this flank can't attack your non-Sentinel units or your hero.)",
+      "text": "While this unit is undamaged, it gains Bodyguard (Units in this flank can't attack your non-Bodyguard units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -5838,10 +5838,10 @@
         "Heroism"
       ],
       "keywords": [
-        "Sentinel"
+        "Bodyguard"
       ],
       "traitCount": 2,
-      "text": "Sentinel (Units in this flank can't attack your non-Sentinel units or your hero.) \nWhen Defeated: Give 2 Experience tokens to another friendly unit. If it's a [TRAIT A] unit, draw a card.",
+      "text": "Bodyguard (Units in this flank can't attack your non-Bodyguard units or your hero.) \nWhen Defeated: Give 2 Experience tokens to another friendly unit. If it's a [TRAIT A] unit, draw a card.",
       "backText": null,
       "epicAction": null
     },
@@ -5901,10 +5901,10 @@
         "Heroism"
       ],
       "keywords": [
-        "Sentinel"
+        "Bodyguard"
       ],
       "traitCount": 3,
-      "text": "SENTINEL (Units in this flank can't attack your non-Sentinel units or your hero.) \nWhen Played: Heal up to 8 total damage from any number of units and/or heroes. Deal that much damage to this unit.",
+      "text": "BODYGUARD (Units in this flank can't attack your non-Bodyguard units or your hero.) \nWhen Played: Heal up to 8 total damage from any number of units and/or heroes. Deal that much damage to this unit.",
       "backText": null,
       "epicAction": null
     },
@@ -5960,10 +5960,10 @@
         "Vigilance"
       ],
       "keywords": [
-        "Sentinel"
+        "Bodyguard"
       ],
       "traitCount": 2,
-      "text": "SENTINEL (Units in this flank can't attack your non-Sentinel units or your hero.) \nOn Attack: The next non-Heroism, non-Villainy card you play this phase costs 2 less.",
+      "text": "BODYGUARD (Units in this flank can't attack your non-Bodyguard units or your hero.) \nOn Attack: The next non-Heroism, non-Villainy card you play this phase costs 2 less.",
       "backText": null,
       "epicAction": null
     },
@@ -5981,10 +5981,10 @@
         "Vigilance"
       ],
       "keywords": [
-        "Sentinel"
+        "Bodyguard"
       ],
       "traitCount": 1,
-      "text": "Attached unit gains SENTINEL. (Units in this flank can't attack your non-Sentinel units or your hero.)",
+      "text": "Attached unit gains BODYGUARD. (Units in this flank can't attack your non-Bodyguard units or your hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -6595,10 +6595,10 @@
       ],
       "keywords": [
         "Overwhelm",
-        "Sentinel"
+        "Bodyguard"
       ],
       "traitCount": 3,
-      "text": "SENTINEL\nOVERWHELM\nWhen Played: You may deal damage to a unit equal to the number of resources you control.",
+      "text": "BODYGUARD\nOVERWHELM\nWhen Played: You may deal damage to a unit equal to the number of resources you control.",
       "backText": null,
       "epicAction": null
     },
@@ -7541,10 +7541,10 @@
         "Heroism"
       ],
       "keywords": [
-        "Sentinel"
+        "Bodyguard"
       ],
       "traitCount": 2,
-      "text": "When Played: A unit loses SENTINEL for this phase.",
+      "text": "When Played: A unit loses BODYGUARD for this phase.",
       "backText": null,
       "epicAction": null
     },
@@ -8057,7 +8057,7 @@
         "Saboteur"
       ],
       "traitCount": 1,
-      "text": "Attached unit gains SABOTEUR. (When this unit attacks, ignore Sentinel and defeat the defender's Shields.)",
+      "text": "Attached unit gains SABOTEUR. (When this unit attacks, ignore Bodyguard and defeat the defender's Shields.)",
       "backText": null,
       "epicAction": null
     },
@@ -8095,7 +8095,7 @@
         "Saboteur"
       ],
       "traitCount": 1,
-      "text": "Attack with a unit. It gains SABOTEUR for this attack. If it's a [TRAIT A], it also gains +2/+0 for this attack. (Ignore Sentinel and defeat the defender's Shields.)",
+      "text": "Attack with a unit. It gains SABOTEUR for this attack. If it's a [TRAIT A], it also gains +2/+0 for this attack. (Ignore Bodyguard and defeat the defender's Shields.)",
       "backText": null,
       "epicAction": null
     },
@@ -9711,10 +9711,10 @@
         "Heroism"
       ],
       "keywords": [
-        "Sentinel"
+        "Bodyguard"
       ],
       "traitCount": 3,
-      "text": "Sentinel\nAction [Exhaust]: Heal 1 damage from a unit.",
+      "text": "Bodyguard\nAction [Exhaust]: Heal 1 damage from a unit.",
       "backText": null,
       "epicAction": null
     },
@@ -10488,10 +10488,10 @@
         "Heroism"
       ],
       "keywords": [
-        "Sentinel"
+        "Bodyguard"
       ],
       "traitCount": 2,
-      "text": "While you control another [TRAIT A] unit, this unit gains Sentinel. (Units in this flank can't attack your non-Sentinel units or your hero.) \nWhen Defeated: Create a [TRAIT C] [TRAIT B] token.",
+      "text": "While you control another [TRAIT A] unit, this unit gains Bodyguard. (Units in this flank can't attack your non-Bodyguard units or your hero.) \nWhen Defeated: Create a [TRAIT C] [TRAIT B] token.",
       "backText": null,
       "epicAction": null
     },
@@ -11085,10 +11085,10 @@
         "Vigilance"
       ],
       "keywords": [
-        "Sentinel"
+        "Bodyguard"
       ],
       "traitCount": 1,
-      "text": "Give a unit Sentinel for this phase. (Units in this flank can't attack your non-Sentinel units or your hero.) If you have the initiative, also give that unit +2/+2 for this phase.",
+      "text": "Give a unit Bodyguard for this phase. (Units in this flank can't attack your non-Bodyguard units or your hero.) If you have the initiative, also give that unit +2/+2 for this phase.",
       "backText": null,
       "epicAction": null
     },
@@ -11844,10 +11844,10 @@
       ],
       "keywords": [
         "Overwhelm",
-        "Sentinel"
+        "Bodyguard"
       ],
       "traitCount": 3,
-      "text": "Sentinel (Units in this flank can't attack your non-Sentinel units or your hero.) \nOverwhelm (When attacking an enemy unit, deal excess damage to the opponent's hero.)",
+      "text": "Bodyguard (Units in this flank can't attack your non-Bodyguard units or your hero.) \nOverwhelm (When attacking an enemy unit, deal excess damage to the opponent's hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -13963,7 +13963,7 @@
         "Saboteur"
       ],
       "traitCount": 1,
-      "text": "Attack with a unit. It gets +2/+0 and gains Saboteur for this attack. (When this unit attacks, ignore Sentinel and defeat the defender's Shields.)",
+      "text": "Attack with a unit. It gets +2/+0 and gains Saboteur for this attack. (When this unit attacks, ignore Bodyguard and defeat the defender's Shields.)",
       "backText": null,
       "epicAction": null
     },

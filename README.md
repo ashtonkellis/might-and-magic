@@ -201,6 +201,14 @@ one. The 503 unassigned corpus cards keep their original SWU wording, leaders
 included — they are reference material for mechanics, and rewriting them would
 cost them that.
 
+**Sentinel is called Bodyguard here**, after the equivalent keyword in Disney
+Lorcana, on all 20 cards that carry it and in every reminder that names it —
+including Saboteur's, which ignores it. Only the word changed: it still gates a
+flank, where Lorcana's Bodyguard gates the whole board and carries an
+enter-play-exerted rider this one does not. The corpus keeps `Sentinel` for the
+same reason it keeps `leader`. One card is still *named* Rimeguard Sentinel,
+where the word is a noun meaning a guard rather than the keyword.
+
 Each class's twelve reach across the whole curve — every one of them covers all
 five cost bands (0-1, 2-3, 4-5, 6-7, 8+) and carries at least three of the four
 card types. The top-level `classes` object lists the twelve card ids per class.
