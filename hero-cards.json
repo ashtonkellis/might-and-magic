@@ -13,7 +13,7 @@
       "back": {
         "power": 2,
         "hp": 7,
-        "ability": "When a friendly unit is defeated while attacking: You may deal 2 damage to a unit or hero."
+        "ability": "When a friendly unit is defeated while attacking: You may deal 2 damage to a unit or Commander."
       },
       "join": {
         "total": 3,
@@ -118,7 +118,7 @@
       "hero": "Hale",
       "front": {
         "hp": 17,
-        "ability": "When the rest phase starts: Heal 2 damage from this hero."
+        "ability": "When the rest phase starts: Heal 2 damage from this Commander."
       },
       "back": {
         "power": 3,
@@ -140,7 +140,7 @@
       "hero": "Arc",
       "front": {
         "hp": 16,
-        "ability": "Epic Action: Play a spell from your hand. It costs 3 less. Deal 2 damage to this hero."
+        "ability": "Epic Action: Play a spell from your hand. It costs 3 less. Deal 2 damage to this Commander."
       },
       "back": {
         "power": 5,
@@ -228,7 +228,7 @@
       "hero": "Kell",
       "front": {
         "hp": 14,
-        "ability": "Your units get +1/+0. When the rest phase starts: Deal 1 damage to this hero."
+        "ability": "Your units get +1/+0. When the rest phase starts: Deal 1 damage to this Commander."
       },
       "back": {
         "power": 5,
@@ -321,7 +321,7 @@
       "back": {
         "power": 3,
         "hp": 6,
-        "ability": "On Attack: You may defeat a friendly upgrade. If you do, deal 2 damage to the defending unit or a hero."
+        "ability": "On Attack: You may defeat a friendly upgrade. If you do, deal 2 damage to the defending unit or a Commander."
       },
       "join": {
         "total": 3,
@@ -360,7 +360,7 @@
       "hero": "Mire",
       "front": {
         "hp": 16,
-        "ability": "Epic Action: Heal all damage from each friendly unit. Deal 1 damage to this hero for each unit healed."
+        "ability": "Epic Action: Heal all damage from each friendly unit. Deal 1 damage to this Commander for each unit healed."
       },
       "back": {
         "power": 3,
@@ -409,7 +409,7 @@
       "back": {
         "power": 1,
         "hp": 8,
-        "ability": "Restore 4. (When a friendly unit attacks, heal 4 damage from this hero.)"
+        "ability": "Restore 4. (When a friendly unit attacks, heal 4 damage from your Commander.)"
       },
       "join": {
         "total": 3,
@@ -431,7 +431,7 @@
       "back": {
         "power": 2,
         "hp": 5,
-        "ability": "Grit (This hero gets +1/+0 for each damage on it.) Overwhelm (When attacking an enemy unit, deal excess damage to the opponent’s hero.)"
+        "ability": "Grit (This unit gets +1/+0 for each damage on it.) Overwhelm (When attacking an enemy unit, deal excess damage to the opponent’s Commander.)"
       },
       "join": {
         "total": 2,

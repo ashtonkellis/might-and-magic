@@ -553,7 +553,7 @@
         "Bodyguard"
       ],
       "traitCount": 1,
-      "text": "Bodyguard (Units in this flank can't attack your non-Bodyguard units or your hero.)",
+      "text": "Bodyguard (Units in this flank can't attack your non-Bodyguard units or your Commander.)",
       "backText": null,
       "epicAction": null
     },
@@ -594,7 +594,7 @@
         "Shielded"
       ],
       "traitCount": 2,
-      "text": "Shielded \nAction [{exhaust}]: Choose a unit. For this phase, it gains: \"Bounty - Heal 5 damage from a hero.\" (When this unit is defeated or captured, its opponent collects its bounty.)",
+      "text": "Shielded \nAction [{exhaust}]: Choose a unit. For this phase, it gains: \"Bounty - Heal 5 damage from a Commander.\" (When this unit is defeated or captured, its opponent collects its bounty.)",
       "backText": null,
       "epicAction": null
     },
@@ -637,7 +637,7 @@
         "Grit"
       ],
       "traitCount": 1,
-      "text": "Grit \nWhile this unit is exhausted, she gains, \"Bounty - Deal 5 damage to a hero.\" (When this unit is defeated or captured, your opponent collects its bounty.)",
+      "text": "Grit \nWhile this unit is exhausted, she gains, \"Bounty - Deal 5 damage to a Commander.\" (When this unit is defeated or captured, your opponent collects its bounty.)",
       "backText": null,
       "epicAction": null
     },
@@ -659,7 +659,7 @@
         "Shielded"
       ],
       "traitCount": 3,
-      "text": "Shielded (When you play this unit, give a Shield token to it.) \nWhile this unit is upgraded, it gains Bodyguard. (Units in this flank can't attack your non-Bodyguard units or your hero.)",
+      "text": "Shielded (When you play this unit, give a Shield token to it.) \nWhile this unit is upgraded, it gains Bodyguard. (Units in this flank can't attack your non-Bodyguard units or your Commander.)",
       "backText": null,
       "epicAction": null
     },
@@ -680,7 +680,7 @@
         "Bodyguard"
       ],
       "traitCount": 3,
-      "text": "Bodyguard (Units in this flank can't attack your non-Bodyguard units or your hero.) \nWhen this unit is attacked: You may give an Experience token to a unit (before damage is dealt).",
+      "text": "Bodyguard (Units in this flank can't attack your non-Bodyguard units or your Commander.) \nWhen this unit is attacked: You may give an Experience token to a unit (before damage is dealt).",
       "backText": null,
       "epicAction": null
     },
@@ -822,7 +822,7 @@
         "Bodyguard"
       ],
       "traitCount": 3,
-      "text": "Bodyguard (Units in this flank can't attack your non-Bodyguard units or your hero.) \nThis unit gets +2/+0 while defending.",
+      "text": "Bodyguard (Units in this flank can't attack your non-Bodyguard units or your Commander.) \nThis unit gets +2/+0 while defending.",
       "backText": null,
       "epicAction": null
     },
@@ -844,7 +844,7 @@
         "Shielded"
       ],
       "traitCount": 1,
-      "text": "Bodyguard (Units in this flank can't attack your non-Bodyguard units or your hero.) \nShielded (When you play this unit, give a Shield token to it.)",
+      "text": "Bodyguard (Units in this flank can't attack your non-Bodyguard units or your Commander.) \nShielded (When you play this unit, give a Shield token to it.)",
       "backText": null,
       "epicAction": null
     },
@@ -865,7 +865,7 @@
         "Restore"
       ],
       "traitCount": 3,
-      "text": "Restore 2 (When this unit attacks, heal 2 damage from your hero.) \nWhen Played: You may return an upgrade from your discard pile to your hand.",
+      "text": "Restore 2 (When this unit attacks, heal 2 damage from your Commander.) \nWhen Played: You may return an upgrade from your discard pile to your hand.",
       "backText": null,
       "epicAction": null
     },
@@ -1068,7 +1068,7 @@
         "Restore"
       ],
       "traitCount": 1,
-      "text": "Restore 2 (When this unit attacks, heal 2 damage from your hero.)",
+      "text": "Restore 2 (When this unit attacks, heal 2 damage from your Commander.)",
       "backText": null,
       "epicAction": null
     },
@@ -1200,7 +1200,7 @@
         "Bodyguard"
       ],
       "traitCount": 1,
-      "text": "Bodyguard (Units in this flank can't attack your non-Bodyguard units or your hero.)",
+      "text": "Bodyguard (Units in this flank can't attack your non-Bodyguard units or your Commander.)",
       "backText": null,
       "epicAction": null
     },
@@ -1279,7 +1279,7 @@
         "Shielded"
       ],
       "traitCount": 2,
-      "text": "Shielded (When you play this unit, give a Shield token to it.) \nWhen Played: If you control another Blue unit, heal 4 damage from a hero.",
+      "text": "Shielded (When you play this unit, give a Shield token to it.) \nWhen Played: If you control another Blue unit, heal 4 damage from a Commander.",
       "backText": null,
       "epicAction": null
     },
@@ -1369,7 +1369,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Attached unit gains: \"Bounty - Heal 4 damage from a unit or hero. If this unit is unique, heal 6 damage instead.\" (When this unit is defeated or captured, its opponent collects its bounty.)",
+      "text": "Attached unit gains: \"Bounty - Heal 4 damage from a unit or Commander. If this unit is unique, heal 6 damage instead.\" (When this unit is defeated or captured, its opponent collects its bounty.)",
       "backText": null,
       "epicAction": null
     },
@@ -1534,7 +1534,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "When Played: Heal 1 damage from a hero. \nAction [{exhaust}, return this unit to his owner's hand]: Deal 1 damage to a unit.",
+      "text": "When Played: Heal 1 damage from a Commander. \nAction [{exhaust}, return this unit to his owner's hand]: Deal 1 damage to a unit.",
       "backText": null,
       "epicAction": null
     },
@@ -1815,7 +1815,7 @@
         "Restore"
       ],
       "traitCount": 2,
-      "text": "Restore 1 (When this unit attacks, heal 1 damage from your hero.) \nBounty - Draw a card. (When this unit is defeated or captured, your opponent collects its bounty.)",
+      "text": "Restore 1 (When this unit attacks, heal 1 damage from your Commander.) \nBounty - Draw a card. (When this unit is defeated or captured, your opponent collects its bounty.)",
       "backText": null,
       "epicAction": null
     },
@@ -1877,7 +1877,7 @@
         "Restore"
       ],
       "traitCount": 2,
-      "text": "Raid 2 (This unit gets +2/+0 while attacking.) \nRestore 2 (When this unit attacks, heal 2 damage from your hero.)",
+      "text": "Raid 2 (This unit gets +2/+0 while attacking.) \nRestore 2 (When this unit attacks, heal 2 damage from your Commander.)",
       "backText": null,
       "epicAction": null
     },
@@ -2811,7 +2811,7 @@
         "Saboteur"
       ],
       "traitCount": 3,
-      "text": "Saboteur (When this unit attacks, ignore Bodyguard and defeat the defender's Shields.) \nWhen this unit deals combat damage to a hero: You may defeat an upgrade that costs 2 or less.",
+      "text": "Saboteur (When this unit attacks, ignore Bodyguard and defeat the defender's Shields.) \nWhen this unit deals combat damage to a Commander: You may defeat an upgrade that costs 2 or less.",
       "backText": null,
       "epicAction": null
     },
@@ -3069,7 +3069,7 @@
         "Smuggle"
       ],
       "traitCount": 1,
-      "text": "When Played: Deal 1 damage to each hero. \nSmuggle [RR1] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
+      "text": "When Played: Deal 1 damage to each Commander. \nSmuggle [RR1] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
       "backText": null,
       "epicAction": null
     },
@@ -3127,7 +3127,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "When Played: Discard a card from your hand. If you do, deal 2 damage to a unit or hero.",
+      "text": "When Played: Discard a card from your hand. If you do, deal 2 damage to a unit or Commander.",
       "backText": null,
       "epicAction": null
     },
@@ -3145,7 +3145,7 @@
       ],
       "keywords": [],
       "traitCount": 3,
-      "text": "When Defeated: Deal 1 damage to a unit or hero.",
+      "text": "When Defeated: Deal 1 damage to a unit or Commander.",
       "backText": null,
       "epicAction": null
     },
@@ -3166,7 +3166,7 @@
         "Saboteur"
       ],
       "traitCount": 3,
-      "text": "Saboteur \nWhile this unit is exhausted, it gains: \"Bounty - Heal 5 damage from a hero.\" (When this unit is defeated or captured, your opponent collects its bounty.)",
+      "text": "Saboteur \nWhile this unit is exhausted, it gains: \"Bounty - Heal 5 damage from a Commander.\" (When this unit is defeated or captured, your opponent collects its bounty.)",
       "backText": null,
       "epicAction": null
     },
@@ -3409,7 +3409,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Deal 2 damage to a unit or hero.",
+      "text": "Deal 2 damage to a unit or Commander.",
       "backText": null,
       "epicAction": null
     },
@@ -4452,7 +4452,7 @@
         "Overwhelm"
       ],
       "traitCount": 2,
-      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's hero.) \nWhen Played: Deal 2 damage to a friendly unit.",
+      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's Commander.) \nWhen Played: Deal 2 damage to a friendly unit.",
       "backText": null,
       "epicAction": null
     },
@@ -4738,7 +4738,7 @@
         "Smuggle"
       ],
       "traitCount": 1,
-      "text": "Heal 3 damage from a hero. \nSmuggle [AP1] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
+      "text": "Heal 3 damage from a Commander. \nSmuggle [AP1] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
       "backText": null,
       "epicAction": null
     },
@@ -4944,7 +4944,7 @@
         "Shielded"
       ],
       "traitCount": 2,
-      "text": "Shielded\nAction [{exhaust}]: If an enemy unit was defeated this phase, heal 1 damage from a hero.",
+      "text": "Shielded\nAction [{exhaust}]: If an enemy unit was defeated this phase, heal 1 damage from a Commander.",
       "backText": null,
       "epicAction": null
     },
@@ -5181,7 +5181,7 @@
       ],
       "keywords": [],
       "traitCount": 3,
-      "text": "Action [{exhaust}]: Deal 1 damage to each hero.",
+      "text": "Action [{exhaust}]: Deal 1 damage to each Commander.",
       "backText": null,
       "epicAction": null
     },
@@ -5555,7 +5555,7 @@
         "Restore"
       ],
       "traitCount": 2,
-      "text": "Restore 1 (When this unit attacks, heal 1 damage from your hero.) \nEach spell an opponent plays costs 1 more.",
+      "text": "Restore 1 (When this unit attacks, heal 1 damage from your Commander.) \nEach spell an opponent plays costs 1 more.",
       "backText": null,
       "epicAction": null
     },
@@ -5774,7 +5774,7 @@
         "Restore"
       ],
       "traitCount": 2,
-      "text": "Restore 2 (When this unit attacks, heal 2 damage from your hero.)\nWhen Defeated: Choose any number of players. They each draw a card.",
+      "text": "Restore 2 (When this unit attacks, heal 2 damage from your Commander.)\nWhen Defeated: Choose any number of players. They each draw a card.",
       "backText": null,
       "epicAction": null
     },
@@ -5833,7 +5833,7 @@
         "Bodyguard"
       ],
       "traitCount": 1,
-      "text": "While this unit is undamaged, it gains Bodyguard (Units in this flank can't attack your non-Bodyguard units or your hero.)",
+      "text": "While this unit is undamaged, it gains Bodyguard (Units in this flank can't attack your non-Bodyguard units or your Commander.)",
       "backText": null,
       "epicAction": null
     },
@@ -5854,7 +5854,7 @@
         "Bodyguard"
       ],
       "traitCount": 2,
-      "text": "Bodyguard (Units in this flank can't attack your non-Bodyguard units or your hero.) \nWhen Defeated: Give 2 Experience tokens to another friendly unit. If it's an Amber unit, draw a card.",
+      "text": "Bodyguard (Units in this flank can't attack your non-Bodyguard units or your Commander.) \nWhen Defeated: Give 2 Experience tokens to another friendly unit. If it's an Amber unit, draw a card.",
       "backText": null,
       "epicAction": null
     },
@@ -5917,7 +5917,7 @@
         "Bodyguard"
       ],
       "traitCount": 3,
-      "text": "BODYGUARD (Units in this flank can't attack your non-Bodyguard units or your hero.) \nWhen Played: Heal up to 8 total damage from any number of units and/or heroes. Deal that much damage to this unit.",
+      "text": "BODYGUARD (Units in this flank can't attack your non-Bodyguard units or your Commander.) \nWhen Played: Heal up to 8 total damage from any number of units and/or Commanders. Deal that much damage to this unit.",
       "backText": null,
       "epicAction": null
     },
@@ -5976,7 +5976,7 @@
         "Bodyguard"
       ],
       "traitCount": 2,
-      "text": "BODYGUARD (Units in this flank can't attack your non-Bodyguard units or your hero.) \nOn Attack: The next non-Amber, non-Amber card you play this phase costs 2 less.",
+      "text": "BODYGUARD (Units in this flank can't attack your non-Bodyguard units or your Commander.) \nOn Attack: The next non-Amber, non-Amber card you play this phase costs 2 less.",
       "backText": null,
       "epicAction": null
     },
@@ -5997,7 +5997,7 @@
         "Bodyguard"
       ],
       "traitCount": 1,
-      "text": "Attached unit gains BODYGUARD. (Units in this flank can't attack your non-Bodyguard units or your hero.)",
+      "text": "Attached unit gains BODYGUARD. (Units in this flank can't attack your non-Bodyguard units or your Commander.)",
       "backText": null,
       "epicAction": null
     },
@@ -6016,7 +6016,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Choose two, in any order:\nDiscard 6 cards from an opponent's deck. \nHeal 5 damage from a hero. \nDefeat a unit with 3 or less remaining HP. \nGive a Shield token to a unit.",
+      "text": "Choose two, in any order:\nDiscard 6 cards from an opponent's deck. \nHeal 5 damage from a Commander. \nDefeat a unit with 3 or less remaining HP. \nGive a Shield token to a unit.",
       "backText": null,
       "epicAction": null
     },
@@ -6209,7 +6209,7 @@
         "Shielded"
       ],
       "traitCount": 2,
-      "text": "SHIELDED (When you play this unit, give a Shield token to it.)\nWhen Played: If you control another Blue unit, heal 4 damage from a hero.",
+      "text": "SHIELDED (When you play this unit, give a Shield token to it.)\nWhen Played: If you control another Blue unit, heal 4 damage from a Commander.",
       "backText": null,
       "epicAction": null
     },
@@ -6247,7 +6247,7 @@
         "Restore"
       ],
       "traitCount": 1,
-      "text": "Attached unit gains RESTORE 2. (When this unit attacks, heal 2 damage from its controller's hero.)",
+      "text": "Attached unit gains RESTORE 2. (When this unit attacks, heal 2 damage from its controller's Commander.)",
       "backText": null,
       "epicAction": null
     },
@@ -6319,7 +6319,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Heal 3 damage from a unit or hero.",
+      "text": "Heal 3 damage from a unit or Commander.",
       "backText": null,
       "epicAction": null
     },
@@ -6746,7 +6746,7 @@
         "Restore"
       ],
       "traitCount": 2,
-      "text": "Restore 1 (When this unit attacks, heal 1 damage from your hero.)\nWhen Played: You may deal damage to a unit equal to the number of units you control in its flank.",
+      "text": "Restore 1 (When this unit attacks, heal 1 damage from your Commander.)\nWhen Played: You may deal damage to a unit equal to the number of units you control in its flank.",
       "backText": null,
       "epicAction": null
     },
@@ -7038,7 +7038,7 @@
         "Restore"
       ],
       "traitCount": 3,
-      "text": "While you have the initiative, this unit gains RESTORE 2. (When this unit attacks, heal 2 damage from your hero.)",
+      "text": "While you have the initiative, this unit gains RESTORE 2. (When this unit attacks, heal 2 damage from your Commander.)",
       "backText": null,
       "epicAction": null
     },
@@ -7175,7 +7175,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "When Played/On Attack: Look at the top card of your deck. Either draw that card or discard it and heal 3 damage from a hero.",
+      "text": "When Played/On Attack: Look at the top card of your deck. Either draw that card or discard it and heal 3 damage from a Commander.",
       "backText": null,
       "epicAction": null
     },
@@ -7211,7 +7211,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Attach to an Amber unit.\nAttached unit gains: \"On Attack: If this unit isn't attacking a hero, you may deal 2 damage to a unit in the defender's flank.\"",
+      "text": "Attach to an Amber unit.\nAttached unit gains: \"On Attack: If this unit isn't attacking a Commander, you may deal 2 damage to a unit in the defender's flank.\"",
       "backText": null,
       "epicAction": null
     },
@@ -7378,7 +7378,7 @@
         "Overwhelm"
       ],
       "traitCount": 2,
-      "text": "While attacking a damaged unit, this unit gets +2/+0 and gains Overwhelm. (Deal excess damage to the opponent's hero.)",
+      "text": "While attacking a damaged unit, this unit gets +2/+0 and gains Overwhelm. (Deal excess damage to the opponent's Commander.)",
       "backText": null,
       "epicAction": null
     },
@@ -7458,7 +7458,7 @@
       ],
       "keywords": [],
       "traitCount": 3,
-      "text": "When Played/When Defeated: Deal 2 damage to an enemy hero and 2 damage to an enemy unit.",
+      "text": "When Played/When Defeated: Deal 2 damage to an enemy Commander and 2 damage to an enemy unit.",
       "backText": null,
       "epicAction": null
     },
@@ -7479,7 +7479,7 @@
         "Overwhelm"
       ],
       "traitCount": 4,
-      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's hero.) \nWhen Played: Deal 6 damage divided as you choose among enemy units.",
+      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's Commander.) \nWhen Played: Deal 6 damage divided as you choose among enemy units.",
       "backText": null,
       "epicAction": null
     },
@@ -7660,7 +7660,7 @@
         "Overwhelm"
       ],
       "traitCount": 2,
-      "text": "OVERWHELM\nWhen Defeated: For each opponent, choose one: either deal 3 damage to that player's hero, or that player discards a card from their hand.",
+      "text": "OVERWHELM\nWhen Defeated: For each opponent, choose one: either deal 3 damage to that player's Commander, or that player discards a card from their hand.",
       "backText": null,
       "epicAction": null
     },
@@ -7797,7 +7797,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Reveal the top 4 cards of your deck. For each Amber card revealed this way, deal 1 damage to an enemy hero. You may discard any of the revealed cards and put the rest back on top of your deck in any order.",
+      "text": "Reveal the top 4 cards of your deck. For each Amber card revealed this way, deal 1 damage to an enemy Commander. You may discard any of the revealed cards and put the rest back on top of your deck in any order.",
       "backText": null,
       "epicAction": null
     },
@@ -7816,7 +7816,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "As an additional cost for each opponent to play a spell, they must deal 2 damage to their hero.",
+      "text": "As an additional cost for each opponent to play a spell, they must deal 2 damage to their Commander.",
       "backText": null,
       "epicAction": null
     },
@@ -8866,7 +8866,7 @@
         "Raid"
       ],
       "traitCount": 3,
-      "text": "RAID 1 (This unit gets +1/+0 while attacking.) \nOn Attack: If your hero is flipped, you may exhaust a unit.",
+      "text": "RAID 1 (This unit gets +1/+0 while attacking.) \nOn Attack: If your Commander has joined the fight, you may exhaust a unit.",
       "backText": null,
       "epicAction": null
     },
@@ -9308,7 +9308,7 @@
         "Overwhelm"
       ],
       "traitCount": 3,
-      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's hero.)",
+      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's Commander.)",
       "backText": null,
       "epicAction": null
     },
@@ -9362,7 +9362,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Play a non-Red unit from your hand for free. Deal damage to your hero equal to its cost.",
+      "text": "Play a non-Red unit from your hand for free. Deal damage to your Commander equal to its cost.",
       "backText": null,
       "epicAction": null
     },
@@ -9566,7 +9566,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Look at the top card of your deck. You may play it. It costs 5 less. If your hero has 5 or less remaining HP, you may play it for free instead.",
+      "text": "Look at the top card of your deck. You may play it. It costs 5 less. If your Commander has 5 or less remaining HP, you may play it for free instead.",
       "backText": null,
       "epicAction": null
     },
@@ -9849,7 +9849,7 @@
         "Overwhelm"
       ],
       "traitCount": 2,
-      "text": "Action [{exhaust}]: Attack with a unit. It gains Overwhelm for this attack. (When attacking an enemy unit, deal excess damage to the opponent’s hero.)",
+      "text": "Action [{exhaust}]: Attack with a unit. It gains Overwhelm for this attack. (When attacking an enemy unit, deal excess damage to the opponent’s Commander.)",
       "backText": null,
       "epicAction": null
     },
@@ -9910,7 +9910,7 @@
         "Overwhelm"
       ],
       "traitCount": 3,
-      "text": "Overwhelm\nAction [{exhaust}, deal 2 damage to your hero]: Attack with a unit. If it’s attacking a unit, it gets +2/+0 for this attack.",
+      "text": "Overwhelm\nAction [{exhaust}, deal 2 damage to your Commander]: Attack with a unit. If it’s attacking a unit, it gets +2/+0 for this attack.",
       "backText": null,
       "epicAction": null
     },
@@ -10463,7 +10463,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Defeat a unit. Deal damage to your hero equal to that unit's power.",
+      "text": "Defeat a unit. Deal damage to your Commander equal to that unit's power.",
       "backText": null,
       "epicAction": null
     },
@@ -10503,7 +10503,7 @@
         "Bodyguard"
       ],
       "traitCount": 2,
-      "text": "While you control another Steel unit, this unit gains Bodyguard. (Units in this flank can't attack your non-Bodyguard units or your hero.) \nWhen Defeated: Create a Steel unit token.",
+      "text": "While you control another Steel unit, this unit gains Bodyguard. (Units in this flank can't attack your non-Bodyguard units or your Commander.) \nWhen Defeated: Create a Steel unit token.",
       "backText": null,
       "epicAction": null
     },
@@ -10642,7 +10642,7 @@
       ],
       "keywords": [],
       "traitCount": 3,
-      "text": "While you control 3 or more units, this unit gets +1/+0 for each damage on it.\nWhen Played: Choose a hero. Heal 1 damage from it for each unit you control.",
+      "text": "While you control 3 or more units, this unit gets +1/+0 for each damage on it.\nWhen Played: Choose a Commander. Heal 1 damage from it for each unit you control.",
       "backText": null,
       "epicAction": null
     },
@@ -10661,7 +10661,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "If you control 3 or more Red units, this upgrade costs 2 less to play.\nAttached unit gains: \"While you control 3 or more units, when this unit attacks, heal 2 damage from your hero.\"",
+      "text": "If you control 3 or more Red units, this upgrade costs 2 less to play.\nAttached unit gains: \"While you control 3 or more units, when this unit attacks, heal 2 damage from your Commander.\"",
       "backText": null,
       "epicAction": null
     },
@@ -10755,7 +10755,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Action [{2}, {exhaust}]: Heal 2 damage from a unit or hero.",
+      "text": "Action [{2}, {exhaust}]: Heal 2 damage from a unit or Commander.",
       "backText": null,
       "epicAction": null
     },
@@ -11094,7 +11094,7 @@
         "Bodyguard"
       ],
       "traitCount": 1,
-      "text": "Give a unit Bodyguard for this phase. (Units in this flank can't attack your non-Bodyguard units or your hero.) If you have the initiative, also give that unit +2/+2 for this phase.",
+      "text": "Give a unit Bodyguard for this phase. (Units in this flank can't attack your non-Bodyguard units or your Commander.) If you have the initiative, also give that unit +2/+2 for this phase.",
       "backText": null,
       "epicAction": null
     },
@@ -11850,7 +11850,7 @@
         "Bodyguard"
       ],
       "traitCount": 3,
-      "text": "Bodyguard (Units in this flank can't attack your non-Bodyguard units or your hero.) \nOverwhelm (When attacking an enemy unit, deal excess damage to the opponent's hero.)",
+      "text": "Bodyguard (Units in this flank can't attack your non-Bodyguard units or your Commander.) \nOverwhelm (When attacking an enemy unit, deal excess damage to the opponent's Commander.)",
       "backText": null,
       "epicAction": null
     },
@@ -11870,7 +11870,7 @@
         "Overwhelm"
       ],
       "traitCount": 3,
-      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent’s hero.)\nWhile you control 3 or more units, each other friendly unit gets +1/+1 and gains Overwhelm.",
+      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent’s Commander.)\nWhile you control 3 or more units, each other friendly unit gets +1/+1 and gains Overwhelm.",
       "backText": null,
       "epicAction": null
     },
@@ -12556,7 +12556,7 @@
         "Overwhelm"
       ],
       "traitCount": 3,
-      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's hero.) \nWhen Played: Choose an enemy unit. Deal 1 damage to it for each friendly Red unit.",
+      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's Commander.) \nWhen Played: Choose an enemy unit. Deal 1 damage to it for each friendly Red unit.",
       "backText": null,
       "epicAction": null
     },
@@ -12577,7 +12577,7 @@
         "Raid"
       ],
       "traitCount": 2,
-      "text": "Raid 2 \nOn Attack: If your hero has 15 or more damage on it, deal 1 damage to each enemy unit.",
+      "text": "Raid 2 \nOn Attack: If your Commander has 15 or more damage on it, deal 1 damage to each enemy unit.",
       "backText": null,
       "epicAction": null
     },
@@ -12596,7 +12596,7 @@
       ],
       "keywords": [],
       "traitCount": 3,
-      "text": "This unit costs 1 less to play for every 5 damage on your hero. \nWhen Played/On Attack: Deal 2 damage to an enemy unit and each other enemy unit with the same name as that unit.",
+      "text": "This unit costs 1 less to play for every 5 damage on your Commander. \nWhen Played/On Attack: Deal 2 damage to an enemy unit and each other enemy unit with the same name as that unit.",
       "backText": null,
       "epicAction": null
     },
@@ -13548,7 +13548,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "On Attack: Deal 2 damage to a random unit or hero.",
+      "text": "On Attack: Deal 2 damage to a random unit or Commander.",
       "backText": null,
       "epicAction": null
     },
@@ -14381,7 +14381,7 @@
         "Restore"
       ],
       "traitCount": 3,
-      "text": "Restore 3 (When this unit attacks, heal 3 damage from your hero.) \nWhen Defeated: Create 2 Purple Green tokens.",
+      "text": "Restore 3 (When this unit attacks, heal 3 damage from your Commander.) \nWhen Defeated: Create 2 Purple Green tokens.",
       "backText": null,
       "epicAction": null
     },

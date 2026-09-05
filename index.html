@@ -220,6 +220,8 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
    definite, so cover governs. */
 .bart img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
 .bart .glyph{font-size:2.6rem;opacity:.5}
+.bkind{display:block;font-family:var(--body);font-style:normal;font-weight:700;
+  font-size:.44rem;letter-spacing:.16em;text-transform:uppercase;opacity:.82;margin-bottom:.06rem}
 .bname{position:absolute;top:0;left:0;right:0;z-index:2;text-align:center;
   padding:.3rem .4rem .55rem;color:#fff;font-family:var(--display);font-weight:700;
   font-size:1.02rem;line-height:1.1;text-shadow:0 1px 3px rgba(0,0,0,.8);
@@ -305,9 +307,10 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 
 /* Symbols set inline with the rules text: they ride the line rather than sitting
    on it, so they scale with --fit like the type around them. */
-.sym{display:inline-block;vertical-align:-.14em;width:1.05em;height:1.05em}
+.sym{display:inline-block;vertical-align:-.18em;width:1.2em;height:1.2em}
 .sym.ex circle{fill:#2A2536}
 .sym.ex rect{fill:#F4F2EC}
+.sym.ex path{fill:#F4F2EC;stroke:#F4F2EC}
 .sym.res{background:#F2EFE6;color:#141018;border:1px solid rgba(0,0,0,.45);border-radius:50%;
   font-family:var(--display);font-style:normal;font-weight:700;font-size:.82em;line-height:1.05em;
   text-align:center;box-shadow:0 1px 1px rgba(0,0,0,.2)}
@@ -355,7 +358,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
   .card.hero.back{width:2.5in;height:3.5in;grid-column:auto}
   .grid.wide-sheet{grid-template-columns:repeat(2,3.5in)}
   .grid.wide-sheet .card.wide{grid-column:auto}
-  .htitle b{font-size:13pt} .htitle em{font-size:5.8pt} .hkind{font-size:5.8pt}
+  .htitle b{font-size:13pt} .htitle em{font-size:5.8pt} .hkind{font-size:5.8pt} .bkind{font-size:5.8pt}
   .hrules{font-size:9.4pt} .hjoin .lab{font-size:6pt}
   .hstat{width:.33in;height:.33in;font-size:15pt;bottom:.03in;right:.04in}
   .credit{font-size:4.4pt;padding:.015in .05in}
@@ -372,7 +375,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 
 <header class="top">
   <div class="spectrum"></div>
-  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V72</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
+  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V73</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
   <p class="sub">In the colors of the class each card was chosen for.
      Every card in the game: twenty-one heroes, six resources, and twelve cards
      for each class. Art appears as it lands in <code>art/</code>; a card whose
@@ -445,7 +448,9 @@ const TOKEN_CARDS = [{
 const INK_HEX = {Red:'#D3082F',Amber:'#F5B202',Green:'#2A8934',Blue:'#0189C4',Purple:'#81377B',Steel:'#9FA8B4'};
 const EXHAUST = '<svg class="sym ex" viewBox="0 0 24 24" role="img" aria-label="exhaust">'
   + '<circle cx="12" cy="12" r="11"/>'
-  + '<rect x="8.2" y="5.5" width="7.6" height="13" rx="1.7" transform="rotate(52 12 12)"/></svg>';
+  + '<rect x="9.1" y="11.6" width="6" height="9.6" rx="1.4" transform="rotate(54 12.1 16.4)"/>'
+  + '<path d="M4.8 9.6A7.6 7.6 0 0 1 15.6 5.4" fill="none" stroke-width="1.8" stroke-linecap="round"/>'
+  + '<path d="M17.9 6.9l-4.4.6 1.5-4.1z"/></svg>';
 const symbols = html => html
   .replace(/\{exhaust\}/g, EXHAUST)
   .replace(/\{(\d+)\}/g, (_, n) => `<i class="sym res">${n}</i>`)
@@ -549,7 +554,7 @@ function heroHTML(c){
       <div class="bart">${file
         ? `<img alt="" loading="lazy" src="art/heroes/${encodeURIComponent(file)}">`
         : `<span class="glyph">${c.glyph}</span>`}</div>
-      <div class="bname">${esc(c.hero)}</div>
+      <div class="bname"><em class="bkind">Hero \u00B7 Unit</em>${esc(c.hero)}</div>
       <div class="bfoot">
         <span class="stat pow">${c.power}</span>
         <p class="brules">${symbols(esc(c.text))}</p>
@@ -564,7 +569,7 @@ function heroHTML(c){
              + '<i class="gen">1</i>'.repeat(c.join.generic);
   return `<article class="card wide hero" style="--c1:${c.c1};--c2:${c.c2}">
     <div class="hbanner">
-      <span class="hkind">Hero</span>
+      <span class="hkind">Hero \u00B7 Commander</span>
       <span class="htitle"><b>${esc(c.hero)}</b><em>${esc(c.className)}</em></span>
       <span class="hinks">${inks}</span>
     </div>
