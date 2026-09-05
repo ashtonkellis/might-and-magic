@@ -1279,7 +1279,7 @@
         "Shielded"
       ],
       "traitCount": 2,
-      "text": "Shielded (When you play this unit, give a Shield token to it.) \nWhen Played: If you control another Blue unit, heal 4 damage from your hero.",
+      "text": "Shielded (When you play this unit, give a Shield token to it.) \nWhen Played: If you control another Blue unit, heal 4 damage from a hero.",
       "backText": null,
       "epicAction": null
     },
@@ -1534,7 +1534,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "When Played: Heal 1 damage from your hero. \nAction [{exhaust}, return this unit to his owner's hand]: Deal 1 damage to a unit.",
+      "text": "When Played: Heal 1 damage from a hero. \nAction [{exhaust}, return this unit to his owner's hand]: Deal 1 damage to a unit.",
       "backText": null,
       "epicAction": null
     },
@@ -3164,7 +3164,7 @@
         "Saboteur"
       ],
       "traitCount": 3,
-      "text": "Saboteur \nWhile this unit is exhausted, it gains: \"Bounty - Heal 5 damage from your hero.\" (When this unit is defeated or captured, your opponent collects its bounty.)",
+      "text": "Saboteur \nWhile this unit is exhausted, it gains: \"Bounty - Heal 5 damage from a hero.\" (When this unit is defeated or captured, your opponent collects its bounty.)",
       "backText": null,
       "epicAction": null
     },
@@ -3642,7 +3642,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Shielded\nWhen played: Choose a captured card guarded by a unit you control. You may play it for free under your control.",
+      "text": "Shielded (When you play this unit, give a Shield token to it.)\nWhen Played: Capture an enemy unit. (It is guarded by this unit, and returns to play under its owner’s control when this unit leaves play.)",
       "backText": null,
       "epicAction": null
     },
@@ -4733,7 +4733,7 @@
         "Smuggle"
       ],
       "traitCount": 1,
-      "text": "Heal 3 damage from your hero. \nSmuggle [AP1] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
+      "text": "Heal 3 damage from a hero. \nSmuggle [AP1] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
       "backText": null,
       "epicAction": null
     },
@@ -4939,7 +4939,7 @@
         "Shielded"
       ],
       "traitCount": 2,
-      "text": "Shielded\nAction [{exhaust}]: If an enemy unit was defeated this phase, heal 1 damage from your hero.",
+      "text": "Shielded\nAction [{exhaust}]: If an enemy unit was defeated this phase, heal 1 damage from a hero.",
       "backText": null,
       "epicAction": null
     },
@@ -6204,7 +6204,7 @@
         "Shielded"
       ],
       "traitCount": 2,
-      "text": "SHIELDED (When you play this unit, give a Shield token to it.)\nWhen Played: If you control another Blue unit, heal 4 damage from your hero.",
+      "text": "SHIELDED (When you play this unit, give a Shield token to it.)\nWhen Played: If you control another Blue unit, heal 4 damage from a hero.",
       "backText": null,
       "epicAction": null
     },
@@ -7170,7 +7170,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "When Played/On Attack: Look at the top card of your deck. Either draw that card or discard it and heal 3 damage from your hero.",
+      "text": "When Played/On Attack: Look at the top card of your deck. Either draw that card or discard it and heal 3 damage from a hero.",
       "backText": null,
       "epicAction": null
     },
