@@ -118,7 +118,7 @@
       "hero": "Hale",
       "front": {
         "hp": 17,
-        "ability": "When the rest phase starts: Heal 2 damage from your hero."
+        "ability": "When the rest phase starts: Heal 2 damage from this hero."
       },
       "back": {
         "power": 3,
@@ -140,7 +140,7 @@
       "hero": "Arc",
       "front": {
         "hp": 16,
-        "ability": "Epic Action: Play a spell from your hand. It costs 3 less. Deal 2 damage to your hero."
+        "ability": "Epic Action: Play a spell from your hand. It costs 3 less. Deal 2 damage to this hero."
       },
       "back": {
         "power": 5,
@@ -189,7 +189,7 @@
       "back": {
         "power": 4,
         "hp": 6,
-        "ability": "When an attack ends: You may play an upgrade from your resources on a friendly unit. If you do, resource the top card of your deck."
+        "ability": "When the rest phase starts: You may play an upgrade from your resources on a friendly unit. If you do, resource the top card of your deck."
       },
       "join": {
         "total": 3,
@@ -228,7 +228,7 @@
       "hero": "Kell",
       "front": {
         "hp": 14,
-        "ability": "Your units get +1/+0. When the rest phase starts: Deal 1 damage to your hero."
+        "ability": "Your units get +1/+0. When the rest phase starts: Deal 1 damage to this hero."
       },
       "back": {
         "power": 5,
@@ -360,7 +360,7 @@
       "hero": "Mire",
       "front": {
         "hp": 16,
-        "ability": "Epic Action: Heal all damage from each friendly unit. Deal 1 damage to your hero for each unit healed."
+        "ability": "Epic Action: Heal all damage from each friendly unit. Deal 1 damage to this hero for each unit healed."
       },
       "back": {
         "power": 3,
@@ -409,7 +409,7 @@
       "back": {
         "power": 1,
         "hp": 8,
-        "ability": "Restore 4. (When a friendly unit attacks, heal 4 damage from your hero.)"
+        "ability": "Restore 4. (When a friendly unit attacks, heal 4 damage from this hero.)"
       },
       "join": {
         "total": 3,
@@ -426,12 +426,12 @@
       "hero": "Pall",
       "front": {
         "hp": 16,
-        "ability": "Your leader gets +0/+4."
+        "ability": "Your units get +0/+1."
       },
       "back": {
         "power": 2,
         "hp": 5,
-        "ability": "On Attack: Choose any number of friendly units. They lose all abilities for this round."
+        "ability": "Grit (This hero gets +1/+0 for each damage on it.) Overwhelm (When attacking an enemy unit, deal excess damage to the opponent’s hero.)"
       },
       "join": {
         "total": 2,

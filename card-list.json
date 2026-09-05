@@ -43,7 +43,7 @@
         "Grit"
       ],
       "traitCount": 1,
-      "text": "Grit\nAction [[1 resource], [exhaust]]: Deal 2 damage to a friendly unit. Then, give a Shield token to it.",
+      "text": "Grit\nAction [{1}, {exhaust}]: Deal 2 damage to a friendly unit. Then, give a Shield token to it.",
       "backText": null,
       "epicAction": null
     },
@@ -62,7 +62,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Action [[exhaust]]: Defeat a friendly upgrade on a unit. If you do, give a Shield token to that unit.",
+      "text": "Action [{exhaust}]: Defeat a friendly upgrade on a unit. If you do, give a Shield token to that unit.",
       "backText": null,
       "epicAction": null
     },
@@ -81,7 +81,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Action [[1 resource], [exhaust]]: Give an Experience token to a unit with 2 or less power.",
+      "text": "Action [{1}, {exhaust}]: Give an Experience token to a unit with 2 or less power.",
       "backText": null,
       "epicAction": null
     },
@@ -119,7 +119,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Action [[exhaust]]: Choose a unit. For this phase it gains: \"BOUNTY - The next unit you play this phase costs 1 less.\"",
+      "text": "Action [{exhaust}]: Choose a unit. For this phase it gains: \"BOUNTY - The next unit you play this phase costs 1 less.\"",
       "backText": null,
       "epicAction": null
     },
@@ -138,7 +138,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Action [[exhaust]]: Attack with a unit that costs 3 or less. If it's attacking a unit, it gets +1/+0 for this attack.",
+      "text": "Action [{exhaust}]: Attack with a unit that costs 3 or less. If it's attacking a unit, it gets +1/+0 for this attack.",
       "backText": null,
       "epicAction": null
     },
@@ -214,7 +214,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Action [[exhaust], discard a card from your hand]: Give a unit +2/+0 for this phase.",
+      "text": "Action [{exhaust}, discard a card from your hand]: Give a unit +2/+0 for this phase.",
       "backText": null,
       "epicAction": null
     },
@@ -252,7 +252,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Action [[exhaust]]: Play a unit from your hand. It costs 1 less. Deal 2 damage to it.",
+      "text": "Action [{exhaust}]: Play a unit from your hand. It costs 1 less. Deal 2 damage to it.",
       "backText": null,
       "epicAction": null
     },
@@ -328,7 +328,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Action [[exhaust]]: Play a card using SMUGGLE. It costs 2 less. Defeat a resource you own and control.",
+      "text": "Action [{exhaust}]: Play a card using SMUGGLE. It costs 2 less. Defeat a resource you own and control.",
       "backText": null,
       "epicAction": null
     },
@@ -594,7 +594,7 @@
         "Shielded"
       ],
       "traitCount": 2,
-      "text": "Shielded \nAction[Exhaust]: Choose a unit. For this phase, it gains: \"Bounty - Heal 5 damage from a hero.\" (When this unit is defeated or captured, its opponent collects its bounty.)",
+      "text": "Shielded \nAction [{exhaust}]: Choose a unit. For this phase, it gains: \"Bounty - Heal 5 damage from a hero.\" (When this unit is defeated or captured, its opponent collects its bounty.)",
       "backText": null,
       "epicAction": null
     },
@@ -988,7 +988,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Give an enemy unit -2/-0 for this phase. If you control a [TRAIT A] unit, give the enemy unit -2/-2 for this phase instead.",
+      "text": "Give an enemy unit -2/-0 for this phase. If you control a Green unit, give the enemy unit -2/-2 for this phase instead.",
       "backText": null,
       "epicAction": null
     },
@@ -1279,7 +1279,7 @@
         "Shielded"
       ],
       "traitCount": 2,
-      "text": "Shielded (When you play this unit, give a Shield token to it.) \nWhen Played: If you control another Vigilance unit, heal 4 damage from your hero.",
+      "text": "Shielded (When you play this unit, give a Shield token to it.) \nWhen Played: If you control another Blue unit, heal 4 damage from your hero.",
       "backText": null,
       "epicAction": null
     },
@@ -1333,7 +1333,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Attached unit gains the [TRAIT A] trait.",
+      "text": "Attached unit gains the Green trait.",
       "backText": null,
       "epicAction": null
     },
@@ -1534,7 +1534,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "When Played: Heal 1 damage from your hero. \nAction [Exhaust, return this unit to his owner's hand]: Deal 1 damage to a unit.",
+      "text": "When Played: Heal 1 damage from your hero. \nAction [{exhaust}, return this unit to his owner's hand]: Deal 1 damage to a unit.",
       "backText": null,
       "epicAction": null
     },
@@ -1734,7 +1734,7 @@
         "Overwhelm"
       ],
       "traitCount": 2,
-      "text": "AMBUSH, OVERWHELM\nOn Attack: You may choose another friendly [TRAIT A] unit. If you do, all damage that would be dealt to this unit during this attack is dealt to the chosen unit instead.",
+      "text": "AMBUSH, OVERWHELM\nOn Attack: You may choose another friendly Red unit. If you do, all damage that would be dealt to this unit during this attack is dealt to the chosen unit instead.",
       "backText": null,
       "epicAction": null
     },
@@ -2417,7 +2417,7 @@
       ],
       "keywords": [],
       "traitCount": 3,
-      "text": "Attach to a unit.\nWhile playing this upgrade on a [TRAIT A] unit, ignore its aspect penalty.\nAttached unit gains, “On Attack: Give an Experience token to each other friendly [TRAIT A] unit.”",
+      "text": "Attach to a unit.\nWhile playing this upgrade on an Amber unit, ignore its aspect penalty.\nAttached unit gains, “On Attack: Give an Experience token to each other friendly Amber unit.”",
       "backText": null,
       "epicAction": null
     },
@@ -2437,7 +2437,7 @@
         "Smuggle"
       ],
       "traitCount": 1,
-      "text": "Search the top 10 cards of your deck for a [TRAIT A], [TRAIT C], or [TRAIT B] card, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order.) \nSmuggle [GS1]",
+      "text": "Search the top 10 cards of your deck for a Green or Steel card, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order.) \nSmuggle [GS1]",
       "backText": null,
       "epicAction": null
     },
@@ -2969,7 +2969,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Attached unit gains: \"Action [2 resources, defeat a [TOKEN] on this unit]: Attack with this unit. It gets +4/+0 and gains Overwhelm for this attack.\"",
+      "text": "Attached unit gains: \"Action [{2}, defeat an Experience token on this unit]: Attack with this unit. It gets +4/+0 and gains Overwhelm for this attack.\"",
       "backText": null,
       "epicAction": null
     },
@@ -3125,7 +3125,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "When a player discards a card from their hand: You may deal 2 damage to a unit or hero. Use this ability only once each round.",
+      "text": "When Played: Discard a card from your hand. If you do, deal 2 damage to a unit or hero.",
       "backText": null,
       "epicAction": null
     },
@@ -3680,7 +3680,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Search the top 7 cards of your deck for a [TRAIT A] and play it. (Put the other cards on the bottom of your deck in a random order.) It costs 5 less and enters play ready. Return it to its owner's hand at the end of the phase.",
+      "text": "Search the top 7 cards of your deck for an Amber card and play it. (Put the other cards on the bottom of your deck in a random order.) It costs 5 less and enters play ready. Return it to its owner's hand at the end of the phase.",
       "backText": null,
       "epicAction": null
     },
@@ -3760,7 +3760,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Ignore the aspect penalty on the first [TRAIT A] unit you play each round. \nWhen Played: Search the top 5 cards of your deck for a [TRAIT A] card, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order.)",
+      "text": "Ignore the aspect penalty on the first Green unit you play each round. \nWhen Played: Search the top 5 cards of your deck for a Green card, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order.)",
       "backText": null,
       "epicAction": null
     },
@@ -3900,7 +3900,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "An opponent chooses one: \nYou ready up to 6 resources. \nYou ready a friendly unit. If it's a [TRAIT A] unit, attack with it. It gets +2/+0 for this attack.",
+      "text": "An opponent chooses one: \nYou ready up to 6 resources. \nYou ready a friendly unit. If it's a Red unit, attack with it. It gets +2/+0 for this attack.",
       "backText": null,
       "epicAction": null
     },
@@ -4337,7 +4337,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Return a friendly [TRAIT A] unit to its owner's hand. If you do, deal 3 damage to a unit.",
+      "text": "Return a friendly Amber unit to its owner's hand. If you do, deal 3 damage to a unit.",
       "backText": null,
       "epicAction": null
     },
@@ -4693,7 +4693,7 @@
         "Grit"
       ],
       "traitCount": 1,
-      "text": "Grit (This unit gets +1/+0 for each damage on it.) \nWhen Played: If you control another [TRAIT A] unit, draw a card.",
+      "text": "Grit (This unit gets +1/+0 for each damage on it.) \nWhen Played: If you control another Green unit, draw a card.",
       "backText": null,
       "epicAction": null
     },
@@ -4751,7 +4751,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Search the top 8 cards of your deck for up to 2 [TRAIT A] and/or upgrade cards, reveal them, and draw them. (Put the other cards on the bottom of your deck in a random order.)",
+      "text": "Search the top 8 cards of your deck for up to 2 Green and/or upgrade cards, reveal them, and draw them. (Put the other cards on the bottom of your deck in a random order.)",
       "backText": null,
       "epicAction": null
     },
@@ -4939,7 +4939,7 @@
         "Shielded"
       ],
       "traitCount": 2,
-      "text": "Shielded\nAction [[exhaust]]: If an enemy unit was defeated this phase, heal 1 damage from your hero.",
+      "text": "Shielded\nAction [{exhaust}]: If an enemy unit was defeated this phase, heal 1 damage from your hero.",
       "backText": null,
       "epicAction": null
     },
@@ -4961,7 +4961,7 @@
         "Bodyguard"
       ],
       "traitCount": 2,
-      "text": "Grit\nAction [[exhaust]]: Play a unit that costs 3 or less from your hand (paying its cost). It gains Bodyguard for this phase.",
+      "text": "Grit\nAction [{exhaust}]: Play a unit that costs 3 or less from your hand (paying its cost). It gains Bodyguard for this phase.",
       "backText": null,
       "epicAction": null
     },
@@ -4999,7 +4999,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Action [[1 resource], [exhaust]]: Give a Shield token to a Heroism unit you played this phase.",
+      "text": "Action [{1}, {exhaust}]: Give a Shield token to a Blue unit you played this phase.",
       "backText": null,
       "epicAction": null
     },
@@ -5018,7 +5018,7 @@
       ],
       "keywords": [],
       "traitCount": 4,
-      "text": "Action [[1 resource], [exhaust], defeat a friendly unit]: Deal 1 damage to a unit and draw a card.",
+      "text": "Action [{1}, {exhaust}, defeat a friendly unit]: Deal 1 damage to a unit and draw a card.",
       "backText": null,
       "epicAction": null
     },
@@ -5176,7 +5176,7 @@
       ],
       "keywords": [],
       "traitCount": 3,
-      "text": "Action [[exhaust]]: Deal 1 damage to each hero.",
+      "text": "Action [{exhaust}]: Deal 1 damage to each hero.",
       "backText": null,
       "epicAction": null
     },
@@ -5214,7 +5214,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "When the action phase starts: Look at the top card of each player's deck.\nAction [[1 resource], [exhaust]]: Reveal the top card of any player's deck. Exhaust a unit that costs the same as or less than the revealed card.",
+      "text": "When the action phase starts: Look at the top card of each player's deck.\nAction [{1}, {exhaust}]: Reveal the top card of any player's deck. Exhaust a unit that costs the same as or less than the revealed card.",
       "backText": null,
       "epicAction": null
     },
@@ -5233,7 +5233,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Action [[exhaust]]: Put a card from your hand into play as a resource and ready it. At the start of the next action phase, defeat a resource you control.",
+      "text": "Action [{exhaust}]: Put a card from your hand into play as a resource and ready it. At the start of the next action phase, defeat a resource you control.",
       "backText": null,
       "epicAction": null
     },
@@ -5849,7 +5849,7 @@
         "Bodyguard"
       ],
       "traitCount": 2,
-      "text": "Bodyguard (Units in this flank can't attack your non-Bodyguard units or your hero.) \nWhen Defeated: Give 2 Experience tokens to another friendly unit. If it's a [TRAIT A] unit, draw a card.",
+      "text": "Bodyguard (Units in this flank can't attack your non-Bodyguard units or your hero.) \nWhen Defeated: Give 2 Experience tokens to another friendly unit. If it's an Amber unit, draw a card.",
       "backText": null,
       "epicAction": null
     },
@@ -5870,7 +5870,7 @@
         "Shielded"
       ],
       "traitCount": 4,
-      "text": "SHIELDED (When you play this unit, give a Shield token to it.)\nWhen Played/On Attack: You may give a Shield token to another [TRAIT A] unit.",
+      "text": "SHIELDED (When you play this unit, give a Shield token to it.)\nWhen Played/On Attack: You may give a Shield token to another Blue unit.",
       "backText": null,
       "epicAction": null
     },
@@ -5971,7 +5971,7 @@
         "Bodyguard"
       ],
       "traitCount": 2,
-      "text": "BODYGUARD (Units in this flank can't attack your non-Bodyguard units or your hero.) \nOn Attack: The next non-Heroism, non-Villainy card you play this phase costs 2 less.",
+      "text": "BODYGUARD (Units in this flank can't attack your non-Bodyguard units or your hero.) \nOn Attack: The next non-Amber, non-Amber card you play this phase costs 2 less.",
       "backText": null,
       "epicAction": null
     },
@@ -6204,7 +6204,7 @@
         "Shielded"
       ],
       "traitCount": 2,
-      "text": "SHIELDED (When you play this unit, give a Shield token to it.)\nWhen Played: If you control another Vigilance unit, heal 4 damage from your hero.",
+      "text": "SHIELDED (When you play this unit, give a Shield token to it.)\nWhen Played: If you control another Blue unit, heal 4 damage from your hero.",
       "backText": null,
       "epicAction": null
     },
@@ -6332,7 +6332,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Heal up to 3 damage from a unit. If you control a [TRAIT A] unit, you may deal that much damage to another unit.",
+      "text": "Heal up to 3 damage from a unit. If you control a Green unit, you may deal that much damage to another unit.",
       "backText": null,
       "epicAction": null
     },
@@ -6483,7 +6483,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "When Played: Search the top 5 cards of your deck for up to 2 [TRAIT A] units, reveal them, and draw them. (Put the other cards on the bottom of your deck in a random order.)",
+      "text": "When Played: Search the top 5 cards of your deck for up to 2 Green units, reveal them, and draw them. (Put the other cards on the bottom of your deck in a random order.)",
       "backText": null,
       "epicAction": null
     },
@@ -6682,7 +6682,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Action [[exhaust]]: Give an Experience token to another friendly unit.",
+      "text": "Action [{exhaust}]: Give an Experience token to another friendly unit.",
       "backText": null,
       "epicAction": null
     },
@@ -6720,7 +6720,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "When Played: Search the top 5 cards of your deck for a [TRAIT A] card, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order.)",
+      "text": "When Played: Search the top 5 cards of your deck for a Green card, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order.)",
       "backText": null,
       "epicAction": null
     },
@@ -6846,7 +6846,7 @@
         "Restore"
       ],
       "traitCount": 3,
-      "text": "Restore 2\nEach other friendly unit gains Restore 1.\nWhen Played: Play a Heroism unit from your discard pile. It costs 3 less.",
+      "text": "Restore 2\nEach other friendly unit gains Restore 1.\nWhen Played: Play an Amber unit from your discard pile. It costs 3 less.",
       "backText": null,
       "epicAction": null
     },
@@ -6865,7 +6865,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Attack with a [TRAIT A] unit. It gets +1/+0 for this attack.\nThen, attack with another [TRAIT A] unit. It gets +1/+0 for this attack.",
+      "text": "Attack with an Amber unit. It gets +1/+0 for this attack.\nThen, attack with another Amber unit. It gets +1/+0 for this attack.",
       "backText": null,
       "epicAction": null
     },
@@ -7073,7 +7073,7 @@
         "Ambush"
       ],
       "traitCount": 3,
-      "text": "While you control another Command unit, this unit gains AMBUSH (After you play this unit, it may ready and attack an enemy unit.)",
+      "text": "While you control another Green unit, this unit gains AMBUSH (After you play this unit, it may ready and attack an enemy unit.)",
       "backText": null,
       "epicAction": null
     },
@@ -7206,7 +7206,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Attach to a [TRAIT A] unit.\nAttached unit gains: \"On Attack: If this unit isn't attacking a hero, you may deal 2 damage to a unit in the defender's flank.\"",
+      "text": "Attach to an Amber unit.\nAttached unit gains: \"On Attack: If this unit isn't attacking a hero, you may deal 2 damage to a unit in the defender's flank.\"",
       "backText": null,
       "epicAction": null
     },
@@ -7352,7 +7352,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Action [[exhaust]]: Play an [TRAIT A] unit from your hand (paying its cost). It enters play ready. Each opponent may ready a unit.",
+      "text": "Action [{exhaust}]: Play an Amber unit from your hand (paying its cost). It enters play ready. Each opponent may ready a unit.",
       "backText": null,
       "epicAction": null
     },
@@ -7512,7 +7512,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Choose a unit. It loses all abilities for this phase. Then, if you control a [TRAIT A] unit, pay any number of resources and deal 2 damage to the chosen unit for each resource paid this way.",
+      "text": "Choose a unit. It loses all abilities for this phase. Then, if you control a Red unit, pay any number of resources and deal 2 damage to the chosen unit for each resource paid this way.",
       "backText": null,
       "epicAction": null
     },
@@ -7531,7 +7531,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "If you control a [TRAIT A] unit, this spell costs [1 resource] less to play.\nDeal 5 damage to a unit. That unit's controller draws a card.",
+      "text": "If you control a Red unit, this spell costs [1 resource] less to play.\nDeal 5 damage to a unit. That unit's controller draws a card.",
       "backText": null,
       "epicAction": null
     },
@@ -7792,7 +7792,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Reveal the top 4 cards of your deck. For each Heroism card revealed this way, deal 1 damage to an enemy hero. You may discard any of the revealed cards and put the rest back on top of your deck in any order.",
+      "text": "Reveal the top 4 cards of your deck. For each Amber card revealed this way, deal 1 damage to an enemy hero. You may discard any of the revealed cards and put the rest back on top of your deck in any order.",
       "backText": null,
       "epicAction": null
     },
@@ -7871,7 +7871,7 @@
         "Raid"
       ],
       "traitCount": 2,
-      "text": "On Attack: Another friendly Aggression unit gains RAID 2 for this phase. (it gets +2/+0 while attacking.)",
+      "text": "On Attack: Another friendly Amber unit gains RAID 2 for this phase. (it gets +2/+0 while attacking.)",
       "backText": null,
       "epicAction": null
     },
@@ -8083,7 +8083,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Choose a player. That player discards a card from their hand. Then, if you control a [TRAIT A] unit, you may deal damage to a unit equal to the cost of the discarded card.",
+      "text": "Choose a player. That player discards a card from their hand. Then, if you control a Red unit, you may deal damage to a unit equal to the cost of the discarded card.",
       "backText": null,
       "epicAction": null
     },
@@ -8103,7 +8103,7 @@
         "Saboteur"
       ],
       "traitCount": 1,
-      "text": "Attack with a unit. It gains SABOTEUR for this attack. If it's a [TRAIT A], it also gains +2/+0 for this attack. (Ignore Bodyguard and defeat the defender's Shields.)",
+      "text": "Attack with a unit. It gains SABOTEUR for this attack. If it's a Steel, it also gains +2/+0 for this attack. (Ignore Bodyguard and defeat the defender's Shields.)",
       "backText": null,
       "epicAction": null
     },
@@ -8269,7 +8269,7 @@
         "Shielded"
       ],
       "traitCount": 2,
-      "text": "SHIELDED (When you play this unit, give him a Shield token.)\nAction [[exhaust]]: Play a spell from your hand. It costs 1 less.",
+      "text": "SHIELDED (When you play this unit, give him a Shield token.)\nAction [{exhaust}]: Play a spell from your hand. It costs 1 less.",
       "backText": null,
       "epicAction": null
     },
@@ -8347,7 +8347,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Each [TRAIT A] spell you play costs 1 less.\nWhen Played: Search the top 8 cards of your deck for a [TRAIT A] spell, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order.)",
+      "text": "Each Amber spell you play costs 1 less.\nWhen Played: Search the top 8 cards of your deck for an Amber spell, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order.)",
       "backText": null,
       "epicAction": null
     },
@@ -8469,7 +8469,7 @@
         "Raid"
       ],
       "traitCount": 3,
-      "text": "While you control another [TRAIT A] unit, this unit gains RAID 1. \nOn Attack: Discard a card from the defending player's deck. If it's a spell, exhaust a resource that player controls.",
+      "text": "While you control another Green unit, this unit gains RAID 1. \nOn Attack: Discard a card from the defending player's deck. If it's a spell, exhaust a resource that player controls.",
       "backText": null,
       "epicAction": null
     },
@@ -8975,7 +8975,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Attach to a [TRAIT A] unit.\nAttached unit gains: \"On Attack: Ready a resource.\"",
+      "text": "Attach to a Red unit.\nAttached unit gains: \"On Attack: Ready a resource.\"",
       "backText": null,
       "epicAction": null
     },
@@ -9357,7 +9357,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Play a non-Heroism unit from your hand for free. Deal damage to your hero equal to its cost.",
+      "text": "Play a non-Red unit from your hand for free. Deal damage to your hero equal to its cost.",
       "backText": null,
       "epicAction": null
     },
@@ -9613,7 +9613,7 @@
         "Ambush"
       ],
       "traitCount": 2,
-      "text": "While you control another [TRAIT A] unit, this unit gains AMBUSH. (After you play this unit, it may ready and attack an enemy unit.)",
+      "text": "While you control another Green unit, this unit gains AMBUSH. (After you play this unit, it may ready and attack an enemy unit.)",
       "backText": null,
       "epicAction": null
     },
@@ -9722,7 +9722,7 @@
         "Bodyguard"
       ],
       "traitCount": 3,
-      "text": "Bodyguard\nAction [Exhaust]: Heal 1 damage from a unit.",
+      "text": "Bodyguard\nAction [{exhaust}]: Heal 1 damage from a unit.",
       "backText": null,
       "epicAction": null
     },
@@ -9820,11 +9820,10 @@
         "Heroism"
       ],
       "keywords": [
-        "Coordinate",
         "Restore"
       ],
       "traitCount": 3,
-      "text": "Restore\nCoordinate — Action [1 resource, Exhaust]: Search the top 3 cards of your deck for a [TRAIT A] card, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order. Gain this ability while you control 3 or more units.)",
+      "text": "Restore\nWhile you control 3 or more units, Action [{1}, {exhaust}]: Search the top 3 cards of your deck for a Green card, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order.)",
       "backText": null,
       "epicAction": null
     },
@@ -9845,7 +9844,7 @@
         "Overwhelm"
       ],
       "traitCount": 2,
-      "text": "Action [Exhaust]: Attack with a unit. It gains Overwhelm for this attack. (When attacking an enemy unit, deal excess damage to the opponent’s hero.)",
+      "text": "Action [{exhaust}]: Attack with a unit. It gains Overwhelm for this attack. (When attacking an enemy unit, deal excess damage to the opponent’s hero.)",
       "backText": null,
       "epicAction": null
     },
@@ -9866,7 +9865,7 @@
         "Saboteur"
       ],
       "traitCount": 2,
-      "text": "Saboteur\nAction [1 resource, Exhaust]: Deal damage to a unit equal to the number of cards you’ve drawn this phase. (This doesn’t include cards drawn in the rest phase.)",
+      "text": "Saboteur\nAction [{1}, {exhaust}]: Deal damage to a unit equal to the number of cards you’ve drawn this phase. (This doesn’t include cards drawn in the rest phase.)",
       "backText": null,
       "epicAction": null
     },
@@ -9883,11 +9882,9 @@
         "Aggression",
         "Heroism"
       ],
-      "keywords": [
-        "Coordinate"
-      ],
+      "keywords": [],
       "traitCount": 3,
-      "text": "Coordinate — Action [Exhaust]: Attack with a unit. It gets +1/+0 for this attack. (Gain this ability while you control 3 or more units.)",
+      "text": "While you control 3 or more units, Action [{exhaust}]: Attack with a unit. It gets +1/+0 for this attack.",
       "backText": null,
       "epicAction": null
     },
@@ -9908,7 +9905,7 @@
         "Overwhelm"
       ],
       "traitCount": 3,
-      "text": "Overwhelm\nAction [Exhaust, deal 2 damage to your hero]: Attack with a unit. If it’s attacking a unit, it gets +2/+0 for this attack.",
+      "text": "Overwhelm\nAction [{exhaust}, deal 2 damage to your hero]: Attack with a unit. If it’s attacking a unit, it gets +2/+0 for this attack.",
       "backText": null,
       "epicAction": null
     },
@@ -9946,7 +9943,7 @@
       ],
       "keywords": [],
       "traitCount": 3,
-      "text": "Action [Exhaust]: Attack with a unit. If you played a spell this phase, it gets +1/+0 for this attack.",
+      "text": "Action [{exhaust}]: Attack with a unit. If you played a spell this phase, it gets +1/+0 for this attack.",
       "backText": null,
       "epicAction": null
     },
@@ -10319,7 +10316,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Ignore the aspect penalty on each [TRAIT A] upgrade you play on this unit. \nOn Attack: If this unit has 4 or more [TRAIT A] upgrades attached to him, defeat 4 enemy units.",
+      "text": "Ignore the aspect penalty on each Red upgrade you play on this unit. \nOn Attack: If this unit has 4 or more Red upgrades attached to him, defeat 4 enemy units.",
       "backText": null,
       "epicAction": null
     },
@@ -10499,7 +10496,7 @@
         "Bodyguard"
       ],
       "traitCount": 2,
-      "text": "While you control another [TRAIT A] unit, this unit gains Bodyguard. (Units in this flank can't attack your non-Bodyguard units or your hero.) \nWhen Defeated: Create a [TRAIT C] [TRAIT B] token.",
+      "text": "While you control another Steel unit, this unit gains Bodyguard. (Units in this flank can't attack your non-Bodyguard units or your hero.) \nWhen Defeated: Create a Steel unit token.",
       "backText": null,
       "epicAction": null
     },
@@ -10637,11 +10634,10 @@
         "Heroism"
       ],
       "keywords": [
-        "Coordinate",
         "Grit"
       ],
       "traitCount": 3,
-      "text": "Coordinate - Grit (Gain this keyword while you control 3 or more units. This unit gets +1/+0 for each damage on her.) \nWhen Played: Choose a hero. Heal 1 damage from it for each unit you control.",
+      "text": "While you control 3 or more units, this unit gets +1/+0 for each damage on it.\nWhen Played: Choose a hero. Heal 1 damage from it for each unit you control.",
       "backText": null,
       "epicAction": null
     },
@@ -10659,11 +10655,10 @@
         "Heroism"
       ],
       "keywords": [
-        "Coordinate",
         "Restore"
       ],
       "traitCount": 1,
-      "text": "If you control 3 or more [TRAIT A] units, this upgrade costs 2 less to play. \nAttached unit gains: \"Coordinate - Restore 2.\"",
+      "text": "If you control 3 or more Red units, this upgrade costs 2 less to play.\nAttached unit gains: \"While you control 3 or more units, when this unit attacks, heal 2 damage from your hero.\"",
       "backText": null,
       "epicAction": null
     },
@@ -10757,7 +10752,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Action [2 resources, exhaust]: Heal 2 damage from a unit or hero.",
+      "text": "Action [{2}, {exhaust}]: Heal 2 damage from a unit or hero.",
       "backText": null,
       "epicAction": null
     },
@@ -11229,7 +11224,7 @@
         "Ambush"
       ],
       "traitCount": 3,
-      "text": "While you control another [TRAIT A] unit, this unit gains Ambush. (When you play this unit, it may ready and attack an enemy unit.)",
+      "text": "While you control another Green unit, this unit gains Ambush. (When you play this unit, it may ready and attack an enemy unit.)",
       "backText": null,
       "epicAction": null
     },
@@ -11701,7 +11696,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Action [2 resources, exhaust]: Attack with a unit. It gets +2/+0 for this attack.",
+      "text": "Action [{2}, {exhaust}]: Attack with a unit. It gets +2/+0 for this attack.",
       "backText": null,
       "epicAction": null
     },
@@ -11718,11 +11713,10 @@
         "Command"
       ],
       "keywords": [
-        "Ambush",
-        "Coordinate"
+        "Ambush"
       ],
       "traitCount": 3,
-      "text": "Coordinate - Ambush (Gain this keyword while you control 3 or more units, including this one. When you play this unit, it may ready and attack an enemy unit.)",
+      "text": "While you control 3 or more units, including this one, this unit may ready and attack an enemy unit when you play it.",
       "backText": null,
       "epicAction": null
     },
@@ -11872,11 +11866,10 @@
         "Command"
       ],
       "keywords": [
-        "Coordinate",
         "Overwhelm"
       ],
       "traitCount": 3,
-      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's hero.) \nCoordinate - Each other friendly unit gets +1/+1 and gains Overwhelm. (Gain this ability while you control 3 or more units.)",
+      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent’s hero.)\nWhile you control 3 or more units, each other friendly unit gets +1/+1 and gains Overwhelm.",
       "backText": null,
       "epicAction": null
     },
@@ -12182,7 +12175,7 @@
         "Saboteur"
       ],
       "traitCount": 2,
-      "text": "While you control another [TRAIT A] unit, this unit gains Overwhelm and Saboteur. While you control another [TRAIT B] unit, this unit gets +1/+0.",
+      "text": "While you control another Blue unit, this unit gains Overwhelm and Saboteur. While you control another Steel unit, this unit gets +1/+0.",
       "backText": null,
       "epicAction": null
     },
@@ -12562,7 +12555,7 @@
         "Overwhelm"
       ],
       "traitCount": 3,
-      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's hero.) \nWhen Played: Choose an enemy unit. Deal 1 damage to it for each friendly [TRAIT A] unit.",
+      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's hero.) \nWhen Played: Choose an enemy unit. Deal 1 damage to it for each friendly Red unit.",
       "backText": null,
       "epicAction": null
     },
@@ -12829,11 +12822,10 @@
         "Aggression"
       ],
       "keywords": [
-        "Coordinate",
         "Raid"
       ],
       "traitCount": 3,
-      "text": "Coordinate - Raid 2 (Gain this keyword while you control 3 or more units. This unit gets +2/+0 while attacking.) \nWhen Defeated: Deal 1 damage to each enemy unit.",
+      "text": "While you control 3 or more units, this unit gets +2/+0 while attacking.\nWhen Defeated: Deal 1 damage to each enemy unit.",
       "backText": null,
       "epicAction": null
     },
@@ -13399,7 +13391,7 @@
         "Ambush"
       ],
       "traitCount": 3,
-      "text": "While you control fewer units than an opponent (including this unit), this unit gains Ambush.\n Action [2 resources]: Return this unit and each upgrade on her to their owners' hands.",
+      "text": "While you control fewer units than an opponent (including this unit), this unit gains Ambush.\n Action [{2}]: Return this unit and each upgrade on her to their owners' hands.",
       "backText": null,
       "epicAction": null
     },
@@ -13538,7 +13530,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Search the top 10 cards of your deck for 2 Heroism non-unit cards and discard them. (Put the other cards on the bottom of your deck in a random order.) \nFor this phase, you may play the discarded cards, and they each cost 2 less.",
+      "text": "Search the top 10 cards of your deck for 2 Amber non-unit cards and discard them. (Put the other cards on the bottom of your deck in a random order.) \nFor this phase, you may play the discarded cards, and they each cost 2 less.",
       "backText": null,
       "epicAction": null
     },
@@ -13576,7 +13568,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Each token unit you create enters play ready. \nOn Attack: If a unit left play this phase, create a [TRAIT B] [TRAIT A] token.",
+      "text": "Each token unit you create enters play ready. \nOn Attack: If a unit left play this phase, create a Blue Amber token.",
       "backText": null,
       "epicAction": null
     },
@@ -13823,7 +13815,7 @@
         "Saboteur"
       ],
       "traitCount": 3,
-      "text": "Saboteur \nWhen you play a spell: You may put a [TRAIT A] unit from your discard pile on the bottom of your deck. If you do, draw a card.",
+      "text": "Saboteur \nWhen you play a spell: You may put a Red unit from your discard pile on the bottom of your deck. If you do, draw a card.",
       "backText": null,
       "epicAction": null
     },
@@ -14179,7 +14171,7 @@
         "Exploit"
       ],
       "traitCount": 3,
-      "text": "Exploit 2 (While playing this card, defeat up to 2 units you control. This card costs 2 less for each unit defeated this way.)\nWhen Defeated: Create 3 Battle [TRAIT A] tokens.",
+      "text": "Exploit 2 (While playing this card, defeat up to 2 units you control. This card costs 2 less for each unit defeated this way.)\nWhen Defeated: Create 3 Battle Purple tokens.",
       "backText": null,
       "epicAction": null
     },
@@ -14390,7 +14382,7 @@
         "Restore"
       ],
       "traitCount": 3,
-      "text": "Restore 3 (When this unit attacks, heal 3 damage from your hero.) \nWhen Defeated: Create 2 [TRAIT B] [TRAIT A] tokens.",
+      "text": "Restore 3 (When this unit attacks, heal 3 damage from your hero.) \nWhen Defeated: Create 2 Purple Green tokens.",
       "backText": null,
       "epicAction": null
     },

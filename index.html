@@ -303,6 +303,20 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 .hjoin .becomes{margin-left:auto;font-family:var(--display);font-weight:700;font-size:.8rem;color:#2A2536}
 .hjoin .becomes em{font-style:normal;opacity:.45;margin:0 1px}
 
+/* Symbols set inline with the rules text: they ride the line rather than sitting
+   on it, so they scale with --fit like the type around them. */
+.sym{display:inline-block;vertical-align:-.14em;width:1.05em;height:1.05em}
+.sym.ex circle{fill:#2A2536}
+.sym.ex rect{fill:#F4F2EC}
+.sym.res{background:#F2EFE6;color:#141018;border:1px solid rgba(0,0,0,.45);border-radius:50%;
+  font-family:var(--display);font-style:normal;font-weight:700;font-size:.82em;line-height:1.05em;
+  text-align:center;box-shadow:0 1px 1px rgba(0,0,0,.2)}
+/* an ink named in rules text carries a dot of that ink */
+.inkword{white-space:nowrap;font-weight:700}
+.inkword i{display:inline-block;width:.62em;height:.62em;border-radius:50%;margin-right:.18em;
+  vertical-align:.02em;box-shadow:0 0 0 1px rgba(0,0,0,.4)}
+.brules .inkword i,.card.hero.back .inkword i{box-shadow:0 0 0 1px rgba(255,255,255,.55)}
+
 /* The credit strip is the card's last panel when it is there at all, so it
    takes the bottom rounding from the rules box and the upgrade's corner stats
    step up over it rather than sitting on it. */
@@ -358,7 +372,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 
 <header class="top">
   <div class="spectrum"></div>
-  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V69</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
+  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V70</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
   <p class="sub">In the colors of the class each card was chosen for.
      Every card in the game: twenty-one heroes, six resources, and twelve cards
      for each class. Art appears as it lands in <code>art/</code>; a card whose
@@ -421,6 +435,22 @@ const TOKEN_CARDS = [{
   text:'Attach to a unit.\nAttached unit gets +1/+1.',
   backText:null, epicAction:null,
 }];
+
+/* Rules text carries three things the browser draws rather than spells: a
+   resource cost as {N}, exhausting as {exhaust}, and an ink name, which gets a
+   dot of its own colour so a Green requirement is findable without reading. The
+   exhaust mark is a card turning a quarter turn, which is what exhausting is --
+   drawn here rather than borrowed, since the marks that mean this in other games
+   are theirs. */
+const INK_HEX = {Red:'#D3082F',Amber:'#F5B202',Green:'#2A8934',Blue:'#0189C4',Purple:'#81377B',Steel:'#9FA8B4'};
+const EXHAUST = '<svg class="sym ex" viewBox="0 0 24 24" role="img" aria-label="exhaust">'
+  + '<circle cx="12" cy="12" r="11"/>'
+  + '<rect x="8.2" y="5.5" width="7.6" height="13" rx="1.7" transform="rotate(52 12 12)"/></svg>';
+const symbols = html => html
+  .replace(/\{exhaust\}/g, EXHAUST)
+  .replace(/\{(\d+)\}/g, (_, n) => `<i class="sym res">${n}</i>`)
+  .replace(/\b(Red|Amber|Green|Blue|Purple|Steel)\b/g,
+           w => `<span class="inkword"><i style="background:${INK_HEX[w]}"></i>${w}</span>`);
 
 const esc = s => String(s).replace(/[&<>"]/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
 const $ = id => document.getElementById(id);
@@ -522,7 +552,7 @@ function heroHTML(c){
       <div class="bname">${esc(c.hero)}</div>
       <div class="bfoot">
         <span class="stat pow">${c.power}</span>
-        <p class="brules">${esc(c.text)}</p>
+        <p class="brules">${symbols(esc(c.text))}</p>
         <span class="stat hp">${c.hp}</span>
       </div>
     </article>`;
@@ -541,7 +571,7 @@ function heroHTML(c){
     <div class="hart">${heroArtFile(c)
       ? `<img alt="" loading="lazy" src="art/heroes/${encodeURIComponent(heroArtFile(c))}">`
       : `<span class="glyph">${c.glyph}</span>`}</div>
-    <div class="hfoot"><p class="hrules">${esc(c.text)}</p>
+    <div class="hfoot"><p class="hrules">${symbols(esc(c.text))}</p>
       <div class="hjoin"><span class="lab">Join the Fight</span><span class="cost">${cost}</span>
         <span class="arrow">\u2192</span><span class="becomes">${c.becomes}</span></div>
     </div>
@@ -567,7 +597,7 @@ function cardHTML(c){
       ? '<span></span>' : `<span class="stat ${cls}">${esc(v)}</span>`;
   const corner = (v, cls, side) => !isUp || v === null || v === undefined
       ? '' : `<span class="stat ${cls} corner ${side}">${esc(v)}</span>`;
-  const rules = (c.text || '').split('\n').filter(Boolean).map(l => `<p>${esc(l)}</p>`).join('')
+  const rules = (c.text || '').split('\n').filter(Boolean).map(l => `<p>${symbols(esc(l))}</p>`).join('')
               || '<p style="opacity:.45">No rules text.</p>';
   return `<article class="card${isUp ? ' up' : ''}" style="background:${bg}">
     ${pipsHTML(c)}

@@ -217,6 +217,28 @@ one. The 503 unassigned corpus cards keep their original SWU wording, leaders
 included — they are reference material for mechanics, and rewriting them would
 cost them that.
 
+**Traits are the game's own colours.** The corpus abstracted faction and species
+traits to `[TRAIT A]` / `[TRAIT B]` placeholders, and named SWU aspects
+(`Heroism`, `Vigilance`) in rules text besides. Both now resolve to the ink of
+the class the card belongs to, so the Chronomancer's `Archivist of Spent Hours`
+reads *Each Amber spell you play costs 1 less* and the Ranger searches for *a
+Green or Steel card*. An ink named in rules text is drawn with a dot of that ink
+beside it, so a colour requirement is findable without reading the sentence. The
+corpus keeps its placeholders.
+
+**Rules text carries three symbols.** `{N}` is a resource cost, `{exhaust}` is
+exhausting, and an ink name gets its dot. They are stored as those tokens and
+drawn by the browser, so the text stays greppable and the card stays readable.
+The exhaust mark is a card turned a quarter turn inside a dark disc — drawn
+here rather than borrowed, since the marks that mean this in other games are
+theirs, and checked down to 10px, which is smaller than it is ever printed.
+
+**Coordinate is spelled out.** It was a keyword that gated another keyword, so a
+card read `Coordinate - Raid 2 (Gain this keyword while you control 3 or more
+units. This unit gets +2/+0 while attacking.)` — two layers of indirection to say
+one thing. All seven now say the thing: *While you control 3 or more units, this
+unit gets +2/+0 while attacking.*
+
 **Smuggle costs are written in this game's inks.** The corpus priced them in SWU
 aspects — `Smuggle [3 resources Vigilance]` — which are not resources anything
 here can pay. All thirteen now use the same notation the hero's Join the Fight
