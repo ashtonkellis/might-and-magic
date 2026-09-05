@@ -352,7 +352,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 
 <header class="top">
   <div class="spectrum"></div>
-  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V67</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
+  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V68</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
   <p class="sub">In the colors of the class each card was chosen for.
      Every card in the game: twenty-one heroes, six resources, and twelve cards
      for each class. Art appears as it lands in <code>art/</code>; a card whose
@@ -365,6 +365,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
     <select id="f-class"><option value="">Everything</option>
       <option value="heroes">Heroes</option>
       <option value="resources">Resources</option>
+      <option value="tokens">Tokens</option>
       <option value="classcards">Class cards</option></select></div>
   <div class="field"><label for="f-type">Type</label><select id="f-type"><option value="">Any</option></select></div>
   <div class="field"><label for="f-cost">Cost</label><select id="f-cost"><option value="">Any</option></select></div>
@@ -400,6 +401,21 @@ const RESOURCE_CARDS = RESOURCES.map(r => ({
   ink:r.ink, element:r.element, hex:r.hex,
   art:`art/resources/${r.ink.toLowerCase()}.png`,
 }));
+/* The one token in the game: a +1/+1 upgrade that fourteen cards across seven
+   classes hand out. It belongs to no class, which is why it is here rather than
+   in card-list.json and why it takes the neutral grey frame -- BY_SLUG has no
+   entry for a null class, and the fallback gradient is already the right look
+   for a card that is nobody's. Its art comes through art/index.json like every
+   other card's, keyed on the id. */
+const TOKEN_CARDS = [{
+  id:'TOK-EXPERIENCE', kind:'token', 'class':null,
+  name:'Experience', type:'Token Upgrade',
+  cost:0, power:1, hp:1, unique:false,
+  aspects:[], keywords:[], traitCount:0,
+  text:'Attach to a unit.\nAttached unit gets +1/+1.',
+  backText:null, epicAction:null,
+}];
+
 const esc = s => String(s).replace(/[&<>"]/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
 const $ = id => document.getElementById(id);
 let CARDS = [];
@@ -540,7 +556,7 @@ function cardHTML(c){
                    : `${wash}, linear-gradient(90deg,#6B6879 0 44%,#423E55 56% 100%)`;
   // a spell has no power or HP: leave the grid cell empty rather than render an
   // empty shape, which otherwise takes height and squeezes the art
-  const isUp = c.type === 'Upgrade';
+  const isUp = c.type.endsWith('Upgrade');
   const stat = (v, cls) => v === null || v === undefined || isUp
       ? '<span></span>' : `<span class="stat ${cls}">${esc(v)}</span>`;
   const corner = (v, cls, side) => !isUp || v === null || v === undefined
@@ -580,11 +596,13 @@ function apply(){
   const out = CARDS.filter(c => {
     // a resource belongs to an ink, not a class, so every class-shaped filter
     // value excludes it -- it shows under its own option and under Everything
-    const isRes = c.kind === 'resource', isHero = c.kind === 'hero';
+    const isRes = c.kind === 'resource', isHero = c.kind === 'hero',
+          isTok = c.kind === 'token';
     if (cls === 'heroes') { if (!isHero) return false; }
     else if (cls === 'resources') { if (!isRes) return false; }
-    else if (cls === 'classcards') { if (isRes || isHero) return false; }
-    else if (cls) { if (isRes || isHero || c['class'] !== cls) return false; }
+    else if (cls === 'tokens') { if (!isTok) return false; }
+    else if (cls === 'classcards') { if (isRes || isHero || isTok) return false; }
+    else if (cls) { if (isRes || isHero || isTok || c['class'] !== cls) return false; }
     if (ty && c.type !== ty) return false;
     if (co !== '' && String(c.cost) !== co) return false;
     if (q && !(c.text || '').toLowerCase().includes(q)) return false;
@@ -619,7 +637,7 @@ Promise.all([
   // Only cards that are in the game. The 503 unassigned corpus cards were raw
   // material for choosing the twelves; keeping them in the browser put a Hero
   // type in the dropdown that matched nothing a player owns.
-  CARDS = HERO_CARDS.concat(RESOURCE_CARDS).concat(d.data.filter(c => c['class']).sort((a, b) =>
+  CARDS = HERO_CARDS.concat(RESOURCE_CARDS).concat(TOKEN_CARDS).concat(d.data.filter(c => c['class']).sort((a, b) =>
       (order[a['class']] ?? 99) - (order[b['class']] ?? 99) ||
       (a.cost ?? -1) - (b.cost ?? -1) || a.id.localeCompare(b.id)));
   const sel = $('f-class');
@@ -629,6 +647,7 @@ Promise.all([
   setOpt('', `Everything (${CARDS.length})`);
   setOpt('heroes', `Heroes (${HERO_CARDS.length})`);
   setOpt('resources', `Resources (${RESOURCE_CARDS.length})`);
+  setOpt('tokens', `Tokens (${TOKEN_CARDS.length})`);
   setOpt('classcards', `Class cards (${CARDS.filter(c => c['class'] && !c.kind).length})`);
   CLASSES.forEach(c => {
     const n = CARDS.filter(x => x['class'] === c.slug).length;

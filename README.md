@@ -33,6 +33,22 @@ cost, so an 8-cost two-aspect card reads as two colours over a 6. A pure class
 shows two pips of one colour and a blend one of each, which makes colour
 identity readable without reading anything.
 
+### The Experience token
+
+One card, and the second thing here that is ours rather than adapted from the
+corpus, so it is defined in `index.html` beside the resources for the same
+reason. It is a **Token Upgrade** costing 0 that attaches to a unit and gives it
++1/+1 — the token fourteen cards across seven classes already hand out, which
+until now existed only as a phrase in other cards' rules text.
+
+It belongs to no class, and that is the whole design of it. `BY_SLUG` has no
+entry for a null class, so it falls to the neutral grey frame the corpus cards
+use when unassigned, which is already the right look for a card that is
+nobody's. Its art prompt spends a paragraph forbidding any element, glow or
+class colour for the same reason. It sits under its own **Tokens** filter and
+under Everything, and every class-shaped filter excludes it, so *Class cards*
+stays 252.
+
 ### Resource cards
 
 Six cards, one per ink, and the only ones that are ours rather than adapted

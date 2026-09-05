@@ -52,6 +52,17 @@ URL with no other context.
 
 [`all.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/all.txt) holds all six in one file.
 
+## The Experience token
+
+[`experience-token.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/experience-token.txt)
+— the one token in the game, a +1/+1 upgrade that fourteen cards across seven
+classes hand out. It belongs to no class, so it carries no house style and no
+ink: the prompt spends a paragraph forbidding any element, glow or class colour,
+because every other prompt in this folder is trying to look like something in
+particular and this one has to look like nothing in particular. Its art slot is
+the ordinary 3:2 landscape every class card uses. Save it as
+`art/TOK-EXPERIENCE.webp` and rebuild the manifest.
+
 ## Running them
 
 Each prompt goes in a **fresh chat**. Running the second in the same thread as
