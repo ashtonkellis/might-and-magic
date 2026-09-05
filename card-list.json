@@ -702,7 +702,7 @@
         "Smuggle"
       ],
       "traitCount": 3,
-      "text": "Grit \nEach other friendly unit gains Grit. \nSmuggle [7 resources Vigilance Villainy, deal 4 damage to a friendly unit]",
+      "text": "Grit \nEach other friendly unit gains Grit. \nSmuggle [GP5, deal 4 damage to a friendly unit]",
       "backText": null,
       "epicAction": null
     },
@@ -969,7 +969,7 @@
         "Smuggle"
       ],
       "traitCount": 2,
-      "text": "Grit \nWhen Played: You may defeat a unit with 5 or less remaining HP. \nSmuggle [9 resources Aggression Heroism]",
+      "text": "Grit \nWhen Played: You may defeat a unit with 5 or less remaining HP. \nSmuggle [PS7]",
       "backText": null,
       "epicAction": null
     },
@@ -1010,7 +1010,7 @@
         "Smuggle"
       ],
       "traitCount": 2,
-      "text": "While an enemy unit is upgraded, this unit gains Bodyguard. \nSmuggle [6 resources Vigilance] (If this card is a resource, you may play her for her smuggle cost. Replace her with the top card of your deck.)",
+      "text": "While an enemy unit is upgraded, this unit gains Bodyguard. \nSmuggle [RB4] (If this card is a resource, you may play her for her smuggle cost. Replace her with the top card of your deck.)",
       "backText": null,
       "epicAction": null
     },
@@ -1439,9 +1439,11 @@
       "aspects": [
         "Vigilance"
       ],
-      "keywords": [],
+      "keywords": [
+        "Smuggle"
+      ],
       "traitCount": 1,
-      "text": "Heal 2 damage from a unit and give an Experience token to it.\nSmuggle [3 resources Vigilance] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
+      "text": "Heal 2 damage from a unit and give an Experience token to it.\nSmuggle [RG1] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
       "backText": null,
       "epicAction": null
     },
@@ -1851,7 +1853,7 @@
         "Smuggle"
       ],
       "traitCount": 1,
-      "text": "On Attack: Give another friendly unit +2/+2 for this phase. \nSmuggle [4 resources Command Heroism] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
+      "text": "On Attack: Give another friendly unit +2/+2 for this phase. \nSmuggle [AG2] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
       "backText": null,
       "epicAction": null
     },
@@ -2053,7 +2055,7 @@
         "Smuggle"
       ],
       "traitCount": 1,
-      "text": "When Defeated: You may defeat a friendly resource. If you do, put this unit into play as a resource. \nSmuggle [6 resources Command Command]",
+      "text": "When Defeated: You may defeat a friendly resource. If you do, put this unit into play as a resource. \nSmuggle [PP4]",
       "backText": null,
       "epicAction": null
     },
@@ -2431,9 +2433,11 @@
       "aspects": [
         "Command"
       ],
-      "keywords": [],
+      "keywords": [
+        "Smuggle"
+      ],
       "traitCount": 1,
-      "text": "Search the top 10 cards of your deck for a [TRAIT A], [TRAIT C], or [TRAIT B] card, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order.) \nSmuggle [3 resources [command]]",
+      "text": "Search the top 10 cards of your deck for a [TRAIT A], [TRAIT C], or [TRAIT B] card, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order.) \nSmuggle [GS1]",
       "backText": null,
       "epicAction": null
     },
@@ -2467,9 +2471,11 @@
       "aspects": [
         "Command"
       ],
-      "keywords": [],
+      "keywords": [
+        "Smuggle"
+      ],
       "traitCount": 1,
-      "text": "Play a unit from your hand. Give it Ambush for this phase. (When you play it, it may ready and attack an enemy unit.) \nSmuggle [2 resources Command] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
+      "text": "Play a unit from your hand. Give it Ambush for this phase. (When you play it, it may ready and attack an enemy unit.) \nSmuggle [RS] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
       "backText": null,
       "epicAction": null
     },
@@ -3061,7 +3067,7 @@
         "Smuggle"
       ],
       "traitCount": 1,
-      "text": "When Played: Deal 1 damage to each hero. \nSmuggle [3 resources Aggression] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
+      "text": "When Played: Deal 1 damage to each hero. \nSmuggle [RR1] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
       "backText": null,
       "epicAction": null
     },
@@ -3513,7 +3519,7 @@
         "Smuggle"
       ],
       "traitCount": 1,
-      "text": "When Played: Look at an opponent's hand. You may discard 1 of those cards. If you do, that player draws a card. \nSmuggle [4 resources Cunning Villainy]",
+      "text": "When Played: Look at an opponent's hand. You may discard 1 of those cards. If you do, that player draws a card. \nSmuggle [RP2]",
       "backText": null,
       "epicAction": null
     },
@@ -3875,7 +3881,7 @@
         "Smuggle"
       ],
       "traitCount": 3,
-      "text": "If you play this unit from your hand, it gains Ambush. \nSmuggle [6 resources Cunning Heroism] (If this card is a resource, you may play her for her smuggle cost. Replace her with the top card of your deck.)",
+      "text": "If you play this unit from your hand, it gains Ambush. \nSmuggle [GB4] (If this card is a resource, you may play her for her smuggle cost. Replace her with the top card of your deck.)",
       "backText": null,
       "epicAction": null
     },
@@ -4255,9 +4261,11 @@
       "aspects": [
         "Cunning"
       ],
-      "keywords": [],
+      "keywords": [
+        "Smuggle"
+      ],
       "traitCount": 2,
-      "text": "Attach to a unit. \nWhen Played: Give a Shield token to attached unit. At the start of the rest phase, defeat that token.\nSmuggle [4 resources Cunning]",
+      "text": "Attach to a unit. \nWhen Played: Give a Shield token to attached unit. At the start of the rest phase, defeat that token.\nSmuggle [BP2]",
       "backText": null,
       "epicAction": null
     },
@@ -4725,7 +4733,7 @@
         "Smuggle"
       ],
       "traitCount": 1,
-      "text": "Heal 3 damage from your hero. \nSmuggle [3 resources Heroism] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
+      "text": "Heal 3 damage from your hero. \nSmuggle [AP1] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
       "backText": null,
       "epicAction": null
     },

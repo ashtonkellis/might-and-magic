@@ -201,6 +201,14 @@ one. The 503 unassigned corpus cards keep their original SWU wording, leaders
 included — they are reference material for mechanics, and rewriting them would
 cost them that.
 
+**Smuggle costs are written in this game's inks.** The corpus priced them in SWU
+aspects — `Smuggle [3 resources Vigilance]` — which are not resources anything
+here can pay. All thirteen now use the same notation the hero's Join the Fight
+cost uses: the class's two ink letters, then any generic, so the Shaman's
+`Ash-Fed Salve` reads `Smuggle [RG1]`. Each card keeps the total SWU gave it, so
+the premium over its printed cost is unchanged; only the coloured half was
+restated. One card's brackets were unbalanced in the corpus and are now closed.
+
 **Sentinel is called Bodyguard here**, after the equivalent keyword in Disney
 Lorcana, on all 20 cards that carry it and in every reminder that names it —
 including Saboteur's, which ignores it. Only the word changed: it still gates a

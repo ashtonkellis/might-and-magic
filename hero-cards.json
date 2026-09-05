@@ -35,7 +35,7 @@
       "back": {
         "power": 3,
         "hp": 6,
-        "ability": "When an attack ends: Look at the top card of your deck. You may play it, discard it, or leave it on top of your deck. If you play it, it costs 1 less."
+        "ability": "When the rest phase starts: Look at the top card of your deck. You may play it, discard it, or leave it on top of your deck. If you play it, it costs 1 less."
       },
       "join": {
         "total": 3,
