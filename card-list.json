@@ -1461,7 +1461,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Exhaust a unit. You may rescue a captured card guarded by that unit.",
+      "text": "Exhaust a unit. You may return a unit it has captured to play under its owner’s control.",
       "backText": null,
       "epicAction": null
     },
@@ -1751,7 +1751,9 @@
         "Command",
         "Villainy"
       ],
-      "keywords": [],
+      "keywords": [
+        "Overwhelm"
+      ],
       "traitCount": 3,
       "text": "Overwhelm\nWhen Played: Choose any number of friendly units. Each of those units captures an enemy unit in the same flank.",
       "backText": null,
@@ -3640,9 +3642,12 @@
         "Cunning",
         "Villainy"
       ],
-      "keywords": [],
+      "keywords": [
+        "Shielded",
+        "Capture"
+      ],
       "traitCount": 1,
-      "text": "Shielded (When you play this unit, give a Shield token to it.)\nWhen Played: Capture an enemy unit. (It is guarded by this unit, and returns to play under its owner’s control when this unit leaves play.)",
+      "text": "Shielded (When you play this unit, give a Shield token to it.)\nCapture (When you play this unit, capture an enemy unit. It returns to play under its owner’s control when this unit leaves play.)",
       "backText": null,
       "epicAction": null
     },
@@ -4579,7 +4584,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Discard a captured card guarded by a friendly unit.",
+      "text": "Choose a unit captured by a friendly unit. Discard it.",
       "backText": null,
       "epicAction": null
     },
@@ -10394,7 +10399,9 @@
         "Vigilance",
         "Villainy"
       ],
-      "keywords": [],
+      "keywords": [
+        "Exploit"
+      ],
       "traitCount": 3,
       "text": "Exploit 2 (While playing this card, defeat up to 2 units you control. This card costs 2 less for each unit defeated this way.) \nOn Attack: Give an enemy unit -2/-2 for this phase.",
       "backText": null,
@@ -10633,9 +10640,7 @@
         "Vigilance",
         "Heroism"
       ],
-      "keywords": [
-        "Grit"
-      ],
+      "keywords": [],
       "traitCount": 3,
       "text": "While you control 3 or more units, this unit gets +1/+0 for each damage on it.\nWhen Played: Choose a hero. Heal 1 damage from it for each unit you control.",
       "backText": null,
@@ -10654,9 +10659,7 @@
         "Vigilance",
         "Heroism"
       ],
-      "keywords": [
-        "Restore"
-      ],
+      "keywords": [],
       "traitCount": 1,
       "text": "If you control 3 or more Red units, this upgrade costs 2 less to play.\nAttached unit gains: \"While you control 3 or more units, when this unit attacks, heal 2 damage from your hero.\"",
       "backText": null,
@@ -11712,9 +11715,7 @@
       "aspects": [
         "Command"
       ],
-      "keywords": [
-        "Ambush"
-      ],
+      "keywords": [],
       "traitCount": 3,
       "text": "While you control 3 or more units, including this one, this unit may ready and attack an enemy unit when you play it.",
       "backText": null,
@@ -12821,9 +12822,7 @@
       "aspects": [
         "Aggression"
       ],
-      "keywords": [
-        "Raid"
-      ],
+      "keywords": [],
       "traitCount": 3,
       "text": "While you control 3 or more units, this unit gets +2/+0 while attacking.\nWhen Defeated: Deal 1 damage to each enemy unit.",
       "backText": null,

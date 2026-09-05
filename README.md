@@ -247,6 +247,15 @@ cost uses: the class's two ink letters, then any generic, so the Shaman's
 the premium over its printed cost is unchanged; only the coloured half was
 restated. One card's brackets were unbalanced in the corpus and are now closed.
 
+**Capture is a keyword.** A unit with Capture takes an enemy unit when it is
+played, and that unit comes back under its owner's control when the captor
+leaves play — the effect other games spell as exiling something for as long as
+the exiler is around. It is on one card, `Warden of Held Moments`, and the term
+it defines is used by three others: `The Whole Field Conscripted` makes captures,
+`Held Still` returns one, `Discarded Prisoner` discards one. Two SWU leftovers
+went with it — `rescue`, which nothing in this game defined, and "captured card",
+since what gets captured here is a unit.
+
 **Sentinel is called Bodyguard here**, after the equivalent keyword in Disney
 Lorcana, on all 20 cards that carry it and in every reminder that names it —
 including Saboteur's, which ignores it. Only the word changed: it still gates a
