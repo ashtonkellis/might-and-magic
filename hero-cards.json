@@ -343,7 +343,7 @@
       "back": {
         "power": 5,
         "hp": 4,
-        "ability": "On Attack: The next unit you play this phase gains Hidden."
+        "ability": "On Attack: The next unit you play this phase gains Hidden. (A Hidden unit can't be attacked or targeted by enemies until it attacks or is damaged.)"
       },
       "join": {
         "total": 3,
