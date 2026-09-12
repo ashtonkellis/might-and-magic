@@ -43,7 +43,7 @@
         "Grit"
       ],
       "traitCount": 1,
-      "text": "Grit\nAction [{1}, {exhaust}]: Deal 2 damage to a friendly unit. Then, give a Shield token to it.",
+      "text": "Grit (This unit gets +1/+0 for each damage on it.)\nAction [{1}, {exhaust}]: Deal 2 damage to a friendly unit. Then, give a Shield token to it.",
       "backText": null,
       "epicAction": null
     },
@@ -594,7 +594,7 @@
         "Shielded"
       ],
       "traitCount": 2,
-      "text": "Shielded \nAction [{exhaust}]: Choose a unit. For this phase, it gains: \"Bounty - Heal 5 damage from a Commander.\" (When this unit is defeated or captured, its opponent collects its bounty.)",
+      "text": "Shielded (When you play this unit, give a Shield token to it.)\nAction [{exhaust}]: Choose a unit. For this phase, it gains: \"Bounty - Heal 5 damage from a Commander.\" (When this unit is defeated or captured, your opponent collects its bounty.)",
       "backText": null,
       "epicAction": null
     },
@@ -637,7 +637,7 @@
         "Grit"
       ],
       "traitCount": 1,
-      "text": "Grit \nWhile this unit is exhausted, she gains, \"Bounty - Deal 5 damage to a Commander.\" (When this unit is defeated or captured, your opponent collects its bounty.)",
+      "text": "Grit (This unit gets +1/+0 for each damage on it.)\nWhile this unit is exhausted, she gains, \"Bounty - Deal 5 damage to a Commander.\" (When this unit is defeated or captured, your opponent collects its bounty.)",
       "backText": null,
       "epicAction": null
     },
@@ -702,7 +702,7 @@
         "Smuggle"
       ],
       "traitCount": 3,
-      "text": "Grit \nEach other friendly unit gains Grit. \nSmuggle [{G}{P}{5}, deal 4 damage to a friendly unit]",
+      "text": "Grit (This unit gets +1/+0 for each damage on it.)\nEach other friendly unit gains Grit. \nSmuggle [{G}{P}{5}, deal 4 damage to a friendly unit] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
       "backText": null,
       "epicAction": null
     },
@@ -723,7 +723,7 @@
         "Bodyguard"
       ],
       "traitCount": 3,
-      "text": "Bodyguard\nEach enemy unit gets -2/-2.",
+      "text": "Bodyguard (Units in this flank can't attack your non-Bodyguard units or your Commander.)\nEach enemy unit gets -2/-2.",
       "backText": null,
       "epicAction": null
     },
@@ -886,7 +886,7 @@
         "Shielded"
       ],
       "traitCount": 1,
-      "text": "Shielded (When you play this unit, give a Shield token to her.) \nOn Attack: You may defeat a Shield token on a friendly unit. If you do, give 2 Experience tokens to that unit.",
+      "text": "Shielded (When you play this unit, give a Shield token to it.) \nOn Attack: You may defeat a Shield token on a friendly unit. If you do, give 2 Experience tokens to that unit.",
       "backText": null,
       "epicAction": null
     },
@@ -969,7 +969,7 @@
         "Smuggle"
       ],
       "traitCount": 2,
-      "text": "Grit \nWhen Played: You may defeat a unit with 5 or less remaining HP. \nSmuggle [{P}{S}{7}]",
+      "text": "Grit (This unit gets +1/+0 for each damage on it.)\nWhen Played: You may defeat a unit with 5 or less remaining HP. \nSmuggle [{P}{S}{7}] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
       "backText": null,
       "epicAction": null
     },
@@ -1010,7 +1010,7 @@
         "Smuggle"
       ],
       "traitCount": 2,
-      "text": "While an enemy unit is upgraded, this unit gains Bodyguard. \nSmuggle [{R}{B}{4}] (If this card is a resource, you may play her for her smuggle cost. Replace her with the top card of your deck.)",
+      "text": "While an enemy unit is upgraded, this unit gains Bodyguard. (Units in this flank can't attack your non-Bodyguard units or your Commander.) \nSmuggle [{R}{B}{4}] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
       "backText": null,
       "epicAction": null
     },
@@ -1124,7 +1124,7 @@
         "Bounty"
       ],
       "traitCount": 1,
-      "text": "Bounty - Deal 3 damage to a unit. \nWhen Defeated: Give 2 Experience tokens to a friendly unit. (The active player chooses the order of this unit's abilities.)",
+      "text": "Bounty - Deal 3 damage to a unit. (When this unit is defeated or captured, your opponent collects its bounty.) \nWhen Defeated: Give 2 Experience tokens to a friendly unit. (The active player chooses the order of this unit's abilities.)",
       "backText": null,
       "epicAction": null
     },
@@ -1315,7 +1315,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Attached unit gains: \"Bounty - Give a Shield token to a unit.\" (When this unit is defeated or captured, its opponent collects its bounty.)",
+      "text": "Attached unit gains: \"Bounty - Give a Shield token to a unit.\" (When this unit is defeated or captured, your opponent collects its bounty.)",
       "backText": null,
       "epicAction": null
     },
@@ -1369,7 +1369,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Attached unit gains: \"Bounty - Heal 4 damage from a unit or Commander. If this unit is unique, heal 6 damage instead.\" (When this unit is defeated or captured, its opponent collects its bounty.)",
+      "text": "Attached unit gains: \"Bounty - Heal 4 damage from a unit or Commander. If this unit is unique, heal 6 damage instead.\" (When this unit is defeated or captured, your opponent collects its bounty.)",
       "backText": null,
       "epicAction": null
     },
@@ -1461,7 +1461,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Exhaust a unit. You may return a unit it has captured to play under its owner’s control.",
+      "text": "Exhaust a unit. You may return a unit it has captured to play under its owner's control.",
       "backText": null,
       "epicAction": null
     },
@@ -1731,7 +1731,7 @@
       ],
       "keywords": [
         "Ambush",
-        "Overwhelm"
+        "Trample"
       ],
       "traitCount": 2,
       "text": "AMBUSH, OVERWHELM\nOn Attack: You may choose another friendly Red unit. If you do, all damage that would be dealt to this unit during this attack is dealt to the chosen unit instead.",
@@ -1752,10 +1752,10 @@
         "Villainy"
       ],
       "keywords": [
-        "Overwhelm"
+        "Trample"
       ],
       "traitCount": 3,
-      "text": "Overwhelm\nWhen Played: Choose any number of friendly units. Each of those units captures an enemy unit in the same flank.",
+      "text": "Trample (When attacking an enemy unit, deal excess damage to the opponent's Commander.)\nWhen Played: Choose any number of friendly units. Each of those units captures an enemy unit in the same flank.",
       "backText": null,
       "epicAction": null
     },
@@ -1898,7 +1898,7 @@
         "Restore"
       ],
       "traitCount": 2,
-      "text": "Restore 2 \nWhen Played: You may discard a card from your hand. Give 2 Experience tokens to a unit in play with the same name as the discarded card.",
+      "text": "Restore 2 (When this unit attacks, heal 2 damage from your Commander.)\nWhen Played: You may discard a card from your hand. Give 2 Experience tokens to a unit in play with the same name as the discarded card.",
       "backText": null,
       "epicAction": null
     },
@@ -1960,7 +1960,7 @@
         "Ambush"
       ],
       "traitCount": 3,
-      "text": "Ambush \nWhen Played: Choose a card in your discard pile. Put it into play as a resource if it shares a name with a unit you control.",
+      "text": "Ambush (When you play this unit, it may ready and attack an enemy unit.)\nWhen Played: Choose a card in your discard pile. Put it into play as a resource if it shares a name with a unit you control.",
       "backText": null,
       "epicAction": null
     },
@@ -2057,7 +2057,7 @@
         "Smuggle"
       ],
       "traitCount": 1,
-      "text": "When Defeated: You may defeat a friendly resource. If you do, put this unit into play as a resource. \nSmuggle [{P}{P}{4}]",
+      "text": "When Defeated: You may defeat a friendly resource. If you do, put this unit into play as a resource. \nSmuggle [{P}{P}{4}] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
       "backText": null,
       "epicAction": null
     },
@@ -2347,7 +2347,7 @@
         "Ambush"
       ],
       "traitCount": 2,
-      "text": "Ambush \nWhen this unit attacks and defeats a unit: Put the defeated unit into play as a resource under your control.",
+      "text": "Ambush (When you play this unit, it may ready and attack an enemy unit.)\nWhen this unit attacks and defeats a unit: Put the defeated unit into play as a resource under your control.",
       "backText": null,
       "epicAction": null
     },
@@ -2365,7 +2365,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Attached unit gains: \"Bounty - Search the top 5 cards of your deck, or 10 cards instead if this unit is unique, for a unit that costs 3 or less and play it for free.\" (Put the other cards on the bottom of your deck in a random order.)",
+      "text": "Attached unit gains: \"Bounty - Search the top 5 cards of your deck, or 10 cards instead if this unit is unique, for a unit that costs 3 or less and play it for free.\" (Put the other cards on the bottom of your deck in a random order.) (When this unit is defeated or captured, your opponent collects its bounty.)",
       "backText": null,
       "epicAction": null
     },
@@ -2439,7 +2439,7 @@
         "Smuggle"
       ],
       "traitCount": 1,
-      "text": "Search the top 10 cards of your deck for a Green or Steel card, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order.) \nSmuggle [{G}{S}{1}]",
+      "text": "Search the top 10 cards of your deck for a Green or Steel card, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order.) \nSmuggle [{G}{S}{1}] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
       "backText": null,
       "epicAction": null
     },
@@ -2971,7 +2971,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Attached unit gains: \"Action [{2}, defeat an Experience token on this unit]: Attack with this unit. It gets +4/+0 and gains Overwhelm for this attack.\"",
+      "text": "Attached unit gains: \"Action [{2}, defeat an Experience token on this unit]: Attack with this unit. It gets +4/+0 and gains Trample for this attack.\" (When attacking an enemy unit, deal excess damage to the opponent's Commander.)",
       "backText": null,
       "epicAction": null
     },
@@ -3027,10 +3027,10 @@
         "Aggression"
       ],
       "keywords": [
-        "Overwhelm"
+        "Trample"
       ],
       "traitCount": 1,
-      "text": "Overwhelm \nWhen Played: Deal 2 damage to each other unit.",
+      "text": "Trample (When attacking an enemy unit, deal excess damage to the opponent's Commander.)\nWhen Played: Deal 2 damage to each other unit.",
       "backText": null,
       "epicAction": null
     },
@@ -3089,7 +3089,7 @@
         "Bounty"
       ],
       "traitCount": 3,
-      "text": "When Played: If you played this unit from your hand, an opponent takes control of it. \nBounty - If you own this unit, play it from your discard pile for free and give an Experience token to it.",
+      "text": "When Played: If you played this unit from your hand, an opponent takes control of it. \nBounty - If you own this unit, play it from your discard pile for free and give an Experience token to it. (When this unit is defeated or captured, your opponent collects its bounty.)",
       "backText": null,
       "epicAction": null
     },
@@ -3166,7 +3166,7 @@
         "Saboteur"
       ],
       "traitCount": 3,
-      "text": "Saboteur \nWhile this unit is exhausted, it gains: \"Bounty - Heal 5 damage from a Commander.\" (When this unit is defeated or captured, your opponent collects its bounty.)",
+      "text": "Saboteur (When this unit attacks, ignore Bodyguard and defeat the defender's Shields.)\nWhile this unit is exhausted, it gains: \"Bounty - Heal 5 damage from a Commander.\" (When this unit is defeated or captured, your opponent collects its bounty.)",
       "backText": null,
       "epicAction": null
     },
@@ -3521,7 +3521,7 @@
         "Smuggle"
       ],
       "traitCount": 1,
-      "text": "When Played: Look at an opponent's hand. You may discard 1 of those cards. If you do, that player draws a card. \nSmuggle [{R}{P}{2}]",
+      "text": "When Played: Look at an opponent's hand. You may discard 1 of those cards. If you do, that player draws a card. \nSmuggle [{R}{P}{2}] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
       "backText": null,
       "epicAction": null
     },
@@ -3647,7 +3647,7 @@
         "Capture"
       ],
       "traitCount": 1,
-      "text": "Shielded (When you play this unit, give a Shield token to it.)\nCapture (When you play this unit, capture an enemy unit. It returns to play under its owner’s control when this unit leaves play.)",
+      "text": "Shielded (When you play this unit, give a Shield token to it.)\nCapture (When you play this unit, capture an enemy unit. It returns to play under its owner's control when this unit leaves play.)",
       "backText": null,
       "epicAction": null
     },
@@ -3886,7 +3886,7 @@
         "Smuggle"
       ],
       "traitCount": 3,
-      "text": "If you play this unit from your hand, it gains Ambush. \nSmuggle [{G}{B}{4}] (If this card is a resource, you may play her for her smuggle cost. Replace her with the top card of your deck.)",
+      "text": "If you play this unit from your hand, it gains Ambush. (When you play this unit, it may ready and attack an enemy unit.) \nSmuggle [{G}{B}{4}] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
       "backText": null,
       "epicAction": null
     },
@@ -4232,7 +4232,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Attached unit gains: \"Bounty - Search the top 10 cards of your deck for 2 non-unit cards, reveal them, and draw them. (Put the other cards on the bottom of your deck in a random order.) Then, if this unit isn't unique, discard a card from your hand.\"",
+      "text": "Attached unit gains: \"Bounty - Search the top 10 cards of your deck for 2 non-unit cards, reveal them, and draw them. (Put the other cards on the bottom of your deck in a random order.) Then, if this unit isn't unique, discard a card from your hand.\" (When this unit is defeated or captured, your opponent collects its bounty.)",
       "backText": null,
       "epicAction": null
     },
@@ -4270,7 +4270,7 @@
         "Smuggle"
       ],
       "traitCount": 2,
-      "text": "Attach to a unit. \nWhen Played: Give a Shield token to attached unit. At the start of the rest phase, defeat that token.\nSmuggle [{B}{P}{2}]",
+      "text": "Attach to a unit. \nWhen Played: Give a Shield token to attached unit. At the start of the rest phase, defeat that token.\nSmuggle [{B}{P}{2}] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
       "backText": null,
       "epicAction": null
     },
@@ -4360,7 +4360,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Attack with a unit. It gains Saboteur and can attack units in any flank for this attack. If it attacks a unit, it gets +2/+0 and the defender gets -2/-0 for this attack.",
+      "text": "Attack with a unit. It gains Saboteur and can attack units in any flank for this attack. (When this unit attacks, ignore Bodyguard and defeat the defender's Shields.) If it attacks a unit, it gets +2/+0 and the defender gets -2/-0 for this attack.",
       "backText": null,
       "epicAction": null
     },
@@ -4449,10 +4449,10 @@
         "Villainy"
       ],
       "keywords": [
-        "Overwhelm"
+        "Trample"
       ],
       "traitCount": 2,
-      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's Commander.) \nWhen Played: Deal 2 damage to a friendly unit.",
+      "text": "Trample (When attacking an enemy unit, deal excess damage to the opponent's Commander.) \nWhen Played: Deal 2 damage to a friendly unit.",
       "backText": null,
       "epicAction": null
     },
@@ -4886,7 +4886,7 @@
       "aspects": [],
       "keywords": [],
       "traitCount": 2,
-      "text": "Attached unit gains: \"Bounty - Give an Experience token to each of up to 2 units.\" (When this unit is defeated or captured, its opponent collects its bounty.)",
+      "text": "Attached unit gains: \"Bounty - Give an Experience token to each of up to 2 units.\" (When this unit is defeated or captured, your opponent collects its bounty.)",
       "backText": null,
       "epicAction": null
     },
@@ -4944,7 +4944,7 @@
         "Shielded"
       ],
       "traitCount": 2,
-      "text": "Shielded\nAction [{exhaust}]: If an enemy unit was defeated this phase, heal 1 damage from a Commander.",
+      "text": "Shielded (When you play this unit, give a Shield token to it.)\nAction [{exhaust}]: If an enemy unit was defeated this phase, heal 1 damage from a Commander.",
       "backText": null,
       "epicAction": null
     },
@@ -4966,7 +4966,7 @@
         "Bodyguard"
       ],
       "traitCount": 2,
-      "text": "Grit\nAction [{exhaust}]: Play a unit that costs 3 or less from your hand (paying its cost). It gains Bodyguard for this phase.",
+      "text": "Grit (This unit gets +1/+0 for each damage on it.)\nAction [{exhaust}]: Play a unit that costs 3 or less from your hand (paying its cost). It gains Bodyguard for this phase. (Units in this flank can't attack your non-Bodyguard units or your Commander.)",
       "backText": null,
       "epicAction": null
     },
@@ -6607,7 +6607,7 @@
         "Villainy"
       ],
       "keywords": [
-        "Overwhelm",
+        "Trample",
         "Bodyguard"
       ],
       "traitCount": 3,
@@ -6851,7 +6851,7 @@
         "Restore"
       ],
       "traitCount": 3,
-      "text": "Restore 2\nEach other friendly unit gains Restore 1.\nWhen Played: Play an Amber unit from your discard pile. It costs 3 less.",
+      "text": "Restore 2 (When this unit attacks, heal 2 damage from your Commander.)\nEach other friendly unit gains Restore 1.\nWhen Played: Play an Amber unit from your discard pile. It costs 3 less.",
       "backText": null,
       "epicAction": null
     },
@@ -7375,10 +7375,10 @@
         "Villainy"
       ],
       "keywords": [
-        "Overwhelm"
+        "Trample"
       ],
       "traitCount": 2,
-      "text": "While attacking a damaged unit, this unit gets +2/+0 and gains Overwhelm. (Deal excess damage to the opponent's Commander.)",
+      "text": "While attacking a damaged unit, this unit gets +2/+0 and gains Trample. (When attacking an enemy unit, deal excess damage to the opponent's Commander.)",
       "backText": null,
       "epicAction": null
     },
@@ -7476,10 +7476,10 @@
         "Villainy"
       ],
       "keywords": [
-        "Overwhelm"
+        "Trample"
       ],
       "traitCount": 4,
-      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's Commander.) \nWhen Played: Deal 6 damage divided as you choose among enemy units.",
+      "text": "Trample (When attacking an enemy unit, deal excess damage to the opponent's Commander.) \nWhen Played: Deal 6 damage divided as you choose among enemy units.",
       "backText": null,
       "epicAction": null
     },
@@ -7657,7 +7657,7 @@
         "Heroism"
       ],
       "keywords": [
-        "Overwhelm"
+        "Trample"
       ],
       "traitCount": 2,
       "text": "OVERWHELM\nWhen Defeated: For each opponent, choose one: either deal 3 damage to that player's Commander, or that player discards a card from their hand.",
@@ -7740,7 +7740,7 @@
         "Ambush"
       ],
       "traitCount": 3,
-      "text": "Ambush\nWhen this unit attacks and defeats a unit: Ready him.",
+      "text": "Ambush (When you play this unit, it may ready and attack an enemy unit.)\nWhen this unit attacks and defeats a unit: Ready him.",
       "backText": null,
       "epicAction": null
     },
@@ -9305,10 +9305,10 @@
         "Villainy"
       ],
       "keywords": [
-        "Overwhelm"
+        "Trample"
       ],
       "traitCount": 3,
-      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's Commander.)",
+      "text": "Trample (When attacking an enemy unit, deal excess damage to the opponent's Commander.)",
       "backText": null,
       "epicAction": null
     },
@@ -9727,7 +9727,7 @@
         "Bodyguard"
       ],
       "traitCount": 3,
-      "text": "Bodyguard\nAction [{exhaust}]: Heal 1 damage from a unit.",
+      "text": "Bodyguard (Units in this flank can't attack your non-Bodyguard units or your Commander.)\nAction [{exhaust}]: Heal 1 damage from a unit.",
       "backText": null,
       "epicAction": null
     },
@@ -9846,10 +9846,10 @@
         "Villainy"
       ],
       "keywords": [
-        "Overwhelm"
+        "Trample"
       ],
       "traitCount": 2,
-      "text": "Action [{exhaust}]: Attack with a unit. It gains Overwhelm for this attack. (When attacking an enemy unit, deal excess damage to the opponent’s Commander.)",
+      "text": "Action [{exhaust}]: Attack with a unit. It gains Trample for this attack. (When attacking an enemy unit, deal excess damage to the opponent's Commander.)",
       "backText": null,
       "epicAction": null
     },
@@ -9870,7 +9870,7 @@
         "Saboteur"
       ],
       "traitCount": 2,
-      "text": "Saboteur\nAction [{1}, {exhaust}]: Deal damage to a unit equal to the number of cards you’ve drawn this phase. (This doesn’t include cards drawn in the rest phase.)",
+      "text": "Saboteur (When this unit attacks, ignore Bodyguard and defeat the defender's Shields.)\nAction [{1}, {exhaust}]: Deal damage to a unit equal to the number of cards you’ve drawn this phase. (This doesn’t include cards drawn in the rest phase.)",
       "backText": null,
       "epicAction": null
     },
@@ -9907,10 +9907,10 @@
         "Heroism"
       ],
       "keywords": [
-        "Overwhelm"
+        "Trample"
       ],
       "traitCount": 3,
-      "text": "Overwhelm\nAction [{exhaust}, deal 2 damage to your Commander]: Attack with a unit. If it’s attacking a unit, it gets +2/+0 for this attack.",
+      "text": "Trample (When attacking an enemy unit, deal excess damage to the opponent's Commander.)\nAction [{exhaust}, deal 2 damage to your Commander]: Attack with a unit. If it’s attacking a unit, it gets +2/+0 for this attack.",
       "backText": null,
       "epicAction": null
     },
@@ -10342,7 +10342,7 @@
         "Restore"
       ],
       "traitCount": 3,
-      "text": "Restore 1 \nOn Attack: You may defeat another friendly unit. If you do, draw a card.",
+      "text": "Restore 1 (When this unit attacks, heal 1 damage from your Commander.)\nOn Attack: You may defeat another friendly unit. If you do, draw a card.",
       "backText": null,
       "epicAction": null
     },
@@ -10425,7 +10425,7 @@
         "Restore"
       ],
       "traitCount": 3,
-      "text": "Exploit 4 \nRestore 2 \nWhen Played: Give an enemy unit -4/-0 for this phase. It can't attack for this phase.",
+      "text": "Exploit 4 (While playing this card, defeat up to 4 units you control. This card costs 2 less for each unit defeated this way.)\nRestore 2 (When this unit attacks, heal 2 damage from your Commander.)\nWhen Played: Give an enemy unit -4/-0 for this phase. It can't attack for this phase.",
       "backText": null,
       "epicAction": null
     },
@@ -11324,7 +11324,7 @@
         "Exploit"
       ],
       "traitCount": 2,
-      "text": "Exploit 1 \nWhen Played: Return up to 3 units that were defeated this phase from your discard pile to your hand.",
+      "text": "Exploit 1 (While playing this card, defeat up to 1 unit you control. This card costs 2 less for each unit defeated this way.)\nWhen Played: Return up to 3 units that were defeated this phase from your discard pile to your hand.",
       "backText": null,
       "epicAction": null
     },
@@ -11846,11 +11846,11 @@
         "Command"
       ],
       "keywords": [
-        "Overwhelm",
+        "Trample",
         "Bodyguard"
       ],
       "traitCount": 3,
-      "text": "Bodyguard (Units in this flank can't attack your non-Bodyguard units or your Commander.) \nOverwhelm (When attacking an enemy unit, deal excess damage to the opponent's Commander.)",
+      "text": "Bodyguard (Units in this flank can't attack your non-Bodyguard units or your Commander.) \nTrample (When attacking an enemy unit, deal excess damage to the opponent's Commander.)",
       "backText": null,
       "epicAction": null
     },
@@ -11867,10 +11867,10 @@
         "Command"
       ],
       "keywords": [
-        "Overwhelm"
+        "Trample"
       ],
       "traitCount": 3,
-      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent’s Commander.)\nWhile you control 3 or more units, each other friendly unit gets +1/+1 and gains Overwhelm.",
+      "text": "Trample (When attacking an enemy unit, deal excess damage to the opponent's Commander.)\nWhile you control 3 or more units, each other friendly unit gets +1/+1 and gains Trample.",
       "backText": null,
       "epicAction": null
     },
@@ -12172,11 +12172,11 @@
         "Villainy"
       ],
       "keywords": [
-        "Overwhelm",
+        "Trample",
         "Saboteur"
       ],
       "traitCount": 2,
-      "text": "While you control another Blue unit, this unit gains Overwhelm and Saboteur. While you control another Steel unit, this unit gets +1/+0.",
+      "text": "While you control another Blue unit, this unit gains Trample and Saboteur. (When attacking an enemy unit, deal excess damage to the opponent's Commander.) (When this unit attacks, ignore Bodyguard and defeat the defender's Shields.) While you control another Steel unit, this unit gets +1/+0.",
       "backText": null,
       "epicAction": null
     },
@@ -12332,10 +12332,10 @@
       ],
       "keywords": [
         "Exploit",
-        "Overwhelm"
+        "Trample"
       ],
       "traitCount": 3,
-      "text": "Exploit 2 \nOverwhelm \nWhen Played: For each unit you exploited while playing this card, you may deal damage to an enemy unit equal to the power of the exploited unit.",
+      "text": "Exploit 2 (While playing this card, defeat up to 2 units you control. This card costs 2 less for each unit defeated this way.)\nTrample (When attacking an enemy unit, deal excess damage to the opponent's Commander.)\nWhen Played: For each unit you exploited while playing this card, you may deal damage to an enemy unit equal to the power of the exploited unit.",
       "backText": null,
       "epicAction": null
     },
@@ -12553,10 +12553,10 @@
         "Heroism"
       ],
       "keywords": [
-        "Overwhelm"
+        "Trample"
       ],
       "traitCount": 3,
-      "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's Commander.) \nWhen Played: Choose an enemy unit. Deal 1 damage to it for each friendly Red unit.",
+      "text": "Trample (When attacking an enemy unit, deal excess damage to the opponent's Commander.) \nWhen Played: Choose an enemy unit. Deal 1 damage to it for each friendly Red unit.",
       "backText": null,
       "epicAction": null
     },
@@ -12577,7 +12577,7 @@
         "Raid"
       ],
       "traitCount": 2,
-      "text": "Raid 2 \nOn Attack: If your Commander has 15 or more damage on it, deal 1 damage to each enemy unit.",
+      "text": "Raid 2 (This unit gets +2/+0 while attacking.)\nOn Attack: If your Commander has 15 or more damage on it, deal 1 damage to each enemy unit.",
       "backText": null,
       "epicAction": null
     },
@@ -13087,10 +13087,10 @@
       ],
       "keywords": [
         "Exploit",
-        "Overwhelm"
+        "Trample"
       ],
       "traitCount": 2,
-      "text": "Exploit 3 \nReady up to 3 units. Each of those units gets +1/+0 and gains Overwhelm for this phase.",
+      "text": "Exploit 3 (While playing this card, defeat up to 3 units you control. This card costs 2 less for each unit defeated this way.)\nReady up to 3 units. Each of those units gets +1/+0 and gains Trample for this phase. (When attacking an enemy unit, deal excess damage to the opponent's Commander.)",
       "backText": null,
       "epicAction": null
     },
@@ -13390,7 +13390,7 @@
         "Ambush"
       ],
       "traitCount": 3,
-      "text": "While you control fewer units than an opponent (including this unit), this unit gains Ambush.\n Action [{2}]: Return this unit and each upgrade on her to their owners' hands.",
+      "text": "While you control fewer units than an opponent (including this unit), this unit gains Ambush. (When you play this unit, it may ready and attack an enemy unit.)\n Action [{2}]: Return this unit and each upgrade on her to their owners' hands.",
       "backText": null,
       "epicAction": null
     },
@@ -13814,7 +13814,7 @@
         "Saboteur"
       ],
       "traitCount": 3,
-      "text": "Saboteur \nWhen you play a spell: You may put a Red unit from your discard pile on the bottom of your deck. If you do, draw a card.",
+      "text": "Saboteur (When this unit attacks, ignore Bodyguard and defeat the defender's Shields.)\nWhen you play a spell: You may put a Red unit from your discard pile on the bottom of your deck. If you do, draw a card.",
       "backText": null,
       "epicAction": null
     },

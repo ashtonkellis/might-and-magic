@@ -338,7 +338,7 @@
       "hero": "Pelt",
       "front": {
         "hp": 15,
-        "ability": "Epic Action: Play a unit from your hand. Give it Ambush for this phase."
+        "ability": "Epic Action: Play a unit from your hand. Give it Ambush for this phase. (When you play it, it may ready and attack an enemy unit.)"
       },
       "back": {
         "power": 5,
@@ -431,7 +431,7 @@
       "back": {
         "power": 2,
         "hp": 5,
-        "ability": "Grit (This unit gets +1/+0 for each damage on it.) Overwhelm (When attacking an enemy unit, deal excess damage to the opponent’s Commander.)"
+        "ability": "Grit (This unit gets +1/+0 for each damage on it.) Trample (When attacking an enemy unit, deal excess damage to the opponent's Commander.)"
       },
       "join": {
         "total": 2,

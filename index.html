@@ -388,7 +388,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 
 <header class="top">
   <div class="spectrum"></div>
-  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V77</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
+  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V78</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
   <p class="sub">In the colors of the class each card was chosen for.
      Every card in the game: twenty-one heroes, six resources, and twelve cards
      for each class. Art appears as it lands in <code>art/</code>; a card whose
@@ -655,9 +655,11 @@ function cardHTML(c){
 
 /* Rules text must fit a fixed box now that the card is a fixed shape. Shrink
    only the cards that overflow, in batched passes so layout is read then
-   written rather than thrashed per card. */
+   written rather than thrashed per card. The last step exists for one card:
+   adding a reminder to every keyword pushed the longest upgrade 4px past the
+   box at .64, and only that card goes below it. */
 function fitRules(root){
-  const steps = [1, .94, .88, .82, .76, .70, .64];
+  const steps = [1, .94, .88, .82, .76, .70, .64, .58];
   let live = [...root.querySelectorAll('.rules')];
   for (let i = 1; i < steps.length && live.length; i++) {
     live = live.filter(el => el.scrollHeight > el.clientHeight + 1);   // read all
