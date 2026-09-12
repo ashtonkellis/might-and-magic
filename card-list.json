@@ -10444,7 +10444,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "If an enemy unit was defeated this phase, play an upgrade from your hand or from any player's discard pile, ignoring its aspect penalty.",
+      "text": "If an enemy unit was defeated this phase, play an upgrade from your hand or from any player's discard pile. You may pay its cost with resources of any color.",
       "backText": null,
       "epicAction": null
     },
