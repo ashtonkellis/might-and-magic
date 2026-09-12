@@ -264,7 +264,7 @@ otherwise open paper -- with one small figure standing at the center of the floo
 facing away, perfectly composed. The hall is full of exact faceted ice growing
 along the floor in straight runs, and it is completely empty of people. Whatever
 was here has already been stopped and taken away. Enormous silence.""",
-        "the-long-freeze": """The widest emptiness in the class: a pale field taking nearly the entire frame,
+        "the-frozen-host": """The widest emptiness in the class: a pale field taking nearly the entire frame,
 and across the lower third a whole army -- both armies -- held motionless in exact
 faceted ice, drawn small and precise and going all the way to the edges. Every
 figure caught in the position it was in. No violence, no wreckage, nothing
