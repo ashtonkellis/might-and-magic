@@ -131,7 +131,7 @@ facing a dense mass of storm survey work drawn coming in from the right -- packe
 isobars, converging barbs, a projection cone whose narrow end is exactly where
 she is standing. Directly behind her, two small flat ink figures, glowing. The
 flight path enters at the left edge and stops at her back.""",
-        "gale-who-lifts-others": """Gale herself, the class leader, drawn above the chart plane in three-quarter
+        "carried-aloft": """Gale herself, the class leader, drawn above the chart plane in three-quarter
 view with one arm extended down toward the paper, glowing from within and
 trailing white-gold vapor from the shoulders and heels. She casts no shadow on
 the map. Beneath her outstretched hand the chart is crowded with small flat
@@ -271,7 +271,7 @@ plain, unremarkable people, all faceted and refracting, all rendered at the
 identical fidelity, none of them foregrounded over the others. There is no hero
 in this picture. The armature is radial and centered on the group rather than on
 any one figure. Spectral fringe along every edge.""",
-        "prism-who-remembers": """Prism herself, the class leader, crossing the frame low and level on one
+        "nothing-forgotten": """Prism herself, the class leader, crossing the frame low and level on one
 unbroken glide path, both feet sliding and neither planted, body constructed from
 flat faceted planes with real refraction and heavy spectral fringing. The
 armature is faintly visible and she is exactly on it. She is not looking ahead:
@@ -422,7 +422,7 @@ plain glazing on the ground, drawing one recognizable form back up out of it, th
 came reassembling around the shape as it rises. Backlit hard from below so the
 recovered form is the brightest passage. Lead creeping up the kneeling figure's
 forearm.""",
-        "mirren-who-persuades-stone": """Mirren herself, the class leader, standing three-quarter view in a dark backlit
+        "stone-persuaded": """Mirren herself, the class leader, standing three-quarter view in a dark backlit
 panel with one hand raised, palm out, toward a mass of cut stone that occupies the
 right half of the picture -- and the stone is halfway through agreeing. Its lower
 panes are heavy and dark; its upper panes are thin, pale and already letting light
@@ -435,7 +435,7 @@ separate objects at four corners are each partway into becoming something else,
 and the came lines connecting them run across the whole picture as one continuous
 network rather than four local ones. Backlit evenly. A single figure at the
 center with both arms out, barely more than lead and shadow.""",
-        "mirren-half-turned-to-smoke": """Mirren much further along, and it is the same panel logic doing it to her.
+        "half-turned-to-smoke": """Mirren much further along, and it is the same panel logic doing it to her.
 Standing full length, backlit, the right side of her still figurative in cobalt
 and amethyst panes -- and the left side, from the shoulder down, already smoke:
 thin pale glass with the light coming straight through and the came opening out
@@ -559,7 +559,7 @@ and silver wire at a density that could only have been done slowly, every line
 flush, the seams invisible. One rune channel runs beneath the whole design and
 lights it from underneath at the joins. Anisotropic highlight streaking hard
 along the grain. Nobody is in the picture but the work.""",
-        "stave-smith-first": """Stave himself, the class leader, inlaid three-quarter view in gold and silver
+        "smith-first": """Stave himself, the class leader, inlaid three-quarter view in gold and silver
 wire on a broad damascus panel, standing at the anvil with the hammer resting head
 down on its face and one hand flat on the finished piece. He is not casting
 anything and there is nothing magical in his posture. The knotwork border runs
@@ -706,7 +706,7 @@ untouched -- and is now, in this instant, uncoiling: one enormous stroke through
 the empty field from the corner where it was to the middle of the sheet, wet and
 black at the start and split dry where it arrives. The waiting is what the
 emptiness records.""",
-        "pelt-who-waits-out-winter": """Pelt themself, the class leader, placed hard off-center in an enormous empty
+        "winter-outlasted": """Pelt themself, the class leader, placed hard off-center in an enormous empty
 field, crouched low with the weight in one corner and two-thirds of the sheet
 untouched. Two or three loaded strokes make the entire figure. The stroke running
 from the shoulder down the near arm changes as it goes -- person, then not, then

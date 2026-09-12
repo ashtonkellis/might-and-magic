@@ -108,7 +108,7 @@ water has slopped over the rim it has already sprouted on the ground behind.""",
 shoulders that have healed as knots of hardwood rather than scar tissue. The
 hardwood is the strongest part of it. Head lowered but not charging -- weight
 set, patient, waiting to be given a reason. Ornament thickening at the corners.""",
-        "briar-patient-as-rot": """Briar herself, the class leader, centered and frontal in a mandorla of
+        "patient-as-rot": """Briar herself, the class leader, centered and frontal in a mandorla of
 overgrowth, bark-scarred forearms crossed, seed pouches at her belt. She is
 looking directly out at the viewer with an expression of enormous, unhurried
 patience -- the look of someone who has already decided to outlast you and does
@@ -238,7 +238,7 @@ occupying a third of the frame in an otherwise empty pale field -- the flank is
 closed and this is why. A shield of exact faceted ice, drawn hard where the
 figure is drawn faintly, has grown across the forearm in straight runs. Nothing
 approaches. Nothing has needed to be struck.""",
-        "crystal-who-preserves": """Crystal herself, the class leader, standing three-quarter view and small in an
+        "preserved-intent": """Crystal herself, the class leader, standing three-quarter view and small in an
 enormous empty pale field, drawn in the faintest silverpoint the class allows.
 Aristocratic bearing, chin level, one hand extended palm-down. Beneath the palm,
 exact faceted ice is running outward across the ground in straight lines with
@@ -381,7 +381,7 @@ heap of coin on one pan and, on the other, something plainly worth more and no
 longer of use to its owner. A tired hand rests on the table beside it, not
 touching either pan. The candle is behind the scale so both pans are rim-lit and
 the middle is dark. A fly on the coin.""",
-        "viol-keeper-of-the-ledger": """Viol himself, the class leader, seated at his table in a three-quarter portrait
+        "keeper-of-the-ledger": """Viol himself, the class leader, seated at his table in a three-quarter portrait
 with the ledger open before him and the pen down. He is looking straight out of
 the frame -- soft-spoken, apologetic, grey with tiredness and entirely
 unstoppable. A single candle just outside the frame lights his hands and half his
@@ -522,7 +522,7 @@ the cleanest surface in the class -- standing easy with the shield not yet raise
 The stone around it is weathered, chipped and stained, so the undamaged figure
 reads as a deliberately preserved passage of carving. It is undamaged because
 nothing has reached it yet.""",
-        "hale-who-does-not-fall": """Hale themself, the class leader, carved frontal and full-length at the center of
+        "still-standing": """Hale themself, the class leader, carved frontal and full-length at the center of
 the frieze, shield grounded, one hand out to the side and open -- steadying
 someone off-frame rather than striking anyone. The armor is old and every repair
 is carved visible: patches, mismatched plates, a seam across the breast where it

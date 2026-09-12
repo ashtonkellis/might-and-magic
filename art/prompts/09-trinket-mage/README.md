@@ -38,7 +38,7 @@ each orientation. The landscape face is Quench at rest among his own inventory; 
 | [`modular-frame.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/09-trinket-mage/modular-frame.txt) | Modular Frame | Unit | 3 |
 | [`countermeasure-rig.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/09-trinket-mage/countermeasure-rig.txt) | Countermeasure Rig | Unit | 4 |
 | [`requisition-clamp.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/09-trinket-mage/requisition-clamp.txt) | Requisition Clamp | Upgrade | 5 |
-| [`quench-all-pockets-full.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/09-trinket-mage/quench-all-pockets-full.txt) | Quench, All Pockets Full | Leader | 6 |
+| [`all-pockets-full.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/09-trinket-mage/all-pockets-full.txt) | All Pockets Full | Unit | 6 |
 | [`borrowed-apparatus.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/09-trinket-mage/borrowed-apparatus.txt) | Borrowed Apparatus | Unit | 7 |
 | [`total-systems-failure.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/09-trinket-mage/total-systems-failure.txt) | Total Systems Failure | Spell | 8 |
 

@@ -38,9 +38,9 @@ each orientation. The landscape face is Mirren at rest, further along than she w
 | [`traded-back.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/14-soulcaster/traded-back.txt) | Traded Back | Unit | 3 |
 | [`two-concessions.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/14-soulcaster/two-concessions.txt) | Two Concessions | Spell | 4 |
 | [`reclaimed-essence.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/14-soulcaster/reclaimed-essence.txt) | Reclaimed Essence | Unit | 5 |
-| [`mirren-who-persuades-stone.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/14-soulcaster/mirren-who-persuades-stone.txt) | Mirren, Who Persuades Stone | Leader | 6 |
+| [`stone-persuaded.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/14-soulcaster/stone-persuaded.txt) | Stone Persuaded | Unit | 6 |
 | [`the-wider-argument.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/14-soulcaster/the-wider-argument.txt) | The Wider Argument | Unit | 6 |
-| [`mirren-half-turned-to-smoke.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/14-soulcaster/mirren-half-turned-to-smoke.txt) | Mirren, Half Turned to Smoke | Leader | 8 |
+| [`half-turned-to-smoke.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/14-soulcaster/half-turned-to-smoke.txt) | Half Turned to Smoke | Unit | 8 |
 
 ## The hero
 

@@ -1,5 +1,5 @@
 Keeper of Kept Things
-Leader · 6 cost
+Unit · 6 cost
 Sorceress · Might & Magic card art
 Paste this whole file into a fresh chat. It is complete on its own.
 

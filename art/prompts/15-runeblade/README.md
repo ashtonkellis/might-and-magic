@@ -38,7 +38,7 @@ each orientation. The landscape face is Stave at rest at his own anvil; the port
 | [`scarred-anvilhand.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/15-runeblade/scarred-anvilhand.txt) | Scarred Anvilhand | Unit | 3 |
 | [`master-inlay.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/15-runeblade/master-inlay.txt) | Master Inlay | Upgrade | 4 |
 | [`rune-transfer.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/15-runeblade/rune-transfer.txt) | Rune Transfer | Unit | 5 |
-| [`stave-smith-first.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/15-runeblade/stave-smith-first.txt) | Stave, Smith First | Leader | 5 |
+| [`smith-first.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/15-runeblade/smith-first.txt) | Smith First | Unit | 5 |
 | [`anvil-guard.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/15-runeblade/anvil-guard.txt) | Anvil Guard | Unit | 6 |
 | [`three-turns-ahead.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/15-runeblade/three-turns-ahead.txt) | Three Turns Ahead | Unit | 8 |
 

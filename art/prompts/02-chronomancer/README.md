@@ -40,7 +40,7 @@ the vertical format carrying the frozen blast standing over her.
 | [`four-futures-read.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/02-chronomancer/four-futures-read.txt) | Four Futures Read | Spell | 3 |
 | [`archivist-of-spent-hours.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/02-chronomancer/archivist-of-spent-hours.txt) | Archivist of Spent Hours | Unit | 4 |
 | [`excised-timeline.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/02-chronomancer/excised-timeline.txt) | Excised Timeline | Spell | 5 |
-| [`vesper-bored-of-victory.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/02-chronomancer/vesper-bored-of-victory.txt) | Vesper, Bored of Victory | Leader | 6 |
+| [`bored-of-victory.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/02-chronomancer/bored-of-victory.txt) | Bored of Victory | Unit | 6 |
 | [`warden-of-held-moments.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/02-chronomancer/warden-of-held-moments.txt) | Warden of Held Moments | Unit | 7 |
 | [`the-long-rehearsal.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/02-chronomancer/the-long-rehearsal.txt) | The Long Rehearsal | Unit | 8 |
 

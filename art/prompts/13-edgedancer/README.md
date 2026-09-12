@@ -37,7 +37,7 @@ each orientation. The landscape face is Prism at rest mid-glide, which is as clo
 | [`found-underfoot.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/13-edgedancer/found-underfoot.txt) | Found Underfoot | Spell | 3 |
 | [`never-quite-still.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/13-edgedancer/never-quite-still.txt) | Never Quite Still | Unit | 3 |
 | [`the-overlooked-arrive.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/13-edgedancer/the-overlooked-arrive.txt) | The Overlooked Arrive | Unit | 4 |
-| [`prism-who-remembers.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/13-edgedancer/prism-who-remembers.txt) | Prism, Who Remembers | Leader | 5 |
+| [`nothing-forgotten.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/13-edgedancer/nothing-forgotten.txt) | Nothing Forgotten | Unit | 5 |
 | [`between-two-breaths.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/13-edgedancer/between-two-breaths.txt) | Between Two Breaths | Unit | 6 |
 | [`glide-past.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/13-edgedancer/glide-past.txt) | Glide Past | Unit | 6 |
 | [`nothing-holds-them.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/13-edgedancer/nothing-holds-them.txt) | Nothing Holds Them | Spell | 12 |

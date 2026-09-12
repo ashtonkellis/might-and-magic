@@ -1,5 +1,5 @@
-Stave, Smith First
-Leader · 5 cost
+Smith First
+Unit · 5 cost
 Runeblade · Might & Magic card art
 Paste this whole file into a fresh chat. It is complete on its own.
 

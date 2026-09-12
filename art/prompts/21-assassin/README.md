@@ -36,8 +36,8 @@ each orientation. The landscape face is Hush at rest, off the clock; the portrai
 | [`clean-entry.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/21-assassin/clean-entry.txt) | Clean Entry | Spell | 2 |
 | [`paid-on-completion.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/21-assassin/paid-on-completion.txt) | Paid on Completion | Unit | 3 |
 | [`finish-the-job.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/21-assassin/finish-the-job.txt) | Finish the Job | Spell | 4 |
-| [`hush-punctual.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/21-assassin/hush-punctual.txt) | Hush, Punctual | Leader | 5 |
 | [`no-witnesses.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/21-assassin/no-witnesses.txt) | No Witnesses | Unit | 5 |
+| [`precisely-on-time.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/21-assassin/precisely-on-time.txt) | Precisely On Time | Unit | 5 |
 | [`reasonable-rates.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/21-assassin/reasonable-rates.txt) | Reasonable Rates | Unit | 5 |
 | [`second-contract.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/21-assassin/second-contract.txt) | Second Contract | Unit | 7 |
 | [`nothing-personal.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/21-assassin/nothing-personal.txt) | Nothing Personal | Unit | 8 |

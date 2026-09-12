@@ -1,5 +1,5 @@
 Windsworn Marshal
-Leader · 6 cost
+Unit · 6 cost
 Windrunner · Might & Magic card art
 Paste this whole file into a fresh chat. It is complete on its own.
 

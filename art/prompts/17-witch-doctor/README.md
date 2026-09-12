@@ -38,7 +38,7 @@ each orientation. The landscape face is Mire at rest among the jars; the portrai
 | [`mender-of-bad-cases.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/17-witch-doctor/mender-of-bad-cases.txt) | Mender of Bad Cases | Unit | 3 |
 | [`spore-physician.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/17-witch-doctor/spore-physician.txt) | Spore Physician | Unit | 3 |
 | [`rot-fed-healer.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/17-witch-doctor/rot-fed-healer.txt) | Rot-Fed Healer | Unit | 4 |
-| [`mire-no-bedside-manner.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/17-witch-doctor/mire-no-bedside-manner.txt) | Mire, No Bedside Manner | Leader | 5 |
+| [`no-bedside-manner.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/17-witch-doctor/no-bedside-manner.txt) | No Bedside Manner | Unit | 5 |
 | [`everything-thrives-here.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/17-witch-doctor/everything-thrives-here.txt) | Everything Thrives Here | Unit | 7 |
 | [`spotless-success-rate.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/17-witch-doctor/spotless-success-rate.txt) | Spotless Success Rate | Unit | 8 |
 

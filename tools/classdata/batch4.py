@@ -112,7 +112,7 @@ Bruise purple in the densest part of the cloud, swamp green at its edges.""",
 and into a patient beside them, the colony running visibly from the earth through
 one body and into the other in one continuous irregular channel. The patient is
 improving. The healer is not. Damp cellar light. No clean edges anywhere.""",
-        "mire-no-bedside-manner": """Mire themself, the class leader, standing over a seated patient on a batik ground
+        "no-bedside-manner": """Mire themself, the class leader, standing over a seated patient on a batik ground
 with one hand pressed flat to the patient's shoulder -- and the point of infection
 under that hand is radiating outward in irregular fractal rings across the arm,
 the chest and on into the cloth of the picture itself. The patient's expression is
@@ -247,7 +247,7 @@ heroic-looking. Red ink beside two of the six.""",
 sheet, each with its own weather thumbnail, its own ground detail and its own
 short annotation, all painted at the same time and clearly in advance of any of
 them happening. Plain daylight in all three. Leader lines run between the bands.""",
-        "fletch-simply-prepared": """Fletch herself, the class leader, as the main study on a journal page: standing
+        "simply-prepared": """Fletch herself, the class leader, as the main study on a journal page: standing
 three-quarter view with the bow held loose at her side and a pack at her feet,
 painted quickly in gouache with the pencil underdrawing showing through, plain
 daylight, entirely unbothered and faintly amused. Around her on the tea-stained
@@ -378,7 +378,7 @@ side and one behind the back, immaculately turned out and photographed at close
 frontal light. The plate around them is in excellent condition; the plate around
 everything else has stained and lifted. The eyes are soft. Cracks radiate from
 their feet.""",
-        "rime-without-appetite": """Rime themself, the class leader, in a formal seated wet-plate portrait: centered,
+        "without-appetite": """Rime themself, the class leader, in a formal seated wet-plate portrait: centered,
 symmetrical, hands placed on the chair arms, shoulders square, holding a pose
 they could hold indefinitely. Harsh frontal studio light, silver bloom on the
 collar and knuckles, heavy vignetting into all four corners, chemical tide-lines
@@ -532,7 +532,7 @@ center.""",
 recumbent one -- horse and rider flat, frontal, motionless, feet and hooves in a
 row along the bottom edge, heraldry beneath. Nothing about it is dynamic. Rime
 grows up the horse's legs and across the rider's shield.""",
-        "pall-bound-to-anothers-will": """Pall himself, the class leader, taken as a full-length memorial rubbing:
+        "bound-to-anothers-will": """Pall himself, the class leader, taken as a full-length memorial rubbing:
 standing, rigidly symmetrical, in old armor, both hands crossed on the hilt of a
 grounded sword, feet together on a heraldic panel, an inscription band running
 the whole border and never resolving into letters. Black wax over paper tooth,
@@ -655,7 +655,7 @@ note is a bead on the purse's cord.""",
 neutral -- not triumphant, not regretful, simply finished -- rendered with no
 interior detail whatsoever so the whole read comes from the angle of the shoulders.
 Warm lit screen behind. One red note, small, at the low shape's edge.""",
-        "hush-punctual": """Hush themself, the class leader, as a single cut-paper silhouette against the
+        "precisely-on-time": """Hush themself, the class leader, as a single cut-paper silhouette against the
 warm lamp-lit screen: standing in flat profile, weight even, one hand at their
 side and the other holding a folded contract, absolutely composed. No face, no
 interior detail, no modelling -- the silhouette carries all of it, and what it

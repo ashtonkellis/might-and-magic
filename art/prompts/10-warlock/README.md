@@ -37,7 +37,7 @@ each orientation. The landscape face is Brand at rest, mid-negotiation and charm
 | [`collateral-clause.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/10-warlock/collateral-clause.txt) | Collateral Clause | Upgrade | 4 |
 | [`interest-on-every-spell.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/10-warlock/interest-on-every-spell.txt) | Interest on Every Spell | Unit | 4 |
 | [`settled-in-blood.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/10-warlock/settled-in-blood.txt) | Settled in Blood | Spell | 4 |
-| [`brand-several-deals-deep.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/10-warlock/brand-several-deals-deep.txt) | Brand, Several Deals Deep | Leader | 6 |
+| [`several-deals-deep.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/10-warlock/several-deals-deep.txt) | Several Deals Deep | Unit | 6 |
 | [`three-sold-at-once.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/10-warlock/three-sold-at-once.txt) | Three Sold at Once | Unit | 6 |
 | [`nothing-down.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/10-warlock/nothing-down.txt) | Nothing Down | Spell | 7 |
 | [`the-balance-comes-due.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/10-warlock/the-balance-comes-due.txt) | The Balance Comes Due | Unit | 8 |

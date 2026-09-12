@@ -38,7 +38,7 @@ each orientation. The landscape face is Pall at rest, laid out as an effigy; the
 | [`standing-sentence.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/20-death-knight/standing-sentence.txt) | Standing Sentence | Unit | 4 |
 | [`cold-vanguard.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/20-death-knight/cold-vanguard.txt) | Cold Vanguard | Unit | 5 |
 | [`implacable-rider.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/20-death-knight/implacable-rider.txt) | Implacable Rider | Unit | 6 |
-| [`pall-bound-to-anothers-will.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/20-death-knight/pall-bound-to-anothers-will.txt) | Pall, Bound to Another's Will | Leader | 7 |
+| [`bound-to-anothers-will.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/20-death-knight/bound-to-anothers-will.txt) | Bound to Another's Will | Unit | 7 |
 | [`weight-of-every-oath.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/20-death-knight/weight-of-every-oath.txt) | Weight of Every Oath | Unit | 10 |
 | [`the-whole-field-conscripted.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/20-death-knight/the-whole-field-conscripted.txt) | The Whole Field Conscripted | Unit | 11 |
 

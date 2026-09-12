@@ -36,8 +36,8 @@ each orientation. The landscape face is Rime at rest, sitting for a portrait; th
 | [`recalled-from-rest.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/19-lich/recalled-from-rest.txt) | Recalled from Rest | Spell | 3 |
 | [`warded-sleeper.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/19-lich/warded-sleeper.txt) | Warded Sleeper | Unit | 3 |
 | [`preserved-attendant.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/19-lich/preserved-attendant.txt) | Preserved Attendant | Unit | 4 |
-| [`rime-without-appetite.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/19-lich/rime-without-appetite.txt) | Rime, Without Appetite | Leader | 4 |
 | [`two-slow-certainties.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/19-lich/two-slow-certainties.txt) | Two Slow Certainties | Spell | 4 |
+| [`without-appetite.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/19-lich/without-appetite.txt) | Without Appetite | Unit | 4 |
 | [`guest-who-never-leaves.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/19-lich/guest-who-never-leaves.txt) | Guest Who Never Leaves | Unit | 6 |
 | [`host-of-the-long-pause.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/19-lich/host-of-the-long-pause.txt) | Host of the Long Pause | Unit | 6 |
 | [`all-the-time-there-is.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/19-lich/all-the-time-there-is.txt) | All the Time There Is | Unit | 8 |

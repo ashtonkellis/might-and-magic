@@ -1,5 +1,5 @@
-Briar, Patient as Rot
-Leader · 5 cost
+Patient as Rot
+Unit · 5 cost
 Druid · Might & Magic card art
 Paste this whole file into a fresh chat. It is complete on its own.
 

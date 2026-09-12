@@ -37,7 +37,7 @@ format carrying the rising column of flame.
 | [`emberbrand-zealot.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/01-pyromancer/emberbrand-zealot.txt) | Emberbrand Zealot | Unit | 2 |
 | [`scattershot-torch.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/01-pyromancer/scattershot-torch.txt) | Scattershot Torch | Upgrade | 3 |
 | [`sweeping-flame.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/01-pyromancer/sweeping-flame.txt) | Sweeping Flame | Spell | 3 |
-| [`caine-gleeful-arsonist.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/01-pyromancer/caine-gleeful-arsonist.txt) | Caine, Gleeful Arsonist | Leader | 4 |
+| [`gleeful-arsonist.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/01-pyromancer/gleeful-arsonist.txt) | Gleeful Arsonist | Unit | 4 |
 | [`bonfire-chorus.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/01-pyromancer/bonfire-chorus.txt) | Bonfire Chorus | Unit | 4 |
 | [`conflagration-titan.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/01-pyromancer/conflagration-titan.txt) | Conflagration Titan | Unit | 6 |
 | [`pyre-colossus.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/01-pyromancer/pyre-colossus.txt) | Pyre Colossus | Unit | 6 |

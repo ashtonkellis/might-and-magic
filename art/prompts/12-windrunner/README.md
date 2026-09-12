@@ -38,8 +38,8 @@ each orientation. The landscape face is Gale at rest above her own chart; the po
 | [`cover-their-retreat.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/12-windrunner/cover-their-retreat.txt) | Cover Their Retreat | Unit | 4 |
 | [`skyward-vanguard.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/12-windrunner/skyward-vanguard.txt) | Skyward Vanguard | Unit | 5 |
 | [`between-you-and-it.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/12-windrunner/between-you-and-it.txt) | Between You and It | Unit | 6 |
-| [`gale-who-lifts-others.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/12-windrunner/gale-who-lifts-others.txt) | Gale, Who Lifts Others | Leader | 6 |
-| [`windsworn-marshal.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/12-windrunner/windsworn-marshal.txt) | Windsworn Marshal | Leader | 6 |
+| [`carried-aloft.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/12-windrunner/carried-aloft.txt) | Carried Aloft | Unit | 6 |
+| [`windsworn-marshal.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/12-windrunner/windsworn-marshal.txt) | Windsworn Marshal | Unit | 6 |
 | [`the-whole-flight-rises.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/12-windrunner/the-whole-flight-rises.txt) | The Whole Flight Rises | Unit | 8 |
 
 ## The hero

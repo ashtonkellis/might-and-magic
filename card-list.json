@@ -10,7 +10,7 @@
     {
       "id": "SHD-001",
       "class": "09-trinket-mage",
-      "name": "Quench, All Pockets Full",
+      "name": "All Pockets Full",
       "type": "Unit",
       "cost": 6,
       "power": 4,
@@ -29,7 +29,7 @@
     {
       "id": "SHD-002",
       "class": "17-witch-doctor",
-      "name": "Mire, No Bedside Manner",
+      "name": "No Bedside Manner",
       "type": "Unit",
       "cost": 5,
       "power": 0,
@@ -50,7 +50,7 @@
     {
       "id": "SHD-003",
       "class": "15-runeblade",
-      "name": "Stave, Smith First",
+      "name": "Smith First",
       "type": "Unit",
       "cost": 5,
       "power": 4,
@@ -69,7 +69,7 @@
     {
       "id": "SHD-004",
       "class": "08-shaman",
-      "name": "Ash, Who Tends the Mountain",
+      "name": "Tender of the Mountain",
       "type": "Unit",
       "cost": 6,
       "power": 2,
@@ -107,7 +107,7 @@
     {
       "id": "SHD-006",
       "class": "20-death-knight",
-      "name": "Pall, Bound to Another's Will",
+      "name": "Bound to Another's Will",
       "type": "Unit",
       "cost": 7,
       "power": 2,
@@ -126,7 +126,7 @@
     {
       "id": "SHD-007",
       "class": "13-edgedancer",
-      "name": "Prism, Who Remembers",
+      "name": "Nothing Forgotten",
       "type": "Unit",
       "cost": 5,
       "power": 3,
@@ -145,7 +145,7 @@
     {
       "id": "SHD-008",
       "class": "12-windrunner",
-      "name": "Gale, Who Lifts Others",
+      "name": "Carried Aloft",
       "type": "Unit",
       "cost": 6,
       "power": 4,
@@ -202,7 +202,7 @@
     {
       "id": "SHD-011",
       "class": "04-sorceress",
-      "name": "Crystal, Who Preserves",
+      "name": "Preserved Intent",
       "type": "Unit",
       "cost": 4,
       "power": 5,
@@ -240,7 +240,7 @@
     {
       "id": "SHD-013",
       "class": "07-wizard",
-      "name": "Arc, Who Does Not Delegate",
+      "name": "Done Personally",
       "type": "Unit",
       "cost": 5,
       "power": 3,
@@ -278,7 +278,7 @@
     {
       "id": "SHD-015",
       "class": "05-necromancer",
-      "name": "Viol, Keeper of the Ledger",
+      "name": "Keeper of the Ledger",
       "type": "Unit",
       "cost": 5,
       "power": 2,
@@ -316,7 +316,7 @@
     {
       "id": "SHD-017",
       "class": "19-lich",
-      "name": "Rime, Without Appetite",
+      "name": "Without Appetite",
       "type": "Unit",
       "cost": 4,
       "power": 2,
@@ -4909,7 +4909,7 @@
     {
       "id": "SOR-001",
       "class": "03-druid",
-      "name": "Briar, Patient as Rot",
+      "name": "Patient as Rot",
       "type": "Unit",
       "cost": 5,
       "power": 2,
@@ -4951,7 +4951,7 @@
     {
       "id": "SOR-003",
       "class": "16-shapeshifter",
-      "name": "Pelt, Who Waits Out Winter",
+      "name": "Winter Outlasted",
       "type": "Unit",
       "cost": 7,
       "power": 2,
@@ -5011,7 +5011,7 @@
     {
       "id": "SOR-006",
       "class": "14-soulcaster",
-      "name": "Mirren, Half Turned to Smoke",
+      "name": "Half Turned to Smoke",
       "type": "Unit",
       "cost": 8,
       "power": 4,
@@ -5169,7 +5169,7 @@
     {
       "id": "SOR-014",
       "class": "01-pyromancer",
-      "name": "Caine, Gleeful Arsonist",
+      "name": "Gleeful Arsonist",
       "type": "Unit",
       "cost": 4,
       "power": 2,
@@ -5207,7 +5207,7 @@
     {
       "id": "SOR-016",
       "class": "02-chronomancer",
-      "name": "Vesper, Bored of Victory",
+      "name": "Bored of Victory",
       "type": "Unit",
       "cost": 6,
       "power": 3,
@@ -5226,7 +5226,7 @@
     {
       "id": "SOR-017",
       "class": "14-soulcaster",
-      "name": "Mirren, Who Persuades Stone",
+      "name": "Stone Persuaded",
       "type": "Unit",
       "cost": 6,
       "power": 4,
@@ -9713,7 +9713,7 @@
     {
       "id": "TWI-003",
       "class": "06-warrior",
-      "name": "Hale, Who Does Not Fall",
+      "name": "Still Standing",
       "type": "Unit",
       "cost": 6,
       "power": 4,
@@ -9814,7 +9814,7 @@
     {
       "id": "TWI-008",
       "class": "18-ranger",
-      "name": "Fletch, Simply Prepared",
+      "name": "Simply Prepared",
       "type": "Unit",
       "cost": 5,
       "power": 2,
@@ -9856,7 +9856,7 @@
     {
       "id": "TWI-010",
       "class": "21-assassin",
-      "name": "Hush, Punctual",
+      "name": "Precisely On Time",
       "type": "Unit",
       "cost": 5,
       "power": 4,
@@ -9877,7 +9877,7 @@
     {
       "id": "TWI-011",
       "class": "11-demon-hunter",
-      "name": "Kell, Borrowed Power",
+      "name": "Borrowed Power",
       "type": "Unit",
       "cost": 5,
       "power": 3,
@@ -9896,7 +9896,7 @@
     {
       "id": "TWI-012",
       "class": "10-warlock",
-      "name": "Brand, Several Deals Deep",
+      "name": "Several Deals Deep",
       "type": "Unit",
       "cost": 6,
       "power": 5,
@@ -9936,7 +9936,7 @@
     {
       "id": "TWI-014",
       "class": "11-demon-hunter",
-      "name": "Kell, On a Clock",
+      "name": "On a Clock",
       "type": "Unit",
       "cost": 4,
       "power": 3,

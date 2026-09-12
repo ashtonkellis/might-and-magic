@@ -35,7 +35,7 @@ each orientation. The landscape face is Arc at rest, which for him means an expo
 | [`volatile-coil.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/07-wizard/volatile-coil.txt) | Volatile Coil | Upgrade | 2 |
 | [`warded-theorist.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/07-wizard/warded-theorist.txt) | Warded Theorist | Unit | 2 |
 | [`wild-discharge.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/07-wizard/wild-discharge.txt) | Wild Discharge | Unit | 2 |
-| [`arc-who-does-not-delegate.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/07-wizard/arc-who-does-not-delegate.txt) | Arc, Who Does Not Delegate | Leader | 5 |
+| [`done-personally.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/07-wizard/done-personally.txt) | Done Personally | Unit | 5 |
 | [`recovered-formula.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/07-wizard/recovered-formula.txt) | Recovered Formula | Unit | 5 |
 | [`second-detonation.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/07-wizard/second-detonation.txt) | Second Detonation | Spell | 5 |
 | [`sudden-postulate.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/07-wizard/sudden-postulate.txt) | Sudden Postulate | Unit | 5 |

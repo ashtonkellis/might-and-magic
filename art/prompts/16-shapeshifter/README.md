@@ -39,7 +39,7 @@ each orientation. The landscape face is Pelt at rest, or as close to a person as
 | [`answering-the-call.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/16-shapeshifter/answering-the-call.txt) | Answering the Call | Unit | 4 |
 | [`shape-of-the-season.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/16-shapeshifter/shape-of-the-season.txt) | Shape of the Season | Unit | 4 |
 | [`long-wait-ended.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/16-shapeshifter/long-wait-ended.txt) | Long Wait Ended | Unit | 6 |
-| [`pelt-who-waits-out-winter.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/16-shapeshifter/pelt-who-waits-out-winter.txt) | Pelt, Who Waits Out Winter | Leader | 7 |
+| [`winter-outlasted.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/16-shapeshifter/winter-outlasted.txt) | Winter Outlasted | Unit | 7 |
 | [`everything-becomes-teeth.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/16-shapeshifter/everything-becomes-teeth.txt) | Everything Becomes Teeth | Unit | 8 |
 
 ## The hero

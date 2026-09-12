@@ -35,11 +35,11 @@ each orientation. The landscape face is Crystal at rest in an empty pale field; 
 | [`glacier-custodian.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/04-sorceress/glacier-custodian.txt) | Glacier Custodian | Unit | 3 |
 | [`perfect-preservation.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/04-sorceress/perfect-preservation.txt) | Perfect Preservation | Upgrade | 3 |
 | [`rimeguard-sentinel.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/04-sorceress/rimeguard-sentinel.txt) | Rimeguard Sentinel | Unit | 3 |
-| [`crystal-who-preserves.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/04-sorceress/crystal-who-preserves.txt) | Crystal, Who Preserves | Leader | 4 |
+| [`preserved-intent.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/04-sorceress/preserved-intent.txt) | Preserved Intent | Unit | 4 |
 | [`icebound-paragon.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/04-sorceress/icebound-paragon.txt) | Icebound Paragon | Unit | 5 |
 | [`hoarfrost-colossus.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/04-sorceress/hoarfrost-colossus.txt) | Hoarfrost Colossus | Unit | 6 |
-| [`keeper-of-kept-things.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/04-sorceress/keeper-of-kept-things.txt) | Keeper of Kept Things | Leader | 6 |
-| [`warden-of-the-still-halls.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/04-sorceress/warden-of-the-still-halls.txt) | Warden of the Still Halls | Leader | 6 |
+| [`keeper-of-kept-things.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/04-sorceress/keeper-of-kept-things.txt) | Keeper of Kept Things | Unit | 6 |
+| [`warden-of-the-still-halls.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/04-sorceress/warden-of-the-still-halls.txt) | Warden of the Still Halls | Unit | 6 |
 | [`the-long-freeze.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/04-sorceress/the-long-freeze.txt) | The Long Freeze | Unit | 8 |
 
 ## The hero

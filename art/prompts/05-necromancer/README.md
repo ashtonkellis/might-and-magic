@@ -37,7 +37,7 @@ each orientation. The landscape face is Viol at rest with his ledger; the portra
 | [`the-ledger-reopened.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/the-ledger-reopened.txt) | The Ledger Reopened | Spell | 2 |
 | [`successor-sought.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/successor-sought.txt) | Successor Sought | Unit | 3 |
 | [`paid-in-kind.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/paid-in-kind.txt) | Paid in Kind | Unit | 4 |
-| [`viol-keeper-of-the-ledger.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/viol-keeper-of-the-ledger.txt) | Viol, Keeper of the Ledger | Leader | 5 |
+| [`keeper-of-the-ledger.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/keeper-of-the-ledger.txt) | Keeper of the Ledger | Unit | 5 |
 | [`toll-of-three.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/toll-of-three.txt) | Toll of Three | Unit | 6 |
 | [`mass-exhumation.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/mass-exhumation.txt) | Mass Exhumation | Unit | 7 |
 | [`the-unwilling-return.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/the-unwilling-return.txt) | The Unwilling Return | Unit | 9 |

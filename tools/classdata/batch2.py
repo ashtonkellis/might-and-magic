@@ -109,7 +109,7 @@ in one direction, kinking hard twice, and terminating on something at the plate'
 edge that is not the subject. Overexposed at both ends, fringing along its whole
 length. The dark middle of the plate is full of grain and gridded reference
 marks. Nothing here was aimed.""",
-        "arc-who-does-not-delegate": """Arc himself, the class leader, centered and radial in the frame, both hands
+        "done-personally": """Arc himself, the class leader, centered and radial in the frame, both hands
 apart and holding a working between them that is completely blown out -- the core
 is featureless white and it is consuming the detail of his fingers. He has moved
 during the exposure and his head is drawn one and a half times. Missing an
@@ -259,7 +259,7 @@ painted one and continues it.""",
 top of an older, darker charcoal layer of burned stumps -- the earlier marks still
 visible through the newer ones, not scraped away. The new trees are painted
 larger than the old stumps were. Torch light rakes across the pitting.""",
-        "ash-who-tends-the-mountain": """Ash themself, the class leader, painted large and frontal on the rock in red
+        "tender-of-the-mountain": """Ash themself, the class leader, painted large and frontal on the rock in red
 ochre with charcoal outline, one hand raised palm out and the other resting on
 the painted line of the mountain beside them -- the gesture of an owner rather
 than a supplicant. Around and overlapping them at other scales and other angles:
@@ -410,7 +410,7 @@ small.""",
 line between the two states. What it is closing on is drawn as a dotted outline
 only -- the part is somebody else's and is not specified. The clamp is beautifully
 made. Numbered callouts, dimension arrows, a small heat-orange note at the jaw.""",
-        "quench-all-pockets-full": """Quench himself, the class leader, drawn at the center of his own patent plate in
+        "all-pockets-full": """Quench himself, the class leader, drawn at the center of his own patent plate in
 white line while everything on him is rendered as real material: brass at the
 belt, copper coiled over one shoulder, cold-sweating steel canisters in every
 pocket, a gauge strapped to the back of one glove. He is exploded outward along
@@ -553,7 +553,7 @@ across a ruled block, one of them bleeding freely into a bowl held by a grotesqu
 below, the blood drawn in minium red as ornament rather than as gore. Neither
 face registers distress. Char and a burn hole directly beneath the bowl, the
 illumination continuing around it.""",
-        "brand-several-deals-deep": """Brand himself, the class leader, standing in the margin rather than in the
+        "several-deals-deep": """Brand himself, the class leader, standing in the margin rather than in the
 initial -- he has come out of the text block -- with one hand out in a warm
 persuasive gesture and the other behind his back holding three separate signed
 scrolls he is not mentioning. Flat illumination, heavy gold leaf, no modelling.
@@ -683,7 +683,7 @@ none with both feet down, arranged along the diagonal so the composition tips
 hard to one corner. Flat indigo silhouettes with bone cut into the leading edges.
 Speed-lines behind all three, running off the frame. One vermilion note on the
 foremost.""",
-        "kell-on-a-clock": """Kell themself, the class leader, coming across the frame on the diagonal with
+        "on-a-clock": """Kell themself, the class leader, coming across the frame on the diagonal with
 the blade already out and the ground plane tilted well past level -- mid-stride,
 weight thrown forward, nothing under the leading foot yet. Flat woodblock fills,
 hard keyblock line, dense horror-manga hatching taking one entire side of the
@@ -695,7 +695,7 @@ the target's bone-white flat shape at the bottom, the whole composition a single
 falling diagonal. Impact burst already cut into the print where they will meet,
 breaking the lower frame edge. Heavy hatching along the falling body's underside.
 One vermilion note.""",
-        "kell-borrowed-power": """Kell again, later: the same figure with more of the borrowed thing showing.
+        "borrowed-power": """Kell again, later: the same figure with more of the borrowed thing showing.
 Mid-motion on a tilted plane, one arm and one whole flank now cut as flat
 block-black with hard edges where flesh should be, the hatching around the
 boundary at its densest. Their face is unchanged and entirely calm about it.

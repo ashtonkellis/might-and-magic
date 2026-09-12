@@ -38,7 +38,7 @@ each orientation. The landscape face is Ash at rest on the mountain's flank; the
 | [`magma-tender.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/08-shaman/magma-tender.txt) | Magma Tender | Unit | 3 |
 | [`eruption-warden.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/08-shaman/eruption-warden.txt) | Eruption Warden | Unit | 4 |
 | [`orchard-of-cinders.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/08-shaman/orchard-of-cinders.txt) | Orchard of Cinders | Unit | 4 |
-| [`ash-who-tends-the-mountain.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/08-shaman/ash-who-tends-the-mountain.txt) | Ash, Who Tends the Mountain | Leader | 6 |
+| [`tender-of-the-mountain.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/08-shaman/tender-of-the-mountain.txt) | Tender of the Mountain | Unit | 6 |
 | [`twin-eruption.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/08-shaman/twin-eruption.txt) | Twin Eruption | Unit | 6 |
 | [`the-mountain-is-fertile.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/08-shaman/the-mountain-is-fertile.txt) | The Mountain Is Fertile | Unit | 9 |
 

@@ -35,9 +35,9 @@ each orientation. The landscape face is Kell at rest, which is as still as this 
 | [`impossible-choice.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/11-demon-hunter/impossible-choice.txt) | Impossible Choice | Spell | 2 |
 | [`leaping-stalker.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/11-demon-hunter/leaping-stalker.txt) | Leaping Stalker | Unit | 2 |
 | [`vanguard-doctrine.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/11-demon-hunter/vanguard-doctrine.txt) | Vanguard Doctrine | Unit | 2 |
-| [`kell-on-a-clock.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/11-demon-hunter/kell-on-a-clock.txt) | Kell, On a Clock | Leader | 4 |
+| [`on-a-clock.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/11-demon-hunter/on-a-clock.txt) | On a Clock | Unit | 4 |
 | [`pouncing-reaver.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/11-demon-hunter/pouncing-reaver.txt) | Pouncing Reaver | Unit | 4 |
-| [`kell-borrowed-power.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/11-demon-hunter/kell-borrowed-power.txt) | Kell, Borrowed Power | Leader | 5 |
+| [`borrowed-power.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/11-demon-hunter/borrowed-power.txt) | Borrowed Power | Unit | 5 |
 | [`twinned-assault.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/11-demon-hunter/twinned-assault.txt) | Twinned Assault | Unit | 7 |
 | [`unspent-momentum.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/11-demon-hunter/unspent-momentum.txt) | Unspent Momentum | Unit | 7 |
 | [`nothing-left-standing.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/11-demon-hunter/nothing-left-standing.txt) | Nothing Left Standing | Unit | 8 |

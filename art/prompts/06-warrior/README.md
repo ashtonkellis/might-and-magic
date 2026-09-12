@@ -38,8 +38,8 @@ each orientation. The landscape face is Hale at rest between engagements; the po
 | [`dented-veteran.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/06-warrior/dented-veteran.txt) | Dented Veteran | Unit | 3 |
 | [`bulwark-of-the-pass.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/06-warrior/bulwark-of-the-pass.txt) | Bulwark of the Pass | Unit | 4 |
 | [`unmarked-champion.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/06-warrior/unmarked-champion.txt) | Unmarked Champion | Unit | 5 |
-| [`hale-who-does-not-fall.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/06-warrior/hale-who-does-not-fall.txt) | Hale, Who Does Not Fall | Leader | 6 |
 | [`rampart-captain.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/06-warrior/rampart-captain.txt) | Rampart Captain | Unit | 6 |
+| [`still-standing.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/06-warrior/still-standing.txt) | Still Standing | Unit | 6 |
 | [`the-last-wall.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/06-warrior/the-last-wall.txt) | The Last Wall | Unit | 8 |
 
 ## The hero

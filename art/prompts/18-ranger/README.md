@@ -38,7 +38,7 @@ each orientation. The landscape face is Fletch at rest in camp; the portrait fac
 | [`trail-reader.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/18-ranger/trail-reader.txt) | Trail Reader | Unit | 2 |
 | [`recruiting-trip.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/18-ranger/recruiting-trip.txt) | Recruiting Trip | Unit | 4 |
 | [`three-days-foresight.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/18-ranger/three-days-foresight.txt) | Three Days' Foresight | Spell | 4 |
-| [`fletch-simply-prepared.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/18-ranger/fletch-simply-prepared.txt) | Fletch, Simply Prepared | Leader | 5 |
+| [`simply-prepared.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/18-ranger/simply-prepared.txt) | Simply Prepared | Unit | 5 |
 | [`weathered-tracker.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/18-ranger/weathered-tracker.txt) | Weathered Tracker | Unit | 6 |
 | [`everything-already-packed.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/18-ranger/everything-already-packed.txt) | Everything Already Packed | Spell | 14 |
 
