@@ -119,7 +119,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Action [{exhaust}]: Choose a unit. For this phase it gains: \"BOUNTY - The next unit you play this phase costs 1 less.\"",
+      "text": "Action [{exhaust}]: Choose a unit. For this phase it gains: \"Bounty - The next unit you play this phase costs {1} less.\" (When this unit is defeated or captured, your opponent collects its bounty.)",
       "backText": null,
       "epicAction": null
     },
@@ -157,7 +157,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "When you play a unit that has 1 or more KEYWORDS: You may exhaust this unit. If you do, give a friendly unit +1/+0 for this phase.",
+      "text": "When you play a unit that has 1 or more keywords: You may exhaust this unit. If you do, give a friendly unit +1/+0 for this phase.",
       "backText": null,
       "epicAction": null
     },
@@ -252,7 +252,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Action [{exhaust}]: Play a unit from your hand. It costs 1 less. Deal 2 damage to it.",
+      "text": "Action [{exhaust}]: Play a unit from your hand. It costs {1} less. Deal 2 damage to it.",
       "backText": null,
       "epicAction": null
     },
@@ -328,7 +328,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Action [{exhaust}]: Play a card using SMUGGLE. It costs 2 less. Defeat a resource you own and control.",
+      "text": "Action [{exhaust}]: Play a card using Smuggle. (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.) It costs {2} less. Defeat a resource you own and control.",
       "backText": null,
       "epicAction": null
     },
@@ -1369,7 +1369,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Attached unit gains: \"Bounty - Heal 4 damage from a unit or Commander. If this unit is unique, heal 6 damage instead.\" (When this unit is defeated or captured, your opponent collects its bounty.)",
+      "text": "Attached unit gains: \"Bounty - Heal 4 damage from a unit or Commander.\" (When this unit is defeated or captured, your opponent collects its bounty.)",
       "backText": null,
       "epicAction": null
     },
@@ -1734,7 +1734,7 @@
         "Trample"
       ],
       "traitCount": 2,
-      "text": "AMBUSH, OVERWHELM\nOn Attack: You may choose another friendly Red unit. If you do, all damage that would be dealt to this unit during this attack is dealt to the chosen unit instead.",
+      "text": "Ambush, Trample (When you play this unit, it may ready and attack an enemy unit.) (When attacking an enemy unit, deal excess damage to the opponent's Commander.)\nOn Attack: You may choose another friendly Red unit. If you do, all damage that would be dealt to this unit during this attack is dealt to the chosen unit instead.",
       "backText": null,
       "epicAction": null
     },
@@ -3481,7 +3481,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "If you've defeated an enemy unit this phase, this spell costs 2 less to play. \nReady a unit.",
+      "text": "If you've defeated an enemy unit this phase, this spell costs {2} less to play. \nReady a unit.",
       "backText": null,
       "epicAction": null
     },
@@ -3685,7 +3685,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Search the top 7 cards of your deck for an Amber card and play it. (Put the other cards on the bottom of your deck in a random order.) It costs 5 less and enters play ready. Return it to its owner's hand at the end of the phase.",
+      "text": "Search the top 7 cards of your deck for an Amber card and play it. (Put the other cards on the bottom of your deck in a random order.) It costs {5} less and enters play ready. Return it to its owner's hand at the end of the phase.",
       "backText": null,
       "epicAction": null
     },
@@ -4288,7 +4288,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Attach to a unit. \nAttached unit gains: \"BOUNTY - Play this unit for free (under your control). It enters play ready. At the start of the rest phase, defeat it.\"",
+      "text": "Attach to a unit. \nAttached unit gains: \"Bounty - Play this unit for free (under your control). It enters play ready. At the start of the rest phase, defeat it.\" (When this unit is defeated or captured, your opponent collects its bounty.)",
       "backText": null,
       "epicAction": null
     },
@@ -5515,7 +5515,7 @@
         "Grit"
       ],
       "traitCount": 2,
-      "text": "GRIT (This unit gets +1/+0 for each damage on it.)",
+      "text": "Grit (This unit gets +1/+0 for each damage on it.)",
       "backText": null,
       "epicAction": null
     },
@@ -5637,7 +5637,7 @@
         "Shielded"
       ],
       "traitCount": 3,
-      "text": "SHIELDED (When you play this unit, give him a Shield token.) \nWhen Played: You may defeat a unit with 4 or less remaining HP.",
+      "text": "Shielded (When you play this unit, give a Shield token to it.) \nWhen Played: You may defeat a unit with 4 or less remaining HP.",
       "backText": null,
       "epicAction": null
     },
@@ -5875,7 +5875,7 @@
         "Shielded"
       ],
       "traitCount": 4,
-      "text": "SHIELDED (When you play this unit, give a Shield token to it.)\nWhen Played/On Attack: You may give a Shield token to another Blue unit.",
+      "text": "Shielded (When you play this unit, give a Shield token to it.)\nWhen Played/On Attack: You may give a Shield token to another Blue unit.",
       "backText": null,
       "epicAction": null
     },
@@ -5917,7 +5917,7 @@
         "Bodyguard"
       ],
       "traitCount": 3,
-      "text": "BODYGUARD (Units in this flank can't attack your non-Bodyguard units or your Commander.) \nWhen Played: Heal up to 8 total damage from any number of units and/or Commanders. Deal that much damage to this unit.",
+      "text": "Bodyguard (Units in this flank can't attack your non-Bodyguard units or your Commander.) \nWhen Played: Heal up to 8 total damage from any number of units and/or Commanders. Deal that much damage to this unit.",
       "backText": null,
       "epicAction": null
     },
@@ -5976,7 +5976,7 @@
         "Bodyguard"
       ],
       "traitCount": 2,
-      "text": "BODYGUARD (Units in this flank can't attack your non-Bodyguard units or your Commander.) \nOn Attack: The next non-Amber, non-Amber card you play this phase costs 2 less.",
+      "text": "Bodyguard (Units in this flank can't attack your non-Bodyguard units or your Commander.) \nOn Attack: The next non-Amber, non-Steel card you play this phase costs {2} less.",
       "backText": null,
       "epicAction": null
     },
@@ -5997,7 +5997,7 @@
         "Bodyguard"
       ],
       "traitCount": 1,
-      "text": "Attached unit gains BODYGUARD. (Units in this flank can't attack your non-Bodyguard units or your Commander.)",
+      "text": "Attached unit gains Bodyguard. (Units in this flank can't attack your non-Bodyguard units or your Commander.)",
       "backText": null,
       "epicAction": null
     },
@@ -6128,7 +6128,7 @@
         "Shielded"
       ],
       "traitCount": 1,
-      "text": "SHIELDED (When you play this unit, give a Shield token to it.)",
+      "text": "Shielded (When you play this unit, give a Shield token to it.)",
       "backText": null,
       "epicAction": null
     },
@@ -6209,7 +6209,7 @@
         "Shielded"
       ],
       "traitCount": 2,
-      "text": "SHIELDED (When you play this unit, give a Shield token to it.)\nWhen Played: If you control another Blue unit, heal 4 damage from a Commander.",
+      "text": "Shielded (When you play this unit, give a Shield token to it.)\nWhen Played: If you control another Blue unit, heal 4 damage from a Commander.",
       "backText": null,
       "epicAction": null
     },
@@ -6247,7 +6247,7 @@
         "Restore"
       ],
       "traitCount": 1,
-      "text": "Attached unit gains RESTORE 2. (When this unit attacks, heal 2 damage from its controller's Commander.)",
+      "text": "Attached unit gains Restore 2. (When this unit attacks, heal 2 damage from its controller's Commander.)",
       "backText": null,
       "epicAction": null
     },
@@ -6412,7 +6412,7 @@
         "Ambush"
       ],
       "traitCount": 2,
-      "text": "Each friendly unit that costs 6 or more gains AMBUSH. (After you play that unit, it may ready and attack an enemy unit.)",
+      "text": "Each friendly unit that costs 6 or more gains Ambush. (After you play that unit, it may ready and attack an enemy unit.)",
       "backText": null,
       "epicAction": null
     },
@@ -6509,7 +6509,7 @@
         "Shielded"
       ],
       "traitCount": 1,
-      "text": "SHIELDED (When you play this unit, give a Shield token to it.)\nWhen this unit deals combat damage to a unit while attacking: Defeat that unit.",
+      "text": "Shielded (When you play this unit, give a Shield token to it.)\nWhen this unit deals combat damage to a unit while attacking: Defeat that unit.",
       "backText": null,
       "epicAction": null
     },
@@ -6611,7 +6611,7 @@
         "Bodyguard"
       ],
       "traitCount": 3,
-      "text": "BODYGUARD\nOVERWHELM\nWhen Played: You may deal damage to a unit equal to the number of resources you control.",
+      "text": "Bodyguard (Units in this flank can't attack your non-Bodyguard units or your Commander.)\nTrample (When attacking an enemy unit, deal excess damage to the opponent's Commander.)\nWhen Played: You may deal damage to a unit equal to the number of resources you control.",
       "backText": null,
       "epicAction": null
     },
@@ -6830,7 +6830,7 @@
         "Ambush"
       ],
       "traitCount": 3,
-      "text": "AMBUSH (After you play this unit, it may ready and attack an enemy unit.)\nWhen Played: Return a unit that costs 2 or less from your discard pile to your hand.",
+      "text": "Ambush (After you play this unit, it may ready and attack an enemy unit.)\nWhen Played: Return a unit that costs 2 or less from your discard pile to your hand.",
       "backText": null,
       "epicAction": null
     },
@@ -6851,7 +6851,7 @@
         "Restore"
       ],
       "traitCount": 3,
-      "text": "Restore 2 (When this unit attacks, heal 2 damage from your Commander.)\nEach other friendly unit gains Restore 1.\nWhen Played: Play an Amber unit from your discard pile. It costs 3 less.",
+      "text": "Restore 2 (When this unit attacks, heal 2 damage from your Commander.)\nEach other friendly unit gains Restore 1.\nWhen Played: Play an Amber unit from your discard pile. It costs {3} less.",
       "backText": null,
       "epicAction": null
     },
@@ -7038,7 +7038,7 @@
         "Restore"
       ],
       "traitCount": 3,
-      "text": "While you have the initiative, this unit gains RESTORE 2. (When this unit attacks, heal 2 damage from your Commander.)",
+      "text": "While you have the initiative, this unit gains Restore 2. (When this unit attacks, heal 2 damage from your Commander.)",
       "backText": null,
       "epicAction": null
     },
@@ -7078,7 +7078,7 @@
         "Ambush"
       ],
       "traitCount": 3,
-      "text": "While you control another Green unit, this unit gains AMBUSH (After you play this unit, it may ready and attack an enemy unit.)",
+      "text": "While you control another Green unit, this unit gains Ambush (After you play this unit, it may ready and attack an enemy unit.)",
       "backText": null,
       "epicAction": null
     },
@@ -7399,7 +7399,7 @@
         "Raid"
       ],
       "traitCount": 3,
-      "text": "This unit gains RAID 1 for each damage on him. (He gets +1/+0 while attacking for each damage on him.)\nOn Attack: You may deal 1 damage to this unit and 1 damage to another unit.",
+      "text": "This unit gains Raid 1 for each damage on him. (He gets +1/+0 while attacking for each damage on him.)\nOn Attack: You may deal 1 damage to this unit and 1 damage to another unit.",
       "backText": null,
       "epicAction": null
     },
@@ -7536,7 +7536,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "If you control a Red unit, this spell costs [1 resource] less to play.\nDeal 5 damage to a unit. That unit's controller draws a card.",
+      "text": "If you control a Red unit, this spell costs {1} less to play.\nDeal 5 damage to a unit. That unit's controller draws a card.",
       "backText": null,
       "epicAction": null
     },
@@ -7557,7 +7557,7 @@
         "Bodyguard"
       ],
       "traitCount": 2,
-      "text": "When Played: A unit loses BODYGUARD for this phase.",
+      "text": "When Played: A unit loses Bodyguard for this phase.",
       "backText": null,
       "epicAction": null
     },
@@ -7660,7 +7660,7 @@
         "Trample"
       ],
       "traitCount": 2,
-      "text": "OVERWHELM\nWhen Defeated: For each opponent, choose one: either deal 3 damage to that player's Commander, or that player discards a card from their hand.",
+      "text": "Trample (When attacking an enemy unit, deal excess damage to the opponent's Commander.)\nWhen Defeated: For each opponent, choose one: either deal 3 damage to that player's Commander, or that player discards a card from their hand.",
       "backText": null,
       "epicAction": null
     },
@@ -7876,7 +7876,7 @@
         "Raid"
       ],
       "traitCount": 2,
-      "text": "On Attack: Another friendly Amber unit gains RAID 2 for this phase. (it gets +2/+0 while attacking.)",
+      "text": "On Attack: Another friendly Amber unit gains Raid 2 for this phase. (it gets +2/+0 while attacking.)",
       "backText": null,
       "epicAction": null
     },
@@ -8070,7 +8070,7 @@
         "Saboteur"
       ],
       "traitCount": 1,
-      "text": "Attached unit gains SABOTEUR. (When this unit attacks, ignore Bodyguard and defeat the defender's Shields.)",
+      "text": "Attached unit gains Saboteur. (When this unit attacks, ignore Bodyguard and defeat the defender's Shields.)",
       "backText": null,
       "epicAction": null
     },
@@ -8108,7 +8108,7 @@
         "Saboteur"
       ],
       "traitCount": 1,
-      "text": "Attack with a unit. It gains SABOTEUR for this attack. If it's a Steel, it also gains +2/+0 for this attack. (Ignore Bodyguard and defeat the defender's Shields.)",
+      "text": "Attack with a unit. It gains Saboteur for this attack. If it's a Steel, it also gains +2/+0 for this attack. (Ignore Bodyguard and defeat the defender's Shields.)",
       "backText": null,
       "epicAction": null
     },
@@ -8274,7 +8274,7 @@
         "Shielded"
       ],
       "traitCount": 2,
-      "text": "SHIELDED (When you play this unit, give him a Shield token.)\nAction [{exhaust}]: Play a spell from your hand. It costs 1 less.",
+      "text": "Shielded (When you play this unit, give a Shield token to it.)\nAction [{exhaust}]: Play a spell from your hand. It costs {1} less.",
       "backText": null,
       "epicAction": null
     },
@@ -8333,7 +8333,7 @@
         "Shielded"
       ],
       "traitCount": 3,
-      "text": "SHIELDED (When you play this unit, give a Shield token to it.)",
+      "text": "Shielded (When you play this unit, give a Shield token to it.)",
       "backText": null,
       "epicAction": null
     },
@@ -8352,7 +8352,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Each Amber spell you play costs 1 less.\nWhen Played: Search the top 8 cards of your deck for an Amber spell, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order.)",
+      "text": "Each Amber spell you play costs {1} less.\nWhen Played: Search the top 8 cards of your deck for an Amber spell, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order.)",
       "backText": null,
       "epicAction": null
     },
@@ -8373,7 +8373,7 @@
         "Ambush"
       ],
       "traitCount": 2,
-      "text": "AMBUSH (After you play this unit, he may ready and attack an enemy unit.)\nWhen you play a spell: You may deal 2 damage to a unit.",
+      "text": "Ambush (After you play this unit, he may ready and attack an enemy unit.)\nWhen you play a spell: You may deal 2 damage to a unit.",
       "backText": null,
       "epicAction": null
     },
@@ -8394,7 +8394,7 @@
         "Ambush"
       ],
       "traitCount": 2,
-      "text": "AMBUSH (After you play this unit, it may ready and attack an enemy unit.)\nWhen Played: You may return a spell from a discard pile to its owner's hand.",
+      "text": "Ambush (After you play this unit, it may ready and attack an enemy unit.)\nWhen Played: You may return a spell from a discard pile to its owner's hand.",
       "backText": null,
       "epicAction": null
     },
@@ -8415,7 +8415,7 @@
         "Shielded"
       ],
       "traitCount": 3,
-      "text": "SHIELDED (When you play this unit, give a Shield token to it.) \nOn Attack: Name a card. An opponent reveals their hand and discards a card with that name from it.",
+      "text": "Shielded (When you play this unit, give a Shield token to it.) \nOn Attack: Name a card. An opponent reveals their hand and discards a card with that name from it.",
       "backText": null,
       "epicAction": null
     },
@@ -8474,7 +8474,7 @@
         "Raid"
       ],
       "traitCount": 3,
-      "text": "While you control another Green unit, this unit gains RAID 1. \nOn Attack: Discard a card from the defending player's deck. If it's a spell, exhaust a resource that player controls.",
+      "text": "While you control another Green unit, this unit gains Raid 1. (This unit gets +1/+0 while attacking.) \nOn Attack: Discard a card from the defending player's deck. If it's a spell, exhaust a resource that player controls.",
       "backText": null,
       "epicAction": null
     },
@@ -8866,7 +8866,7 @@
         "Raid"
       ],
       "traitCount": 3,
-      "text": "RAID 1 (This unit gets +1/+0 while attacking.) \nOn Attack: If your Commander has joined the fight, you may exhaust a unit.",
+      "text": "Raid 1 (This unit gets +1/+0 while attacking.) \nOn Attack: If your Commander has joined the fight, you may exhaust a unit.",
       "backText": null,
       "epicAction": null
     },
@@ -9566,7 +9566,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Look at the top card of your deck. You may play it. It costs 5 less. If your Commander has 5 or less remaining HP, you may play it for free instead.",
+      "text": "Look at the top card of your deck. You may play it. It costs {5} less. If your Commander has 5 or less remaining HP, you may play it for free instead.",
       "backText": null,
       "epicAction": null
     },
@@ -9618,7 +9618,7 @@
         "Ambush"
       ],
       "traitCount": 2,
-      "text": "While you control another Green unit, this unit gains AMBUSH. (After you play this unit, it may ready and attack an enemy unit.)",
+      "text": "While you control another Green unit, this unit gains Ambush. (After you play this unit, it may ready and attack an enemy unit.)",
       "backText": null,
       "epicAction": null
     },
@@ -10403,7 +10403,7 @@
         "Exploit"
       ],
       "traitCount": 3,
-      "text": "Exploit 2 (While playing this card, defeat up to 2 units you control. This card costs 2 less for each unit defeated this way.) \nOn Attack: Give an enemy unit -2/-2 for this phase.",
+      "text": "Exploit 2 (While playing this card, defeat up to 2 units you control. This card costs {2} less for each unit defeated this way.) \nOn Attack: Give an enemy unit -2/-2 for this phase.",
       "backText": null,
       "epicAction": null
     },
@@ -10425,7 +10425,7 @@
         "Restore"
       ],
       "traitCount": 3,
-      "text": "Exploit 4 (While playing this card, defeat up to 4 units you control. This card costs 2 less for each unit defeated this way.)\nRestore 2 (When this unit attacks, heal 2 damage from your Commander.)\nWhen Played: Give an enemy unit -4/-0 for this phase. It can't attack for this phase.",
+      "text": "Exploit 4 (While playing this card, defeat up to 4 units you control. This card costs {2} less for each unit defeated this way.)\nRestore 2 (When this unit attacks, heal 2 damage from your Commander.)\nWhen Played: Give an enemy unit -4/-0 for this phase. It can't attack for this phase.",
       "backText": null,
       "epicAction": null
     },
@@ -10661,7 +10661,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "If you control 3 or more Red units, this upgrade costs 2 less to play.\nAttached unit gains: \"While you control 3 or more units, when this unit attacks, heal 2 damage from your Commander.\"",
+      "text": "If you control 3 or more Red units, this upgrade costs {2} less to play.\nAttached unit gains: \"While you control 3 or more units, when this unit attacks, heal 2 damage from your Commander.\"",
       "backText": null,
       "epicAction": null
     },
@@ -10982,7 +10982,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Attached unit gains: \"When the rest phase starts (before drawing cards): Name a card, then look at the top card of your deck. If it's the named card, you may reveal and draw it.\"",
+      "text": "Attached unit gains: \"When the rest phase starts (before drawing cards): Name a color, then look at the top card of your deck. If it's that color, you may reveal and draw it.\"",
       "backText": null,
       "epicAction": null
     },
@@ -11324,7 +11324,7 @@
         "Exploit"
       ],
       "traitCount": 2,
-      "text": "Exploit 1 (While playing this card, defeat up to 1 unit you control. This card costs 2 less for each unit defeated this way.)\nWhen Played: Return up to 3 units that were defeated this phase from your discard pile to your hand.",
+      "text": "Exploit 1 (While playing this card, defeat up to 1 unit you control. This card costs {2} less for each unit defeated this way.)\nWhen Played: Return up to 3 units that were defeated this phase from your discard pile to your hand.",
       "backText": null,
       "epicAction": null
     },
@@ -11929,7 +11929,7 @@
         "Exploit"
       ],
       "traitCount": 3,
-      "text": "Exploit 2 (While playing this card, defeat up to 2 units you control. This card costs 2 less for each unit defeated this way.) \nAmbush (When you play this unit, it may ready and attack an enemy unit.)",
+      "text": "Exploit 2 (While playing this card, defeat up to 2 units you control. This card costs {2} less for each unit defeated this way.) \nAmbush (When you play this unit, it may ready and attack an enemy unit.)",
       "backText": null,
       "epicAction": null
     },
@@ -12294,7 +12294,7 @@
         "Exploit"
       ],
       "traitCount": 4,
-      "text": "Exploit 3 (While playing this card, defeat up to 3 units you control. This card costs 2 less for each unit defeated this way.)",
+      "text": "Exploit 3 (While playing this card, defeat up to 3 units you control. This card costs {2} less for each unit defeated this way.)",
       "backText": null,
       "epicAction": null
     },
@@ -12335,7 +12335,7 @@
         "Trample"
       ],
       "traitCount": 3,
-      "text": "Exploit 2 (While playing this card, defeat up to 2 units you control. This card costs 2 less for each unit defeated this way.)\nTrample (When attacking an enemy unit, deal excess damage to the opponent's Commander.)\nWhen Played: For each unit you exploited while playing this card, you may deal damage to an enemy unit equal to the power of the exploited unit.",
+      "text": "Exploit 2 (While playing this card, defeat up to 2 units you control. This card costs {2} less for each unit defeated this way.)\nTrample (When attacking an enemy unit, deal excess damage to the opponent's Commander.)\nWhen Played: For each unit you exploited while playing this card, you may deal damage to an enemy unit equal to the power of the exploited unit.",
       "backText": null,
       "epicAction": null
     },
@@ -12596,7 +12596,7 @@
       ],
       "keywords": [],
       "traitCount": 3,
-      "text": "This unit costs 1 less to play for every 5 damage on your Commander. \nWhen Played/On Attack: Deal 2 damage to an enemy unit and each other enemy unit with the same name as that unit.",
+      "text": "This unit costs {1} less to play for every 5 damage on your Commander. \nWhen Played/On Attack: Deal 2 damage to an enemy unit and each other enemy unit with the same name as that unit.",
       "backText": null,
       "epicAction": null
     },
@@ -12885,7 +12885,7 @@
         "Exploit"
       ],
       "traitCount": 4,
-      "text": "Exploit 2 (While playing this card, defeat up to 2 units you control. This card costs 2 less for each unit defeated this way.) \nWhen Played: You may deal 2 damage to a unit.",
+      "text": "Exploit 2 (While playing this card, defeat up to 2 units you control. This card costs {2} less for each unit defeated this way.) \nWhen Played: You may deal 2 damage to a unit.",
       "backText": null,
       "epicAction": null
     },
@@ -13090,7 +13090,7 @@
         "Trample"
       ],
       "traitCount": 2,
-      "text": "Exploit 3 (While playing this card, defeat up to 3 units you control. This card costs 2 less for each unit defeated this way.)\nReady up to 3 units. Each of those units gets +1/+0 and gains Trample for this phase. (When attacking an enemy unit, deal excess damage to the opponent's Commander.)",
+      "text": "Exploit 3 (While playing this card, defeat up to 3 units you control. This card costs {2} less for each unit defeated this way.)\nReady up to 3 units. Each of those units gets +1/+0 and gains Trample for this phase. (When attacking an enemy unit, deal excess damage to the opponent's Commander.)",
       "backText": null,
       "epicAction": null
     },
@@ -13234,7 +13234,7 @@
         "Exploit"
       ],
       "traitCount": 2,
-      "text": "Exploit 3 (While playing this card, defeat up to 3 units you control. This card costs 2 less for each unit defeated this way.) \nOn Attack: For each friendly unit that was defeated this phase, ready a friendly resource.",
+      "text": "Exploit 3 (While playing this card, defeat up to 3 units you control. This card costs {2} less for each unit defeated this way.) \nOn Attack: For each friendly unit that was defeated this phase, ready a friendly resource.",
       "backText": null,
       "epicAction": null
     },
@@ -13291,7 +13291,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Play a unit that was defeated this phase from your discard pile. It costs 2 less and enters play ready. At the start of the rest phase, defeat it.",
+      "text": "Play a unit that was defeated this phase from your discard pile. It costs {2} less and enters play ready. At the start of the rest phase, defeat it.",
       "backText": null,
       "epicAction": null
     },
@@ -13529,7 +13529,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Search the top 10 cards of your deck for 2 Amber non-unit cards and discard them. (Put the other cards on the bottom of your deck in a random order.) \nFor this phase, you may play the discarded cards, and they each cost 2 less.",
+      "text": "Search the top 10 cards of your deck for 2 Amber non-unit cards and discard them. (Put the other cards on the bottom of your deck in a random order.) \nFor this phase, you may play the discarded cards, and they each cost {2} less.",
       "backText": null,
       "epicAction": null
     },
@@ -14170,7 +14170,7 @@
         "Exploit"
       ],
       "traitCount": 3,
-      "text": "Exploit 2 (While playing this card, defeat up to 2 units you control. This card costs 2 less for each unit defeated this way.)\nWhen Defeated: Create 3 Battle Purple tokens.",
+      "text": "Exploit 2 (While playing this card, defeat up to 2 units you control. This card costs {2} less for each unit defeated this way.)\nWhen Defeated: Create 3 Battle Purple tokens.",
       "backText": null,
       "epicAction": null
     },
