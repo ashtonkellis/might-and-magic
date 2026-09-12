@@ -10747,15 +10747,15 @@
       "name": "Frostbound Acolyte",
       "type": "Unit",
       "cost": 1,
-      "power": 0,
-      "hp": 4,
+      "power": 1,
+      "hp": 3,
       "unique": false,
       "aspects": [
         "Vigilance"
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Action [{2}, {exhaust}]: Heal 2 damage from a unit or Commander.",
+      "text": "Action [{2}, {exhaust}]: Give a Shield token to a unit.",
       "backText": null,
       "epicAction": null
     },
