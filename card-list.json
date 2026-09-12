@@ -702,7 +702,7 @@
         "Smuggle"
       ],
       "traitCount": 3,
-      "text": "Grit \nEach other friendly unit gains Grit. \nSmuggle [GP5, deal 4 damage to a friendly unit]",
+      "text": "Grit \nEach other friendly unit gains Grit. \nSmuggle [{G}{P}{5}, deal 4 damage to a friendly unit]",
       "backText": null,
       "epicAction": null
     },
@@ -969,7 +969,7 @@
         "Smuggle"
       ],
       "traitCount": 2,
-      "text": "Grit \nWhen Played: You may defeat a unit with 5 or less remaining HP. \nSmuggle [PS7]",
+      "text": "Grit \nWhen Played: You may defeat a unit with 5 or less remaining HP. \nSmuggle [{P}{S}{7}]",
       "backText": null,
       "epicAction": null
     },
@@ -1010,7 +1010,7 @@
         "Smuggle"
       ],
       "traitCount": 2,
-      "text": "While an enemy unit is upgraded, this unit gains Bodyguard. \nSmuggle [RB4] (If this card is a resource, you may play her for her smuggle cost. Replace her with the top card of your deck.)",
+      "text": "While an enemy unit is upgraded, this unit gains Bodyguard. \nSmuggle [{R}{B}{4}] (If this card is a resource, you may play her for her smuggle cost. Replace her with the top card of your deck.)",
       "backText": null,
       "epicAction": null
     },
@@ -1443,7 +1443,7 @@
         "Smuggle"
       ],
       "traitCount": 1,
-      "text": "Heal 2 damage from a unit and give an Experience token to it.\nSmuggle [RG1] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
+      "text": "Heal 2 damage from a unit and give an Experience token to it.\nSmuggle [{R}{G}{1}] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
       "backText": null,
       "epicAction": null
     },
@@ -1855,7 +1855,7 @@
         "Smuggle"
       ],
       "traitCount": 1,
-      "text": "On Attack: Give another friendly unit +2/+2 for this phase. \nSmuggle [AG2] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
+      "text": "On Attack: Give another friendly unit +2/+2 for this phase. \nSmuggle [{A}{G}{2}] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
       "backText": null,
       "epicAction": null
     },
@@ -2057,7 +2057,7 @@
         "Smuggle"
       ],
       "traitCount": 1,
-      "text": "When Defeated: You may defeat a friendly resource. If you do, put this unit into play as a resource. \nSmuggle [PP4]",
+      "text": "When Defeated: You may defeat a friendly resource. If you do, put this unit into play as a resource. \nSmuggle [{P}{P}{4}]",
       "backText": null,
       "epicAction": null
     },
@@ -2439,7 +2439,7 @@
         "Smuggle"
       ],
       "traitCount": 1,
-      "text": "Search the top 10 cards of your deck for a Green or Steel card, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order.) \nSmuggle [GS1]",
+      "text": "Search the top 10 cards of your deck for a Green or Steel card, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order.) \nSmuggle [{G}{S}{1}]",
       "backText": null,
       "epicAction": null
     },
@@ -2477,7 +2477,7 @@
         "Smuggle"
       ],
       "traitCount": 1,
-      "text": "Play a unit from your hand. Give it Ambush for this phase. (When you play it, it may ready and attack an enemy unit.) \nSmuggle [RS] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
+      "text": "Play a unit from your hand. Give it Ambush for this phase. (When you play it, it may ready and attack an enemy unit.) \nSmuggle [{R}{S}] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
       "backText": null,
       "epicAction": null
     },
@@ -3069,7 +3069,7 @@
         "Smuggle"
       ],
       "traitCount": 1,
-      "text": "When Played: Deal 1 damage to each Commander. \nSmuggle [RR1] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
+      "text": "When Played: Deal 1 damage to each Commander. \nSmuggle [{R}{R}{1}] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
       "backText": null,
       "epicAction": null
     },
@@ -3521,7 +3521,7 @@
         "Smuggle"
       ],
       "traitCount": 1,
-      "text": "When Played: Look at an opponent's hand. You may discard 1 of those cards. If you do, that player draws a card. \nSmuggle [RP2]",
+      "text": "When Played: Look at an opponent's hand. You may discard 1 of those cards. If you do, that player draws a card. \nSmuggle [{R}{P}{2}]",
       "backText": null,
       "epicAction": null
     },
@@ -3886,7 +3886,7 @@
         "Smuggle"
       ],
       "traitCount": 3,
-      "text": "If you play this unit from your hand, it gains Ambush. \nSmuggle [GB4] (If this card is a resource, you may play her for her smuggle cost. Replace her with the top card of your deck.)",
+      "text": "If you play this unit from your hand, it gains Ambush. \nSmuggle [{G}{B}{4}] (If this card is a resource, you may play her for her smuggle cost. Replace her with the top card of your deck.)",
       "backText": null,
       "epicAction": null
     },
@@ -4270,7 +4270,7 @@
         "Smuggle"
       ],
       "traitCount": 2,
-      "text": "Attach to a unit. \nWhen Played: Give a Shield token to attached unit. At the start of the rest phase, defeat that token.\nSmuggle [BP2]",
+      "text": "Attach to a unit. \nWhen Played: Give a Shield token to attached unit. At the start of the rest phase, defeat that token.\nSmuggle [{B}{P}{2}]",
       "backText": null,
       "epicAction": null
     },
@@ -4738,7 +4738,7 @@
         "Smuggle"
       ],
       "traitCount": 1,
-      "text": "Heal 3 damage from a Commander. \nSmuggle [AP1] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
+      "text": "Heal 3 damage from a Commander. \nSmuggle [{A}{P}{1}] (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.)",
       "backText": null,
       "epicAction": null
     },
