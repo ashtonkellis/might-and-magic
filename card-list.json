@@ -309,9 +309,11 @@
         "Cunning",
         "Heroism"
       ],
-      "keywords": [],
+      "keywords": [
+        "Shielded"
+      ],
       "traitCount": 1,
-      "text": "Action [{exhaust}]: Play a card using Smuggle. (If this card is a resource, you may play it for its smuggle cost. Replace it with the top card of your deck.) It costs {2} less. Defeat a resource you own and control.",
+      "text": "Shielded (When you play this unit, give a Shield token to it.)\nWhen the rest phase starts: Give a Shield token to this unit.",
       "backText": null,
       "epicAction": null
     },
@@ -1979,7 +1981,7 @@
       "class": "18-ranger",
       "name": "Everything Already Packed",
       "type": "Spell",
-      "cost": 14,
+      "cost": 10,
       "power": null,
       "hp": null,
       "aspects": [
