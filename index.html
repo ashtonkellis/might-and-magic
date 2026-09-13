@@ -401,7 +401,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 
 <header class="top">
   <div class="spectrum"></div>
-  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V94</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
+  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V95</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
   <p class="sub">In the colors of the class each card was chosen for.
      Every card in the game: twenty-one heroes, six resources, and twelve cards
      for each class. Art appears as it lands in <code>art/</code>; a card whose
@@ -450,12 +450,10 @@ const RESOURCE_CARDS = RESOURCES.map(r => ({
   ink:r.ink, element:r.element, hex:r.hex,
   art:`art/resources/${r.ink.toLowerCase()}.png`,
 }));
-/* The one token in the game: a +1/+1 upgrade that fourteen cards across seven
-   classes hand out. It belongs to no class, which is why it is here rather than
-   in card-list.json and why it takes the neutral grey frame -- BY_SLUG has no
-   entry for a null class, and the fallback gradient is already the right look
-   for a card that is nobody's. Its art comes through art/index.json like every
-   other card's, keyed on the id. */
+/* Tokens belong to no class, which is why they live here rather than in
+   card-list.json and use the neutral grey frame. Their illustrations still
+   come through art/index.json, keyed on id; their rules-box watermarks are
+   explicit so adding a token never risks borrowing a class mark. */
 const TOKEN_CARDS = [{
   id:'TOK-EXPERIENCE', kind:'token', 'class':null,
   name:'Experience', type:'Token Upgrade',
@@ -471,6 +469,10 @@ const TOKEN_CARDS = [{
   text:'Attach to a unit.\nIf damage would be dealt to attached unit, prevent that damage. If you do, defeat a Shield token on it.',
   backText:null, epicAction:null,
 }];
+const TOKEN_ICONS = {
+  'TOK-EXPERIENCE':'experience.webp',
+  'TOK-SHIELD':'shield.webp',
+};
 
 /* Rules text carries three things the browser draws rather than spells: a
    resource cost as {N}, exhausting as {exhaust}, and an ink name, which gets a
@@ -636,7 +638,9 @@ function cardHTML(c){
   if (c.kind === 'hero') return heroHTML(c);
   if (c.kind === 'resource') return resourceHTML(c);
   const k = BY_SLUG[c['class']];
-  const icon = k ? `--class-icon:url('art/class-icons/${encodeURIComponent(k.slug)}.webp')` : '';
+  const tokenIcon = TOKEN_ICONS[c.id];
+  const icon = k ? `--class-icon:url('art/class-icons/${encodeURIComponent(k.slug)}.webp')`
+                 : tokenIcon ? `--class-icon:url('art/token-icons/${encodeURIComponent(tokenIcon)}')` : '';
   const bg = k ? `linear-gradient(var(--split), ${k.c1} 0 var(--split-a), ${k.c2} var(--split-b) 100%)` : 'linear-gradient(var(--split),#6B6879 0 var(--split-a),#423E55 var(--split-b) 100%)';
   // Two of the six inks are far too light to carry white text on their own, and
   // a blend can pair a light ink with a dark one, so a constant wash sits over
