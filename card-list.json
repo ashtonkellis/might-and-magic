@@ -4350,7 +4350,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Choose a unit captured by a friendly unit. Discard it.",
+      "text": "An opponent chooses a unit they control. Deal 3 damage to it.",
       "backText": null,
       "epicAction": null
     },
