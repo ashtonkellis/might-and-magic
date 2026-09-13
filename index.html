@@ -359,6 +359,11 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 .card:has(.credit) .rules{border-radius:0}
 .card:has(.credit) .stat.corner{bottom:calc(.26rem + var(--frame) + 1.1rem)}
 
+/* Extra copies of a card exist only for the sheet. Hiding them under screen
+   rather than un-hiding them under print leaves the card's own display rule
+   untouched, so a copy prints exactly as the original does. */
+@media screen{.card.dupe{display:none}}
+
 /* ---------- print: real 2.5in x 3.5in cards, 9 to a letter page ---------- */
 @page{size:letter portrait;margin:.2in}
 @media print{
@@ -406,7 +411,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 
 <header class="top">
   <div class="spectrum"></div>
-  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V103</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
+  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V104</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
   <p class="sub">In the colors of the class each card was chosen for.
      Every card in the game: twenty-one heroes, six resources, and twelve cards
      for each class. Art appears as it lands in <code>art/</code>; a card whose
@@ -728,7 +733,28 @@ function apply(){
   const wide = c => c.kind === 'resource' || (c.kind === 'hero' && c.side === 'front');
   $('grid').classList.toggle('wide-sheet', out.length > 0 && out.every(wide));
   fitRules($('grid'));
-  $('count').textContent = `${out.length} card${out.length === 1 ? '' : 's'}`;
+
+  /* A card that needs more than one copy gets them here, after the fitter has
+     run, by cloning the finished node: a clone carries the --fit already
+     measured on the original, where a second pass over hidden copies would
+     measure zero and leave them unshrunk on the sheet. Their art is switched to
+     eager for the same reason -- a lazy image inside a display:none card has no
+     reason to load, and would print blank. The copies are screen-hidden, so the
+     browser still shows one of everything. */
+  const nodes = [...$('grid').children];
+  out.forEach((c, i) => {
+    for (let k = 1; k < (c.print || 1); k++) {
+      const copy = nodes[i].cloneNode(true);
+      copy.classList.add('dupe');
+      copy.querySelectorAll('img').forEach(im => { im.loading = 'eager'; });
+      nodes[i].after(copy);
+    }
+  });
+
+  const sheet = out.reduce((n, c) => n + (c.print || 1), 0);
+  $('count').textContent = sheet === out.length
+    ? `${out.length} card${out.length === 1 ? '' : 's'}`
+    : `${out.length} cards \u00B7 ${sheet} to print`;
   $('empty').hidden = out.length > 0;
   $('empty').textContent = out.length ? '' : 'No cards match those filters.';
 }
