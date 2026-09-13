@@ -3089,7 +3089,7 @@
         "Bounty"
       ],
       "traitCount": 3,
-      "text": "When Played: If you played this unit from your hand, an opponent takes control of it. \nBounty - If you own this unit, play it from your discard pile for free and give an Experience token to it. (When this unit is defeated or captured, your opponent collects its bounty.)",
+      "text": "When Defeated: Return another unit from your discard pile to your hand.\nBounty - Draw a card. (When this unit is defeated or captured, your opponent collects its bounty.)",
       "backText": null,
       "epicAction": null
     },
