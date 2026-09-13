@@ -8866,7 +8866,7 @@
         "Raid"
       ],
       "traitCount": 3,
-      "text": "Raid 1 (This unit gets +1/+0 while attacking.) \nOn Attack: If your Commander has joined the fight, you may exhaust a unit.",
+      "text": "Raid 1 (This unit gets +1/+0 while attacking.) \nOn Attack: If you control a Hero unit, you may exhaust a unit.",
       "backText": null,
       "epicAction": null
     },
