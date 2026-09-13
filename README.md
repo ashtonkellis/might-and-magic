@@ -195,10 +195,12 @@ play. Rules text still speaks of flanks relationally ("units in this flank",
 "the same flank"); it never names one. Events are **spells**, the card a player
 defends is a **Hero**, and the round's reset is the **rest phase**.
 
-Each entry carries an opaque `id`, `type`, `cost`, `power`, `hp`,
+Each entry carries an opaque `id`, `type`, `cost`, `print`, `power`, `hp`,
 `aspects`, `keywords`, `traitCount`, and rules text. `aspects` is a legacy
 list whose length is all that is read: it sets how many of a card's cost pips
-are coloured rather than generic.
+are coloured rather than generic. `print` is how many copies of the card a
+finished set needs — 1 for everything except the Experience and Shield
+tokens, which are 10.
 
 ### Class assignments
 

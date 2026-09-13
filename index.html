@@ -406,7 +406,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 
 <header class="top">
   <div class="spectrum"></div>
-  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V102</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
+  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V103</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
   <p class="sub">In the colors of the class each card was chosen for.
      Every card in the game: twenty-one heroes, six resources, and twelve cards
      for each class. Art appears as it lands in <code>art/</code>; a card whose
@@ -450,7 +450,7 @@ const RESOURCES = [
 const RESOURCE_CARDS = RESOURCES.map(r => ({
   id:`RES-${r.ink.toUpperCase()}`, kind:'resource', 'class':null,
   name:`${r.ink} Resource`, type:'Resource',
-  cost:null, power:null, hp:null,
+  cost:null, print:1, power:null, hp:null,
   aspects:[], keywords:[], traitCount:0, text:'', backText:null, epicAction:null,
   ink:r.ink, element:r.element, hex:r.hex,
   art:`art/resources/${r.ink.toLowerCase()}.png`,
@@ -462,21 +462,21 @@ const RESOURCE_CARDS = RESOURCES.map(r => ({
 const TOKEN_CARDS = [{
   id:'TOK-EXPERIENCE', kind:'token', 'class':null,
   name:'Experience', type:'Token Upgrade',
-  cost:0, power:1, hp:1,
+  cost:0, print:10, power:1, hp:1,
   aspects:[], keywords:[], traitCount:0,
   text:'Attach to a unit.\nAttached unit gets +1/+1.',
   backText:null, epicAction:null,
 }, {
   id:'TOK-SHIELD', kind:'token', 'class':null,
   name:'Shield', type:'Token Upgrade',
-  cost:0, power:0, hp:0,
+  cost:0, print:10, power:0, hp:0,
   aspects:[], keywords:[], traitCount:0,
   text:'Attach to a unit.\nIf damage would be dealt to attached unit, prevent that damage. If you do, defeat a Shield token on it.',
   backText:null, epicAction:null,
 }, {
   id:'TOK-INITIATIVE', kind:'token', 'class':null,
   name:'Initiative', type:'Token',
-  cost:null, power:null, hp:null, unique:false,
+  cost:null, print:1, power:null, hp:null,
   aspects:[], keywords:[], traitCount:0,
   text:'The player with the Initiative takes the first action each action phase.\nOn your turn, you may take the Initiative. If you do, take no more actions this phase.',
   backText:null, epicAction:null,
@@ -581,7 +581,7 @@ function buildHeroes(heroes){
   const out = [];
   for (const h of heroes) {
     const k = BY_SLUG[h['class']] || {};
-    const base = {kind:'hero', 'class':h['class'], type:'Hero', cost:null,
+    const base = {kind:'hero', 'class':h['class'], type:'Hero', cost:null, print:1,
                   aspects:[], keywords:[], traitCount:0, backText:null, epicAction:null,
                   hero:h.hero, className:k.name || '', c1:k.c1, c2:k.c2,
                   glyph:(k.counter || '').split(' ').pop() || '\u25C7', join:h.join};
@@ -750,6 +750,9 @@ Promise.all([
   // Only cards that are in the game. The 503 unassigned corpus cards were raw
   // material for choosing the twelves; keeping them in the browser put a Hero
   // type in the dropdown that matched nothing a player owns.
+  // `print` is how many copies of a card a finished set needs. Everything is a
+  // single unless it says otherwise; the Experience and Shield tokens are the
+  // exception, since one game wants a pile of each.
   CARDS = HERO_CARDS.concat(RESOURCE_CARDS).concat(TOKEN_CARDS).concat(d.data.filter(c => c['class']).sort((a, b) =>
       (order[a['class']] ?? 99) - (order[b['class']] ?? 99) ||
       (a.cost ?? -1) - (b.cost ?? -1) || a.id.localeCompare(b.id)));

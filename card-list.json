@@ -13,6 +13,7 @@
       "name": "Laden Tinker",
       "type": "Unit",
       "cost": 6,
+      "print": 1,
       "power": 4,
       "hp": 7,
       "aspects": [
@@ -31,6 +32,7 @@
       "name": "Blunt Practitioner",
       "type": "Unit",
       "cost": 5,
+      "print": 1,
       "power": 0,
       "hp": 8,
       "aspects": [
@@ -51,6 +53,7 @@
       "name": "Smith at Rest",
       "type": "Unit",
       "cost": 5,
+      "print": 1,
       "power": 4,
       "hp": 6,
       "aspects": [
@@ -69,6 +72,7 @@
       "name": "Tender of the Mountain",
       "type": "Unit",
       "cost": 6,
+      "print": 1,
       "power": 2,
       "hp": 6,
       "aspects": [
@@ -105,6 +109,7 @@
       "name": "Bound Knight",
       "type": "Unit",
       "cost": 7,
+      "print": 1,
       "power": 2,
       "hp": 12,
       "aspects": [
@@ -123,6 +128,7 @@
       "name": "Unbroken Glider",
       "type": "Unit",
       "cost": 5,
+      "print": 1,
       "power": 3,
       "hp": 6,
       "aspects": [
@@ -141,6 +147,7 @@
       "name": "Cloudborne Guide",
       "type": "Unit",
       "cost": 6,
+      "print": 1,
       "power": 4,
       "hp": 7,
       "aspects": [
@@ -195,6 +202,7 @@
       "name": "Unmoved Aristocrat",
       "type": "Unit",
       "cost": 4,
+      "print": 1,
       "power": 5,
       "hp": 4,
       "aspects": [
@@ -231,6 +239,7 @@
       "name": "Sole Operator",
       "type": "Unit",
       "cost": 5,
+      "print": 1,
       "power": 3,
       "hp": 6,
       "aspects": [
@@ -267,6 +276,7 @@
       "name": "Keeper of the Ledger",
       "type": "Unit",
       "cost": 5,
+      "print": 1,
       "power": 2,
       "hp": 5,
       "aspects": [
@@ -303,6 +313,7 @@
       "name": "The Unhungering",
       "type": "Unit",
       "cost": 4,
+      "print": 1,
       "power": 2,
       "hp": 5,
       "aspects": [
@@ -477,6 +488,7 @@
       "name": "Thornbacked Yearling",
       "type": "Unit",
       "cost": 1,
+      "print": 1,
       "power": 1,
       "hp": 4,
       "aspects": [
@@ -516,6 +528,7 @@
       "name": "Shieldwall Recruit",
       "type": "Unit",
       "cost": 2,
+      "print": 1,
       "power": 2,
       "hp": 3,
       "aspects": [
@@ -554,6 +567,7 @@
       "name": "Glacier Custodian",
       "type": "Unit",
       "cost": 3,
+      "print": 1,
       "power": 2,
       "hp": 5,
       "aspects": [
@@ -595,6 +609,7 @@
       "name": "Standing Effigy",
       "type": "Unit",
       "cost": 4,
+      "print": 1,
       "power": 3,
       "hp": 6,
       "aspects": [
@@ -616,6 +631,7 @@
       "name": "Icebound Paragon",
       "type": "Unit",
       "cost": 5,
+      "print": 1,
       "power": 4,
       "hp": 4,
       "aspects": [
@@ -637,6 +653,7 @@
       "name": "Rampart Captain",
       "type": "Unit",
       "cost": 6,
+      "print": 1,
       "power": 4,
       "hp": 5,
       "aspects": [
@@ -657,6 +674,7 @@
       "name": "The Thriving Field",
       "type": "Unit",
       "cost": 7,
+      "print": 1,
       "power": 4,
       "hp": 7,
       "aspects": [
@@ -678,6 +696,7 @@
       "name": "Blight of Slow Years",
       "type": "Unit",
       "cost": 8,
+      "print": 1,
       "power": 6,
       "hp": 6,
       "aspects": [
@@ -698,6 +717,7 @@
       "name": "Reclaimed Reliquary",
       "type": "Upgrade",
       "cost": 2,
+      "print": 1,
       "power": 1,
       "hp": 2,
       "aspects": [
@@ -772,6 +792,7 @@
       "name": "Dented Veteran",
       "type": "Unit",
       "cost": 3,
+      "print": 1,
       "power": 1,
       "hp": 4,
       "aspects": [
@@ -792,6 +813,7 @@
       "name": "Rimeguard Sentinel",
       "type": "Unit",
       "cost": 3,
+      "print": 1,
       "power": 2,
       "hp": 3,
       "aspects": [
@@ -813,6 +835,7 @@
       "name": "Rot-Fed Healer",
       "type": "Unit",
       "cost": 4,
+      "print": 1,
       "power": 3,
       "hp": 4,
       "aspects": [
@@ -833,6 +856,7 @@
       "name": "Preserved Attendant",
       "type": "Unit",
       "cost": 4,
+      "print": 1,
       "power": 2,
       "hp": 6,
       "aspects": [
@@ -871,6 +895,7 @@
       "name": "Old Growth Warden",
       "type": "Unit",
       "cost": 6,
+      "print": 1,
       "power": 2,
       "hp": 8,
       "aspects": [
@@ -911,6 +936,7 @@
       "name": "The Detached",
       "type": "Unit",
       "cost": 8,
+      "print": 1,
       "power": 4,
       "hp": 10,
       "aspects": [
@@ -932,6 +958,7 @@
       "name": "Sizing Up",
       "type": "Spell",
       "cost": 1,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -950,6 +977,7 @@
       "name": "Countermeasure Rig",
       "type": "Unit",
       "cost": 4,
+      "print": 1,
       "power": 4,
       "hp": 6,
       "aspects": [
@@ -971,6 +999,7 @@
       "name": "Collateral Clause",
       "type": "Upgrade",
       "cost": 4,
+      "print": 1,
       "power": 0,
       "hp": 0,
       "aspects": [
@@ -989,6 +1018,7 @@
       "name": "Ward of Many Wounds",
       "type": "Spell",
       "cost": 2,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -1007,6 +1037,7 @@
       "name": "Poultice Bearer",
       "type": "Unit",
       "cost": 1,
+      "print": 1,
       "power": 1,
       "hp": 4,
       "aspects": [
@@ -1060,6 +1091,7 @@
       "name": "Ashen Circle",
       "type": "Unit",
       "cost": 2,
+      "print": 1,
       "power": 2,
       "hp": 4,
       "aspects": [
@@ -1132,6 +1164,7 @@
       "name": "Bulwark of the Pass",
       "type": "Unit",
       "cost": 4,
+      "print": 1,
       "power": 2,
       "hp": 6,
       "aspects": [
@@ -1170,6 +1203,7 @@
       "name": "Running Ember",
       "type": "Unit",
       "cost": 5,
+      "print": 1,
       "power": 4,
       "hp": 6,
       "aspects": [
@@ -1207,6 +1241,7 @@
       "name": "Guest Who Never Leaves",
       "type": "Unit",
       "cost": 6,
+      "print": 1,
       "power": 4,
       "hp": 6,
       "aspects": [
@@ -1243,6 +1278,7 @@
       "name": "Given Orders",
       "type": "Upgrade",
       "cost": 0,
+      "print": 1,
       "power": 0,
       "hp": 0,
       "aspects": [
@@ -1260,6 +1296,7 @@
       "name": "Borrowed Shape",
       "type": "Upgrade",
       "cost": 1,
+      "print": 1,
       "power": 1,
       "hp": 1,
       "aspects": [
@@ -1294,6 +1331,7 @@
       "name": "Slow Poultice",
       "type": "Upgrade",
       "cost": 1,
+      "print": 1,
       "power": 0,
       "hp": 0,
       "aspects": [
@@ -1345,6 +1383,7 @@
       "name": "Binding Rune",
       "type": "Upgrade",
       "cost": 2,
+      "print": 1,
       "power": 2,
       "hp": 2,
       "aspects": [
@@ -1362,6 +1401,7 @@
       "name": "Ash-Fed Salve",
       "type": "Spell",
       "cost": 1,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -1381,6 +1421,7 @@
       "name": "Held Still",
       "type": "Spell",
       "cost": 1,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -1398,6 +1439,7 @@
       "name": "Reforged Claim",
       "type": "Spell",
       "cost": 3,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -1449,6 +1491,7 @@
       "name": "Kindly Creditor",
       "type": "Unit",
       "cost": 1,
+      "print": 1,
       "power": 1,
       "hp": 3,
       "aspects": [
@@ -1541,6 +1584,7 @@
       "name": "The Half-Rendered",
       "type": "Unit",
       "cost": 3,
+      "print": 1,
       "power": 2,
       "hp": 3,
       "aspects": [
@@ -1636,6 +1680,7 @@
       "name": "The Twinned",
       "type": "Unit",
       "cost": 7,
+      "print": 1,
       "power": 7,
       "hp": 6,
       "aspects": [
@@ -1657,6 +1702,7 @@
       "name": "The Conscripted Dead",
       "type": "Unit",
       "cost": 11,
+      "print": 1,
       "power": 11,
       "hp": 11,
       "aspects": [
@@ -1677,6 +1723,7 @@
       "name": "Three Days' Foresight",
       "type": "Spell",
       "cost": 4,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -1713,6 +1760,7 @@
       "name": "Provisioned Scout",
       "type": "Unit",
       "cost": 1,
+      "print": 1,
       "power": 2,
       "hp": 3,
       "aspects": [
@@ -1752,6 +1800,7 @@
       "name": "Updraft Bearer",
       "type": "Unit",
       "cost": 2,
+      "print": 1,
       "power": 1,
       "hp": 4,
       "aspects": [
@@ -1772,6 +1821,7 @@
       "name": "Deepwood Steward",
       "type": "Unit",
       "cost": 3,
+      "print": 1,
       "power": 1,
       "hp": 5,
       "aspects": [
@@ -1793,6 +1843,7 @@
       "name": "Orchard of Cinders",
       "type": "Unit",
       "cost": 4,
+      "print": 1,
       "power": 4,
       "hp": 4,
       "aspects": [
@@ -1852,6 +1903,7 @@
       "name": "Reclaimed Essence",
       "type": "Unit",
       "cost": 5,
+      "print": 1,
       "power": 4,
       "hp": 5,
       "aspects": [
@@ -1890,6 +1942,7 @@
       "name": "Shared Ascent",
       "type": "Upgrade",
       "cost": 2,
+      "print": 1,
       "power": 1,
       "hp": 1,
       "aspects": [
@@ -1908,6 +1961,7 @@
       "name": "Called Back",
       "type": "Spell",
       "cost": 2,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -1944,6 +1998,7 @@
       "name": "Pledged Remains",
       "type": "Unit",
       "cost": 4,
+      "print": 1,
       "power": 5,
       "hp": 5,
       "aspects": [
@@ -1982,6 +2037,7 @@
       "name": "Everything Already Packed",
       "type": "Spell",
       "cost": 10,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -2091,6 +2147,7 @@
       "name": "The Waiting Successor",
       "type": "Unit",
       "cost": 3,
+      "print": 1,
       "power": 3,
       "hp": 2,
       "aspects": [
@@ -2220,6 +2277,7 @@
       "name": "The Leveller",
       "type": "Unit",
       "cost": 8,
+      "print": 1,
       "power": 7,
       "hp": 8,
       "aspects": [
@@ -2239,6 +2297,7 @@
       "name": "Terms of Exchange",
       "type": "Upgrade",
       "cost": 1,
+      "print": 1,
       "power": 0,
       "hp": 0,
       "aspects": [
@@ -2290,6 +2349,7 @@
       "name": "Master Inlay",
       "type": "Upgrade",
       "cost": 4,
+      "print": 1,
       "power": 4,
       "hp": 3,
       "aspects": [
@@ -2307,6 +2367,7 @@
       "name": "Read the Ground",
       "type": "Spell",
       "cost": 1,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -2343,6 +2404,7 @@
       "name": "No Time to Wait",
       "type": "Spell",
       "cost": 1,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -2413,6 +2475,7 @@
       "name": "Overpressure Fitter",
       "type": "Unit",
       "cost": 1,
+      "print": 1,
       "power": 2,
       "hp": 2,
       "aspects": [
@@ -2431,6 +2494,7 @@
       "name": "Quiet Professional",
       "type": "Unit",
       "cost": 1,
+      "print": 1,
       "power": 2,
       "hp": 3,
       "aspects": [
@@ -2452,6 +2516,7 @@
       "name": "Recalled Debtor",
       "type": "Unit",
       "cost": 2,
+      "print": 1,
       "power": 3,
       "hp": 2,
       "aspects": [
@@ -2567,6 +2632,7 @@
       "name": "Borrowed Apparatus",
       "type": "Unit",
       "cost": 7,
+      "print": 1,
       "power": 8,
       "hp": 7,
       "aspects": [
@@ -2603,6 +2669,7 @@
       "name": "Polite Insistence",
       "type": "Spell",
       "cost": 1,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -2639,6 +2706,7 @@
       "name": "Bramblehide Elk",
       "type": "Unit",
       "cost": 2,
+      "print": 1,
       "power": 2,
       "hp": 3,
       "aspects": [
@@ -2659,6 +2727,7 @@
       "name": "The One Between",
       "type": "Unit",
       "cost": 2,
+      "print": 1,
       "power": 3,
       "hp": 2,
       "aspects": [
@@ -2813,6 +2882,7 @@
       "name": "Fury Vent",
       "type": "Upgrade",
       "cost": 1,
+      "print": 1,
       "power": 1,
       "hp": 1,
       "aspects": [
@@ -2831,6 +2901,7 @@
       "name": "Creditor's Draw",
       "type": "Spell",
       "cost": 2,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -2867,6 +2938,7 @@
       "name": "Conflagration Titan",
       "type": "Unit",
       "cost": 6,
+      "print": 1,
       "power": 6,
       "hp": 8,
       "aspects": [
@@ -2905,6 +2977,7 @@
       "name": "Ashfall Runner",
       "type": "Unit",
       "cost": 1,
+      "print": 1,
       "power": 2,
       "hp": 1,
       "aspects": [
@@ -2924,6 +2997,7 @@
       "name": "Unwanted Gift",
       "type": "Unit",
       "cost": 1,
+      "print": 1,
       "power": 3,
       "hp": 2,
       "aspects": [
@@ -2962,6 +3036,7 @@
       "name": "Kindling Scholar",
       "type": "Unit",
       "cost": 2,
+      "print": 1,
       "power": 2,
       "hp": 2,
       "aspects": [
@@ -2979,6 +3054,7 @@
       "name": "Ashling Herald",
       "type": "Unit",
       "cost": 2,
+      "print": 1,
       "power": 2,
       "hp": 1,
       "aspects": [
@@ -2996,6 +3072,7 @@
       "name": "The Paid Hand",
       "type": "Unit",
       "cost": 3,
+      "print": 1,
       "power": 3,
       "hp": 2,
       "aspects": [
@@ -3108,6 +3185,7 @@
       "name": "Weathered Tracker",
       "type": "Unit",
       "cost": 6,
+      "print": 1,
       "power": 5,
       "hp": 5,
       "aspects": [
@@ -3212,6 +3290,7 @@
       "name": "Scattershot Torch",
       "type": "Upgrade",
       "cost": 3,
+      "print": 1,
       "power": 1,
       "hp": 1,
       "aspects": [
@@ -3229,6 +3308,7 @@
       "name": "Cinder Flick",
       "type": "Spell",
       "cost": 1,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -3297,6 +3377,7 @@
       "name": "Second Detonation",
       "type": "Spell",
       "cost": 5,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -3314,6 +3395,7 @@
       "name": "Persuading Hand",
       "type": "Unit",
       "cost": 1,
+      "print": 1,
       "power": 1,
       "hp": 4,
       "aspects": [
@@ -3332,6 +3414,7 @@
       "name": "Clause Reader",
       "type": "Unit",
       "cost": 2,
+      "print": 1,
       "power": 1,
       "hp": 3,
       "aspects": [
@@ -3451,6 +3534,7 @@
       "name": "Warden of Held Moments",
       "type": "Unit",
       "cost": 7,
+      "print": 1,
       "power": 5,
       "hp": 7,
       "aspects": [
@@ -3472,6 +3556,7 @@
       "name": "Perfect Preservation",
       "type": "Upgrade",
       "cost": 3,
+      "print": 1,
       "power": 0,
       "hp": 0,
       "aspects": [
@@ -3490,6 +3575,7 @@
       "name": "Found Underfoot",
       "type": "Spell",
       "cost": 3,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -3508,6 +3594,7 @@
       "name": "Conscript",
       "type": "Unit",
       "cost": 1,
+      "print": 1,
       "power": 2,
       "hp": 3,
       "aspects": [
@@ -3566,6 +3653,7 @@
       "name": "Practised Hand",
       "type": "Unit",
       "cost": 2,
+      "print": 1,
       "power": 2,
       "hp": 2,
       "aspects": [
@@ -3678,6 +3766,7 @@
       "name": "The Uncoiling",
       "type": "Unit",
       "cost": 6,
+      "print": 1,
       "power": 5,
       "hp": 5,
       "aspects": [
@@ -3699,6 +3788,7 @@
       "name": "Impossible Choice",
       "type": "Spell",
       "cost": 2,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -3735,6 +3825,7 @@
       "name": "Sent Home Gently",
       "type": "Spell",
       "cost": 2,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -3788,6 +3879,7 @@
       "name": "Leaping Stalker",
       "type": "Unit",
       "cost": 2,
+      "print": 1,
       "power": 3,
       "hp": 1,
       "aspects": [
@@ -3862,6 +3954,7 @@
       "name": "Traded Form",
       "type": "Unit",
       "cost": 3,
+      "print": 1,
       "power": 2,
       "hp": 3,
       "aspects": [
@@ -3898,6 +3991,7 @@
       "name": "Pouncing Reaver",
       "type": "Unit",
       "cost": 4,
+      "print": 1,
       "power": 4,
       "hp": 2,
       "aspects": [
@@ -4010,6 +4104,7 @@
       "name": "Cached Supplies",
       "type": "Upgrade",
       "cost": 1,
+      "print": 1,
       "power": 0,
       "hp": 0,
       "aspects": [
@@ -4044,6 +4139,7 @@
       "name": "Courtesy of the Pause",
       "type": "Upgrade",
       "cost": 2,
+      "print": 1,
       "power": 2,
       "hp": 0,
       "aspects": [
@@ -4063,6 +4159,7 @@
       "name": "Remembered Later",
       "type": "Upgrade",
       "cost": 2,
+      "print": 1,
       "power": 0,
       "hp": 0,
       "aspects": [
@@ -4097,6 +4194,7 @@
       "name": "Parts Requisition",
       "type": "Spell",
       "cost": 1,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -4114,6 +4212,7 @@
       "name": "Slipped Away",
       "type": "Spell",
       "cost": 1,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -4131,6 +4230,7 @@
       "name": "Contract Opened",
       "type": "Spell",
       "cost": 1,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -4216,6 +4316,7 @@
       "name": "Emberbrand Zealot",
       "type": "Unit",
       "cost": 2,
+      "print": 1,
       "power": 3,
       "hp": 3,
       "aspects": [
@@ -4343,6 +4444,7 @@
       "name": "Discarded Prisoner",
       "type": "Spell",
       "cost": 1,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -4449,6 +4551,7 @@
       "name": "Wound-Fed Bull",
       "type": "Unit",
       "cost": 4,
+      "print": 1,
       "power": 2,
       "hp": 5,
       "aspects": [
@@ -4487,6 +4590,7 @@
       "name": "Argued into Wholeness",
       "type": "Spell",
       "cost": 1,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -4506,6 +4610,7 @@
       "name": "Packed for Both",
       "type": "Spell",
       "cost": 2,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -4630,6 +4735,7 @@
       "name": "Fallow Offering",
       "type": "Upgrade",
       "cost": 1,
+      "print": 1,
       "power": 0,
       "hp": 0,
       "aspects": [
@@ -4647,6 +4753,7 @@
       "name": "Unmade Inscription",
       "type": "Spell",
       "cost": 1,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -4664,6 +4771,7 @@
       "name": "Bark-Scarred Elder",
       "type": "Unit",
       "cost": 5,
+      "print": 1,
       "power": 2,
       "hp": 7,
       "aspects": [
@@ -4684,6 +4792,7 @@
       "name": "Warden of the Still Halls",
       "type": "Unit",
       "cost": 6,
+      "print": 1,
       "power": 4,
       "hp": 4,
       "aspects": [
@@ -4704,6 +4813,7 @@
       "name": "The Outlaster",
       "type": "Unit",
       "cost": 7,
+      "print": 1,
       "power": 2,
       "hp": 9,
       "aspects": [
@@ -4743,6 +4853,7 @@
       "name": "Keeper of Kept Things",
       "type": "Unit",
       "cost": 6,
+      "print": 1,
       "power": 4,
       "hp": 7,
       "aspects": [
@@ -4761,6 +4872,7 @@
       "name": "Dissolving Caster",
       "type": "Unit",
       "cost": 8,
+      "print": 1,
       "power": 4,
       "hp": 10,
       "aspects": [
@@ -4911,6 +5023,7 @@
       "name": "Gleeful Arsonist",
       "type": "Unit",
       "cost": 4,
+      "print": 1,
       "power": 2,
       "hp": 5,
       "aspects": [
@@ -4947,6 +5060,7 @@
       "name": "The Ageless Victor",
       "type": "Unit",
       "cost": 6,
+      "print": 1,
       "power": 3,
       "hp": 9,
       "aspects": [
@@ -4965,6 +5079,7 @@
       "name": "Stone-Speaker",
       "type": "Unit",
       "cost": 6,
+      "print": 1,
       "power": 4,
       "hp": 6,
       "aspects": [
@@ -5207,6 +5322,7 @@
       "name": "Twice-Read Page",
       "type": "Unit",
       "cost": 2,
+      "print": 1,
       "power": 2,
       "hp": 3,
       "aspects": [
@@ -5225,6 +5341,7 @@
       "name": "Rootbound Sentry",
       "type": "Unit",
       "cost": 2,
+      "print": 1,
       "power": 1,
       "hp": 4,
       "aspects": [
@@ -5263,6 +5380,7 @@
       "name": "Spore Physician",
       "type": "Unit",
       "cost": 3,
+      "print": 1,
       "power": 3,
       "hp": 3,
       "aspects": [
@@ -5341,6 +5459,7 @@
       "name": "The Twice-Hired",
       "type": "Unit",
       "cost": 7,
+      "print": 1,
       "power": 5,
       "hp": 4,
       "aspects": [
@@ -5361,6 +5480,7 @@
       "name": "The Frozen Host",
       "type": "Unit",
       "cost": 8,
+      "print": 1,
       "power": 8,
       "hp": 8,
       "aspects": [
@@ -5397,6 +5517,7 @@
       "name": "Choose Your Loss",
       "type": "Spell",
       "cost": 3,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -5471,6 +5592,7 @@
       "name": "Magma Tender",
       "type": "Unit",
       "cost": 3,
+      "print": 1,
       "power": 2,
       "hp": 4,
       "aspects": [
@@ -5527,6 +5649,7 @@
       "name": "Unmarked Champion",
       "type": "Unit",
       "cost": 5,
+      "print": 1,
       "power": 4,
       "hp": 6,
       "aspects": [
@@ -5547,6 +5670,7 @@
       "name": "The Windbreak",
       "type": "Unit",
       "cost": 6,
+      "print": 1,
       "power": 4,
       "hp": 6,
       "aspects": [
@@ -5567,6 +5691,7 @@
       "name": "Hoarfrost Colossus",
       "type": "Unit",
       "cost": 6,
+      "print": 1,
       "power": 5,
       "hp": 5,
       "aspects": [
@@ -5607,6 +5732,7 @@
       "name": "The Last Wall",
       "type": "Unit",
       "cost": 8,
+      "print": 1,
       "power": 6,
       "hp": 9,
       "aspects": [
@@ -5663,6 +5789,7 @@
       "name": "Anvil Guard",
       "type": "Unit",
       "cost": 6,
+      "print": 1,
       "power": 4,
       "hp": 7,
       "aspects": [
@@ -5683,6 +5810,7 @@
       "name": "Standing Order",
       "type": "Upgrade",
       "cost": 1,
+      "print": 1,
       "power": 1,
       "hp": 1,
       "aspects": [
@@ -5703,6 +5831,7 @@
       "name": "Two Slow Certainties",
       "type": "Spell",
       "cost": 4,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -5721,6 +5850,7 @@
       "name": "Attending Revenant",
       "type": "Unit",
       "cost": 1,
+      "print": 1,
       "power": 1,
       "hp": 3,
       "aspects": [
@@ -5808,6 +5938,7 @@
       "name": "Warded Sleeper",
       "type": "Unit",
       "cost": 3,
+      "print": 1,
       "power": 2,
       "hp": 4,
       "aspects": [
@@ -5885,6 +6016,7 @@
       "name": "Host of the Long Pause",
       "type": "Unit",
       "cost": 6,
+      "print": 1,
       "power": 4,
       "hp": 6,
       "aspects": [
@@ -5921,6 +6053,7 @@
       "name": "Salve of Poor Provenance",
       "type": "Upgrade",
       "cost": 2,
+      "print": 1,
       "power": 1,
       "hp": 1,
       "aspects": [
@@ -5991,6 +6124,7 @@
       "name": "Unpleasant Remedy",
       "type": "Spell",
       "cost": 1,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -6008,6 +6142,7 @@
       "name": "Lick the Wound",
       "type": "Spell",
       "cost": 2,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -6042,6 +6177,7 @@
       "name": "Finish the Job",
       "type": "Spell",
       "cost": 4,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -6076,6 +6212,7 @@
       "name": "The Cresting Three",
       "type": "Unit",
       "cost": 2,
+      "print": 1,
       "power": 1,
       "hp": 4,
       "aspects": [
@@ -6132,6 +6269,7 @@
       "name": "Spent Vessel",
       "type": "Unit",
       "cost": 3,
+      "print": 1,
       "power": 2,
       "hp": 1,
       "aspects": [
@@ -6150,6 +6288,7 @@
       "name": "The Recruiter",
       "type": "Unit",
       "cost": 4,
+      "print": 1,
       "power": 2,
       "hp": 3,
       "aspects": [
@@ -6168,6 +6307,7 @@
       "name": "The Last to Leave",
       "type": "Unit",
       "cost": 5,
+      "print": 1,
       "power": 3,
       "hp": 6,
       "aspects": [
@@ -6264,6 +6404,7 @@
       "name": "The Oath-Laden",
       "type": "Unit",
       "cost": 10,
+      "print": 1,
       "power": 10,
       "hp": 10,
       "aspects": [
@@ -6285,6 +6426,7 @@
       "name": "The Ledger Reopened",
       "type": "Spell",
       "cost": 2,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -6339,6 +6481,7 @@
       "name": "Oathbearer Squire",
       "type": "Unit",
       "cost": 1,
+      "print": 1,
       "power": 1,
       "hp": 2,
       "aspects": [
@@ -6375,6 +6518,7 @@
       "name": "Forward Marker",
       "type": "Unit",
       "cost": 2,
+      "print": 1,
       "power": 1,
       "hp": 3,
       "aspects": [
@@ -6393,6 +6537,7 @@
       "name": "Mender of Bad Cases",
       "type": "Unit",
       "cost": 3,
+      "print": 1,
       "power": 1,
       "hp": 4,
       "aspects": [
@@ -6473,6 +6618,7 @@
       "name": "The Untouched",
       "type": "Unit",
       "cost": 6,
+      "print": 1,
       "power": 4,
       "hp": 6,
       "aspects": [
@@ -6493,6 +6639,7 @@
       "name": "The Risen Flight",
       "type": "Unit",
       "cost": 8,
+      "print": 1,
       "power": 7,
       "hp": 7,
       "aspects": [
@@ -6513,6 +6660,7 @@
       "name": "Two Sworn Together",
       "type": "Spell",
       "cost": 1,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -6567,6 +6715,7 @@
       "name": "Three Oaths Spoken",
       "type": "Spell",
       "cost": 3,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -6585,6 +6734,7 @@
       "name": "Two Concessions",
       "type": "Spell",
       "cost": 4,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -6603,6 +6753,7 @@
       "name": "Seedbearer",
       "type": "Unit",
       "cost": 1,
+      "print": 1,
       "power": 1,
       "hp": 2,
       "aspects": [
@@ -6671,6 +6822,7 @@
       "name": "The Diagnostician",
       "type": "Unit",
       "cost": 3,
+      "print": 1,
       "power": 3,
       "hp": 3,
       "aspects": [
@@ -6709,6 +6861,7 @@
       "name": "Rising Form",
       "type": "Unit",
       "cost": 4,
+      "print": 1,
       "power": 4,
       "hp": 4,
       "aspects": [
@@ -6803,6 +6956,7 @@
       "name": "Rehearsed Ranks",
       "type": "Unit",
       "cost": 8,
+      "print": 1,
       "power": 6,
       "hp": 9,
       "aspects": [
@@ -6837,6 +6991,7 @@
       "name": "Cutting Rune",
       "type": "Upgrade",
       "cost": 2,
+      "print": 1,
       "power": 2,
       "hp": 2,
       "aspects": [
@@ -6854,6 +7009,7 @@
       "name": "Requisition Clamp",
       "type": "Upgrade",
       "cost": 5,
+      "print": 1,
       "power": 0,
       "hp": 0,
       "aspects": [
@@ -6871,6 +7027,7 @@
       "name": "Foreseen Arrival",
       "type": "Spell",
       "cost": 1,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -6974,6 +7131,7 @@
       "name": "The Newcomer",
       "type": "Unit",
       "cost": 2,
+      "print": 1,
       "power": 2,
       "hp": 3,
       "aspects": [
@@ -6992,6 +7150,7 @@
       "name": "Finisher",
       "type": "Unit",
       "cost": 2,
+      "print": 1,
       "power": 2,
       "hp": 3,
       "aspects": [
@@ -7012,6 +7171,7 @@
       "name": "Scarred Anvilhand",
       "type": "Unit",
       "cost": 3,
+      "print": 1,
       "power": 2,
       "hp": 4,
       "aspects": [
@@ -7070,6 +7230,7 @@
       "name": "Twin Vents",
       "type": "Unit",
       "cost": 6,
+      "print": 1,
       "power": 4,
       "hp": 6,
       "aspects": [
@@ -7088,6 +7249,7 @@
       "name": "Firestorm Incarnate",
       "type": "Unit",
       "cost": 8,
+      "print": 1,
       "power": 6,
       "hp": 6,
       "aspects": [
@@ -7126,6 +7288,7 @@
       "name": "Unmake the Working",
       "type": "Spell",
       "cost": 1,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -7144,6 +7307,7 @@
       "name": "Focused Detonation",
       "type": "Spell",
       "cost": 2,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -7162,6 +7326,7 @@
       "name": "Wedge Breaker",
       "type": "Unit",
       "cost": 1,
+      "print": 1,
       "power": 2,
       "hp": 2,
       "aspects": [
@@ -7260,6 +7425,7 @@
       "name": "Eruption Warden",
       "type": "Unit",
       "cost": 4,
+      "print": 1,
       "power": 4,
       "hp": 4,
       "aspects": [
@@ -7336,6 +7502,7 @@
       "name": "Recoiling Striker",
       "type": "Unit",
       "cost": 7,
+      "print": 1,
       "power": 5,
       "hp": 7,
       "aspects": [
@@ -7392,6 +7559,7 @@
       "name": "Four Futures Read",
       "type": "Spell",
       "cost": 3,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -7410,6 +7578,7 @@
       "name": "Marginal Collector",
       "type": "Unit",
       "cost": 4,
+      "print": 1,
       "power": 5,
       "hp": 4,
       "aspects": [
@@ -7466,6 +7635,7 @@
       "name": "Forge-Sworn Ally",
       "type": "Unit",
       "cost": 1,
+      "print": 1,
       "power": 2,
       "hp": 2,
       "aspects": [
@@ -7650,6 +7820,7 @@
       "name": "Working Blade",
       "type": "Upgrade",
       "cost": 1,
+      "print": 1,
       "power": 1,
       "hp": 1,
       "aspects": [
@@ -7669,6 +7840,7 @@
       "name": "First Instalment",
       "type": "Spell",
       "cost": 1,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -7686,6 +7858,7 @@
       "name": "Opening Guard",
       "type": "Spell",
       "cost": 1,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -7722,6 +7895,7 @@
       "name": "Stripped for Parts",
       "type": "Spell",
       "cost": 2,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -7824,6 +7998,7 @@
       "name": "Spellsure Novice",
       "type": "Unit",
       "cost": 1,
+      "print": 1,
       "power": 1,
       "hp": 3,
       "aspects": [
@@ -7842,6 +8017,7 @@
       "name": "Warded Theorist",
       "type": "Unit",
       "cost": 2,
+      "print": 1,
       "power": 1,
       "hp": 3,
       "aspects": [
@@ -7898,6 +8074,7 @@
       "name": "Frostbitten Clerk",
       "type": "Unit",
       "cost": 3,
+      "print": 1,
       "power": 3,
       "hp": 2,
       "aspects": [
@@ -7918,6 +8095,7 @@
       "name": "Archivist of Spent Hours",
       "type": "Unit",
       "cost": 4,
+      "print": 1,
       "power": 2,
       "hp": 8,
       "aspects": [
@@ -7936,6 +8114,7 @@
       "name": "Half-Resolved Visitor",
       "type": "Unit",
       "cost": 5,
+      "print": 1,
       "power": 4,
       "hp": 5,
       "aspects": [
@@ -7956,6 +8135,7 @@
       "name": "Gap-Walker",
       "type": "Unit",
       "cost": 6,
+      "print": 1,
       "power": 4,
       "hp": 4,
       "aspects": [
@@ -7976,6 +8156,7 @@
       "name": "The Undecayed",
       "type": "Unit",
       "cost": 8,
+      "print": 1,
       "power": 8,
       "hp": 7,
       "aspects": [
@@ -7996,6 +8177,7 @@
       "name": "Winter Without End",
       "type": "Spell",
       "cost": 2,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -8032,6 +8214,7 @@
       "name": "Packmate",
       "type": "Unit",
       "cost": 1,
+      "print": 1,
       "power": 1,
       "hp": 3,
       "aspects": [
@@ -8052,6 +8235,7 @@
       "name": "Valve Technician",
       "type": "Unit",
       "cost": 2,
+      "print": 1,
       "power": 2,
       "hp": 2,
       "aspects": [
@@ -8106,6 +8290,7 @@
       "name": "Echo of the Next Turn",
       "type": "Unit",
       "cost": 3,
+      "print": 1,
       "power": 3,
       "hp": 4,
       "aspects": [
@@ -8124,6 +8309,7 @@
       "name": "The Unstilled",
       "type": "Unit",
       "cost": 3,
+      "print": 1,
       "power": 3,
       "hp": 4,
       "aspects": [
@@ -8405,6 +8591,7 @@
       "name": "Journeyman Striker",
       "type": "Unit",
       "cost": 2,
+      "print": 1,
       "power": 1,
       "hp": 3,
       "aspects": [
@@ -8515,6 +8702,7 @@
       "name": "Pressure Tap",
       "type": "Upgrade",
       "cost": 1,
+      "print": 1,
       "power": 1,
       "hp": 1,
       "aspects": [
@@ -8823,6 +9011,7 @@
       "name": "Implacable Rider",
       "type": "Unit",
       "cost": 6,
+      "print": 1,
       "power": 6,
       "hp": 7,
       "aspects": [
@@ -8876,6 +9065,7 @@
       "name": "Nothing Down",
       "type": "Spell",
       "cost": 7,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -8893,6 +9083,7 @@
       "name": "Hourglass Adept",
       "type": "Unit",
       "cost": 1,
+      "print": 1,
       "power": 1,
       "hp": 4,
       "aspects": [
@@ -8927,6 +9118,7 @@
       "name": "Bead Counter",
       "type": "Unit",
       "cost": 2,
+      "print": 1,
       "power": 1,
       "hp": 4,
       "aspects": [
@@ -9069,6 +9261,7 @@
       "name": "It Agrees to Be Useful",
       "type": "Spell",
       "cost": 3,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -9118,6 +9311,7 @@
       "name": "Shape of the Season",
       "type": "Unit",
       "cost": 4,
+      "print": 1,
       "power": 3,
       "hp": 5,
       "aspects": [
@@ -9221,6 +9415,7 @@
       "name": "The Unfallen",
       "type": "Unit",
       "cost": 6,
+      "print": 1,
       "power": 4,
       "hp": 7,
       "aspects": [
@@ -9317,6 +9512,7 @@
       "name": "The Long-Prepared",
       "type": "Unit",
       "cost": 5,
+      "print": 1,
       "power": 2,
       "hp": 7,
       "aspects": [
@@ -9337,6 +9533,7 @@
       "name": "Windsworn Marshal",
       "type": "Unit",
       "cost": 6,
+      "print": 1,
       "power": 6,
       "hp": 6,
       "aspects": [
@@ -9357,6 +9554,7 @@
       "name": "The Punctual",
       "type": "Unit",
       "cost": 5,
+      "print": 1,
       "power": 4,
       "hp": 6,
       "aspects": [
@@ -9377,6 +9575,7 @@
       "name": "Half-Taken Hunter",
       "type": "Unit",
       "cost": 5,
+      "print": 1,
       "power": 3,
       "hp": 6,
       "aspects": [
@@ -9395,6 +9594,7 @@
       "name": "Smiling Broker",
       "type": "Unit",
       "cost": 6,
+      "print": 1,
       "power": 5,
       "hp": 7,
       "aspects": [
@@ -9433,6 +9633,7 @@
       "name": "Hurried Blade",
       "type": "Unit",
       "cost": 4,
+      "print": 1,
       "power": 3,
       "hp": 4,
       "aspects": [
@@ -9786,6 +9987,7 @@
       "name": "Modular Frame",
       "type": "Unit",
       "cost": 3,
+      "print": 1,
       "power": 4,
       "hp": 4,
       "aspects": [
@@ -9804,6 +10006,7 @@
       "name": "The Rearguard",
       "type": "Unit",
       "cost": 4,
+      "print": 1,
       "power": 3,
       "hp": 6,
       "aspects": [
@@ -9824,6 +10027,7 @@
       "name": "Still Negotiator",
       "type": "Unit",
       "cost": 5,
+      "print": 1,
       "power": 3,
       "hp": 5,
       "aspects": [
@@ -9862,6 +10066,7 @@
       "name": "The Empty-Handed",
       "type": "Unit",
       "cost": 8,
+      "print": 1,
       "power": 5,
       "hp": 7,
       "aspects": [
@@ -9882,6 +10087,7 @@
       "name": "The Fertile Mountain",
       "type": "Unit",
       "cost": 9,
+      "print": 1,
       "power": 7,
       "hp": 7,
       "aspects": [
@@ -9903,6 +10109,7 @@
       "name": "Grave Salvage",
       "type": "Spell",
       "cost": 0,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -9921,6 +10128,7 @@
       "name": "Settled in Blood",
       "type": "Spell",
       "cost": 4,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -9957,6 +10165,7 @@
       "name": "Paired Bulwark",
       "type": "Unit",
       "cost": 2,
+      "print": 1,
       "power": 1,
       "hp": 3,
       "aspects": [
@@ -9977,6 +10186,7 @@
       "name": "Fever Nurse",
       "type": "Unit",
       "cost": 2,
+      "print": 1,
       "power": 0,
       "hp": 5,
       "aspects": [
@@ -10091,6 +10301,7 @@
       "name": "The Standing Grove",
       "type": "Unit",
       "cost": 7,
+      "print": 1,
       "power": 4,
       "hp": 9,
       "aspects": [
@@ -10109,6 +10320,7 @@
       "name": "Bulk Fitting",
       "type": "Upgrade",
       "cost": 3,
+      "print": 1,
       "power": 2,
       "hp": 2,
       "aspects": [
@@ -10199,6 +10411,7 @@
       "name": "Frostbound Acolyte",
       "type": "Unit",
       "cost": 1,
+      "print": 1,
       "power": 1,
       "hp": 3,
       "aspects": [
@@ -10414,6 +10627,7 @@
       "name": "Rehearsed Morning",
       "type": "Upgrade",
       "cost": 1,
+      "print": 1,
       "power": 0,
       "hp": 2,
       "aspects": [
@@ -10518,6 +10732,7 @@
       "name": "Hold This Ground",
       "type": "Spell",
       "cost": 2,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -10643,6 +10858,7 @@
       "name": "Winter-Patient Stalker",
       "type": "Unit",
       "cost": 3,
+      "print": 1,
       "power": 4,
       "hp": 3,
       "aspects": [
@@ -10717,6 +10933,7 @@
       "name": "The Four Persuaded",
       "type": "Unit",
       "cost": 6,
+      "print": 1,
       "power": 5,
       "hp": 7,
       "aspects": [
@@ -10735,6 +10952,7 @@
       "name": "The Exhumer",
       "type": "Unit",
       "cost": 7,
+      "print": 1,
       "power": 5,
       "hp": 5,
       "aspects": [
@@ -11021,6 +11239,7 @@
       "name": "Trail Reader",
       "type": "Unit",
       "cost": 2,
+      "print": 1,
       "power": 1,
       "hp": 4,
       "aspects": [
@@ -11057,6 +11276,7 @@
       "name": "Everything Feeds",
       "type": "Spell",
       "cost": 3,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -11094,6 +11314,7 @@
       "name": "Goading Scout",
       "type": "Unit",
       "cost": 1,
+      "print": 1,
       "power": 1,
       "hp": 4,
       "aspects": [
@@ -11111,6 +11332,7 @@
       "name": "Half-Formed Pack",
       "type": "Unit",
       "cost": 2,
+      "print": 1,
       "power": 3,
       "hp": 2,
       "aspects": [
@@ -11181,6 +11403,7 @@
       "name": "The Bound Pair",
       "type": "Unit",
       "cost": 3,
+      "print": 1,
       "power": 2,
       "hp": 4,
       "aspects": [
@@ -11234,6 +11457,7 @@
       "name": "Cold Vanguard",
       "type": "Unit",
       "cost": 5,
+      "print": 1,
       "power": 5,
       "hp": 3,
       "aspects": [
@@ -11254,6 +11478,7 @@
       "name": "Skyward Vanguard",
       "type": "Unit",
       "cost": 5,
+      "print": 1,
       "power": 4,
       "hp": 4,
       "aspects": [
@@ -11309,6 +11534,7 @@
       "name": "The Many-Jawed",
       "type": "Unit",
       "cost": 8,
+      "print": 1,
       "power": 5,
       "hp": 6,
       "aspects": [
@@ -11542,6 +11768,7 @@
       "name": "Chained Pair",
       "type": "Unit",
       "cost": 2,
+      "print": 1,
       "power": 2,
       "hp": 3,
       "aspects": [
@@ -11655,6 +11882,7 @@
       "name": "Triple Dealer",
       "type": "Unit",
       "cost": 6,
+      "print": 1,
       "power": 5,
       "hp": 4,
       "aspects": [
@@ -11693,6 +11921,7 @@
       "name": "The Collectors",
       "type": "Unit",
       "cost": 8,
+      "print": 1,
       "power": 6,
       "hp": 3,
       "aspects": [
@@ -11714,6 +11943,7 @@
       "name": "Let It Fester",
       "type": "Spell",
       "cost": 1,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -11904,6 +12134,7 @@
       "name": "Pyre Colossus",
       "type": "Unit",
       "cost": 6,
+      "print": 1,
       "power": 6,
       "hp": 5,
       "aspects": [
@@ -11924,6 +12155,7 @@
       "name": "Last Spark Martyr",
       "type": "Unit",
       "cost": 6,
+      "print": 1,
       "power": 4,
       "hp": 8,
       "aspects": [
@@ -11944,6 +12176,7 @@
       "name": "The Unnamed",
       "type": "Unit",
       "cost": 10,
+      "print": 1,
       "power": 8,
       "hp": 8,
       "aspects": [
@@ -11998,6 +12231,7 @@
       "name": "Volatile Coil",
       "type": "Upgrade",
       "cost": 2,
+      "print": 1,
       "power": 4,
       "hp": 0,
       "aspects": [
@@ -12161,6 +12395,7 @@
       "name": "Bonfire Chorus",
       "type": "Unit",
       "cost": 4,
+      "print": 1,
       "power": 4,
       "hp": 4,
       "aspects": [
@@ -12217,6 +12452,7 @@
       "name": "The Demonstrator",
       "type": "Unit",
       "cost": 7,
+      "print": 1,
       "power": 6,
       "hp": 5,
       "aspects": [
@@ -12306,6 +12542,7 @@
       "name": "Season of Scars",
       "type": "Spell",
       "cost": 2,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -12325,6 +12562,7 @@
       "name": "Sweeping Flame",
       "type": "Spell",
       "cost": 3,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -12393,6 +12631,7 @@
       "name": "Total Systems Failure",
       "type": "Spell",
       "cost": 8,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -12410,6 +12649,7 @@
       "name": "Nothing Holds Them",
       "type": "Spell",
       "cost": 12,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -12547,6 +12787,7 @@
       "name": "The Shrouded Three",
       "type": "Unit",
       "cost": 6,
+      "print": 1,
       "power": 3,
       "hp": 7,
       "aspects": [
@@ -12603,6 +12844,7 @@
       "name": "Recalled from Rest",
       "type": "Spell",
       "cost": 3,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -12639,6 +12881,7 @@
       "name": "Unnoticed Runner",
       "type": "Unit",
       "cost": 1,
+      "print": 1,
       "power": 2,
       "hp": 1,
       "aspects": [
@@ -12695,6 +12938,7 @@
       "name": "Outnumbered Hunter",
       "type": "Unit",
       "cost": 3,
+      "print": 1,
       "power": 3,
       "hp": 4,
       "aspects": [
@@ -12829,6 +13073,7 @@
       "name": "Excised Timeline",
       "type": "Spell",
       "cost": 5,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -12847,6 +13092,7 @@
       "name": "Errant Bolt",
       "type": "Unit",
       "cost": 2,
+      "print": 1,
       "power": 2,
       "hp": 3,
       "aspects": [
@@ -12865,6 +13111,7 @@
       "name": "The Overlooked",
       "type": "Unit",
       "cost": 4,
+      "print": 1,
       "power": 2,
       "hp": 6,
       "aspects": [
@@ -13098,6 +13345,7 @@
       "name": "Formula Incarnate",
       "type": "Unit",
       "cost": 5,
+      "print": 1,
       "power": 5,
       "hp": 5,
       "aspects": [
@@ -13238,6 +13486,7 @@
       "name": "Clean Entry",
       "type": "Spell",
       "cost": 2,
+      "print": 1,
       "power": null,
       "hp": null,
       "aspects": [
@@ -13435,6 +13684,7 @@
       "name": "The Stitched Giant",
       "type": "Unit",
       "cost": 9,
+      "print": 1,
       "power": 6,
       "hp": 5,
       "aspects": [
@@ -13635,6 +13885,7 @@
       "name": "The Recovered Ward",
       "type": "Unit",
       "cost": 8,
+      "print": 1,
       "power": 6,
       "hp": 9,
       "aspects": [
@@ -13705,6 +13956,7 @@
       "name": "The Reburied",
       "type": "Unit",
       "cost": 2,
+      "print": 1,
       "power": 2,
       "hp": 2,
       "aspects": [
