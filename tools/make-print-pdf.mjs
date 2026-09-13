@@ -121,8 +121,16 @@ console.log(`art re-encoded: ${written} images to ${CACHE}`);
 
 await p.emulateMedia({ media:'print' });
 await p.waitForTimeout(2500);
-await p.pdf({ path:`${OUT}/might-and-magic-fronts.pdf`, format:'Letter', printBackground:true });
-console.log(`fronts: ${info.total} cards over ${info.pages} pages (last page ${info.lastPage})`);
+/* Split in half. The whole front sheet is around 50MB, which is past what
+   most places will accept as one attachment; two halves at full quality beat
+   one file with the art crushed to fit. */
+const half = Math.ceil(info.pages / 2);
+for (const [n, range] of [[1, `1-${half}`], [2, `${half+1}-${info.pages}`]]) {
+  await p.pdf({ path:`${OUT}/might-and-magic-fronts-${n}.pdf`, format:'Letter',
+                printBackground:true, pageRanges:range });
+}
+console.log(`fronts: ${info.total} cards over ${info.pages} pages `
+          + `(last page ${info.lastPage}), split 1-${half} and ${half+1}-${info.pages}`);
 
 // Backs: one shared image, same page count, same number of slots per page, so a
 // duplex run lands a back behind every front. A uniform back needs no mirroring.
