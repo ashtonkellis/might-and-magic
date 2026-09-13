@@ -33,14 +33,14 @@ each orientation. The landscape face is Mirren at rest, further along than she w
 | [`persuading-hand.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/14-soulcaster/persuading-hand.txt) | Persuading Hand | Unit | 1 |
 | [`terms-of-exchange.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/14-soulcaster/terms-of-exchange.txt) | Terms of Exchange | Upgrade | 1 |
 | [`it-agrees-to-be-useful.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/14-soulcaster/it-agrees-to-be-useful.txt) | It Agrees to Be Useful | Spell | 3 |
-| [`rendered-to-stock.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/14-soulcaster/rendered-to-stock.txt) | Rendered to Stock | Unit | 3 |
-| [`spent-as-substance.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/14-soulcaster/spent-as-substance.txt) | Spent as Substance | Unit | 3 |
-| [`traded-back.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/14-soulcaster/traded-back.txt) | Traded Back | Unit | 3 |
+| [`spent-vessel.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/14-soulcaster/spent-vessel.txt) | Spent Vessel | Unit | 3 |
+| [`the-half-rendered.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/14-soulcaster/the-half-rendered.txt) | The Half-Rendered | Unit | 3 |
+| [`traded-form.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/14-soulcaster/traded-form.txt) | Traded Form | Unit | 3 |
 | [`two-concessions.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/14-soulcaster/two-concessions.txt) | Two Concessions | Spell | 4 |
 | [`reclaimed-essence.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/14-soulcaster/reclaimed-essence.txt) | Reclaimed Essence | Unit | 5 |
-| [`stone-persuaded.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/14-soulcaster/stone-persuaded.txt) | Stone Persuaded | Unit | 6 |
-| [`the-wider-argument.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/14-soulcaster/the-wider-argument.txt) | The Wider Argument | Unit | 6 |
-| [`half-turned-to-smoke.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/14-soulcaster/half-turned-to-smoke.txt) | Half Turned to Smoke | Unit | 8 |
+| [`stone-speaker.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/14-soulcaster/stone-speaker.txt) | Stone-Speaker | Unit | 6 |
+| [`the-four-persuaded.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/14-soulcaster/the-four-persuaded.txt) | The Four Persuaded | Unit | 6 |
+| [`dissolving-caster.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/14-soulcaster/dissolving-caster.txt) | Dissolving Caster | Unit | 8 |
 
 ## The hero
 

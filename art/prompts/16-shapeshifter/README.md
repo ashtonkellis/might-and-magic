@@ -32,15 +32,15 @@ each orientation. The landscape face is Pelt at rest, or as close to a person as
 | [`borrowed-shape.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/16-shapeshifter/borrowed-shape.txt) | Borrowed Shape | Upgrade | 1 |
 | [`packmate.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/16-shapeshifter/packmate.txt) | Packmate | Unit | 1 |
 | [`sizing-up.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/16-shapeshifter/sizing-up.txt) | Sizing Up | Spell | 1 |
+| [`half-formed-pack.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/16-shapeshifter/half-formed-pack.txt) | Half-Formed Pack | Unit | 2 |
 | [`lick-the-wound.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/16-shapeshifter/lick-the-wound.txt) | Lick the Wound | Spell | 2 |
-| [`pack-ambush.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/16-shapeshifter/pack-ambush.txt) | Pack Ambush | Unit | 2 |
 | [`outnumbered-hunter.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/16-shapeshifter/outnumbered-hunter.txt) | Outnumbered Hunter | Unit | 3 |
 | [`winter-patient-stalker.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/16-shapeshifter/winter-patient-stalker.txt) | Winter-Patient Stalker | Unit | 3 |
-| [`answering-the-call.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/16-shapeshifter/answering-the-call.txt) | Answering the Call | Unit | 4 |
+| [`rising-form.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/16-shapeshifter/rising-form.txt) | Rising Form | Unit | 4 |
 | [`shape-of-the-season.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/16-shapeshifter/shape-of-the-season.txt) | Shape of the Season | Unit | 4 |
-| [`long-wait-ended.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/16-shapeshifter/long-wait-ended.txt) | Long Wait Ended | Unit | 6 |
-| [`winter-outlasted.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/16-shapeshifter/winter-outlasted.txt) | Winter Outlasted | Unit | 7 |
-| [`everything-becomes-teeth.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/16-shapeshifter/everything-becomes-teeth.txt) | Everything Becomes Teeth | Unit | 8 |
+| [`the-uncoiling.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/16-shapeshifter/the-uncoiling.txt) | The Uncoiling | Unit | 6 |
+| [`the-outlaster.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/16-shapeshifter/the-outlaster.txt) | The Outlaster | Unit | 7 |
+| [`the-many-jawed.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/16-shapeshifter/the-many-jawed.txt) | The Many-Jawed | Unit | 8 |
 
 ## The hero
 

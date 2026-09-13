@@ -34,13 +34,13 @@ each orientation. The landscape face is Kell at rest, which is as still as this 
 | [`no-time-to-wait.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/11-demon-hunter/no-time-to-wait.txt) | No Time to Wait | Spell | 1 |
 | [`impossible-choice.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/11-demon-hunter/impossible-choice.txt) | Impossible Choice | Spell | 2 |
 | [`leaping-stalker.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/11-demon-hunter/leaping-stalker.txt) | Leaping Stalker | Unit | 2 |
-| [`vanguard-doctrine.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/11-demon-hunter/vanguard-doctrine.txt) | Vanguard Doctrine | Unit | 2 |
-| [`on-a-clock.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/11-demon-hunter/on-a-clock.txt) | On a Clock | Unit | 4 |
+| [`the-cresting-three.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/11-demon-hunter/the-cresting-three.txt) | The Cresting Three | Unit | 2 |
+| [`hurried-blade.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/11-demon-hunter/hurried-blade.txt) | Hurried Blade | Unit | 4 |
 | [`pouncing-reaver.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/11-demon-hunter/pouncing-reaver.txt) | Pouncing Reaver | Unit | 4 |
-| [`borrowed-power.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/11-demon-hunter/borrowed-power.txt) | Borrowed Power | Unit | 5 |
-| [`twinned-assault.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/11-demon-hunter/twinned-assault.txt) | Twinned Assault | Unit | 7 |
-| [`unspent-momentum.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/11-demon-hunter/unspent-momentum.txt) | Unspent Momentum | Unit | 7 |
-| [`nothing-left-standing.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/11-demon-hunter/nothing-left-standing.txt) | Nothing Left Standing | Unit | 8 |
+| [`half-taken-hunter.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/11-demon-hunter/half-taken-hunter.txt) | Half-Taken Hunter | Unit | 5 |
+| [`recoiling-striker.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/11-demon-hunter/recoiling-striker.txt) | Recoiling Striker | Unit | 7 |
+| [`the-twinned.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/11-demon-hunter/the-twinned.txt) | The Twinned | Unit | 7 |
+| [`the-leveller.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/11-demon-hunter/the-leveller.txt) | The Leveller | Unit | 8 |
 
 ## The hero
 

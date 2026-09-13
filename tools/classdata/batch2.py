@@ -104,19 +104,19 @@ photographed as a long-exposure sphere of light drawn by something that circled
 him many times during the frame. He is not looking at it; he is reading. The
 sphere is overexposed where the trails cross, blown white at the intersections
 with magenta fringe at every edge.""",
-        "wild-discharge": """A discharge that went somewhere nobody chose: a bright trail leaving frame center
+        "errant-bolt": """A discharge that went somewhere nobody chose: a bright trail leaving frame center
 in one direction, kinking hard twice, and terminating on something at the plate's
 edge that is not the subject. Overexposed at both ends, fringing along its whole
 length. The dark middle of the plate is full of grain and gridded reference
 marks. Nothing here was aimed.""",
-        "done-personally": """Arc himself, the class leader, centered and radial in the frame, both hands
+        "sole-operator": """Arc himself, the class leader, centered and radial in the frame, both hands
 apart and holding a working between them that is completely blown out -- the core
 is featureless white and it is consuming the detail of his fingers. He has moved
 during the exposure and his head is drawn one and a half times. Missing an
 eyebrow, grinning, wholly absorbed. Behind him the laboratory is black and empty:
 nobody else is in the room, because he has never once handed one of these to
 anybody. Ruled plate grid, illegible exposure data in the margin.""",
-        "recovered-formula": """A page of working recovered from somewhere it should not have survived, lying
+        "formula-incarnate": """A page of working recovered from somewhere it should not have survived, lying
 on a gridded plate and lit only by the overexposed thing it describes hovering
 above it. The writing on the page is never legible as letters or numbers -- only
 the impression of dense notation. Bright trails loop from the page to the object
@@ -125,17 +125,17 @@ and back, recording something that has been read more than once.""",
 other, their trails overlapping into a lattice of blown-white intersections. The
 first is already dissipating into flare; the second is at full brightness. Very
 dark elsewhere, heavy grain, magenta fringing wherever the two fields cross.""",
-        "sudden-postulate": """Something arriving faster than the exposure could follow: one enormously long
+        "half-resolved-visitor": """Something arriving faster than the exposure could follow: one enormously long
 bright trail entering at the top left edge of the plate and terminating in an
 overexposed figure at bottom right that is only half resolved, still smearing.
 The trail is the subject; the figure is where it stopped. Veiling flare across
 the lower third. Nothing else in frame.""",
-        "costly-proof": """A demonstration that worked, photographed from behind the bench: an enormous
+        "the-demonstrator": """A demonstration that worked, photographed from behind the bench: an enormous
 overexposed core at the center, and in the dark foreground the silhouettes of
 two pieces of apparatus that have been spent doing it -- one collapsed, one
 still trailing sparks as bright streaks toward the floor. The proof is legible
 and the price is in the foreground. Heavy fringing, heavy grain.""",
-        "the-unnamed-reaction": """The largest plate in the class and the least contained: an overexposed field
+        "the-unnamed": """The largest plate in the class and the least contained: an overexposed field
 occupying most of the frame with no discernible center, its trails going out
 past all four edges rather than terminating, magenta fringing along every one of
 them and veiling flare washing the gridded plate almost blank. At the very bottom
@@ -236,7 +236,7 @@ smaller than the trees it left. The dots run over a fissure in the rock.""",
 overlapping a much larger and much older painted animal that it is running away
 from -- or toward, the marks do not say. Grey handprints in white clay follow it
 across the rock, getting fainter. Deep pitting takes a bite out of its legs.""",
-        "cinder-rite": """A ring of small ochre figures painted around a central charcoal blot, all facing
+        "ashen-circle": """A ring of small ochre figures painted around a central charcoal blot, all facing
 inward, none of them detailed beyond a head and two arms. The blot at the middle
 is thick, finger-smeared and still spreading into the rock's grain. Above the
 ring, painted at a different scale and clearly at a different time, the same ring
@@ -266,12 +266,12 @@ than a supplicant. Around and overlapping them at other scales and other angles:
 the mountain smoking, animals coming downhill, a stand of young trees on the same
 slope. They are entirely unhurried. White clay hand stencils in the margins, and
 the rock's cracks run straight through the figure.""",
-        "twin-eruption": """Two charcoal columns going up from two points on a painted ridge, drawn at
+        "twin-vents": """Two charcoal columns going up from two points on a painted ridge, drawn at
 different scales because they were painted at different times, their ash spreading
 into one another at the top of the frame. Beneath each, in ochre, the same small
 row of trees. Deep pitting in the rock breaks both columns into fragments and
 neither has been worked around.""",
-        "the-mountain-is-fertile": """The whole rock face given to one image: an enormous painted mountain in charcoal
+        "the-fertile-mountain": """The whole rock face given to one image: an enormous painted mountain in charcoal
 occupying the full frame, its flanks in red ochre, opened at the summit with ash
 going out past the top edge -- and painted directly over the whole of it in white
 clay, at the same scale and with the same weight, an orchard in full leaf. The
@@ -410,7 +410,7 @@ small.""",
 line between the two states. What it is closing on is drawn as a dotted outline
 only -- the part is somebody else's and is not specified. The clamp is beautifully
 made. Numbered callouts, dimension arrows, a small heat-orange note at the jaw.""",
-        "all-pockets-full": """Quench himself, the class leader, drawn at the center of his own patent plate in
+        "laden-tinker": """Quench himself, the class leader, drawn at the center of his own patent plate in
 white line while everything on him is rendered as real material: brass at the
 belt, copper coiled over one shoulder, cold-sweating steel canisters in every
 pocket, a gauge strapped to the back of one glove. He is exploded outward along
@@ -517,7 +517,7 @@ other, already taking something from a figure who has not noticed. Flat gold
 ground, no modelling. The first payment is drawn as coins going one way and the
 figure's shadow -- the only shadow on the page -- going the other. Char along the
 margin's outer edge. Red marks in the later hand beside the purse.""",
-        "small-mercy-larger-debt": """A historiated initial in which one figure lifts another out of water, drawn with
+        "kindly-creditor": """A historiated initial in which one figure lifts another out of water, drawn with
 genuine tenderness in flat illumination and gold leaf -- while in the border
 directly beneath, a small demon is neatly entering the transaction in a book. The
 rescue is the picture; the accounting is the ornament. A burn hole through the
@@ -527,12 +527,12 @@ by a figure in the opposite margin, who is smiling and letting it happen. Gold
 leaf on the deck. In the border, three grotesques are drawing cards from each
 other in a chain that goes round the whole page. Alarmed red marks in the later
 hand at the point the chain closes.""",
-        "read-the-terms": """A very long unrolled scroll drawn winding down the entire margin and around the
+        "clause-reader": """A very long unrolled scroll drawn winding down the entire margin and around the
 foot of the page, covered in the texture of dense blackletter that never resolves
 into words, with one small clause near the bottom marked in minium red by the
 later hand and circled twice. A figure at the top of the page is reading from
 the wrong end. Char eating the scroll's tail.""",
-        "recalled-from-default": """A figure being pulled back into a historiated initial that it had clearly left --
+        "recalled-debtor": """A figure being pulled back into a historiated initial that it had clearly left --
 half in the letter, half in the margin, with a chain from the initial's ground
 around one ankle. Flat illumination, gold leaf, no modelling. The margin around
 it is heavily charred and a hole is eaten through where the figure had been
@@ -543,7 +543,7 @@ the receiver, and gold leaf on the object itself. The roundel's border is
 grotesques. Directly through the roundel's lower edge, a burn hole -- and the
 illumination continues around it as though it had always been designed that
 way.""",
-        "interest-on-every-spell": """A page where the marginal demons have got into the working: a ruled text block of
+        "marginal-collector": """A page where the marginal demons have got into the working: a ruled text block of
 illegible blackletter with a small red-inked figure sitting on every line's end,
 each one taking a small toll from the words as they pass. Gold rubrication at the
 line starts. The later hand has written alarmed marks the whole length of the
@@ -553,7 +553,7 @@ across a ruled block, one of them bleeding freely into a bowl held by a grotesqu
 below, the blood drawn in minium red as ornament rather than as gore. Neither
 face registers distress. Char and a burn hole directly beneath the bowl, the
 illumination continuing around it.""",
-        "several-deals-deep": """Brand himself, the class leader, standing in the margin rather than in the
+        "smiling-broker": """Brand himself, the class leader, standing in the margin rather than in the
 initial -- he has come out of the text block -- with one hand out in a warm
 persuasive gesture and the other behind his back holding three separate signed
 scrolls he is not mentioning. Flat illumination, heavy gold leaf, no modelling.
@@ -561,7 +561,7 @@ Grotesques and small demons swarm the border around him, several of them holding
 documents that name him. The page is charred along its whole right edge and two
 holes are eaten through it. Alarmed red annotations in the later hand crowd the
 margin beside his head.""",
-        "three-sold-at-once": """A bottom-margin scene of three separate transactions being conducted
+        "triple-dealer": """A bottom-margin scene of three separate transactions being conducted
 simultaneously by the same pair of hands, drawn as three roundels chained
 together with the chain passing through all three. Gold on each roundel's ground.
 The chain's last link goes off the page's charred edge. The later hand has ruled
@@ -571,7 +571,7 @@ grand figure receiving with both hands, flat and joyful and entirely
 unshadowed -- and directly below the gift, in the border, the burn has already
 started, a ring of char eating outward through the vellum toward the scene. The
 illumination continues around it. Red marks in the later hand: two strokes, hard.""",
-        "the-balance-comes-due": """The whole page against the reader: a full-page illumination in which the border
+        "the-collectors": """The whole page against the reader: a full-page illumination in which the border
 grotesques have left the border and come inward across the text block, dozens of
 them, each carrying a document, all converging on one figure at the center who
 still has one hand raised as though about to make a further offer. Gold leaf
@@ -678,12 +678,12 @@ frame, no ground visible anywhere in the picture. Flat fills with heavy grain,
 keyblock outline breaking where the speed is greatest. Horror-manga hatching packs
 the underside of the body into near-black. Impact burst waiting at the far
 corner.""",
-        "vanguard-doctrine": """Three heavy figures cresting a tilted ridge line together, all in mid-stride and
+        "the-cresting-three": """Three heavy figures cresting a tilted ridge line together, all in mid-stride and
 none with both feet down, arranged along the diagonal so the composition tips
 hard to one corner. Flat indigo silhouettes with bone cut into the leading edges.
 Speed-lines behind all three, running off the frame. One vermilion note on the
 foremost.""",
-        "on-a-clock": """Kell themself, the class leader, coming across the frame on the diagonal with
+        "hurried-blade": """Kell themself, the class leader, coming across the frame on the diagonal with
 the blade already out and the ground plane tilted well past level -- mid-stride,
 weight thrown forward, nothing under the leading foot yet. Flat woodblock fills,
 hard keyblock line, dense horror-manga hatching taking one entire side of the
@@ -695,22 +695,22 @@ the target's bone-white flat shape at the bottom, the whole composition a single
 falling diagonal. Impact burst already cut into the print where they will meet,
 breaking the lower frame edge. Heavy hatching along the falling body's underside.
 One vermilion note.""",
-        "borrowed-power": """Kell again, later: the same figure with more of the borrowed thing showing.
+        "half-taken-hunter": """Kell again, later: the same figure with more of the borrowed thing showing.
 Mid-motion on a tilted plane, one arm and one whole flank now cut as flat
 block-black with hard edges where flesh should be, the hatching around the
 boundary at its densest. Their face is unchanged and entirely calm about it.
 Speed-lines from the changed side only. Off-register vermilion ghost along the
 whole silhouette.""",
-        "twinned-assault": """Two figures moving as one along a single steep diagonal, so close their flats
+        "the-twinned": """Two figures moving as one along a single steep diagonal, so close their flats
 overlap and the keyblock outline between them has been left out -- they read as one
 shape with two heads. Neither has a foot down. Speed-lines rake the whole frame.
 Hatching where the shapes cross. One vermilion note, shared between them.""",
-        "unspent-momentum": """A figure that has already landed a blow and is using the recoil to launch again,
+        "recoiling-striker": """A figure that has already landed a blow and is using the recoil to launch again,
 drawn as two overlapping positions on one print, the earlier one slightly
 off-register in vermilion behind the later one. The tilted ground appears only in
 the bottom corner. Impact burst behind, speed-lines ahead, both breaking the
 frame edge.""",
-        "nothing-left-standing": """The most unstable print in the class: a full-frame diagonal of destruction with a
+        "the-leveller": """The most unstable print in the class: a full-frame diagonal of destruction with a
 single figure at its head, mid-stride and airborne, and behind it a field cut
 into flat shapes of what used to be standing -- every one of them broken off the
 vertical and falling in the same direction. Speed-lines run off all four edges.

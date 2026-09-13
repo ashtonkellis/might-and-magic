@@ -31,16 +31,16 @@ each orientation. The landscape face is Gale at rest above her own chart; the po
 |---|---|---|---|
 | [`oathbearer-squire.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/12-windrunner/oathbearer-squire.txt) | Oathbearer Squire | Unit | 1 |
 | [`two-sworn-together.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/12-windrunner/two-sworn-together.txt) | Two Sworn Together | Spell | 1 |
-| [`lift-them-higher.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/12-windrunner/lift-them-higher.txt) | Lift Them Higher | Unit | 2 |
 | [`shared-ascent.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/12-windrunner/shared-ascent.txt) | Shared Ascent | Upgrade | 2 |
-| [`bound-in-purpose.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/12-windrunner/bound-in-purpose.txt) | Bound in Purpose | Unit | 3 |
+| [`updraft-bearer.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/12-windrunner/updraft-bearer.txt) | Updraft Bearer | Unit | 2 |
+| [`the-bound-pair.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/12-windrunner/the-bound-pair.txt) | The Bound Pair | Unit | 3 |
 | [`three-oaths-spoken.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/12-windrunner/three-oaths-spoken.txt) | Three Oaths Spoken | Spell | 3 |
-| [`cover-their-retreat.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/12-windrunner/cover-their-retreat.txt) | Cover Their Retreat | Unit | 4 |
+| [`the-rearguard.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/12-windrunner/the-rearguard.txt) | The Rearguard | Unit | 4 |
 | [`skyward-vanguard.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/12-windrunner/skyward-vanguard.txt) | Skyward Vanguard | Unit | 5 |
-| [`between-you-and-it.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/12-windrunner/between-you-and-it.txt) | Between You and It | Unit | 6 |
-| [`carried-aloft.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/12-windrunner/carried-aloft.txt) | Carried Aloft | Unit | 6 |
+| [`cloudborne-guide.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/12-windrunner/cloudborne-guide.txt) | Cloudborne Guide | Unit | 6 |
+| [`the-windbreak.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/12-windrunner/the-windbreak.txt) | The Windbreak | Unit | 6 |
 | [`windsworn-marshal.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/12-windrunner/windsworn-marshal.txt) | Windsworn Marshal | Unit | 6 |
-| [`the-whole-flight-rises.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/12-windrunner/the-whole-flight-rises.txt) | The Whole Flight Rises | Unit | 8 |
+| [`the-risen-flight.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/12-windrunner/the-risen-flight.txt) | The Risen Flight | Unit | 8 |
 
 ## The hero
 

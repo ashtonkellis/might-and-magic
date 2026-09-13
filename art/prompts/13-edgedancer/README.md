@@ -31,15 +31,15 @@ each orientation. The landscape face is Prism at rest mid-glide, which is as clo
 |---|---|---|---|
 | [`slipped-away.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/13-edgedancer/slipped-away.txt) | Slipped Away | Spell | 1 |
 | [`unnoticed-runner.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/13-edgedancer/unnoticed-runner.txt) | Unnoticed Runner | Unit | 1 |
-| [`quiet-introduction.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/13-edgedancer/quiet-introduction.txt) | Quiet Introduction | Unit | 2 |
 | [`remembered-later.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/13-edgedancer/remembered-later.txt) | Remembered Later | Upgrade | 2 |
 | [`sent-home-gently.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/13-edgedancer/sent-home-gently.txt) | Sent Home Gently | Spell | 2 |
+| [`the-newcomer.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/13-edgedancer/the-newcomer.txt) | The Newcomer | Unit | 2 |
 | [`found-underfoot.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/13-edgedancer/found-underfoot.txt) | Found Underfoot | Spell | 3 |
-| [`never-quite-still.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/13-edgedancer/never-quite-still.txt) | Never Quite Still | Unit | 3 |
-| [`the-overlooked-arrive.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/13-edgedancer/the-overlooked-arrive.txt) | The Overlooked Arrive | Unit | 4 |
-| [`nothing-forgotten.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/13-edgedancer/nothing-forgotten.txt) | Nothing Forgotten | Unit | 5 |
-| [`between-two-breaths.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/13-edgedancer/between-two-breaths.txt) | Between Two Breaths | Unit | 6 |
-| [`glide-past.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/13-edgedancer/glide-past.txt) | Glide Past | Unit | 6 |
+| [`the-unstilled.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/13-edgedancer/the-unstilled.txt) | The Unstilled | Unit | 3 |
+| [`the-overlooked.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/13-edgedancer/the-overlooked.txt) | The Overlooked | Unit | 4 |
+| [`unbroken-glider.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/13-edgedancer/unbroken-glider.txt) | Unbroken Glider | Unit | 5 |
+| [`gap-walker.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/13-edgedancer/gap-walker.txt) | Gap-Walker | Unit | 6 |
+| [`the-untouched.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/13-edgedancer/the-untouched.txt) | The Untouched | Unit | 6 |
 | [`nothing-holds-them.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/13-edgedancer/nothing-holds-them.txt) | Nothing Holds Them | Spell | 12 |
 
 ## The hero

@@ -36,9 +36,9 @@ each orientation. The landscape face is Fletch at rest in camp; the portrait fac
 | [`packed-for-both.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/18-ranger/packed-for-both.txt) | Packed for Both | Spell | 2 |
 | [`practised-hand.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/18-ranger/practised-hand.txt) | Practised Hand | Unit | 2 |
 | [`trail-reader.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/18-ranger/trail-reader.txt) | Trail Reader | Unit | 2 |
-| [`recruiting-trip.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/18-ranger/recruiting-trip.txt) | Recruiting Trip | Unit | 4 |
+| [`the-recruiter.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/18-ranger/the-recruiter.txt) | The Recruiter | Unit | 4 |
 | [`three-days-foresight.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/18-ranger/three-days-foresight.txt) | Three Days' Foresight | Spell | 4 |
-| [`simply-prepared.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/18-ranger/simply-prepared.txt) | Simply Prepared | Unit | 5 |
+| [`the-long-prepared.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/18-ranger/the-long-prepared.txt) | The Long-Prepared | Unit | 5 |
 | [`weathered-tracker.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/18-ranger/weathered-tracker.txt) | Weathered Tracker | Unit | 6 |
 | [`everything-already-packed.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/18-ranger/everything-already-packed.txt) | Everything Already Packed | Spell | 14 |
 

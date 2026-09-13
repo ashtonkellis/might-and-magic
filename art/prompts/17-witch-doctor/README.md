@@ -34,13 +34,13 @@ each orientation. The landscape face is Mire at rest among the jars; the portrai
 | [`fever-nurse.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/17-witch-doctor/fever-nurse.txt) | Fever Nurse | Unit | 2 |
 | [`salve-of-poor-provenance.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/17-witch-doctor/salve-of-poor-provenance.txt) | Salve of Poor Provenance | Upgrade | 2 |
 | [`ward-of-many-wounds.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/17-witch-doctor/ward-of-many-wounds.txt) | Ward of Many Wounds | Spell | 2 |
-| [`confident-diagnosis.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/17-witch-doctor/confident-diagnosis.txt) | Confident Diagnosis | Unit | 3 |
 | [`mender-of-bad-cases.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/17-witch-doctor/mender-of-bad-cases.txt) | Mender of Bad Cases | Unit | 3 |
 | [`spore-physician.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/17-witch-doctor/spore-physician.txt) | Spore Physician | Unit | 3 |
+| [`the-diagnostician.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/17-witch-doctor/the-diagnostician.txt) | The Diagnostician | Unit | 3 |
 | [`rot-fed-healer.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/17-witch-doctor/rot-fed-healer.txt) | Rot-Fed Healer | Unit | 4 |
-| [`no-bedside-manner.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/17-witch-doctor/no-bedside-manner.txt) | No Bedside Manner | Unit | 5 |
-| [`everything-thrives-here.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/17-witch-doctor/everything-thrives-here.txt) | Everything Thrives Here | Unit | 7 |
-| [`spotless-success-rate.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/17-witch-doctor/spotless-success-rate.txt) | Spotless Success Rate | Unit | 8 |
+| [`blunt-practitioner.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/17-witch-doctor/blunt-practitioner.txt) | Blunt Practitioner | Unit | 5 |
+| [`the-thriving-field.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/17-witch-doctor/the-thriving-field.txt) | The Thriving Field | Unit | 7 |
+| [`the-recovered-ward.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/17-witch-doctor/the-recovered-ward.txt) | The Recovered Ward | Unit | 8 |
 
 ## The hero
 

@@ -30,17 +30,17 @@ each orientation. The landscape face is Brand at rest, mid-negotiation and charm
 | File | Card | Type | Cost |
 |---|---|---|---|
 | [`first-instalment.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/10-warlock/first-instalment.txt) | First Instalment | Spell | 1 |
-| [`small-mercy-larger-debt.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/10-warlock/small-mercy-larger-debt.txt) | Small Mercy, Larger Debt | Unit | 1 |
+| [`kindly-creditor.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/10-warlock/kindly-creditor.txt) | Kindly Creditor | Unit | 1 |
+| [`clause-reader.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/10-warlock/clause-reader.txt) | Clause Reader | Unit | 2 |
 | [`creditors-draw.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/10-warlock/creditors-draw.txt) | Creditor's Draw | Spell | 2 |
-| [`read-the-terms.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/10-warlock/read-the-terms.txt) | Read the Terms | Unit | 2 |
-| [`recalled-from-default.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/10-warlock/recalled-from-default.txt) | Recalled from Default | Unit | 2 |
+| [`recalled-debtor.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/10-warlock/recalled-debtor.txt) | Recalled Debtor | Unit | 2 |
 | [`collateral-clause.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/10-warlock/collateral-clause.txt) | Collateral Clause | Upgrade | 4 |
-| [`interest-on-every-spell.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/10-warlock/interest-on-every-spell.txt) | Interest on Every Spell | Unit | 4 |
+| [`marginal-collector.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/10-warlock/marginal-collector.txt) | Marginal Collector | Unit | 4 |
 | [`settled-in-blood.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/10-warlock/settled-in-blood.txt) | Settled in Blood | Spell | 4 |
-| [`several-deals-deep.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/10-warlock/several-deals-deep.txt) | Several Deals Deep | Unit | 6 |
-| [`three-sold-at-once.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/10-warlock/three-sold-at-once.txt) | Three Sold at Once | Unit | 6 |
+| [`smiling-broker.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/10-warlock/smiling-broker.txt) | Smiling Broker | Unit | 6 |
+| [`triple-dealer.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/10-warlock/triple-dealer.txt) | Triple Dealer | Unit | 6 |
 | [`nothing-down.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/10-warlock/nothing-down.txt) | Nothing Down | Spell | 7 |
-| [`the-balance-comes-due.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/10-warlock/the-balance-comes-due.txt) | The Balance Comes Due | Unit | 8 |
+| [`the-collectors.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/10-warlock/the-collectors.txt) | The Collectors | Unit | 8 |
 
 ## The hero
 

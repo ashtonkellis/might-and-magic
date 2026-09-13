@@ -108,7 +108,7 @@ water has slopped over the rim it has already sprouted on the ground behind.""",
 shoulders that have healed as knots of hardwood rather than scar tissue. The
 hardwood is the strongest part of it. Head lowered but not charging -- weight
 set, patient, waiting to be given a reason. Ornament thickening at the corners.""",
-        "patient-as-rot": """Briar herself, the class leader, centered and frontal in a mandorla of
+        "bark-scarred-elder": """Briar herself, the class leader, centered and frontal in a mandorla of
 overgrowth, bark-scarred forearms crossed, seed pouches at her belt. She is
 looking directly out at the viewer with an expression of enormous, unhurried
 patience -- the look of someone who has already decided to outlast you and does
@@ -119,7 +119,7 @@ ecology lives on it -- lichen, ferns in the joints, a bird's nest in the crook o
 one shoulder. A split runs down the length of its chest and has closed over
 thicker than the surrounding wood. It stands centered and takes the whole
 height of the frame. Heavy ornament, near the top of the range.""",
-        "the-grove-remembers": """Not one figure but a stand of them -- five or six rooted forms of very different
+        "the-standing-grove": """Not one figure but a stand of them -- five or six rooted forms of very different
 ages in a semicircle, drawn overlapping and flat with no perspective, all facing
 the viewer. The youngest is a sapling with a face barely indicated; the oldest is
 almost entirely trunk. They are clearly one thing with several bodies. Ornament
@@ -238,7 +238,7 @@ occupying a third of the frame in an otherwise empty pale field -- the flank is
 closed and this is why. A shield of exact faceted ice, drawn hard where the
 figure is drawn faintly, has grown across the forearm in straight runs. Nothing
 approaches. Nothing has needed to be struck.""",
-        "preserved-intent": """Crystal herself, the class leader, standing three-quarter view and small in an
+        "unmoved-aristocrat": """Crystal herself, the class leader, standing three-quarter view and small in an
 enormous empty pale field, drawn in the faintest silverpoint the class allows.
 Aristocratic bearing, chin level, one hand extended palm-down. Beneath the palm,
 exact faceted ice is running outward across the ground in straight lines with
@@ -351,7 +351,7 @@ light, to another pair reaching in from the dark. It has been wrapped carefully
 and tied. The giver's hands are apologetic; the receiver's are eager. What is
 inside is not quite the right shape for the wrapping. A guttering candle at the
 table's edge lights the exchange and nothing else.""",
-        "buried-again": """A grave being closed for the second time, seen as still life rather than labor:
+        "the-reburied": """A grave being closed for the second time, seen as still life rather than labor:
 a spade set down and leaning, a mound of turned earth, a ledger open on the earth
 with the page held flat by a stone. The entry has been ruled through. A single
 figure stands at the edge of the light with his hat in his hands. A stopped watch
@@ -371,7 +371,7 @@ the candlelight, and a tired hand drawing a line under everything spent today.
 The names above the line are legible only as the shape of writing -- never
 actual letters or words, only the impression of a great many entries. A fly on
 the open page. Fingerprints in the charcoal all over the paper's dark edges.""",
-        "successor-sought": """An old figure in the last of the candlelight holding out a pen, handle first,
+        "the-waiting-successor": """An old figure in the last of the candlelight holding out a pen, handle first,
 toward a much younger one standing at the edge of the shadow. The younger one has
 not taken it yet. Between them on the table sits the ledger, closed, and a
 guttering candle with maybe a minute left in it. Still-life staging: everyone is
@@ -388,18 +388,18 @@ unstoppable. A single candle just outside the frame lights his hands and half hi
 face; behind him the room is swallowing violet-black shadow with faint standing
 shapes in it that are waiting for him and are in no hurry. The memento mori sits
 by his elbow: a stopped watch, and beside it one page torn out.""",
-        "toll-of-three": """Three shrouded forms laid out side by side on a stone table, arranged with
+        "the-shrouded-three": """Three shrouded forms laid out side by side on a stone table, arranged with
 absolute still-life symmetry, feet toward the viewer, lit from one side. At the
 near end a fourth place is cleared and empty. A tired hand is drawing the sheet
 up over the third face. Nothing is violent. Everything has been counted. A tipped
 glass on the floor at the table's foot.""",
-        "mass-exhumation": """A wide field of turned earth receding into the dark, dozens of shallow openings
+        "the-exhumer": """A wide field of turned earth receding into the dark, dozens of shallow openings
 in it, and a single small figure standing among them with a lamp -- the only warm
 light in a vast violet-black frame. Where the lamplight reaches, hands and
 shoulders are coming up out of the ground in unhurried numbers. It looks less
 like an army rising than like a harvest being brought in, and the figure with
 the lamp looks exhausted.""",
-        "the-unwilling-return": """The largest and worst of the class: something coming back that did not want to,
+        "the-stitched-giant": """The largest and worst of the class: something coming back that did not want to,
 arranged as a monstrous still life -- a huge draped form on a bier, half risen,
 the sheet sliding, one enormous hand already on the stone taking weight. It has
 been assembled out of more than one contributor and the joins are not hidden.
@@ -482,7 +482,7 @@ The register is in every file too: nothing here is dramatized. The armor is old,
 it has been repaired many times, and not one repair has been hidden — the seams
 and mismatched plates are carved in.""",
     subjects={
-        "break-the-line": """A shield wall in shallow relief along the baseline, and one point in it where a
+        "wedge-breaker": """A shield wall in shallow relief along the baseline, and one point in it where a
 single figure has got a shoulder in and levered two shields apart. The gap is
 carved deeper than anything around it so the raking light throws a hard black
 wedge into the frieze. Nothing else in the procession has reacted yet.""",
@@ -522,7 +522,7 @@ the cleanest surface in the class -- standing easy with the shield not yet raise
 The stone around it is weathered, chipped and stained, so the undamaged figure
 reads as a deliberately preserved passage of carving. It is undamaged because
 nothing has reached it yet.""",
-        "still-standing": """Hale themself, the class leader, carved frontal and full-length at the center of
+        "the-unfallen": """Hale themself, the class leader, carved frontal and full-length at the center of
 the frieze, shield grounded, one hand out to the side and open -- steadying
 someone off-frame rather than striking anyone. The armor is old and every repair
 is carved visible: patches, mismatched plates, a seam across the breast where it

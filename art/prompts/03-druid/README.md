@@ -37,9 +37,9 @@ each orientation. The landscape face is Briar at rest in her own overgrowth; the
 | [`season-of-scars.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/03-druid/season-of-scars.txt) | Season of Scars | Spell | 2 |
 | [`deepwood-steward.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/03-druid/deepwood-steward.txt) | Deepwood Steward | Unit | 3 |
 | [`wound-fed-bull.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/03-druid/wound-fed-bull.txt) | Wound-Fed Bull | Unit | 4 |
-| [`patient-as-rot.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/03-druid/patient-as-rot.txt) | Patient as Rot | Unit | 5 |
+| [`bark-scarred-elder.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/03-druid/bark-scarred-elder.txt) | Bark-Scarred Elder | Unit | 5 |
 | [`old-growth-warden.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/03-druid/old-growth-warden.txt) | Old Growth Warden | Unit | 6 |
-| [`the-grove-remembers.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/03-druid/the-grove-remembers.txt) | The Grove Remembers | Unit | 7 |
+| [`the-standing-grove.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/03-druid/the-standing-grove.txt) | The Standing Grove | Unit | 7 |
 | [`blight-of-slow-years.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/03-druid/blight-of-slow-years.txt) | Blight of Slow Years | Unit | 8 |
 
 ## The hero

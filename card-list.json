@@ -10,7 +10,7 @@
     {
       "id": "SHD-001",
       "class": "09-trinket-mage",
-      "name": "All Pockets Full",
+      "name": "Laden Tinker",
       "type": "Unit",
       "cost": 6,
       "power": 4,
@@ -29,7 +29,7 @@
     {
       "id": "SHD-002",
       "class": "17-witch-doctor",
-      "name": "No Bedside Manner",
+      "name": "Blunt Practitioner",
       "type": "Unit",
       "cost": 5,
       "power": 0,
@@ -50,7 +50,7 @@
     {
       "id": "SHD-003",
       "class": "15-runeblade",
-      "name": "Smith First",
+      "name": "Smith at Rest",
       "type": "Unit",
       "cost": 5,
       "power": 4,
@@ -107,7 +107,7 @@
     {
       "id": "SHD-006",
       "class": "20-death-knight",
-      "name": "Bound to Another's Will",
+      "name": "Bound Knight",
       "type": "Unit",
       "cost": 7,
       "power": 2,
@@ -126,7 +126,7 @@
     {
       "id": "SHD-007",
       "class": "13-edgedancer",
-      "name": "Nothing Forgotten",
+      "name": "Unbroken Glider",
       "type": "Unit",
       "cost": 5,
       "power": 3,
@@ -145,7 +145,7 @@
     {
       "id": "SHD-008",
       "class": "12-windrunner",
-      "name": "Carried Aloft",
+      "name": "Cloudborne Guide",
       "type": "Unit",
       "cost": 6,
       "power": 4,
@@ -202,7 +202,7 @@
     {
       "id": "SHD-011",
       "class": "04-sorceress",
-      "name": "Preserved Intent",
+      "name": "Unmoved Aristocrat",
       "type": "Unit",
       "cost": 4,
       "power": 5,
@@ -240,7 +240,7 @@
     {
       "id": "SHD-013",
       "class": "07-wizard",
-      "name": "Done Personally",
+      "name": "Sole Operator",
       "type": "Unit",
       "cost": 5,
       "power": 3,
@@ -316,7 +316,7 @@
     {
       "id": "SHD-017",
       "class": "19-lich",
-      "name": "Without Appetite",
+      "name": "The Unhungering",
       "type": "Unit",
       "cost": 4,
       "power": 2,
@@ -622,7 +622,7 @@
     {
       "id": "SHD-033",
       "class": "20-death-knight",
-      "name": "Standing Sentence",
+      "name": "Standing Effigy",
       "type": "Unit",
       "cost": 4,
       "power": 3,
@@ -687,7 +687,7 @@
     {
       "id": "SHD-036",
       "class": "17-witch-doctor",
-      "name": "Everything Thrives Here",
+      "name": "The Thriving Field",
       "type": "Unit",
       "cost": 7,
       "power": 4,
@@ -954,7 +954,7 @@
     {
       "id": "SHD-050",
       "class": "21-assassin",
-      "name": "Nothing Personal",
+      "name": "The Detached",
       "type": "Unit",
       "cost": 8,
       "power": 4,
@@ -1111,7 +1111,7 @@
     {
       "id": "SHD-058",
       "class": "08-shaman",
-      "name": "Cinder Rite",
+      "name": "Ashen Circle",
       "type": "Unit",
       "cost": 2,
       "power": 2,
@@ -1227,7 +1227,7 @@
     {
       "id": "SHD-064",
       "class": "15-runeblade",
-      "name": "Rune Transfer",
+      "name": "Running Ember",
       "type": "Unit",
       "cost": 5,
       "power": 4,
@@ -1522,7 +1522,7 @@
     {
       "id": "SHD-080",
       "class": "10-warlock",
-      "name": "Small Mercy, Larger Debt",
+      "name": "Kindly Creditor",
       "type": "Unit",
       "cost": 1,
       "power": 1,
@@ -1619,7 +1619,7 @@
     {
       "id": "SHD-085",
       "class": "14-soulcaster",
-      "name": "Rendered to Stock",
+      "name": "The Half-Rendered",
       "type": "Unit",
       "cost": 3,
       "power": 2,
@@ -1719,7 +1719,7 @@
     {
       "id": "SHD-090",
       "class": "11-demon-hunter",
-      "name": "Twinned Assault",
+      "name": "The Twinned",
       "type": "Unit",
       "cost": 7,
       "power": 7,
@@ -1741,7 +1741,7 @@
     {
       "id": "SHD-092",
       "class": "20-death-knight",
-      "name": "The Whole Field Conscripted",
+      "name": "The Conscripted Dead",
       "type": "Unit",
       "cost": 11,
       "power": 11,
@@ -1841,7 +1841,7 @@
     {
       "id": "SHD-097",
       "class": "12-windrunner",
-      "name": "Lift Them Higher",
+      "name": "Updraft Bearer",
       "type": "Unit",
       "cost": 2,
       "power": 1,
@@ -2198,7 +2198,7 @@
     {
       "id": "SHD-115",
       "class": "05-necromancer",
-      "name": "Successor Sought",
+      "name": "The Waiting Successor",
       "type": "Unit",
       "cost": 3,
       "power": 3,
@@ -2334,7 +2334,7 @@
     {
       "id": "SHD-122",
       "class": "11-demon-hunter",
-      "name": "Nothing Left Standing",
+      "name": "The Leveller",
       "type": "Unit",
       "cost": 8,
       "power": 7,
@@ -2579,7 +2579,7 @@
     {
       "id": "SHD-135",
       "class": "10-warlock",
-      "name": "Recalled from Default",
+      "name": "Recalled Debtor",
       "type": "Unit",
       "cost": 2,
       "power": 3,
@@ -2797,7 +2797,7 @@
     {
       "id": "SHD-147",
       "class": "21-assassin",
-      "name": "Between the Guards",
+      "name": "The One Between",
       "type": "Unit",
       "cost": 2,
       "power": 3,
@@ -3152,7 +3152,7 @@
     {
       "id": "SHD-165",
       "class": "21-assassin",
-      "name": "Paid on Completion",
+      "name": "The Paid Hand",
       "type": "Unit",
       "cost": 3,
       "power": 3,
@@ -3507,7 +3507,7 @@
     {
       "id": "SHD-184",
       "class": "10-warlock",
-      "name": "Read the Terms",
+      "name": "Clause Reader",
       "type": "Unit",
       "cost": 2,
       "power": 1,
@@ -3871,7 +3871,7 @@
     {
       "id": "SHD-204",
       "class": "16-shapeshifter",
-      "name": "Long Wait Ended",
+      "name": "The Uncoiling",
       "type": "Unit",
       "cost": 6,
       "power": 5,
@@ -4065,7 +4065,7 @@
     {
       "id": "SHD-214",
       "class": "14-soulcaster",
-      "name": "Traded Back",
+      "name": "Traded Form",
       "type": "Unit",
       "cost": 3,
       "power": 2,
@@ -4909,7 +4909,7 @@
     {
       "id": "SOR-001",
       "class": "03-druid",
-      "name": "Patient as Rot",
+      "name": "Bark-Scarred Elder",
       "type": "Unit",
       "cost": 5,
       "power": 2,
@@ -4951,7 +4951,7 @@
     {
       "id": "SOR-003",
       "class": "16-shapeshifter",
-      "name": "Winter Outlasted",
+      "name": "The Outlaster",
       "type": "Unit",
       "cost": 7,
       "power": 2,
@@ -5011,7 +5011,7 @@
     {
       "id": "SOR-006",
       "class": "14-soulcaster",
-      "name": "Half Turned to Smoke",
+      "name": "Dissolving Caster",
       "type": "Unit",
       "cost": 8,
       "power": 4,
@@ -5207,7 +5207,7 @@
     {
       "id": "SOR-016",
       "class": "02-chronomancer",
-      "name": "Bored of Victory",
+      "name": "The Ageless Victor",
       "type": "Unit",
       "cost": 6,
       "power": 3,
@@ -5226,7 +5226,7 @@
     {
       "id": "SOR-017",
       "class": "14-soulcaster",
-      "name": "Stone Persuaded",
+      "name": "Stone-Speaker",
       "type": "Unit",
       "cost": 6,
       "power": 4,
@@ -5623,7 +5623,7 @@
     {
       "id": "SOR-038",
       "class": "21-assassin",
-      "name": "Second Contract",
+      "name": "The Twice-Hired",
       "type": "Unit",
       "cost": 7,
       "power": 5,
@@ -5840,7 +5840,7 @@
     {
       "id": "SOR-049",
       "class": "12-windrunner",
-      "name": "Between You and It",
+      "name": "The Windbreak",
       "type": "Unit",
       "cost": 6,
       "power": 4,
@@ -6398,7 +6398,7 @@
     {
       "id": "SOR-079",
       "class": "11-demon-hunter",
-      "name": "Vanguard Doctrine",
+      "name": "The Cresting Three",
       "type": "Unit",
       "cost": 2,
       "power": 1,
@@ -6457,7 +6457,7 @@
     {
       "id": "SOR-083",
       "class": "14-soulcaster",
-      "name": "Spent as Substance",
+      "name": "Spent Vessel",
       "type": "Unit",
       "cost": 3,
       "power": 2,
@@ -6476,7 +6476,7 @@
     {
       "id": "SOR-084",
       "class": "18-ranger",
-      "name": "Recruiting Trip",
+      "name": "The Recruiter",
       "type": "Unit",
       "cost": 4,
       "power": 2,
@@ -6495,7 +6495,7 @@
     {
       "id": "SOR-085",
       "class": "21-assassin",
-      "name": "No Witnesses",
+      "name": "The Last to Leave",
       "type": "Unit",
       "cost": 5,
       "power": 3,
@@ -6596,7 +6596,7 @@
     {
       "id": "SOR-090",
       "class": "20-death-knight",
-      "name": "Weight of Every Oath",
+      "name": "The Oath-Laden",
       "type": "Unit",
       "cost": 10,
       "power": 10,
@@ -6816,7 +6816,7 @@
     {
       "id": "SOR-101",
       "class": "13-edgedancer",
-      "name": "Glide Past",
+      "name": "The Untouched",
       "type": "Unit",
       "cost": 6,
       "power": 4,
@@ -6837,7 +6837,7 @@
     {
       "id": "SOR-102",
       "class": "12-windrunner",
-      "name": "The Whole Flight Rises",
+      "name": "The Risen Flight",
       "type": "Unit",
       "cost": 8,
       "power": 7,
@@ -7025,7 +7025,7 @@
     {
       "id": "SOR-112",
       "class": "17-witch-doctor",
-      "name": "Confident Diagnosis",
+      "name": "The Diagnostician",
       "type": "Unit",
       "cost": 3,
       "power": 3,
@@ -7065,7 +7065,7 @@
     {
       "id": "SOR-114",
       "class": "16-shapeshifter",
-      "name": "Answering the Call",
+      "name": "Rising Form",
       "type": "Unit",
       "cost": 4,
       "power": 4,
@@ -7164,7 +7164,7 @@
     {
       "id": "SOR-119",
       "class": "02-chronomancer",
-      "name": "The Long Rehearsal",
+      "name": "Rehearsed Ranks",
       "type": "Unit",
       "cost": 8,
       "power": 6,
@@ -7345,7 +7345,7 @@
     {
       "id": "SOR-129",
       "class": "13-edgedancer",
-      "name": "Quiet Introduction",
+      "name": "The Newcomer",
       "type": "Unit",
       "cost": 2,
       "power": 2,
@@ -7446,7 +7446,7 @@
     {
       "id": "SOR-134",
       "class": "08-shaman",
-      "name": "Twin Eruption",
+      "name": "Twin Vents",
       "type": "Unit",
       "cost": 6,
       "power": 4,
@@ -7543,7 +7543,7 @@
     {
       "id": "SOR-140",
       "class": "06-warrior",
-      "name": "Break the Line",
+      "name": "Wedge Breaker",
       "type": "Unit",
       "cost": 1,
       "power": 2,
@@ -7726,7 +7726,7 @@
     {
       "id": "SOR-149",
       "class": "11-demon-hunter",
-      "name": "Unspent Momentum",
+      "name": "Recoiling Striker",
       "type": "Unit",
       "cost": 7,
       "power": 5,
@@ -7804,7 +7804,7 @@
     {
       "id": "SOR-153",
       "class": "10-warlock",
-      "name": "Interest on Every Spell",
+      "name": "Marginal Collector",
       "type": "Unit",
       "cost": 4,
       "power": 5,
@@ -8359,7 +8359,7 @@
     {
       "id": "SOR-182",
       "class": "07-wizard",
-      "name": "Sudden Postulate",
+      "name": "Half-Resolved Visitor",
       "type": "Unit",
       "cost": 5,
       "power": 4,
@@ -8380,7 +8380,7 @@
     {
       "id": "SOR-183",
       "class": "13-edgedancer",
-      "name": "Between Two Breaths",
+      "name": "Gap-Walker",
       "type": "Unit",
       "cost": 6,
       "power": 4,
@@ -8401,7 +8401,7 @@
     {
       "id": "SOR-185",
       "class": "19-lich",
-      "name": "All the Time There Is",
+      "name": "The Undecayed",
       "type": "Unit",
       "cost": 8,
       "power": 8,
@@ -8557,7 +8557,7 @@
     {
       "id": "SOR-193",
       "class": "13-edgedancer",
-      "name": "Never Quite Still",
+      "name": "The Unstilled",
       "type": "Unit",
       "cost": 3,
       "power": 3,
@@ -9405,7 +9405,7 @@
     {
       "id": "SOR-238",
       "class": "02-chronomancer",
-      "name": "Numbered Certainty",
+      "name": "Bead Counter",
       "type": "Unit",
       "cost": 2,
       "power": 1,
@@ -9713,7 +9713,7 @@
     {
       "id": "TWI-003",
       "class": "06-warrior",
-      "name": "Still Standing",
+      "name": "The Unfallen",
       "type": "Unit",
       "cost": 6,
       "power": 4,
@@ -9814,7 +9814,7 @@
     {
       "id": "TWI-008",
       "class": "18-ranger",
-      "name": "Simply Prepared",
+      "name": "The Long-Prepared",
       "type": "Unit",
       "cost": 5,
       "power": 2,
@@ -9856,7 +9856,7 @@
     {
       "id": "TWI-010",
       "class": "21-assassin",
-      "name": "Precisely On Time",
+      "name": "The Punctual",
       "type": "Unit",
       "cost": 5,
       "power": 4,
@@ -9877,7 +9877,7 @@
     {
       "id": "TWI-011",
       "class": "11-demon-hunter",
-      "name": "Borrowed Power",
+      "name": "Half-Taken Hunter",
       "type": "Unit",
       "cost": 5,
       "power": 3,
@@ -9896,7 +9896,7 @@
     {
       "id": "TWI-012",
       "class": "10-warlock",
-      "name": "Several Deals Deep",
+      "name": "Smiling Broker",
       "type": "Unit",
       "cost": 6,
       "power": 5,
@@ -9936,7 +9936,7 @@
     {
       "id": "TWI-014",
       "class": "11-demon-hunter",
-      "name": "On a Clock",
+      "name": "Hurried Blade",
       "type": "Unit",
       "cost": 4,
       "power": 3,
@@ -10328,7 +10328,7 @@
     {
       "id": "TWI-035",
       "class": "12-windrunner",
-      "name": "Cover Their Retreat",
+      "name": "The Rearguard",
       "type": "Unit",
       "cost": 4,
       "power": 3,
@@ -10349,7 +10349,7 @@
     {
       "id": "TWI-036",
       "class": "21-assassin",
-      "name": "Reasonable Rates",
+      "name": "Still Negotiator",
       "type": "Unit",
       "cost": 5,
       "power": 3,
@@ -10389,7 +10389,7 @@
     {
       "id": "TWI-038",
       "class": "15-runeblade",
-      "name": "Three Turns Ahead",
+      "name": "The Empty-Handed",
       "type": "Unit",
       "cost": 8,
       "power": 5,
@@ -10410,7 +10410,7 @@
     {
       "id": "TWI-039",
       "class": "08-shaman",
-      "name": "The Mountain Is Fertile",
+      "name": "The Fertile Mountain",
       "type": "Unit",
       "cost": 9,
       "power": 7,
@@ -10630,7 +10630,7 @@
     {
       "id": "TWI-050",
       "class": "03-druid",
-      "name": "The Grove Remembers",
+      "name": "The Standing Grove",
       "type": "Unit",
       "cost": 7,
       "power": 4,
@@ -11291,7 +11291,7 @@
     {
       "id": "TWI-085",
       "class": "14-soulcaster",
-      "name": "The Wider Argument",
+      "name": "The Four Persuaded",
       "type": "Unit",
       "cost": 6,
       "power": 5,
@@ -11310,7 +11310,7 @@
     {
       "id": "TWI-086",
       "class": "05-necromancer",
-      "name": "Mass Exhumation",
+      "name": "The Exhumer",
       "type": "Unit",
       "cost": 7,
       "power": 5,
@@ -11706,7 +11706,7 @@
     {
       "id": "TWI-106",
       "class": "16-shapeshifter",
-      "name": "Pack Ambush",
+      "name": "Half-Formed Pack",
       "type": "Unit",
       "cost": 2,
       "power": 3,
@@ -11780,7 +11780,7 @@
     {
       "id": "TWI-110",
       "class": "12-windrunner",
-      "name": "Bound in Purpose",
+      "name": "The Bound Pair",
       "type": "Unit",
       "cost": 3,
       "power": 2,
@@ -11915,7 +11915,7 @@
     {
       "id": "TWI-117",
       "class": "16-shapeshifter",
-      "name": "Everything Becomes Teeth",
+      "name": "The Many-Jawed",
       "type": "Unit",
       "cost": 8,
       "power": 5,
@@ -12161,7 +12161,7 @@
     {
       "id": "TWI-130",
       "class": "20-death-knight",
-      "name": "Paired Compulsion",
+      "name": "Chained Pair",
       "type": "Unit",
       "cost": 2,
       "power": 2,
@@ -12280,7 +12280,7 @@
     {
       "id": "TWI-136",
       "class": "10-warlock",
-      "name": "Three Sold at Once",
+      "name": "Triple Dealer",
       "type": "Unit",
       "cost": 6,
       "power": 5,
@@ -12320,7 +12320,7 @@
     {
       "id": "TWI-138",
       "class": "10-warlock",
-      "name": "The Balance Comes Due",
+      "name": "The Collectors",
       "type": "Unit",
       "cost": 8,
       "power": 6,
@@ -12584,7 +12584,7 @@
     {
       "id": "TWI-151",
       "class": "07-wizard",
-      "name": "The Unnamed Reaction",
+      "name": "The Unnamed",
       "type": "Unit",
       "cost": 10,
       "power": 8,
@@ -12872,7 +12872,7 @@
     {
       "id": "TWI-167",
       "class": "07-wizard",
-      "name": "Costly Proof",
+      "name": "The Demonstrator",
       "type": "Unit",
       "cost": 7,
       "power": 6,
@@ -13220,7 +13220,7 @@
     {
       "id": "TWI-186",
       "class": "05-necromancer",
-      "name": "Toll of Three",
+      "name": "The Shrouded Three",
       "type": "Unit",
       "cost": 6,
       "power": 3,
@@ -13536,7 +13536,7 @@
     {
       "id": "TWI-202",
       "class": "07-wizard",
-      "name": "Wild Discharge",
+      "name": "Errant Bolt",
       "type": "Unit",
       "cost": 2,
       "power": 2,
@@ -13555,7 +13555,7 @@
     {
       "id": "TWI-203",
       "class": "13-edgedancer",
-      "name": "The Overlooked Arrive",
+      "name": "The Overlooked",
       "type": "Unit",
       "cost": 4,
       "power": 2,
@@ -13801,7 +13801,7 @@
     {
       "id": "TWI-216",
       "class": "07-wizard",
-      "name": "Recovered Formula",
+      "name": "Formula Incarnate",
       "type": "Unit",
       "cost": 5,
       "power": 5,
@@ -14157,7 +14157,7 @@
     {
       "id": "TWI-235",
       "class": "05-necromancer",
-      "name": "The Unwilling Return",
+      "name": "The Stitched Giant",
       "type": "Unit",
       "cost": 9,
       "power": 6,
@@ -14368,7 +14368,7 @@
     {
       "id": "TWI-247",
       "class": "17-witch-doctor",
-      "name": "Spotless Success Rate",
+      "name": "The Recovered Ward",
       "type": "Unit",
       "cost": 8,
       "power": 6,
@@ -14442,7 +14442,7 @@
     {
       "id": "TWI-252",
       "class": "05-necromancer",
-      "name": "Buried Again",
+      "name": "The Reburied",
       "type": "Unit",
       "cost": 2,
       "power": 2,

@@ -31,16 +31,16 @@ each orientation. The landscape face is Arc at rest, which for him means an expo
 |---|---|---|---|
 | [`spellsure-novice.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/07-wizard/spellsure-novice.txt) | Spellsure Novice | Unit | 1 |
 | [`unmake-the-working.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/07-wizard/unmake-the-working.txt) | Unmake the Working | Spell | 1 |
+| [`errant-bolt.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/07-wizard/errant-bolt.txt) | Errant Bolt | Unit | 2 |
 | [`focused-detonation.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/07-wizard/focused-detonation.txt) | Focused Detonation | Spell | 2 |
 | [`volatile-coil.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/07-wizard/volatile-coil.txt) | Volatile Coil | Upgrade | 2 |
 | [`warded-theorist.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/07-wizard/warded-theorist.txt) | Warded Theorist | Unit | 2 |
-| [`wild-discharge.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/07-wizard/wild-discharge.txt) | Wild Discharge | Unit | 2 |
-| [`done-personally.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/07-wizard/done-personally.txt) | Done Personally | Unit | 5 |
-| [`recovered-formula.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/07-wizard/recovered-formula.txt) | Recovered Formula | Unit | 5 |
+| [`formula-incarnate.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/07-wizard/formula-incarnate.txt) | Formula Incarnate | Unit | 5 |
+| [`half-resolved-visitor.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/07-wizard/half-resolved-visitor.txt) | Half-Resolved Visitor | Unit | 5 |
 | [`second-detonation.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/07-wizard/second-detonation.txt) | Second Detonation | Spell | 5 |
-| [`sudden-postulate.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/07-wizard/sudden-postulate.txt) | Sudden Postulate | Unit | 5 |
-| [`costly-proof.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/07-wizard/costly-proof.txt) | Costly Proof | Unit | 7 |
-| [`the-unnamed-reaction.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/07-wizard/the-unnamed-reaction.txt) | The Unnamed Reaction | Unit | 10 |
+| [`sole-operator.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/07-wizard/sole-operator.txt) | Sole Operator | Unit | 5 |
+| [`the-demonstrator.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/07-wizard/the-demonstrator.txt) | The Demonstrator | Unit | 7 |
+| [`the-unnamed.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/07-wizard/the-unnamed.txt) | The Unnamed | Unit | 10 |
 
 ## The hero
 

@@ -31,16 +31,16 @@ each orientation. The landscape face is Viol at rest with his ledger; the portra
 |---|---|---|---|
 | [`grave-salvage.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/grave-salvage.txt) | Grave Salvage | Spell | 0 |
 | [`unwanted-gift.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/unwanted-gift.txt) | Unwanted Gift | Unit | 1 |
-| [`buried-again.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/buried-again.txt) | Buried Again | Unit | 2 |
 | [`called-back.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/called-back.txt) | Called Back | Spell | 2 |
 | [`reclaimed-reliquary.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/reclaimed-reliquary.txt) | Reclaimed Reliquary | Upgrade | 2 |
 | [`the-ledger-reopened.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/the-ledger-reopened.txt) | The Ledger Reopened | Spell | 2 |
-| [`successor-sought.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/successor-sought.txt) | Successor Sought | Unit | 3 |
+| [`the-reburied.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/the-reburied.txt) | The Reburied | Unit | 2 |
+| [`the-waiting-successor.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/the-waiting-successor.txt) | The Waiting Successor | Unit | 3 |
 | [`pledged-remains.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/pledged-remains.txt) | Pledged Remains | Unit | 4 |
 | [`keeper-of-the-ledger.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/keeper-of-the-ledger.txt) | Keeper of the Ledger | Unit | 5 |
-| [`toll-of-three.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/toll-of-three.txt) | Toll of Three | Unit | 6 |
-| [`mass-exhumation.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/mass-exhumation.txt) | Mass Exhumation | Unit | 7 |
-| [`the-unwilling-return.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/the-unwilling-return.txt) | The Unwilling Return | Unit | 9 |
+| [`the-shrouded-three.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/the-shrouded-three.txt) | The Shrouded Three | Unit | 6 |
+| [`the-exhumer.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/the-exhumer.txt) | The Exhumer | Unit | 7 |
+| [`the-stitched-giant.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/the-stitched-giant.txt) | The Stitched Giant | Unit | 9 |
 
 ## The hero
 

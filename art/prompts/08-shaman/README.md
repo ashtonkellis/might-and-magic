@@ -32,15 +32,15 @@ each orientation. The landscape face is Ash at rest on the mountain's flank; the
 | [`ash-fed-salve.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/08-shaman/ash-fed-salve.txt) | Ash-Fed Salve | Spell | 1 |
 | [`fallow-offering.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/08-shaman/fallow-offering.txt) | Fallow Offering | Upgrade | 1 |
 | [`seedbearer.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/08-shaman/seedbearer.txt) | Seedbearer | Unit | 1 |
+| [`ashen-circle.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/08-shaman/ashen-circle.txt) | Ashen Circle | Unit | 2 |
 | [`ashling-herald.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/08-shaman/ashling-herald.txt) | Ashling Herald | Unit | 2 |
-| [`cinder-rite.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/08-shaman/cinder-rite.txt) | Cinder Rite | Unit | 2 |
 | [`everything-feeds.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/08-shaman/everything-feeds.txt) | Everything Feeds | Spell | 3 |
 | [`magma-tender.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/08-shaman/magma-tender.txt) | Magma Tender | Unit | 3 |
 | [`eruption-warden.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/08-shaman/eruption-warden.txt) | Eruption Warden | Unit | 4 |
 | [`orchard-of-cinders.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/08-shaman/orchard-of-cinders.txt) | Orchard of Cinders | Unit | 4 |
 | [`tender-of-the-mountain.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/08-shaman/tender-of-the-mountain.txt) | Tender of the Mountain | Unit | 6 |
-| [`twin-eruption.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/08-shaman/twin-eruption.txt) | Twin Eruption | Unit | 6 |
-| [`the-mountain-is-fertile.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/08-shaman/the-mountain-is-fertile.txt) | The Mountain Is Fertile | Unit | 9 |
+| [`twin-vents.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/08-shaman/twin-vents.txt) | Twin Vents | Unit | 6 |
+| [`the-fertile-mountain.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/08-shaman/the-fertile-mountain.txt) | The Fertile Mountain | Unit | 9 |
 
 ## The hero
 

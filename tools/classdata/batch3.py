@@ -96,7 +96,7 @@ lines, both glowing white-gold, with the flight path running between them and
 touching each in turn -- the arrows show it crossing from one to the other and
 back. Beneath, the map's isobars are drawn tightly to show the pressure they are
 moving against. Fold crease through the lower margin.""",
-        "lift-them-higher": """A figure being carried upward off the chart plane by another: the lower one
+        "updraft-bearer": """A figure being carried upward off the chart plane by another: the lower one
 still drawn flat in survey ink with contour lines running across the feet, the
 upper one glowing and already clear of the paper, both hands locked. The flight
 path enters low, hooks up through both of them and exits at the top edge. The
@@ -106,7 +106,7 @@ airborne just above the plane and one still standing on it -- and the cord is
 transferring the glow visibly along its length, brightest at the middle. The
 flight path runs alongside the cord and exits at the right margin. Coordinate
 ticks along both edges.""",
-        "bound-in-purpose": """Two figures standing back to back at the exact center of a coordinate grid, one
+        "the-bound-pair": """Two figures standing back to back at the exact center of a coordinate grid, one
 glowing and one not, joined at the wrists by a drawn survey line rather than by
 anything physical -- the map's own notation used as a bond. Along that line the
 unlit figure is filling with white-gold from the wrist inward. The flight path
@@ -116,7 +116,7 @@ different brightness -- the first fully white-gold, the second half lit, the thi
 just beginning at the hands -- with the flight path passing over all three in one
 unbroken ruled line, entering left and leaving right. Above each, the impression
 of an annotation in the chart's hand that never resolves into words.""",
-        "cover-their-retreat": """A single glowing figure holding position at the right edge of the chart, facing
+        "the-rearguard": """A single glowing figure holding position at the right edge of the chart, facing
 into converging wind barbs, while behind her a line of small flat ink figures
 moves away toward the left margin and off the page. The flight path comes in
 behind them, sweeps past each one -- lighting them as it goes -- and terminates at
@@ -126,12 +126,12 @@ brightest, the rest lit progressively less toward the back, all clear of the
 paper and casting no shadow on it. The flight path is the wedge's own spine,
 ruled with direction arrows, entering at the lower-left margin and leaving at the
 top. Storm-track projection curving beneath them.""",
-        "between-you-and-it": """A single glowing figure standing square in the middle of the chart with arms out,
+        "the-windbreak": """A single glowing figure standing square in the middle of the chart with arms out,
 facing a dense mass of storm survey work drawn coming in from the right -- packed
 isobars, converging barbs, a projection cone whose narrow end is exactly where
 she is standing. Directly behind her, two small flat ink figures, glowing. The
 flight path enters at the left edge and stops at her back.""",
-        "carried-aloft": """Gale herself, the class leader, drawn above the chart plane in three-quarter
+        "cloudborne-guide": """Gale herself, the class leader, drawn above the chart plane in three-quarter
 view with one arm extended down toward the paper, glowing from within and
 trailing white-gold vapor from the shoulders and heels. She casts no shadow on
 the map. Beneath her outstretched hand the chart is crowded with small flat
@@ -144,7 +144,7 @@ full width of the frame and passing over five flat ink figures on the ground --
 each one glowing white-gold, each one facing the same direction as the arm.
 Isobars beneath run parallel to the path. Fold crease down the middle of the
 sheet.""",
-        "the-whole-flight-rises": """The chart nearly buried under its own subject: dozens of small figures leaving
+        "the-risen-flight": """The chart nearly buried under its own subject: dozens of small figures leaving
 the paper together across the full width of the frame, every one of them glowing
 white-gold, the survey ink of the map visible only in the gaps between them. A
 single flight path threads the entire mass, entering at the bottom-left margin,
@@ -241,7 +241,7 @@ refracting, whom none of the four larger constructed figures in the picture are
 looking at -- their attention is all on each other. Radial armature faintly
 visible. The runner is rendered more finely than any of them. Spectral fringe
 along the path.""",
-        "quiet-introduction": """A hand extended into the frame, faceted and refracting, offering a
+        "the-newcomer": """A hand extended into the frame, faceted and refracting, offering a
 handhold -- and taking it, at exactly the same fidelity as the hand, a person in
 plain working clothes who is clearly not anybody's idea of a combatant. The
 glide path passes through both wrists. Glacier-white field, cobalt planes,
@@ -261,17 +261,17 @@ along the strict armature, and near the front of the frame something small and
 overlooked lying on the ground being picked up by a sliding hand at speed. What
 is being picked up is rendered as precisely as the hero. Two servants further
 back, also at full fidelity, have stopped to watch.""",
-        "never-quite-still": """A figure that has not stopped and is not going to: drawn as one continuous
+        "the-unstilled": """A figure that has not stopped and is not going to: drawn as one continuous
 faceted form smeared along the glide path with three overlapping positions
 refracting through each other, each displaced a few degrees. The armature behind
 is dead straight and dead still by contrast. In a doorway at the frame's edge,
 one ordinary person, exact, watching it go past for the third time.""",
-        "the-overlooked-arrive": """A group entering the frame together along a single glide path -- six or seven
+        "the-overlooked": """A group entering the frame together along a single glide path -- six or seven
 plain, unremarkable people, all faceted and refracting, all rendered at the
 identical fidelity, none of them foregrounded over the others. There is no hero
 in this picture. The armature is radial and centered on the group rather than on
 any one figure. Spectral fringe along every edge.""",
-        "nothing-forgotten": """Prism herself, the class leader, crossing the frame low and level on one
+        "unbroken-glider": """Prism herself, the class leader, crossing the frame low and level on one
 unbroken glide path, both feet sliding and neither planted, body constructed from
 flat faceted planes with real refraction and heavy spectral fringing. The
 armature is faintly visible and she is exactly on it. She is not looking ahead:
@@ -279,12 +279,12 @@ her head is turned to the side, toward an ordinary man in servant's clothes
 standing at the frame's edge, and he is rendered at precisely her fidelity, every
 facet. He looks surprised to be seen. She does not look surprised to have seen
 him.""",
-        "between-two-breaths": """A figure arriving in the exact middle of the frame with no approach shown -- the
+        "gap-walker": """A figure arriving in the exact middle of the frame with no approach shown -- the
 glide path enters at one edge, is absent across the center, and resumes at the
 other side, and she is in the gap. Faceted, refracting, both feet off the floor.
 A guard mid-turn, too late, rendered at full fidelity. So is the man he was
 guarding.""",
-        "glide-past": """A long low slide down the full width of the frame through a corridor of
+        "the-untouched": """A long low slide down the full width of the frame through a corridor of
 constructed faceted forms, all of them angled inward to close it and none of them
 touching her. Every facet of the corridor carries a displaced copy of the figure
 sliding through it, so she appears dozens of times in the walls. One kitchen
@@ -397,17 +397,17 @@ end.""",
 the middle of resolving into a tool, the handle already clear and thin-glassed and
 the head still stone. The came has reorganized itself around the new shape. A hand
 waits, open, not yet reaching. Backlight strongest through the finished end.""",
-        "rendered-to-stock": """A figure being un-made downward: standing full length in the panel, intact from
+        "the-half-rendered": """A figure being un-made downward: standing full length in the panel, intact from
 the chest up in cobalt and amethyst panes, and from the waist down already a
 column of plain undifferentiated glass the color of raw material. The boundary
 is irregular and it is not distressing anyone. Came spreads up from it toward the
 shoulders.""",
-        "spent-as-substance": """A shape on a dark ground that was a person a moment ago and is now mostly
+        "spent-vessel": """A shape on a dark ground that was a person a moment ago and is now mostly
 material, drawn as a panel where the figurative came-work at one end gives way to
 plain rectangular glazing at the other -- the leading itself losing its subject.
 Lit from behind so the plain end is the brightest part of the picture. Nothing
 violent has happened.""",
-        "traded-back": """Two hands passing a single object across the panel in opposite directions, and
+        "traded-form": """Two hands passing a single object across the panel in opposite directions, and
 the object is different in each hand -- stone leaving one, smoke arriving in the
 other, the transition happening exactly at the came line between them. Both
 figures are silhouettes of colored light. Neither is hurrying. Lead spreading
@@ -422,7 +422,7 @@ plain glazing on the ground, drawing one recognizable form back up out of it, th
 came reassembling around the shape as it rises. Backlit hard from below so the
 recovered form is the brightest passage. Lead creeping up the kneeling figure's
 forearm.""",
-        "stone-persuaded": """Mirren herself, the class leader, standing three-quarter view in a dark backlit
+        "stone-speaker": """Mirren herself, the class leader, standing three-quarter view in a dark backlit
 panel with one hand raised, palm out, toward a mass of cut stone that occupies the
 right half of the picture -- and the stone is halfway through agreeing. Its lower
 panes are heavy and dark; its upper panes are thin, pale and already letting light
@@ -430,12 +430,12 @@ through, and the boundary between the two is irregular and unfinished. She is a
 silhouette of cobalt and amethyst with one amber pane at the heart. The came has
 spread up her left forearm and under her jaw, and her left eye is a pane of
 smoke-grey glass. She is entirely unhurried.""",
-        "the-wider-argument": """The same persuasion made to several things at once: a panel in which four
+        "the-four-persuaded": """The same persuasion made to several things at once: a panel in which four
 separate objects at four corners are each partway into becoming something else,
 and the came lines connecting them run across the whole picture as one continuous
 network rather than four local ones. Backlit evenly. A single figure at the
 center with both arms out, barely more than lead and shadow.""",
-        "half-turned-to-smoke": """Mirren much further along, and it is the same panel logic doing it to her.
+        "dissolving-caster": """Mirren much further along, and it is the same panel logic doing it to her.
 Standing full length, backlit, the right side of her still figurative in cobalt
 and amethyst panes -- and the left side, from the shoulder down, already smoke:
 thin pale glass with the light coming straight through and the came opening out
@@ -559,7 +559,7 @@ and silver wire at a density that could only have been done slowly, every line
 flush, the seams invisible. One rune channel runs beneath the whole design and
 lights it from underneath at the joins. Anisotropic highlight streaking hard
 along the grain. Nobody is in the picture but the work.""",
-        "smith-first": """Stave himself, the class leader, inlaid three-quarter view in gold and silver
+        "smith-at-rest": """Stave himself, the class leader, inlaid three-quarter view in gold and silver
 wire on a broad damascus panel, standing at the anvil with the hammer resting head
 down on its face and one hand flat on the finished piece. He is not casting
 anything and there is nothing magical in his posture. The knotwork border runs
@@ -567,7 +567,7 @@ into his shoulders and out through the anvil so the frame and the man are one
 line. On the piece under his hand, four rune channels are cut and all four are
 already lit ember-orange -- finished some time ago, and no longer his concern. He
 looks quietly, enormously satisfied.""",
-        "rune-transfer": """One lit channel moving from one object to another across the panel: the groove in
+        "running-ember": """One lit channel moving from one object to another across the panel: the groove in
 the first object closing and going dark behind, the groove in the second opening
 and lighting ahead, the ember running between them along a thread of silver wire.
 Two hands, one at each end, doing something delicate. Knotwork border passing
@@ -577,7 +577,7 @@ across the body like a shield, feet planted, the knotwork border thickened into
 a barrier along the panel's whole lower edge. Rune channels run along the anvil's
 horn and underside, lit, facing away from him. Anisotropic highlight across the
 anvil's polished face.""",
-        "three-turns-ahead": """The class's whole argument in one panel: a broad field of watered steel with an
+        "the-empty-handed": """The class's whole argument in one panel: a broad field of watered steel with an
 inlaid figure standing calmly at one edge, hands empty, having plainly finished
 his work -- and running away from him across the entire rest of the picture, a
 network of rune channels cut into the steel and lit ember-orange at every
@@ -679,7 +679,7 @@ the measure being taken. Nothing at the other end. One vermilion seal.""",
 back to its own flank, made of two strokes. Where the head meets the flank the
 ink is at full black and slightly pooled -- the only heavy passage on the paper.
 The rest runs out dry. The turned head is briefly a person's and then is not.""",
-        "pack-ambush": """Three forms arriving from one corner at once, all made of strokes running the
+        "half-formed-pack": """Three forms arriving from one corner at once, all made of strokes running the
 same direction, all still mostly dry-split -- they are not fully there yet. The
 opposite two-thirds of the sheet is untouched. One of the three has a hand where
 the others have paws, in the middle of a stroke that does not stop.""",
@@ -692,7 +692,7 @@ prone and completely still -- loaded at one end and drying out along its entire
 length, the split bristle trails reading as fur or as frost. Above it, the whole
 sheet is empty. The far end of the stroke has a hand in it. It has been here
 longer than anything else in the class.""",
-        "answering-the-call": """A form rising out of a crouch at the sheet's edge, drawn in a single upward
+        "rising-form": """A form rising out of a crouch at the sheet's edge, drawn in a single upward
 stroke that thickens as it goes -- starting animal and finishing standing and
 nearly human, with no locatable transition. The rest of the sheet is raw paper.
 The brush is at its wettest at the top of the stroke, which is unusual and
@@ -701,12 +701,12 @@ deliberate.""",
 stroke, each a different animal -- and read left to right they are plainly the
 same creature four times. Where each one's shoulder sits, the ink is identical.
 Nothing else on the paper. One vermilion seal at the lower end of the diagonal.""",
-        "long-wait-ended": """A form that has been still so long the paper around it has been left completely
+        "the-uncoiling": """A form that has been still so long the paper around it has been left completely
 untouched -- and is now, in this instant, uncoiling: one enormous stroke through
 the empty field from the corner where it was to the middle of the sheet, wet and
 black at the start and split dry where it arrives. The waiting is what the
 emptiness records.""",
-        "winter-outlasted": """Pelt themself, the class leader, placed hard off-center in an enormous empty
+        "the-outlaster": """Pelt themself, the class leader, placed hard off-center in an enormous empty
 field, crouched low with the weight in one corner and two-thirds of the sheet
 untouched. Two or three loaded strokes make the entire figure. The stroke running
 from the shoulder down the near arm changes as it goes -- person, then not, then
@@ -714,7 +714,7 @@ person again -- without lifting once, and there is no point at which it can be s
 to happen. They are looking out of the frame at something the viewer cannot see
 and have plainly been looking at it for a very long time. One vermilion seal,
 small, in the far corner.""",
-        "everything-becomes-teeth": """The heaviest ink in the class: a mass at one corner of the sheet made of a
+        "the-many-jawed": """The heaviest ink in the class: a mass at one corner of the sheet made of a
 single enormous stroke that has been overloaded, black and pooling, and which
 resolves along its length into nothing but jaws -- several sets, at several
 scales, none of them separable from the others because it is one stroke. Where

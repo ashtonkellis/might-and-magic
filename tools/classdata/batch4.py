@@ -95,7 +95,7 @@ of them blooming the same colony from different points -- and the colonies have
 grown into each other in the middle of the ring, joining into one organism. The
 wounds are closed. The ring's shape is irregular; nothing here is arranged
 squarely.""",
-        "confident-diagnosis": """A single hand pressed flat against a chest, and radiating out from beneath it in
+        "the-diagnostician": """A single hand pressed flat against a chest, and radiating out from beneath it in
 perfect fractal rings, the spread of something that has been identified correctly.
 The face above the hand -- the physician's -- shows no doubt whatsoever. The patient's
 face is out of frame. Wax crackle running through the whole cloth.""",
@@ -112,19 +112,19 @@ Bruise purple in the densest part of the cloud, swamp green at its edges.""",
 and into a patient beside them, the colony running visibly from the earth through
 one body and into the other in one continuous irregular channel. The patient is
 improving. The healer is not. Damp cellar light. No clean edges anywhere.""",
-        "no-bedside-manner": """Mire themself, the class leader, standing over a seated patient on a batik ground
+        "blunt-practitioner": """Mire themself, the class leader, standing over a seated patient on a batik ground
 with one hand pressed flat to the patient's shoulder -- and the point of infection
 under that hand is radiating outward in irregular fractal rings across the arm,
 the chest and on into the cloth of the picture itself. The patient's expression is
 not good. Mire's is entirely neutral, absorbed and professional, and they are not
 looking at the patient's face. Jars at their feet, labelled with marks that never
 become letters. Wax crackle throughout, not one straight line in the frame.""",
-        "everything-thrives-here": """A whole field where the colony has won: every figure in the picture is blooming
+        "the-thriving-field": """A whole field where the colony has won: every figure in the picture is blooming
 with the same growth from a different point, the ground itself is a culture plate,
 and the batik's ochre survives only in the narrow channels between colonies. All
 of them are healthier than they were. None of them chose it. Rings on rings on
 rings, no straight line anywhere.""",
-        "spotless-success-rate": """A row of patients on a batik ground, all recovered, all standing, all blooming --
+        "the-recovered-ward": """A row of patients on a batik ground, all recovered, all standing, all blooming --
 each one carrying the visible colony that fixed them, and each colony a different
 irregular fractal at a different stage. At the near end of the row, a shelf of
 jars, empty now. Nothing in the picture has a clean edge and every single case
@@ -239,7 +239,7 @@ Pencil underdrawing visible in all of them. Plain daylight, no drama.""",
 three separate smaller studies around it of what she is looking at: a bent stem,
 a scuff, a hair caught on bark, each at larger scale than life and each with a
 leader line to its position in the main study. Annotation beside every one.""",
-        "recruiting-trip": """A page of faces: six quick gouache portrait studies of very ordinary people
+        "the-recruiter": """A page of faces: six quick gouache portrait studies of very ordinary people
 arranged in two rows on the tea-stained sheet, each annotated in her hand with
 something short, plus a larger study of two of them shaking hands. Nobody is
 heroic-looking. Red ink beside two of the six.""",
@@ -247,7 +247,7 @@ heroic-looking. Red ink beside two of the six.""",
 sheet, each with its own weather thumbnail, its own ground detail and its own
 short annotation, all painted at the same time and clearly in advance of any of
 them happening. Plain daylight in all three. Leader lines run between the bands.""",
-        "simply-prepared": """Fletch herself, the class leader, as the main study on a journal page: standing
+        "the-long-prepared": """Fletch herself, the class leader, as the main study on a journal page: standing
 three-quarter view with the bow held loose at her side and a pack at her feet,
 painted quickly in gouache with the pencil underdrawing showing through, plain
 daylight, entirely unbothered and faintly amused. Around her on the tea-stained
@@ -378,7 +378,7 @@ side and one behind the back, immaculately turned out and photographed at close
 frontal light. The plate around them is in excellent condition; the plate around
 everything else has stained and lifted. The eyes are soft. Cracks radiate from
 their feet.""",
-        "without-appetite": """Rime themself, the class leader, in a formal seated wet-plate portrait: centered,
+        "the-unhungering": """Rime themself, the class leader, in a formal seated wet-plate portrait: centered,
 symmetrical, hands placed on the chair arms, shoulders square, holding a pose
 they could hold indefinitely. Harsh frontal studio light, silver bloom on the
 collar and knuckles, heavy vignetting into all four corners, chemical tide-lines
@@ -400,7 +400,7 @@ chair occupied by a posed and motionless sitter, and one figure standing at the
 head of it with hands folded. Harsh frontal light down the whole table. Silver
 bloom on the glassware. Frost fogs the far end. Cracks radiate from the head of
 the table outward past every guest.""",
-        "all-the-time-there-is": """The most damaged plate in the class and the most composed sitter on it: a single
+        "the-undecayed": """The most damaged plate in the class and the most composed sitter on it: a single
 full-length figure centered in a formal standing pose, hands folded, perfectly
 still, while the emulsion around them has failed almost completely -- spiderweb
 cracks radiating out to all four edges, silver bloom flooding the corners,
@@ -510,7 +510,7 @@ Rime has grown thickest exactly over the missing half.""",
 exactly as a recumbent figure would be -- symmetrical, feet together, the weapon
 along the body's axis. Beneath the feet, in the heraldic panel, a second smaller
 figure already laid out the same way. Rime across both.""",
-        "paired-compulsion": """Two full-length effigies laid out head to foot along the frame, mirror-symmetric,
+        "chained-pair": """Two full-length effigies laid out head to foot along the frame, mirror-symmetric,
 their hands crossed in exactly the same way -- the same rubbing taken twice from
 the same plate. A single chain, incised deeply enough to survive the rubbing,
 runs from one to the other. Rime grows along the chain and nowhere else.""",
@@ -518,7 +518,7 @@ runs from one to the other. Rime grows along the chain and nowhere else.""",
 rubbed out entirely -- not damaged, simply not taken, the paper left blank in a
 figure-shaped absence between the other two. The inscription band runs around all
 three positions. Frost blooms heaviest over the blank one.""",
-        "standing-sentence": """A full-length effigy standing rather than recumbent -- vertical, rigidly
+        "standing-effigy": """A full-length effigy standing rather than recumbent -- vertical, rigidly
 symmetrical, hands crossed on a grounded sword, feet together on a heraldic
 panel -- of a figure who has plainly been standing there through the entire
 making of the rubbing. The wax is heavier at the shoulders where the plate is
@@ -532,7 +532,7 @@ center.""",
 recumbent one -- horse and rider flat, frontal, motionless, feet and hooves in a
 row along the bottom edge, heraldry beneath. Nothing about it is dynamic. Rime
 grows up the horse's legs and across the rider's shield.""",
-        "bound-to-anothers-will": """Pall himself, the class leader, taken as a full-length memorial rubbing:
+        "bound-knight": """Pall himself, the class leader, taken as a full-length memorial rubbing:
 standing, rigidly symmetrical, in old armor, both hands crossed on the hilt of a
 grounded sword, feet together on a heraldic panel, an inscription band running
 the whole border and never resolving into letters. Black wax over paper tooth,
@@ -540,12 +540,12 @@ brass showing where the engraving cut deepest. Two points of cold blue where the
 eyes were. Rime crystal blooms on top of the rubbing across his chest and both
 forearms -- exactly where a set of marks is incised into the armor that he did not
 put there. He is not resisting any of it.""",
-        "weight-of-every-oath": """An effigy laid out under everything it agreed to: a full-length symmetrical
+        "the-oath-laden": """An effigy laid out under everything it agreed to: a full-length symmetrical
 figure with the inscription band not confined to the border but repeated inward
 in ring after ring across the whole plate until the figure is almost buried in
 bands of illegible epitaph. Hands still crossed. Rime growing over the outermost
 rings.""",
-        "the-whole-field-conscripted": """The largest rubbing in the class: a single enormous plate covered edge to edge
+        "the-conscripted-dead": """The largest rubbing in the class: a single enormous plate covered edge to edge
 with full-length effigies in ordered rows, every one laid out identically, hands
 crossed, feet together, dozens of them, one continuous inscription band running
 the entire border. At the center, one figure slightly larger than the rest with a
@@ -639,7 +639,7 @@ other way. One red note, small, on the walking figure's cuff.""",
 silhouette, at the exact center of the frame -- plain, well-kept, unremarkable in
 shape. The hand's articulated joint and control rod are visible. Nothing else on
 the screen. The one red note is a single dot at the tip.""",
-        "between-the-guards": """A doorway cut into the screen with a black figure posted on either side, both
+        "the-one-between": """A doorway cut into the screen with a black figure posted on either side, both
 alert and both facing outward, and passing between them in the same flat black a
 third figure whose silhouette overlaps neither. The read is entirely in the
 spacing. Control rods on all three. One red note, on the door's latch.""",
@@ -647,7 +647,7 @@ spacing. Control rods on all three. One red note, on the door's latch.""",
 it, body folded into an economical shape that reads instantly as quiet. No frame
 is broken, nothing is disturbed, and the silhouette shows that without any
 interior detail to help. One red note: a single mark on the sill.""",
-        "paid-on-completion": """A hand extended flat against the lit screen with a small purse in it, and another
+        "the-paid-hand": """A hand extended flat against the lit screen with a small purse in it, and another
 hand closing on the purse from the opposite side. Both pure black, both with
 visible rods. Between them, nothing at all -- the screen's warm weave. The one red
 note is a bead on the purse's cord.""",
@@ -655,7 +655,7 @@ note is a bead on the purse's cord.""",
 neutral -- not triumphant, not regretful, simply finished -- rendered with no
 interior detail whatsoever so the whole read comes from the angle of the shoulders.
 Warm lit screen behind. One red note, small, at the low shape's edge.""",
-        "precisely-on-time": """Hush themself, the class leader, as a single cut-paper silhouette against the
+        "the-punctual": """Hush themself, the class leader, as a single cut-paper silhouette against the
 warm lamp-lit screen: standing in flat profile, weight even, one hand at their
 side and the other holding a folded contract, absolutely composed. No face, no
 interior detail, no modelling -- the silhouette carries all of it, and what it
@@ -663,20 +663,20 @@ carries is a person who is exactly on time and has no feelings about the
 appointment. Articulated joints and control rods visible at shoulder, elbow and
 wrist. The screen's cloth weave shows through the amber ground. One red note,
 small, used once: a seal on the contract.""",
-        "no-witnesses": """A wide lit screen with a room's furniture cut in flat black -- table, chairs, a
+        "the-last-to-leave": """A wide lit screen with a room's furniture cut in flat black -- table, chairs, a
 hanging lamp -- and no figures on it at all except one standing at the very edge,
 already leaving. The composition reads as an emptiness that was recently
 occupied. Control rod visible on the leaving figure. One red note, small, on the
 table.""",
-        "reasonable-rates": """A cut-paper figure seated at a small table opposite a client, both flat black
+        "still-negotiator": """A cut-paper figure seated at a small table opposite a client, both flat black
 against the warm screen, the client's posture agitated and the figure's entirely
 still -- the whole difference carried by two silhouettes and nothing else. A short
 list lies between them, cut as a plain shape. One red note, on the list.""",
-        "second-contract": """The same figure shown twice on one screen -- once at the left and once at the
+        "the-twice-hired": """The same figure shown twice on one screen -- once at the left and once at the
 right, identical silhouettes with identical posture -- and between them a single
 folded paper being handed from one to the other, which makes no sense and is
 correct. Control rods on both. One red note, on the paper.""",
-        "nothing-personal": """The plainest composition in the class: one flat black figure in the exact center
+        "the-detached": """The plainest composition in the class: one flat black figure in the exact center
 of a warm lit screen, standing square to the viewer, arms at their sides, entirely
 still, with nothing else cut into the picture at all. No interior detail, no face,
 no gesture to read -- and it is still unmistakably somebody about to go to work.

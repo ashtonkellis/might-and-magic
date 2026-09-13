@@ -29,9 +29,9 @@ each orientation. The landscape face is Hale at rest between engagements; the po
 
 | File | Card | Type | Cost |
 |---|---|---|---|
-| [`break-the-line.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/06-warrior/break-the-line.txt) | Break the Line | Unit | 1 |
 | [`opening-guard.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/06-warrior/opening-guard.txt) | Opening Guard | Spell | 1 |
 | [`standing-order.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/06-warrior/standing-order.txt) | Standing Order | Upgrade | 1 |
+| [`wedge-breaker.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/06-warrior/wedge-breaker.txt) | Wedge Breaker | Unit | 1 |
 | [`hold-this-ground.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/06-warrior/hold-this-ground.txt) | Hold This Ground | Spell | 2 |
 | [`paired-bulwark.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/06-warrior/paired-bulwark.txt) | Paired Bulwark | Unit | 2 |
 | [`shieldwall-recruit.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/06-warrior/shieldwall-recruit.txt) | Shieldwall Recruit | Unit | 2 |
@@ -39,7 +39,7 @@ each orientation. The landscape face is Hale at rest between engagements; the po
 | [`bulwark-of-the-pass.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/06-warrior/bulwark-of-the-pass.txt) | Bulwark of the Pass | Unit | 4 |
 | [`unmarked-champion.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/06-warrior/unmarked-champion.txt) | Unmarked Champion | Unit | 5 |
 | [`rampart-captain.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/06-warrior/rampart-captain.txt) | Rampart Captain | Unit | 6 |
-| [`still-standing.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/06-warrior/still-standing.txt) | Still Standing | Unit | 6 |
+| [`the-unfallen.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/06-warrior/the-unfallen.txt) | The Unfallen | Unit | 6 |
 | [`the-last-wall.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/06-warrior/the-last-wall.txt) | The Last Wall | Unit | 8 |
 
 ## The hero

@@ -32,15 +32,15 @@ each orientation. The landscape face is Hush at rest, off the clock; the portrai
 | [`contract-opened.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/21-assassin/contract-opened.txt) | Contract Opened | Spell | 1 |
 | [`quiet-professional.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/21-assassin/quiet-professional.txt) | Quiet Professional | Unit | 1 |
 | [`working-blade.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/21-assassin/working-blade.txt) | Working Blade | Upgrade | 1 |
-| [`between-the-guards.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/21-assassin/between-the-guards.txt) | Between the Guards | Unit | 2 |
 | [`clean-entry.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/21-assassin/clean-entry.txt) | Clean Entry | Spell | 2 |
-| [`paid-on-completion.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/21-assassin/paid-on-completion.txt) | Paid on Completion | Unit | 3 |
+| [`the-one-between.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/21-assassin/the-one-between.txt) | The One Between | Unit | 2 |
+| [`the-paid-hand.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/21-assassin/the-paid-hand.txt) | The Paid Hand | Unit | 3 |
 | [`finish-the-job.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/21-assassin/finish-the-job.txt) | Finish the Job | Spell | 4 |
-| [`no-witnesses.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/21-assassin/no-witnesses.txt) | No Witnesses | Unit | 5 |
-| [`precisely-on-time.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/21-assassin/precisely-on-time.txt) | Precisely On Time | Unit | 5 |
-| [`reasonable-rates.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/21-assassin/reasonable-rates.txt) | Reasonable Rates | Unit | 5 |
-| [`second-contract.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/21-assassin/second-contract.txt) | Second Contract | Unit | 7 |
-| [`nothing-personal.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/21-assassin/nothing-personal.txt) | Nothing Personal | Unit | 8 |
+| [`still-negotiator.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/21-assassin/still-negotiator.txt) | Still Negotiator | Unit | 5 |
+| [`the-last-to-leave.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/21-assassin/the-last-to-leave.txt) | The Last to Leave | Unit | 5 |
+| [`the-punctual.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/21-assassin/the-punctual.txt) | The Punctual | Unit | 5 |
+| [`the-twice-hired.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/21-assassin/the-twice-hired.txt) | The Twice-Hired | Unit | 7 |
+| [`the-detached.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/21-assassin/the-detached.txt) | The Detached | Unit | 8 |
 
 ## The hero
 

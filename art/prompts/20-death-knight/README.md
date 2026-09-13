@@ -32,15 +32,15 @@ each orientation. The landscape face is Pall at rest, laid out as an effigy; the
 | [`given-orders.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/20-death-knight/given-orders.txt) | Given Orders | Upgrade | 0 |
 | [`conscript.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/20-death-knight/conscript.txt) | Conscript | Unit | 1 |
 | [`discarded-prisoner.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/20-death-knight/discarded-prisoner.txt) | Discarded Prisoner | Spell | 1 |
+| [`chained-pair.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/20-death-knight/chained-pair.txt) | Chained Pair | Unit | 2 |
 | [`finisher.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/20-death-knight/finisher.txt) | Finisher | Unit | 2 |
-| [`paired-compulsion.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/20-death-knight/paired-compulsion.txt) | Paired Compulsion | Unit | 2 |
 | [`choose-your-loss.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/20-death-knight/choose-your-loss.txt) | Choose Your Loss | Spell | 3 |
-| [`standing-sentence.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/20-death-knight/standing-sentence.txt) | Standing Sentence | Unit | 4 |
+| [`standing-effigy.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/20-death-knight/standing-effigy.txt) | Standing Effigy | Unit | 4 |
 | [`cold-vanguard.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/20-death-knight/cold-vanguard.txt) | Cold Vanguard | Unit | 5 |
 | [`implacable-rider.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/20-death-knight/implacable-rider.txt) | Implacable Rider | Unit | 6 |
-| [`bound-to-anothers-will.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/20-death-knight/bound-to-anothers-will.txt) | Bound to Another's Will | Unit | 7 |
-| [`weight-of-every-oath.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/20-death-knight/weight-of-every-oath.txt) | Weight of Every Oath | Unit | 10 |
-| [`the-whole-field-conscripted.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/20-death-knight/the-whole-field-conscripted.txt) | The Whole Field Conscripted | Unit | 11 |
+| [`bound-knight.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/20-death-knight/bound-knight.txt) | Bound Knight | Unit | 7 |
+| [`the-oath-laden.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/20-death-knight/the-oath-laden.txt) | The Oath-Laden | Unit | 10 |
+| [`the-conscripted-dead.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/20-death-knight/the-conscripted-dead.txt) | The Conscripted Dead | Unit | 11 |
 
 ## The hero
 

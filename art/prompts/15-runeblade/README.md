@@ -37,10 +37,10 @@ each orientation. The landscape face is Stave at rest at his own anvil; the port
 | [`reforged-claim.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/15-runeblade/reforged-claim.txt) | Reforged Claim | Spell | 3 |
 | [`scarred-anvilhand.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/15-runeblade/scarred-anvilhand.txt) | Scarred Anvilhand | Unit | 3 |
 | [`master-inlay.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/15-runeblade/master-inlay.txt) | Master Inlay | Upgrade | 4 |
-| [`rune-transfer.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/15-runeblade/rune-transfer.txt) | Rune Transfer | Unit | 5 |
-| [`smith-first.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/15-runeblade/smith-first.txt) | Smith First | Unit | 5 |
+| [`running-ember.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/15-runeblade/running-ember.txt) | Running Ember | Unit | 5 |
+| [`smith-at-rest.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/15-runeblade/smith-at-rest.txt) | Smith at Rest | Unit | 5 |
 | [`anvil-guard.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/15-runeblade/anvil-guard.txt) | Anvil Guard | Unit | 6 |
-| [`three-turns-ahead.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/15-runeblade/three-turns-ahead.txt) | Three Turns Ahead | Unit | 8 |
+| [`the-empty-handed.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/15-runeblade/the-empty-handed.txt) | The Empty-Handed | Unit | 8 |
 
 ## The hero
 

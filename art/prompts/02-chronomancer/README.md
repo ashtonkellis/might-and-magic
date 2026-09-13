@@ -34,15 +34,15 @@ the vertical format carrying the frozen blast standing over her.
 | [`foreseen-arrival.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/02-chronomancer/foreseen-arrival.txt) | Foreseen Arrival | Spell | 1 |
 | [`hourglass-adept.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/02-chronomancer/hourglass-adept.txt) | Hourglass Adept | Unit | 1 |
 | [`rehearsed-morning.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/02-chronomancer/rehearsed-morning.txt) | Rehearsed Morning | Upgrade | 1 |
-| [`numbered-certainty.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/02-chronomancer/numbered-certainty.txt) | Numbered Certainty | Unit | 2 |
+| [`bead-counter.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/02-chronomancer/bead-counter.txt) | Bead Counter | Unit | 2 |
 | [`twice-read-page.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/02-chronomancer/twice-read-page.txt) | Twice-Read Page | Unit | 2 |
 | [`echo-of-the-next-turn.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/02-chronomancer/echo-of-the-next-turn.txt) | Echo of the Next Turn | Unit | 3 |
 | [`four-futures-read.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/02-chronomancer/four-futures-read.txt) | Four Futures Read | Spell | 3 |
 | [`archivist-of-spent-hours.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/02-chronomancer/archivist-of-spent-hours.txt) | Archivist of Spent Hours | Unit | 4 |
 | [`excised-timeline.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/02-chronomancer/excised-timeline.txt) | Excised Timeline | Spell | 5 |
-| [`bored-of-victory.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/02-chronomancer/bored-of-victory.txt) | Bored of Victory | Unit | 6 |
+| [`the-ageless-victor.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/02-chronomancer/the-ageless-victor.txt) | The Ageless Victor | Unit | 6 |
 | [`warden-of-held-moments.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/02-chronomancer/warden-of-held-moments.txt) | Warden of Held Moments | Unit | 7 |
-| [`the-long-rehearsal.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/02-chronomancer/the-long-rehearsal.txt) | The Long Rehearsal | Unit | 8 |
+| [`rehearsed-ranks.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/02-chronomancer/rehearsed-ranks.txt) | Rehearsed Ranks | Unit | 8 |
 
 ## The hero
 
