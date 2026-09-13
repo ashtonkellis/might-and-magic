@@ -233,7 +233,7 @@ flower, complete, at its absolute best, every petal open. The ice around it is
 drawn hard and precise and the flower inside is drawn perfectly. It will never
 be better than this and it will never be anything else again. The one saturated
 glacial blue note sits at the flower's heart.""",
-        "rimeguard-sentinel": """A single armored figure standing directly frontal and dead still, feet planted,
+        "frostwall-guardian": """A single armored figure standing directly frontal and dead still, feet planted,
 occupying a third of the frame in an otherwise empty pale field -- the flank is
 closed and this is why. A shield of exact faceted ice, drawn hard where the
 figure is drawn faintly, has grown across the forearm in straight runs. Nothing

@@ -579,7 +579,7 @@
         "Shielded"
       ],
       "traitCount": 2,
-      "text": "Shielded (When you play this unit, give a Shield token to it.)\nAction [{exhaust}]: Choose a unit. For this phase, it gains: \"Bounty - Heal 5 damage from a Commander.\" (When this unit is defeated or captured, your opponent collects its bounty.)",
+      "text": "Shielded (When you play this unit, give a Shield token to it.)\nAction [{exhaust}]: Exhaust an enemy unit that costs 3 or less.",
       "backText": null,
       "epicAction": null
     },
@@ -810,7 +810,7 @@
     {
       "id": "SHD-043",
       "class": "04-sorceress",
-      "name": "Rimeguard Sentinel",
+      "name": "Frostwall Guardian",
       "type": "Unit",
       "cost": 3,
       "print": 1,
@@ -1251,7 +1251,7 @@
         "Shielded"
       ],
       "traitCount": 2,
-      "text": "Shielded (When you play this unit, give a Shield token to it.) \nWhen Played: If you control another Blue unit, heal 4 damage from a Commander.",
+      "text": "Shielded (When you play this unit, give a Shield token to it.) \nWhen Played: If you control another Blue unit, return a unit from your discard pile to your hand.",
       "backText": null,
       "epicAction": null
     },
@@ -1429,7 +1429,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Exhaust a unit. You may return a unit it has captured to play under its owner's control.",
+      "text": "Exhaust a unit. If it was already exhausted, it can't ready this round (including during the rest phase).",
       "backText": null,
       "epicAction": null
     },
@@ -1713,7 +1713,7 @@
         "Trample"
       ],
       "traitCount": 3,
-      "text": "Trample (When attacking an enemy unit, deal excess damage to the opponent's Commander.)\nWhen Played: Choose any number of friendly units. Each of those units captures an enemy unit in the same flank.",
+      "text": "Trample (When attacking an enemy unit, deal excess damage to the opponent's Commander.)\nWhen Played: Choose any number of friendly units. Each of those units captures an enemy unit in the same flank. (A captured unit leaves play. It returns under its owner's control when the unit that captured it leaves play.)",
       "backText": null,
       "epicAction": null
     },
@@ -4782,7 +4782,7 @@
         "Restore"
       ],
       "traitCount": 2,
-      "text": "Restore\nEach friendly damaged unit gets +1/+0.",
+      "text": "Restore 2 (When this unit attacks, heal 2 damage from your Commander.)\nEach friendly damaged unit gets +1/+0.",
       "backText": null,
       "epicAction": null
     },
@@ -4803,7 +4803,7 @@
         "Shielded"
       ],
       "traitCount": 2,
-      "text": "Shielded (When you play this unit, give a Shield token to it.)\nAction [{exhaust}]: If an enemy unit was defeated this phase, heal 1 damage from a Commander.",
+      "text": "Shielded (When you play this unit, give a Shield token to it.)\nWhen Played: Exhaust an enemy unit. It can't ready this round (including during the rest phase).",
       "backText": null,
       "epicAction": null
     },
@@ -9523,7 +9523,7 @@
         "Restore"
       ],
       "traitCount": 3,
-      "text": "Restore\nWhile you control 3 or more units, Action [{1}, {exhaust}]: Search the top 3 cards of your deck for a Steel card, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order.)",
+      "text": "Restore 1 (When this unit attacks, heal 1 damage from your Commander.)\nWhile you control 3 or more units, Action [{1}, {exhaust}]: Search the top 3 cards of your deck for a Steel card, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order.)",
       "backText": null,
       "epicAction": null
     },
@@ -10329,7 +10329,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "If you control 3 or more Blue units, this upgrade costs {2} less to play.\nAttached unit gains: \"While you control 3 or more units, when this unit attacks, heal 2 damage from your Commander.\"",
+      "text": "If you control 3 or more Blue units, this upgrade costs {2} less to play.\nAttached unit gains: \"While you control 3 or more units, when this unit attacks, deal 2 damage to an enemy unit.\"",
       "backText": null,
       "epicAction": null
     },

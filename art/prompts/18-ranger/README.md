@@ -40,7 +40,7 @@ each orientation. The landscape face is Fletch at rest in camp; the portrait fac
 | [`three-days-foresight.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/18-ranger/three-days-foresight.txt) | Three Days' Foresight | Spell | 4 |
 | [`the-long-prepared.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/18-ranger/the-long-prepared.txt) | The Long-Prepared | Unit | 5 |
 | [`weathered-tracker.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/18-ranger/weathered-tracker.txt) | Weathered Tracker | Unit | 6 |
-| [`everything-already-packed.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/18-ranger/everything-already-packed.txt) | Everything Already Packed | Spell | 14 |
+| [`everything-already-packed.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/18-ranger/everything-already-packed.txt) | Everything Already Packed | Spell | 10 |
 
 ## The hero
 

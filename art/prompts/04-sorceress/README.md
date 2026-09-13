@@ -32,9 +32,9 @@ each orientation. The landscape face is Crystal at rest in an empty pale field; 
 | [`frostbound-acolyte.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/04-sorceress/frostbound-acolyte.txt) | Frostbound Acolyte | Unit | 1 |
 | [`held-still.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/04-sorceress/held-still.txt) | Held Still | Spell | 1 |
 | [`winter-without-end.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/04-sorceress/winter-without-end.txt) | Winter Without End | Spell | 2 |
+| [`frostwall-guardian.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/04-sorceress/frostwall-guardian.txt) | Frostwall Guardian | Unit | 3 |
 | [`glacier-custodian.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/04-sorceress/glacier-custodian.txt) | Glacier Custodian | Unit | 3 |
 | [`perfect-preservation.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/04-sorceress/perfect-preservation.txt) | Perfect Preservation | Upgrade | 3 |
-| [`rimeguard-sentinel.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/04-sorceress/rimeguard-sentinel.txt) | Rimeguard Sentinel | Unit | 3 |
 | [`unmoved-aristocrat.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/04-sorceress/unmoved-aristocrat.txt) | Unmoved Aristocrat | Unit | 4 |
 | [`icebound-paragon.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/04-sorceress/icebound-paragon.txt) | Icebound Paragon | Unit | 5 |
 | [`hoarfrost-colossus.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/04-sorceress/hoarfrost-colossus.txt) | Hoarfrost Colossus | Unit | 6 |
