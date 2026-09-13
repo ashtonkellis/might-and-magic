@@ -1333,7 +1333,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Attached unit gains the Green trait.",
+      "text": "When Played: Choose a color. Attached unit is also that color.",
       "backText": null,
       "epicAction": null
     },
@@ -2419,7 +2419,7 @@
       ],
       "keywords": [],
       "traitCount": 3,
-      "text": "Attach to a unit.\nWhile playing this upgrade on an Amber unit, you may pay its cost with resources of any color.\nAttached unit gains: \"On Attack: Give an Experience token to each other friendly Amber unit.\"",
+      "text": "Attach to a unit.\nAttached unit gains: \"On Attack: Give an Experience token to each other friendly Amber unit.\"",
       "backText": null,
       "epicAction": null
     },
