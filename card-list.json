@@ -637,7 +637,7 @@
         "Grit"
       ],
       "traitCount": 1,
-      "text": "Grit (This unit gets +1/+0 for each damage on it.)\nWhile this unit is exhausted, she gains: \"Bounty - Deal 5 damage to a Commander.\" (When this unit is defeated or captured, your opponent collects its bounty.)",
+      "text": "Grit (This unit gets +1/+0 for each damage on it.)\nWhile this unit is exhausted, it gains: \"Bounty - Deal 5 damage to a Commander.\" (When this unit is defeated or captured, your opponent collects its bounty.)",
       "backText": null,
       "epicAction": null
     },
@@ -1534,7 +1534,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "When Played: Heal 1 damage from a Commander. \nAction [{exhaust}, return this unit to his owner's hand]: Deal 1 damage to a unit.",
+      "text": "When Played: Heal 1 damage from a Commander. \nAction [{exhaust}, return this unit to its owner's hand]: Deal 1 damage to a unit.",
       "backText": null,
       "epicAction": null
     },
@@ -1734,7 +1734,7 @@
         "Trample"
       ],
       "traitCount": 2,
-      "text": "Ambush, Trample (When you play this unit, it may ready and attack an enemy unit.) (When attacking an enemy unit, deal excess damage to the opponent's Commander.)\nOn Attack: You may choose another friendly Steel unit. If you do, all damage that would be dealt to this unit during this attack is dealt to the chosen unit instead.",
+      "text": "Ambush (When you play this unit, it may ready and attack an enemy unit.)\nTrample (When attacking an enemy unit, deal excess damage to the opponent's Commander.)\nOn Attack: You may choose another friendly Steel unit. If you do, all damage that would be dealt to this unit during this attack is dealt to the chosen unit instead.",
       "backText": null,
       "epicAction": null
     },
@@ -5854,7 +5854,7 @@
         "Bodyguard"
       ],
       "traitCount": 2,
-      "text": "Bodyguard (Units in this flank can't attack your non-Bodyguard units or your Commander.) \nWhen Defeated: Give 2 Experience tokens to another friendly unit. If it's an Amber unit, draw a card.",
+      "text": "Bodyguard (Units in this flank can't attack your non-Bodyguard units or your Commander.) \nWhen Defeated: Give 2 Experience tokens to another friendly unit. If it's a Green unit, draw a card.",
       "backText": null,
       "epicAction": null
     },
@@ -6412,7 +6412,7 @@
         "Ambush"
       ],
       "traitCount": 2,
-      "text": "Each friendly unit that costs 6 or more gains Ambush. (After you play that unit, it may ready and attack an enemy unit.)",
+      "text": "Each friendly unit that costs 6 or more gains Ambush. (When you play that unit, it may ready and attack an enemy unit.)",
       "backText": null,
       "epicAction": null
     },
@@ -6830,7 +6830,7 @@
         "Ambush"
       ],
       "traitCount": 3,
-      "text": "Ambush (After you play this unit, it may ready and attack an enemy unit.)\nWhen Played: Return a unit that costs 2 or less from your discard pile to your hand.",
+      "text": "Ambush (When you play this unit, it may ready and attack an enemy unit.)\nWhen Played: Return a unit that costs 2 or less from your discard pile to your hand.",
       "backText": null,
       "epicAction": null
     },
@@ -6870,7 +6870,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Attack with a Green unit. It gets +1/+0 for this attack.\nThen, attack with another Green unit. It gets +1/+0 for this attack.",
+      "text": "Attack with an Amber unit. It gets +1/+0 for this attack.\nThen, attack with a Green unit. It gets +1/+0 for this attack.",
       "backText": null,
       "epicAction": null
     },
@@ -7078,7 +7078,7 @@
         "Ambush"
       ],
       "traitCount": 3,
-      "text": "While you control another Green unit, this unit gains Ambush (After you play this unit, it may ready and attack an enemy unit.)",
+      "text": "While you control another Green unit, this unit gains Ambush (When you play this unit, it may ready and attack an enemy unit.)",
       "backText": null,
       "epicAction": null
     },
@@ -7399,7 +7399,7 @@
         "Raid"
       ],
       "traitCount": 3,
-      "text": "This unit gains Raid 1 for each damage on him. (He gets +1/+0 while attacking for each damage on him.)\nOn Attack: You may deal 1 damage to this unit and 1 damage to another unit.",
+      "text": "This unit gains Raid 1 for each damage on it. (It gets +1/+0 while attacking for each damage on it.)\nOn Attack: You may deal 1 damage to this unit and 1 damage to another unit.",
       "backText": null,
       "epicAction": null
     },
@@ -7740,7 +7740,7 @@
         "Ambush"
       ],
       "traitCount": 3,
-      "text": "Ambush (When you play this unit, it may ready and attack an enemy unit.)\nWhen this unit attacks and defeats a unit: Ready him.",
+      "text": "Ambush (When you play this unit, it may ready and attack an enemy unit.)\nWhen this unit attacks and defeats a unit: Ready it.",
       "backText": null,
       "epicAction": null
     },
@@ -8373,7 +8373,7 @@
         "Ambush"
       ],
       "traitCount": 2,
-      "text": "Ambush (After you play this unit, he may ready and attack an enemy unit.)\nWhen you play a spell: You may deal 2 damage to a unit.",
+      "text": "Ambush (When you play this unit, it may ready and attack an enemy unit.)\nWhen you play a spell: You may deal 2 damage to a unit.",
       "backText": null,
       "epicAction": null
     },
@@ -8394,7 +8394,7 @@
         "Ambush"
       ],
       "traitCount": 2,
-      "text": "Ambush (After you play this unit, it may ready and attack an enemy unit.)\nWhen Played: You may return a spell from a discard pile to its owner's hand.",
+      "text": "Ambush (When you play this unit, it may ready and attack an enemy unit.)\nWhen Played: You may return a spell from a discard pile to its owner's hand.",
       "backText": null,
       "epicAction": null
     },
@@ -8569,7 +8569,7 @@
       ],
       "keywords": [],
       "traitCount": 3,
-      "text": "This unit enters play ready. \nWhen you ready cards during the rest phase: Either pay 1 or return this unit to her owner's hand.",
+      "text": "This unit enters play ready. \nWhen you ready cards during the rest phase: Either pay {1} or return this unit to its owner's hand.",
       "backText": null,
       "epicAction": null
     },
@@ -9618,7 +9618,7 @@
         "Ambush"
       ],
       "traitCount": 2,
-      "text": "While you control another Blue unit, this unit gains Ambush. (After you play this unit, it may ready and attack an enemy unit.)",
+      "text": "While you control another Blue unit, this unit gains Ambush. (When you play this unit, it may ready and attack an enemy unit.)",
       "backText": null,
       "epicAction": null
     },
@@ -12176,7 +12176,7 @@
         "Saboteur"
       ],
       "traitCount": 2,
-      "text": "While you control another Blue unit, this unit gains Trample and Saboteur. (When attacking an enemy unit, deal excess damage to the opponent's Commander.) (When this unit attacks, ignore Bodyguard and defeat the defender's Shields.) While you control another Steel unit, this unit gets +1/+0.",
+      "text": "While you control another Blue unit, this unit gains Trample and Saboteur. (When attacking an enemy unit, deal excess damage to the opponent's Commander.) (When this unit attacks, ignore Bodyguard and defeat the defender's Shields.)\nWhile you control another Steel unit, this unit gets +1/+0.",
       "backText": null,
       "epicAction": null
     },
@@ -13390,7 +13390,7 @@
         "Ambush"
       ],
       "traitCount": 3,
-      "text": "While you control fewer units than an opponent (including this unit), this unit gains Ambush. (When you play this unit, it may ready and attack an enemy unit.)\n Action [{2}]: Return this unit and each upgrade on her to their owners' hands.",
+      "text": "While you control fewer units than an opponent (including this unit), this unit gains Ambush. (When you play this unit, it may ready and attack an enemy unit.)\n Action [{2}]: Return this unit and each upgrade on it to their owners' hands.",
       "backText": null,
       "epicAction": null
     },
