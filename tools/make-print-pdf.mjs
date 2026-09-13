@@ -20,28 +20,33 @@ import { basename } from 'node:path';
 
 const OUT = process.argv[2] || 'print';
 const SITE = process.env.SITE || 'http://127.0.0.1:8099/index.html';
-const PER_PAGE = 9;
+const PER_PAGE = 8;
 
+const BLEED = '2mm';                      // colour past the cut line, per side
 const SHEET_CSS = `
-  @page{size:letter portrait;margin:.25in}
+  @page{size:letter landscape;margin:.1in}
   body{background:#fff}
   header.top,.bar,.empty,.noprint{display:none!important}
   #grid{display:block!important;padding:0!important;gap:0!important}
-  .print-page{display:grid;grid-template-columns:repeat(3,2.5in);
-    grid-auto-rows:3.5in;justify-content:center;align-content:start;
+  /* Eight to a landscape sheet rather than nine to a portrait one: a bleed ring
+     round every card does not fit three rows of 3.5in down a letter page. */
+  .print-page{display:grid;grid-template-columns:repeat(4,calc(2.5in + 2*${BLEED}));
+    grid-auto-rows:calc(3.5in + 2*${BLEED});justify-content:center;align-content:start;
     break-after:page;page-break-after:always}
   .print-page:last-child{break-after:auto;page-break-after:auto}
-  .slot{position:relative;display:grid;place-items:center;width:2.5in;height:3.5in;overflow:hidden}
+  /* The ring carries the card's own two frame colours, so a punch that lands a
+     millimetre or two out still comes up coloured to the edge instead of white. */
+  .slot{display:block;width:calc(2.5in + 2*${BLEED});height:calc(3.5in + 2*${BLEED});
+    padding:${BLEED};overflow:hidden;
+    background-size:cover;background-position:center}
   .slot .card{margin:0}
-  /* A turned card: 3.5x2.5 rotated a quarter turn fills a 2.5x3.5 slot. It is
-     placed absolutely rather than left to the grid -- a grid item wider than its
-     track does not centre where you would expect, and the card came out far
-     enough right that overflow:hidden sheared the whole banner off, taking the
-     hero's name and type line with it. */
-  .slot .card.wide{position:absolute;left:50%;top:50%;
-    transform:translate(-50%,-50%) rotate(90deg)}
-  .backimg{width:2.5in;height:3.5in;object-fit:cover;display:block;
-    outline:.5pt dashed rgba(0,0,0,.35);outline-offset:-.5pt}
+  /* A turned card, rotated in flow. Taking it out of flow to centre it is the
+     obvious fix and it renders on screen, but an absolutely positioned element
+     does not survive Chromium's pagination: every hero front silently vanished
+     from the PDF while the portrait cards beside it printed fine. Rotating about
+     the top-left corner and translating back down needs no centring at all. */
+  .slot .card.wide{transform-origin:0 0;transform:translate(0,3.5in) rotate(-90deg)}
+  .backimg{width:2.5in;height:3.5in;object-fit:cover;display:block}
 `;
 
 const b = await chromium.launch();
@@ -61,6 +66,15 @@ const info = await p.evaluate(PER_PAGE => {
     for (const c of cards.slice(i*PER_PAGE, (i+1)*PER_PAGE)) {
       const slot = document.createElement('div');
       slot.className = 'slot';
+      /* The frame reaches the slot differently on each kind of card: a hero
+         carries --c1/--c2, a class card an inline gradient, a resource a border
+         colour. Reading the computed background instead looks right and is not
+         -- on a hero that resolves to the dark ground the art sits on, so every
+         ring came out black. */
+      const c1 = c.style.getPropertyValue('--c1'), c2 = c.style.getPropertyValue('--c2');
+      slot.style.background = c1
+        ? `linear-gradient(90deg, ${c1} 0 50%, ${c2 || c1} 50% 100%)`
+        : (c.style.background || getComputedStyle(c).borderTopColor || '#2A2536');
       slot.appendChild(c);                    // move, keeping its fitted --fit
       page.appendChild(slot);
     }

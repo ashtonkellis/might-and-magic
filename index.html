@@ -94,7 +94,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
    The diagonal's angle is a function of the card's proportions, and its midpoint
    sits right of the card's centre, so the landscape stops carry an offset the
    vertical ones do not need. */
-.card{--split:90deg;--split-a:48.5%;--split-b:51.5%;--frame:11px;--inner:5px;
+.card{--split:90deg;--split-a:48.5%;--split-b:51.5%;--frame:11px;--inner:9px;
       aspect-ratio:2.5/3.5;border-radius:11px;overflow:hidden;display:flex;flex-direction:column;
       color:#fff;position:relative;box-shadow:0 1px 3px rgba(0,0,0,.25);border:1px solid rgba(0,0,0,.35);
       padding:var(--frame)}
@@ -371,7 +371,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
   header.top,.bar,.empty,.noprint{display:none!important}
   body{background:#fff}
   .grid{display:grid;grid-template-columns:repeat(3,2.5in);gap:0;padding:0;justify-content:center}
-  .card{--frame:.1181in;--inner:.02in;
+  .card{--frame:.1181in;--inner:.075in;
         width:2.5in;height:3.5in;aspect-ratio:auto;border-radius:0;box-shadow:none;
         outline:.5pt dashed rgba(0,0,0,.35);outline-offset:-.5pt;break-inside:avoid;page-break-inside:avoid;
         -webkit-print-color-adjust:exact;print-color-adjust:exact}
@@ -411,7 +411,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 
 <header class="top">
   <div class="spectrum"></div>
-  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V104</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
+  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V105</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
   <p class="sub">In the colors of the class each card was chosen for.
      Every card in the game: twenty-one heroes, six resources, and twelve cards
      for each class. Art appears as it lands in <code>art/</code>; a card whose
