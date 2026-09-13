@@ -161,10 +161,18 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
    all. Going further starts costing the art panel more than the text gains. */
 .rules{border-radius:0 0 var(--inner) var(--inner);
      flex:0 0 34%;background:#F4F2EC;color:#1A1826;line-height:1.34;padding:.42rem .5rem;
-     overflow:hidden;
+     overflow:hidden;position:relative;isolation:isolate;
      /* --fit is set per card by the fitter below; print scales from the same
         factor so the sheet matches what the grid shows */
      font-size:calc(.68rem * var(--fit, 1))}
+/* Each class owns one transparent emblem derived from its class-bible art
+   tradition. It sits behind rules at watermark strength: large enough to read
+   as identity, faint enough that even the smallest fitted type stays primary. */
+.rules::before,.hfoot::before,.bfoot::before{
+  content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
+  background-image:var(--class-icon,none);background-repeat:no-repeat;
+  background-position:center;background-size:auto 88%;
+  opacity:.09;filter:saturate(.5)}
 /* one ability per paragraph, so the gap between them is what separates a
    keyword from the ability under it -- .3em read as a line break, not a break
    between two things */
@@ -232,7 +240,8 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 .bfoot{position:absolute;left:0;right:0;bottom:0;z-index:2;display:grid;
   grid-template-columns:2.2rem 1fr 2.2rem;align-items:end;gap:.3rem;
   padding:1.1rem .34rem .32rem;
-  background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.78) 42%)}
+  background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.78) 42%);
+  overflow:hidden;isolation:isolate}
 .brules{margin:0;color:#F4F2EC;font-size:.7rem;line-height:1.3;
   text-shadow:0 1px 2px rgba(0,0,0,.9);align-self:center}
 /* Full art, as the flipped face already is. The picture fills the card and the
@@ -291,7 +300,8 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
   /* the HP shield stands in the card's bottom-right corner and reaches up past
      the join row into the rules line, so the whole box keeps clear of it rather
      than each row reserving its own gutter and the rules line reserving none */
-  padding:.24rem 2.62rem .24rem .34rem;display:flex;flex-direction:column;gap:.2rem}
+  padding:.24rem 2.62rem .24rem .34rem;display:flex;flex-direction:column;gap:.2rem;
+  overflow:hidden;isolation:isolate}
 .hrules{margin:0;font-size:.7rem;line-height:1.3;flex:1;display:flex;align-items:center}
 /* Joining the fight is this card's Epic Action: set apart in gold, the cost on
    the left and what the cost buys in the corner, as the reference card does. */
@@ -391,7 +401,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 
 <header class="top">
   <div class="spectrum"></div>
-  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V91</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
+  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V92</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
   <p class="sub">In the colors of the class each card was chosen for.
      Every card in the game: twenty-one heroes, six resources, and twelve cards
      for each class. Art appears as it lands in <code>art/</code>; a card whose
@@ -573,6 +583,7 @@ function heroHTML(c){
   const inks = [c.c1, c.c2].map(x => `<i style="background:${x}"></i>`).join('');
   const wash = 'linear-gradient(rgba(0,0,0,.40),rgba(0,0,0,.40))';
   const banner = `${wash}, linear-gradient(90deg, ${c.c1} 0 44%, ${c.c2} 56% 100%)`;
+  const icon = `--class-icon:url('art/class-icons/${encodeURIComponent(c['class'])}.webp')`;
 
   // A flipped hero enters play as an ordinary unit, so its face is the unit
   // frame -- the same title, art, stat line and rules box, reusing those
@@ -587,7 +598,7 @@ function heroHTML(c){
     // it to the whole card. An inline `background:` shorthand would reset
     // background-origin to the padding box, sizing the gradient to the inside of
     // an 11px border and moving the split off the place it is supposed to cross.
-    return `<article class="card hero back" style="--c1:${c.c1};--c2:${c.c2}">
+    return `<article class="card hero back" style="--c1:${c.c1};--c2:${c.c2};${icon}">
       <div class="bart">${file
         ? `<img alt="" loading="lazy" src="art/heroes/${encodeURIComponent(file)}">`
         : `<span class="glyph">${c.glyph}</span>`}</div>
@@ -604,7 +615,7 @@ function heroHTML(c){
   // fight that no other card carries. It keeps the landscape banded layout.
   const cost = [c.c1, c.c2].map(x => `<i style="background:${x}"></i>`).join('')
              + '<i class="gen">1</i>'.repeat(c.join.generic);
-  return `<article class="card wide hero" style="--c1:${c.c1};--c2:${c.c2}">
+  return `<article class="card wide hero" style="--c1:${c.c1};--c2:${c.c2};${icon}">
     <div class="hbanner">
       <span class="hkind">Hero \u00B7 Commander</span>
       <span class="htitle"><b>${esc(c.hero)}</b><em>${esc(c.className)}</em></span>
@@ -625,6 +636,7 @@ function cardHTML(c){
   if (c.kind === 'hero') return heroHTML(c);
   if (c.kind === 'resource') return resourceHTML(c);
   const k = BY_SLUG[c['class']];
+  const icon = k ? `--class-icon:url('art/class-icons/${encodeURIComponent(k.slug)}.webp')` : '';
   const bg = k ? `linear-gradient(var(--split), ${k.c1} 0 var(--split-a), ${k.c2} var(--split-b) 100%)` : 'linear-gradient(var(--split),#6B6879 0 var(--split-a),#423E55 var(--split-b) 100%)';
   // Two of the six inks are far too light to carry white text on their own, and
   // a blend can pair a light ink with a dark one, so a constant wash sits over
@@ -641,7 +653,7 @@ function cardHTML(c){
       ? '' : `<span class="stat ${cls} corner ${side}">${esc(v)}</span>`;
   const rules = (c.text || '').split('\n').filter(Boolean).map(l => `<p>${symbols(esc(l))}</p>`).join('')
               || '<p style="opacity:.45">No rules text.</p>';
-  return `<article class="card${isUp ? ' up' : ''}" style="background:${bg}">
+  return `<article class="card${isUp ? ' up' : ''}" style="background:${bg};${icon}">
     ${pipsHTML(c)}
     <div class="title" style="background:${banner}">${c.unique ? '<span class="uniq">\u25C6</span>' : ''}${esc(c.name || c.id)}</div>
     ${artHTML(c)}
