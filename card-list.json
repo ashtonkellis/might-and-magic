@@ -13814,7 +13814,7 @@
         "Saboteur"
       ],
       "traitCount": 3,
-      "text": "Saboteur (When this unit attacks, ignore Bodyguard and defeat the defender's Shields.)\nWhen you play a spell: You may put a Red unit from your discard pile on the bottom of your deck. If you do, draw a card.",
+      "text": "Saboteur (When this unit attacks, ignore Bodyguard and defeat the defender's Shields.)\nWhen you play a spell: You may put an Amber unit from your discard pile on the bottom of your deck. If you do, draw a card.",
       "backText": null,
       "epicAction": null
     },
