@@ -33,21 +33,21 @@ cost, so an 8-cost two-aspect card reads as two colours over a 6. A pure class
 shows two pips of one colour and a blend one of each, which makes colour
 identity readable without reading anything.
 
-### The Experience token
+### Tokens
 
-One card, and the second thing here that is ours rather than adapted from the
-corpus, so it is defined in `index.html` beside the resources for the same
-reason. It is a **Token Upgrade** costing 0 that attaches to a unit and gives it
-+1/+1 — the token fourteen cards across seven classes already hand out, which
-until now existed only as a phrase in other cards' rules text.
+Three cards that are ours rather than adapted from the corpus, defined in
+`index.html` beside the resources for the same reason. **Experience** is a Token
+Upgrade costing 0 that attaches to a unit and gives it +1/+1. **Shield** is a
+Token Upgrade that prevents one instance of damage before being defeated.
+**Initiative** records which player takes the first action each action phase;
+taking it ends that player's actions for the current phase.
 
-It belongs to no class, and that is the whole design of it. `BY_SLUG` has no
-entry for a null class, so it falls to the neutral grey frame the corpus cards
-use when unassigned, which is already the right look for a card that is
-nobody's. Its art prompt spends a paragraph forbidding any element, glow or
-class colour for the same reason. It sits under its own **Tokens** filter and
-under Everything, and every class-shaped filter excludes it, so *Class cards*
-stays 252.
+They belong to no class, and that is the whole design of them. `BY_SLUG` has no
+entry for a null class, so they fall to the neutral grey frame the corpus cards
+use when unassigned, which is already the right look for cards that are
+nobody's. Their art avoids dominant class colors for the same reason. They sit
+under the **Tokens** filter and under Everything, and every class-shaped filter
+excludes them, so *Class cards* stays 252.
 
 ### Resource cards
 
@@ -72,7 +72,7 @@ Card art for the other 252 is not in place yet; each shows its class glyph and
 card id until images land. See `art/README.md` for how to add them.
 
 The browser shows only cards that are in the game — 21 heroes as 42 faces, 6
-resources, and 12 cards for each of the 21 classes, 300 in all. The 503
+resources, 3 tokens, and 12 cards for each of the 21 classes, 303 in all. The 503
 unassigned corpus cards were raw material for choosing the twelves and are not
 listed; the file still holds them.
 

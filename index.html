@@ -404,7 +404,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 
 <header class="top">
   <div class="spectrum"></div>
-  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V97</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
+  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V98</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
   <p class="sub">In the colors of the class each card was chosen for.
      Every card in the game: twenty-one heroes, six resources, and twelve cards
      for each class. Art appears as it lands in <code>art/</code>; a card whose
@@ -471,10 +471,18 @@ const TOKEN_CARDS = [{
   aspects:[], keywords:[], traitCount:0,
   text:'Attach to a unit.\nIf damage would be dealt to attached unit, prevent that damage. If you do, defeat a Shield token on it.',
   backText:null, epicAction:null,
+}, {
+  id:'TOK-INITIATIVE', kind:'token', 'class':null,
+  name:'Initiative', type:'Token',
+  cost:null, power:null, hp:null, unique:false,
+  aspects:[], keywords:[], traitCount:0,
+  text:'The player with the Initiative takes the first action each action phase.\nOn your turn, you may take the Initiative. If you do, take no more actions this phase.',
+  backText:null, epicAction:null,
 }];
 const TOKEN_ICONS = {
   'TOK-EXPERIENCE':'experience.webp',
   'TOK-SHIELD':'shield.webp',
+  'TOK-INITIATIVE':'initiative.webp',
 };
 
 /* Rules text carries three things the browser draws rather than spells: a
