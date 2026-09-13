@@ -275,8 +275,6 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
   text-transform:uppercase;opacity:.9}
 .htitle{text-align:center;line-height:1.04;text-shadow:0 1px 2px rgba(0,0,0,.6)}
 .htitle b{display:block;font-family:var(--display);font-weight:700;font-size:.98rem;line-height:1.05}
-.htitle em{display:block;font-family:var(--body);font-style:normal;font-weight:600;
-  font-size:.44rem;letter-spacing:.14em;text-transform:uppercase;opacity:.85}
 .hinks{display:flex;gap:2px}
 .hinks i{width:.68rem;height:.68rem;border-radius:50%;display:block;
   box-shadow:0 0 0 1.4px rgba(255,255,255,.9)}
@@ -390,7 +388,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
   .card.hero.back{width:2.5in;height:3.5in;grid-column:auto}
   .grid.wide-sheet{grid-template-columns:repeat(2,3.5in)}
   .grid.wide-sheet .card.wide{grid-column:auto}
-  .htitle b{font-size:13pt} .htitle em{font-size:5.8pt} .hkind{font-size:5.8pt}
+  .htitle b{font-size:13pt} .hkind{font-size:5.8pt}
   .bkind,.bclass{font-size:5.8pt}
   .hrules{font-size:9.4pt} .hjoin .lab{font-size:6pt}
   .hstat{width:.33in;height:.33in;font-size:15pt;bottom:.03in;right:.04in}
@@ -408,7 +406,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 
 <header class="top">
   <div class="spectrum"></div>
-  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V101</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
+  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V102</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
   <p class="sub">In the colors of the class each card was chosen for.
      Every card in the game: twenty-one heroes, six resources, and twelve cards
      for each class. Art appears as it lands in <code>art/</code>; a card whose
@@ -634,8 +632,8 @@ function heroHTML(c){
              + '<i class="gen">1</i>'.repeat(c.join.generic);
   return `<article class="card wide hero" style="--c1:${c.c1};--c2:${c.c2};${icon}">
     <div class="hbanner">
-      <span class="hkind">Hero \u00B7 Commander</span>
-      <span class="htitle"><b>${esc(c.hero)}</b><em>${esc(c.className)}</em></span>
+      <span class="hkind">Hero \u00B7 Commander \u00B7 ${esc(c.className)}</span>
+      <span class="htitle"><b>${esc(c.hero)}</b></span>
       <span class="hinks">${inks}</span>
     </div>
     <div class="hart">${heroArtFile(c)
