@@ -988,7 +988,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Give an enemy unit -2/-0 for this phase. If you control a Green unit, give the enemy unit -2/-2 for this phase instead.",
+      "text": "Give an enemy unit -2/-0 for this phase. If you control a Blue unit, give the enemy unit -2/-2 for this phase instead.",
       "backText": null,
       "epicAction": null
     },
@@ -1734,7 +1734,7 @@
         "Trample"
       ],
       "traitCount": 2,
-      "text": "Ambush, Trample (When you play this unit, it may ready and attack an enemy unit.) (When attacking an enemy unit, deal excess damage to the opponent's Commander.)\nOn Attack: You may choose another friendly Red unit. If you do, all damage that would be dealt to this unit during this attack is dealt to the chosen unit instead.",
+      "text": "Ambush, Trample (When you play this unit, it may ready and attack an enemy unit.) (When attacking an enemy unit, deal excess damage to the opponent's Commander.)\nOn Attack: You may choose another friendly Steel unit. If you do, all damage that would be dealt to this unit during this attack is dealt to the chosen unit instead.",
       "backText": null,
       "epicAction": null
     },
@@ -4342,7 +4342,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Return a friendly Amber unit to its owner's hand. If you do, deal 3 damage to a unit.",
+      "text": "Return a friendly Blue unit to its owner's hand. If you do, deal 3 damage to a unit.",
       "backText": null,
       "epicAction": null
     },
@@ -6209,7 +6209,7 @@
         "Shielded"
       ],
       "traitCount": 2,
-      "text": "Shielded (When you play this unit, give a Shield token to it.)\nWhen Played: If you control another Blue unit, heal 4 damage from a Commander.",
+      "text": "Shielded (When you play this unit, give a Shield token to it.)\nWhen Played: If you control another Purple unit, heal 4 damage from a Commander.",
       "backText": null,
       "epicAction": null
     },
@@ -6725,7 +6725,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "When Played: Search the top 5 cards of your deck for a Green card, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order.)",
+      "text": "When Played: Search the top 5 cards of your deck for a Steel card, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order.)",
       "backText": null,
       "epicAction": null
     },
@@ -6870,7 +6870,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Attack with an Amber unit. It gets +1/+0 for this attack.\nThen, attack with another Amber unit. It gets +1/+0 for this attack.",
+      "text": "Attack with a Green unit. It gets +1/+0 for this attack.\nThen, attack with another Green unit. It gets +1/+0 for this attack.",
       "backText": null,
       "epicAction": null
     },
@@ -7211,7 +7211,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Attach to an Amber unit.\nAttached unit gains: \"On Attack: If this unit isn't attacking a Commander, you may deal 2 damage to a unit in the defender's flank.\"",
+      "text": "Attach to a Steel unit.\nAttached unit gains: \"On Attack: If this unit isn't attacking a Commander, you may deal 2 damage to a unit in the defender's flank.\"",
       "backText": null,
       "epicAction": null
     },
@@ -7876,7 +7876,7 @@
         "Raid"
       ],
       "traitCount": 2,
-      "text": "On Attack: Another friendly Amber unit gains Raid 2 for this phase. (it gets +2/+0 while attacking.)",
+      "text": "On Attack: Another friendly Steel unit gains Raid 2 for this phase. (It gets +2/+0 while attacking.)",
       "backText": null,
       "epicAction": null
     },
@@ -8088,7 +8088,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Choose a player. That player discards a card from their hand. Then, if you control a Red unit, you may deal damage to a unit equal to the cost of the discarded card.",
+      "text": "Choose a player. That player discards a card from their hand. Then, if you control a Purple unit, you may deal damage to a unit equal to the cost of the discarded card.",
       "backText": null,
       "epicAction": null
     },
@@ -8980,7 +8980,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Attach to a Red unit.\nAttached unit gains: \"On Attack: Ready a resource.\"",
+      "text": "Attach to a Blue unit.\nAttached unit gains: \"On Attack: Ready a resource.\"",
       "backText": null,
       "epicAction": null
     },
@@ -9618,7 +9618,7 @@
         "Ambush"
       ],
       "traitCount": 2,
-      "text": "While you control another Green unit, this unit gains Ambush. (After you play this unit, it may ready and attack an enemy unit.)",
+      "text": "While you control another Blue unit, this unit gains Ambush. (After you play this unit, it may ready and attack an enemy unit.)",
       "backText": null,
       "epicAction": null
     },
@@ -9828,7 +9828,7 @@
         "Restore"
       ],
       "traitCount": 3,
-      "text": "Restore\nWhile you control 3 or more units, Action [{1}, {exhaust}]: Search the top 3 cards of your deck for a Green card, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order.)",
+      "text": "Restore\nWhile you control 3 or more units, Action [{1}, {exhaust}]: Search the top 3 cards of your deck for a Steel card, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order.)",
       "backText": null,
       "epicAction": null
     },
@@ -10661,7 +10661,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "If you control 3 or more Red units, this upgrade costs {2} less to play.\nAttached unit gains: \"While you control 3 or more units, when this unit attacks, heal 2 damage from your Commander.\"",
+      "text": "If you control 3 or more Blue units, this upgrade costs {2} less to play.\nAttached unit gains: \"While you control 3 or more units, when this unit attacks, heal 2 damage from your Commander.\"",
       "backText": null,
       "epicAction": null
     },
@@ -11227,7 +11227,7 @@
         "Ambush"
       ],
       "traitCount": 3,
-      "text": "While you control another Green unit, this unit gains Ambush. (When you play this unit, it may ready and attack an enemy unit.)",
+      "text": "While you control another Blue unit, this unit gains Ambush. (When you play this unit, it may ready and attack an enemy unit.)",
       "backText": null,
       "epicAction": null
     },
