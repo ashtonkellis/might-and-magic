@@ -30,7 +30,7 @@
       "hero": "Vesper",
       "front": {
         "hp": 17,
-        "ability": "Draw 2 more cards in your starting hand. You can’t take a mulligan."
+        "ability": "Draw 2 more cards in your starting hand. You can't take a mulligan."
       },
       "back": {
         "power": 3,
@@ -101,7 +101,7 @@
       "back": {
         "power": 4,
         "hp": 7,
-        "ability": "When you use a “When Defeated” ability: You may use that ability again. Use this ability only once each round."
+        "ability": "When you use a \"When Defeated\" ability: You may use that ability again. Use this ability only once each round."
       },
       "join": {
         "total": 4,
@@ -299,7 +299,7 @@
       "back": {
         "power": 4,
         "hp": 7,
-        "ability": "When an attack ends: You may return a friendly unit to its owner’s hand. Play a unit that costs less than the returned unit from your hand for free."
+        "ability": "When an attack ends: You may return a friendly unit to its owner's hand. Play a unit that costs less than the returned unit from your hand for free."
       },
       "join": {
         "total": 4,
@@ -316,7 +316,7 @@
       "hero": "Stave",
       "front": {
         "hp": 17,
-        "ability": "When you play an upgrade: Give an Experience token to the unit it’s attached to."
+        "ability": "When you play an upgrade: Give an Experience token to the unit it's attached to."
       },
       "back": {
         "power": 3,

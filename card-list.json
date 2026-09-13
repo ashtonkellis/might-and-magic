@@ -637,7 +637,7 @@
         "Grit"
       ],
       "traitCount": 1,
-      "text": "Grit (This unit gets +1/+0 for each damage on it.)\nWhile this unit is exhausted, she gains, \"Bounty - Deal 5 damage to a Commander.\" (When this unit is defeated or captured, your opponent collects its bounty.)",
+      "text": "Grit (This unit gets +1/+0 for each damage on it.)\nWhile this unit is exhausted, she gains: \"Bounty - Deal 5 damage to a Commander.\" (When this unit is defeated or captured, your opponent collects its bounty.)",
       "backText": null,
       "epicAction": null
     },
@@ -2419,7 +2419,7 @@
       ],
       "keywords": [],
       "traitCount": 3,
-      "text": "Attach to a unit.\nWhile playing this upgrade on an Amber unit, ignore its aspect penalty.\nAttached unit gains, “On Attack: Give an Experience token to each other friendly Amber unit.”",
+      "text": "Attach to a unit.\nWhile playing this upgrade on an Amber unit, you may pay its cost with resources of any color.\nAttached unit gains: \"On Attack: Give an Experience token to each other friendly Amber unit.\"",
       "backText": null,
       "epicAction": null
     },
@@ -3765,7 +3765,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Ignore the aspect penalty on the first Green unit you play each round. \nWhen Played: Search the top 5 cards of your deck for a Green card, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order.)",
+      "text": "You may pay the cost of the first Green unit you play each round with resources of any color. \nWhen Played: Search the top 5 cards of your deck for a Green card, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order.)",
       "backText": null,
       "epicAction": null
     },
@@ -9870,7 +9870,7 @@
         "Saboteur"
       ],
       "traitCount": 2,
-      "text": "Saboteur (When this unit attacks, ignore Bodyguard and defeat the defender's Shields.)\nAction [{1}, {exhaust}]: Deal damage to a unit equal to the number of cards you’ve drawn this phase. (This doesn’t include cards drawn in the rest phase.)",
+      "text": "Saboteur (When this unit attacks, ignore Bodyguard and defeat the defender's Shields.)\nAction [{1}, {exhaust}]: Deal damage to a unit equal to the number of cards you've drawn this phase. (This doesn't include cards drawn in the rest phase.)",
       "backText": null,
       "epicAction": null
     },
@@ -9910,7 +9910,7 @@
         "Trample"
       ],
       "traitCount": 3,
-      "text": "Trample (When attacking an enemy unit, deal excess damage to the opponent's Commander.)\nAction [{exhaust}, deal 2 damage to your Commander]: Attack with a unit. If it’s attacking a unit, it gets +2/+0 for this attack.",
+      "text": "Trample (When attacking an enemy unit, deal excess damage to the opponent's Commander.)\nAction [{exhaust}, deal 2 damage to your Commander]: Attack with a unit. If it's attacking a unit, it gets +2/+0 for this attack.",
       "backText": null,
       "epicAction": null
     },
@@ -10321,7 +10321,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Ignore the aspect penalty on each Red upgrade you play on this unit. \nOn Attack: If this unit has 4 or more Red upgrades attached to him, defeat 4 enemy units.",
+      "text": "You may pay the cost of each Red upgrade you play on this unit with resources of any color. \nOn Attack: If this unit has 4 or more Red upgrades attached to it, defeat 4 enemy units.",
       "backText": null,
       "epicAction": null
     },
