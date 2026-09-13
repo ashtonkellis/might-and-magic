@@ -5711,7 +5711,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Choose two, in any order:\nDiscard 6 cards from an opponent's deck. \nHeal 5 damage from a Commander. \nDefeat a unit with 3 or less remaining HP. \nGive a Shield token to a unit.",
+      "text": "Choose two, in any order:\n• Discard 6 cards from an opponent's deck.\n• Heal 5 damage from a Commander.\n• Defeat a unit with 3 or less remaining HP.\n• Give a Shield token to a unit.",
       "backText": null,
       "epicAction": null
     },
@@ -6593,7 +6593,7 @@
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Choose two, in any order:\nGive 2 Experience tokens to a unit. \nA friendly unit deals damage equal to its power to an enemy unit. \nPut this spell into play as a resource.\nReturn a unit from your discard pile to your hand.",
+      "text": "Choose two, in any order:\n• Give 2 Experience tokens to a unit.\n• A friendly unit deals damage equal to its power to an enemy unit.\n• Put this spell into play as a resource.\n• Return a unit from your discard pile to your hand.",
       "backText": null,
       "epicAction": null
     },
@@ -7270,7 +7270,7 @@
         "Trample"
       ],
       "traitCount": 2,
-      "text": "Trample (When attacking an enemy unit, deal excess damage to the opponent's Commander.)\nWhen Defeated: For each opponent, choose one: either deal 3 damage to that player's Commander, or that player discards a card from their hand.",
+      "text": "Trample (When attacking an enemy unit, deal excess damage to the opponent's Commander.)\nWhen Defeated: For each opponent, choose one:\n• Deal 3 damage to that player's Commander.\n• That player discards a card from their hand.",
       "backText": null,
       "epicAction": null
     },
@@ -7986,7 +7986,7 @@
         "Shielded"
       ],
       "traitCount": 3,
-      "text": "Shielded (When you play this unit, give a Shield token to it.) \nOn Attack: Name a card. An opponent reveals their hand and discards a card with that name from it.",
+      "text": "Shielded (When you play this unit, give a Shield token to it.) \nOn Attack: Name a color. An opponent reveals their hand and discards a card of that color from it.",
       "backText": null,
       "epicAction": null
     },

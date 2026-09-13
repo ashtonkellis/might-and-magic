@@ -176,6 +176,10 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
    keyword from the ability under it -- .3em read as a line break, not a break
    between two things */
 .rules p{margin:0 0 .62em}
+/* the options of a choice: close together, and wrapping under the text rather
+   than under the bullet */
+.rules p.opt{margin-bottom:.16em;padding-left:.72em;text-indent:-.72em}
+.rules p.opt + p:not(.opt){margin-top:.46em}
 .rules p:last-child{margin:0}
 /* ---------- the resource card ----------
    The one card with nothing printed on it: no name, no cost, no rules, no
@@ -404,7 +408,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 
 <header class="top">
   <div class="spectrum"></div>
-  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V99</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
+  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V100</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
   <p class="sub">In the colors of the class each card was chosen for.
      Every card in the game: twenty-one heroes, six resources, and twelve cards
      for each class. Art appears as it lands in <code>art/</code>; a card whose
@@ -666,7 +670,11 @@ function cardHTML(c){
       ? '<span></span>' : `<span class="stat ${cls}">${esc(v)}</span>`;
   const corner = (v, cls, side) => !isUp || v === null || v === undefined
       ? '' : `<span class="stat ${cls} corner ${side}">${esc(v)}</span>`;
-  const rules = (c.text || '').split('\n').filter(Boolean).map(l => `<p>${symbols(esc(l))}</p>`).join('')
+  // A bulleted line is one option of a choice, not an ability of its own, so it
+  // sits tight under the line that introduced it instead of taking the full
+  // gap that separates two abilities.
+  const rules = (c.text || '').split('\n').filter(Boolean)
+    .map(l => `<p${l.trimStart().startsWith('\u2022') ? ' class="opt"' : ''}>${symbols(esc(l))}</p>`).join('')
               || '<p style="opacity:.45">No rules text.</p>';
   return `<article class="card${isUp ? ' up' : ''}" style="background:${bg};${icon}">
     ${pipsHTML(c)}
