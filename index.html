@@ -113,7 +113,6 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
       border-bottom:1px solid rgba(0,0,0,.35);
       /* names run longer than ids, so wrap rather than truncate */
       text-wrap:balance;min-height:1.9rem;display:grid;align-content:center}
-.title .uniq{color:#F5E6B0;margin-right:.15em}
 
 /* cost: a vertical column in the top-left, overlapping the bars above the art */
 .pips{position:absolute;top:calc(.22rem + var(--frame));left:calc(.28rem + var(--frame));z-index:3;display:flex;flex-direction:column;gap:.14rem}
@@ -233,6 +232,9 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 .bart .glyph{font-size:2.6rem;opacity:.5}
 .bkind{display:block;font-family:var(--body);font-style:normal;font-weight:700;
   font-size:.44rem;letter-spacing:.16em;text-transform:uppercase;opacity:.82;margin-bottom:.06rem}
+.bclass{display:block;font-family:var(--body);font-style:normal;font-weight:600;
+  font-size:.44rem;letter-spacing:.14em;text-transform:uppercase;opacity:.85;
+  margin-top:.06rem}
 .bname{position:absolute;top:0;left:0;right:0;z-index:2;text-align:center;
   padding:.3rem .4rem .55rem;color:#fff;font-family:var(--display);font-weight:700;
   font-size:1.02rem;line-height:1.1;text-shadow:0 1px 3px rgba(0,0,0,.8);
@@ -384,7 +386,8 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
   .card.hero.back{width:2.5in;height:3.5in;grid-column:auto}
   .grid.wide-sheet{grid-template-columns:repeat(2,3.5in)}
   .grid.wide-sheet .card.wide{grid-column:auto}
-  .htitle b{font-size:13pt} .htitle em{font-size:5.8pt} .hkind{font-size:5.8pt} .bkind{font-size:5.8pt}
+  .htitle b{font-size:13pt} .htitle em{font-size:5.8pt} .hkind{font-size:5.8pt}
+  .bkind,.bclass{font-size:5.8pt}
   .hrules{font-size:9.4pt} .hjoin .lab{font-size:6pt}
   .hstat{width:.33in;height:.33in;font-size:15pt;bottom:.03in;right:.04in}
   .credit{font-size:4.4pt;padding:.015in .05in}
@@ -401,7 +404,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 
 <header class="top">
   <div class="spectrum"></div>
-  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V96</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
+  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V97</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
   <p class="sub">In the colors of the class each card was chosen for.
      Every card in the game: twenty-one heroes, six resources, and twelve cards
      for each class. Art appears as it lands in <code>art/</code>; a card whose
@@ -445,7 +448,7 @@ const RESOURCES = [
 const RESOURCE_CARDS = RESOURCES.map(r => ({
   id:`RES-${r.ink.toUpperCase()}`, kind:'resource', 'class':null,
   name:`${r.ink} Resource`, type:'Resource',
-  cost:null, power:null, hp:null, unique:false,
+  cost:null, power:null, hp:null,
   aspects:[], keywords:[], traitCount:0, text:'', backText:null, epicAction:null,
   ink:r.ink, element:r.element, hex:r.hex,
   art:`art/resources/${r.ink.toLowerCase()}.png`,
@@ -457,14 +460,14 @@ const RESOURCE_CARDS = RESOURCES.map(r => ({
 const TOKEN_CARDS = [{
   id:'TOK-EXPERIENCE', kind:'token', 'class':null,
   name:'Experience', type:'Token Upgrade',
-  cost:0, power:1, hp:1, unique:false,
+  cost:0, power:1, hp:1,
   aspects:[], keywords:[], traitCount:0,
   text:'Attach to a unit.\nAttached unit gets +1/+1.',
   backText:null, epicAction:null,
 }, {
   id:'TOK-SHIELD', kind:'token', 'class':null,
   name:'Shield', type:'Token Upgrade',
-  cost:0, power:0, hp:0, unique:false,
+  cost:0, power:0, hp:0,
   aspects:[], keywords:[], traitCount:0,
   text:'Attach to a unit.\nIf damage would be dealt to attached unit, prevent that damage. If you do, defeat a Shield token on it.',
   backText:null, epicAction:null,
@@ -568,7 +571,7 @@ function buildHeroes(heroes){
   const out = [];
   for (const h of heroes) {
     const k = BY_SLUG[h['class']] || {};
-    const base = {kind:'hero', 'class':h['class'], type:'Hero', cost:null, unique:false,
+    const base = {kind:'hero', 'class':h['class'], type:'Hero', cost:null,
                   aspects:[], keywords:[], traitCount:0, backText:null, epicAction:null,
                   hero:h.hero, className:k.name || '', c1:k.c1, c2:k.c2,
                   glyph:(k.counter || '').split(' ').pop() || '\u25C7', join:h.join};
@@ -604,7 +607,7 @@ function heroHTML(c){
       <div class="bart">${file
         ? `<img alt="" loading="lazy" src="art/heroes/${encodeURIComponent(file)}">`
         : `<span class="glyph">${c.glyph}</span>`}</div>
-      <div class="bname"><em class="bkind">Hero \u00B7 Unit</em>${esc(c.hero)}</div>
+      <div class="bname"><em class="bkind">Hero \u00B7 Unit</em>${esc(c.hero)}<em class="bclass">${esc(c.className)}</em></div>
       <div class="bfoot">
         <span class="stat pow">${c.power}</span>
         <p class="brules">${symbols(esc(c.text))}</p>
@@ -659,7 +662,7 @@ function cardHTML(c){
               || '<p style="opacity:.45">No rules text.</p>';
   return `<article class="card${isUp ? ' up' : ''}" style="background:${bg};${icon}">
     ${pipsHTML(c)}
-    <div class="title" style="background:${banner}">${c.unique ? '<span class="uniq">\u25C6</span>' : ''}${esc(c.name || c.id)}</div>
+    <div class="title" style="background:${banner}">${esc(c.name || c.id)}</div>
     ${artHTML(c)}
     <div class="statline">
       ${stat(c.power, 'pow')}

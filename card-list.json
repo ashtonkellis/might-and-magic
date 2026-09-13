@@ -15,7 +15,6 @@
       "cost": 6,
       "power": 4,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -34,7 +33,6 @@
       "cost": 5,
       "power": 0,
       "hp": 8,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -55,7 +53,6 @@
       "cost": 5,
       "power": 4,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -74,7 +71,6 @@
       "cost": 6,
       "power": 2,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -93,7 +89,6 @@
       "cost": 6,
       "power": 3,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Command",
         "Villainy"
@@ -112,7 +107,6 @@
       "cost": 7,
       "power": 2,
       "hp": 12,
-      "unique": true,
       "aspects": [
         "Command",
         "Villainy"
@@ -131,7 +125,6 @@
       "cost": 5,
       "power": 3,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Command",
         "Villainy"
@@ -150,7 +143,6 @@
       "cost": 6,
       "power": 4,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Command",
         "Heroism"
@@ -169,7 +161,6 @@
       "cost": 7,
       "power": 5,
       "hp": 8,
-      "unique": true,
       "aspects": [
         "Command",
         "Heroism"
@@ -188,7 +179,6 @@
       "cost": 5,
       "power": 4,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -207,7 +197,6 @@
       "cost": 4,
       "power": 5,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -226,7 +215,6 @@
       "cost": 6,
       "power": 4,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -245,7 +233,6 @@
       "cost": 5,
       "power": 3,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -264,7 +251,6 @@
       "cost": 6,
       "power": 2,
       "hp": 8,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -283,7 +269,6 @@
       "cost": 5,
       "power": 2,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -302,7 +287,6 @@
       "cost": 5,
       "power": 4,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -321,7 +305,6 @@
       "cost": 4,
       "power": 2,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -340,7 +323,6 @@
       "cost": 6,
       "power": 4,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -359,7 +341,6 @@
       "cost": null,
       "power": null,
       "hp": 30,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -377,7 +358,6 @@
       "cost": null,
       "power": null,
       "hp": 30,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -395,7 +375,6 @@
       "cost": null,
       "power": null,
       "hp": 30,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -413,7 +392,6 @@
       "cost": null,
       "power": null,
       "hp": 30,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -431,7 +409,6 @@
       "cost": null,
       "power": null,
       "hp": 30,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -449,7 +426,6 @@
       "cost": null,
       "power": null,
       "hp": 30,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -467,7 +443,6 @@
       "cost": null,
       "power": null,
       "hp": 30,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -485,7 +460,6 @@
       "cost": null,
       "power": null,
       "hp": 30,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -503,7 +477,6 @@
       "cost": 1,
       "power": 1,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -525,7 +498,6 @@
       "cost": 2,
       "power": 0,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -544,7 +516,6 @@
       "cost": 2,
       "power": 2,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -565,7 +536,6 @@
       "cost": 3,
       "power": 3,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -584,7 +554,6 @@
       "cost": 3,
       "power": 2,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -606,7 +575,6 @@
       "cost": 4,
       "power": 4,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -627,7 +595,6 @@
       "cost": 4,
       "power": 3,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -649,7 +616,6 @@
       "cost": 5,
       "power": 4,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -671,7 +637,6 @@
       "cost": 6,
       "power": 4,
       "hp": 5,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -692,7 +657,6 @@
       "cost": 7,
       "power": 4,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -714,7 +678,6 @@
       "cost": 8,
       "power": 6,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -735,7 +698,6 @@
       "cost": 2,
       "power": 1,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -754,7 +716,6 @@
       "cost": 4,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -773,7 +734,6 @@
       "cost": 2,
       "power": 1,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -792,7 +752,6 @@
       "cost": 2,
       "power": 2,
       "hp": 3,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -813,7 +772,6 @@
       "cost": 3,
       "power": 1,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -834,7 +792,6 @@
       "cost": 3,
       "power": 2,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -856,7 +813,6 @@
       "cost": 4,
       "power": 3,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -877,7 +833,6 @@
       "cost": 4,
       "power": 2,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -898,7 +853,6 @@
       "cost": 5,
       "power": 3,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -917,7 +871,6 @@
       "cost": 6,
       "power": 2,
       "hp": 8,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -938,7 +891,6 @@
       "cost": 6,
       "power": 5,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -959,7 +911,6 @@
       "cost": 8,
       "power": 4,
       "hp": 10,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -981,7 +932,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -1000,7 +950,6 @@
       "cost": 4,
       "power": 4,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Vigilance"
@@ -1022,7 +971,6 @@
       "cost": 4,
       "power": 0,
       "hp": 0,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Vigilance"
@@ -1041,7 +989,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Vigilance"
@@ -1060,7 +1007,6 @@
       "cost": 1,
       "power": 1,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -1080,7 +1026,6 @@
       "cost": 2,
       "power": 1,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -1098,7 +1043,6 @@
       "cost": 2,
       "power": 1,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -1116,7 +1060,6 @@
       "cost": 2,
       "power": 2,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Vigilance"
       ],
@@ -1136,7 +1079,6 @@
       "cost": 3,
       "power": 3,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Vigilance"
       ],
@@ -1154,7 +1096,6 @@
       "cost": 3,
       "power": 2,
       "hp": 5,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -1172,7 +1113,6 @@
       "cost": 3,
       "power": 2,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -1192,7 +1132,6 @@
       "cost": 4,
       "power": 2,
       "hp": 6,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -1212,7 +1151,6 @@
       "cost": 4,
       "power": 3,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -1232,7 +1170,6 @@
       "cost": 5,
       "power": 4,
       "hp": 6,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -1250,7 +1187,6 @@
       "cost": 5,
       "power": 3,
       "hp": 5,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -1271,7 +1207,6 @@
       "cost": 6,
       "power": 4,
       "hp": 6,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -1291,7 +1226,6 @@
       "cost": 6,
       "power": 5,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Vigilance"
       ],
@@ -1309,7 +1243,6 @@
       "cost": 0,
       "power": 0,
       "hp": 0,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -1327,7 +1260,6 @@
       "cost": 1,
       "power": 1,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -1345,7 +1277,6 @@
       "cost": 1,
       "power": 0,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -1363,7 +1294,6 @@
       "cost": 1,
       "power": 0,
       "hp": 0,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -1381,7 +1311,6 @@
       "cost": 2,
       "power": 0,
       "hp": 0,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -1399,7 +1328,6 @@
       "cost": 2,
       "power": 1,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -1417,7 +1345,6 @@
       "cost": 2,
       "power": 2,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -1435,7 +1362,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -1455,7 +1381,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -1473,7 +1398,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -1491,7 +1415,6 @@
       "cost": 4,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -1509,7 +1432,6 @@
       "cost": 6,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -1527,7 +1449,6 @@
       "cost": 1,
       "power": 1,
       "hp": 3,
-      "unique": true,
       "aspects": [
         "Command",
         "Villainy"
@@ -1546,7 +1467,6 @@
       "cost": 2,
       "power": 2,
       "hp": 2,
-      "unique": true,
       "aspects": [
         "Command",
         "Villainy"
@@ -1565,7 +1485,6 @@
       "cost": 2,
       "power": 2,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Command",
         "Villainy"
@@ -1584,7 +1503,6 @@
       "cost": 2,
       "power": 2,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Command",
         "Villainy"
@@ -1603,7 +1521,6 @@
       "cost": 3,
       "power": 3,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Command",
         "Villainy"
@@ -1624,7 +1541,6 @@
       "cost": 3,
       "power": 2,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Command",
         "Villainy"
@@ -1643,7 +1559,6 @@
       "cost": 3,
       "power": 2,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Command",
         "Villainy"
@@ -1664,7 +1579,6 @@
       "cost": 4,
       "power": 2,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Command",
         "Villainy"
@@ -1683,7 +1597,6 @@
       "cost": 5,
       "power": 4,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Command",
         "Villainy"
@@ -1702,7 +1615,6 @@
       "cost": 6,
       "power": 4,
       "hp": 6,
-      "unique": false,
       "aspects": [
         "Command",
         "Villainy"
@@ -1724,7 +1636,6 @@
       "cost": 7,
       "power": 7,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Command",
         "Villainy"
@@ -1746,7 +1657,6 @@
       "cost": 11,
       "power": 11,
       "hp": 11,
-      "unique": true,
       "aspects": [
         "Command",
         "Villainy"
@@ -1767,7 +1677,6 @@
       "cost": 4,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command",
         "Villainy"
@@ -1786,7 +1695,6 @@
       "cost": 6,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command",
         "Villainy"
@@ -1805,7 +1713,6 @@
       "cost": 1,
       "power": 2,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Command",
         "Heroism"
@@ -1827,7 +1734,6 @@
       "cost": 1,
       "power": 1,
       "hp": 1,
-      "unique": true,
       "aspects": [
         "Command",
         "Heroism"
@@ -1846,7 +1752,6 @@
       "cost": 2,
       "power": 1,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Command",
         "Heroism"
@@ -1867,7 +1772,6 @@
       "cost": 3,
       "power": 1,
       "hp": 5,
-      "unique": false,
       "aspects": [
         "Command",
         "Heroism"
@@ -1889,7 +1793,6 @@
       "cost": 4,
       "power": 4,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Command",
         "Heroism"
@@ -1910,7 +1813,6 @@
       "cost": 4,
       "power": 2,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Command",
         "Heroism"
@@ -1932,7 +1834,6 @@
       "cost": 5,
       "power": 4,
       "hp": 6,
-      "unique": false,
       "aspects": [
         "Command",
         "Heroism"
@@ -1951,7 +1852,6 @@
       "cost": 5,
       "power": 4,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Command",
         "Heroism"
@@ -1972,7 +1872,6 @@
       "cost": 6,
       "power": 5,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Command",
         "Heroism"
@@ -1991,7 +1890,6 @@
       "cost": 2,
       "power": 1,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Command",
         "Heroism"
@@ -2010,7 +1908,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command",
         "Heroism"
@@ -2029,7 +1926,6 @@
       "cost": 4,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command",
         "Heroism"
@@ -2048,7 +1944,6 @@
       "cost": 4,
       "power": 5,
       "hp": 5,
-      "unique": false,
       "aspects": [
         "Command",
         "Command"
@@ -2069,7 +1964,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command",
         "Command"
@@ -2088,7 +1982,6 @@
       "cost": 14,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command",
         "Command"
@@ -2107,7 +2000,6 @@
       "cost": 1,
       "power": 2,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -2125,7 +2017,6 @@
       "cost": 2,
       "power": 2,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -2145,7 +2036,6 @@
       "cost": 2,
       "power": 3,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -2165,7 +2055,6 @@
       "cost": 2,
       "power": 2,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -2185,7 +2074,6 @@
       "cost": 2,
       "power": 2,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -2203,7 +2091,6 @@
       "cost": 3,
       "power": 3,
       "hp": 2,
-      "unique": true,
       "aspects": [
         "Command"
       ],
@@ -2221,7 +2108,6 @@
       "cost": 3,
       "power": 3,
       "hp": 5,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -2241,7 +2127,6 @@
       "cost": 3,
       "power": 3,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -2259,7 +2144,6 @@
       "cost": 4,
       "power": 3,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -2279,7 +2163,6 @@
       "cost": 4,
       "power": 3,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -2300,7 +2183,6 @@
       "cost": 5,
       "power": 3,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -2318,7 +2200,6 @@
       "cost": 6,
       "power": 5,
       "hp": 5,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -2339,7 +2220,6 @@
       "cost": 8,
       "power": 7,
       "hp": 8,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -2359,13 +2239,12 @@
       "cost": 1,
       "power": 0,
       "hp": 0,
-      "unique": false,
       "aspects": [
         "Command"
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Attached unit gains: \"Bounty - Search the top 5 cards of your deck, or 10 cards instead if this unit is unique, for a unit that costs 3 or less and play it for free.\" (Put the other cards on the bottom of your deck in a random order.) (When this unit is defeated or captured, your opponent collects its bounty.)",
+      "text": "Attached unit gains: \"Bounty - Search the top 5 cards of your deck for a unit that costs 3 or less and play it for free.\" (Put the other cards on the bottom of your deck in a random order.) (When this unit is defeated or captured, your opponent collects its bounty.)",
       "backText": null,
       "epicAction": null
     },
@@ -2377,7 +2256,6 @@
       "cost": 2,
       "power": 0,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -2395,7 +2273,6 @@
       "cost": 2,
       "power": 0,
       "hp": 0,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -2413,7 +2290,6 @@
       "cost": 4,
       "power": 4,
       "hp": 3,
-      "unique": true,
       "aspects": [
         "Command"
       ],
@@ -2431,7 +2307,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -2451,7 +2326,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -2469,7 +2343,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -2489,7 +2362,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -2507,7 +2379,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -2525,7 +2396,6 @@
       "cost": 7,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -2543,7 +2413,6 @@
       "cost": 1,
       "power": 2,
       "hp": 2,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -2562,7 +2431,6 @@
       "cost": 1,
       "power": 2,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -2584,7 +2452,6 @@
       "cost": 2,
       "power": 3,
       "hp": 2,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -2603,7 +2470,6 @@
       "cost": 3,
       "power": 3,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -2625,7 +2491,6 @@
       "cost": 3,
       "power": 3,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -2644,7 +2509,6 @@
       "cost": 4,
       "power": 3,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -2665,7 +2529,6 @@
       "cost": 5,
       "power": 3,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -2684,7 +2547,6 @@
       "cost": 5,
       "power": 6,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -2705,7 +2567,6 @@
       "cost": 7,
       "power": 8,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -2724,7 +2585,6 @@
       "cost": 1,
       "power": 2,
       "hp": 0,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -2743,7 +2603,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -2762,7 +2621,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -2781,7 +2639,6 @@
       "cost": 2,
       "power": 2,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -2802,7 +2659,6 @@
       "cost": 2,
       "power": 3,
       "hp": 2,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -2823,7 +2679,6 @@
       "cost": 3,
       "power": 3,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -2844,7 +2699,6 @@
       "cost": 3,
       "power": 4,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -2865,7 +2719,6 @@
       "cost": 4,
       "power": 4,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -2884,7 +2737,6 @@
       "cost": 4,
       "power": 3,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -2905,7 +2757,6 @@
       "cost": 5,
       "power": 5,
       "hp": 6,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -2924,7 +2775,6 @@
       "cost": 5,
       "power": 6,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -2943,7 +2793,6 @@
       "cost": 6,
       "power": 7,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -2964,7 +2813,6 @@
       "cost": 1,
       "power": 1,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -2983,7 +2831,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -3002,7 +2849,6 @@
       "cost": 2,
       "power": 3,
       "hp": 3,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Aggression"
@@ -3021,7 +2867,6 @@
       "cost": 6,
       "power": 6,
       "hp": 8,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Aggression"
@@ -3042,7 +2887,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Aggression"
@@ -3061,7 +2905,6 @@
       "cost": 1,
       "power": 2,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -3081,7 +2924,6 @@
       "cost": 1,
       "power": 3,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -3101,7 +2943,6 @@
       "cost": 2,
       "power": 2,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -3121,7 +2962,6 @@
       "cost": 2,
       "power": 2,
       "hp": 2,
-      "unique": true,
       "aspects": [
         "Aggression"
       ],
@@ -3139,7 +2979,6 @@
       "cost": 2,
       "power": 2,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -3157,7 +2996,6 @@
       "cost": 3,
       "power": 3,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -3178,7 +3016,6 @@
       "cost": 3,
       "power": 3,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -3196,7 +3033,6 @@
       "cost": 3,
       "power": 4,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -3216,7 +3052,6 @@
       "cost": 4,
       "power": 4,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -3236,7 +3071,6 @@
       "cost": 5,
       "power": 3,
       "hp": 6,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -3257,7 +3091,6 @@
       "cost": 5,
       "power": 6,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Aggression"
       ],
@@ -3275,7 +3108,6 @@
       "cost": 6,
       "power": 5,
       "hp": 5,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -3295,7 +3127,6 @@
       "cost": 9,
       "power": 10,
       "hp": 10,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -3313,7 +3144,6 @@
       "cost": 0,
       "power": 0,
       "hp": 0,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -3331,7 +3161,6 @@
       "cost": 1,
       "power": 2,
       "hp": 0,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -3349,7 +3178,6 @@
       "cost": 2,
       "power": 2,
       "hp": 0,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -3367,7 +3195,6 @@
       "cost": 2,
       "power": 0,
       "hp": 0,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -3385,7 +3212,6 @@
       "cost": 3,
       "power": 1,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -3403,7 +3229,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -3421,7 +3246,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -3439,7 +3263,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -3457,7 +3280,6 @@
       "cost": 4,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -3475,7 +3297,6 @@
       "cost": 5,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -3493,7 +3314,6 @@
       "cost": 1,
       "power": 1,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -3512,7 +3332,6 @@
       "cost": 2,
       "power": 1,
       "hp": 3,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -3533,7 +3352,6 @@
       "cost": 2,
       "power": 3,
       "hp": 3,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -3555,7 +3373,6 @@
       "cost": 3,
       "power": 4,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -3576,7 +3393,6 @@
       "cost": 3,
       "power": 2,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -3597,7 +3413,6 @@
       "cost": 5,
       "power": 4,
       "hp": 5,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -3616,7 +3431,6 @@
       "cost": 6,
       "power": 4,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -3637,7 +3451,6 @@
       "cost": 7,
       "power": 5,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -3659,7 +3472,6 @@
       "cost": 3,
       "power": 0,
       "hp": 0,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -3678,7 +3490,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -3697,7 +3508,6 @@
       "cost": 1,
       "power": 2,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -3718,7 +3528,6 @@
       "cost": 2,
       "power": 0,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -3737,7 +3546,6 @@
       "cost": 2,
       "power": 2,
       "hp": 2,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -3758,7 +3566,6 @@
       "cost": 2,
       "power": 2,
       "hp": 2,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -3777,7 +3584,6 @@
       "cost": 3,
       "power": 3,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -3796,7 +3602,6 @@
       "cost": 3,
       "power": 3,
       "hp": 5,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -3815,7 +3620,6 @@
       "cost": 4,
       "power": 4,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -3836,7 +3640,6 @@
       "cost": 4,
       "power": 3,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -3855,7 +3658,6 @@
       "cost": 5,
       "power": 4,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -3876,7 +3678,6 @@
       "cost": 6,
       "power": 5,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -3898,7 +3699,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -3917,7 +3717,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -3936,7 +3735,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Cunning"
@@ -3955,7 +3753,6 @@
       "cost": 6,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Cunning"
@@ -3974,7 +3771,6 @@
       "cost": 1,
       "power": 2,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -3992,7 +3788,6 @@
       "cost": 2,
       "power": 3,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -4012,7 +3807,6 @@
       "cost": 2,
       "power": 3,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -4032,7 +3826,6 @@
       "cost": 2,
       "power": 2,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -4052,7 +3845,6 @@
       "cost": 3,
       "power": 3,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Cunning"
       ],
@@ -4070,7 +3862,6 @@
       "cost": 3,
       "power": 2,
       "hp": 3,
-      "unique": true,
       "aspects": [
         "Cunning"
       ],
@@ -4088,7 +3879,6 @@
       "cost": 3,
       "power": 2,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -4108,7 +3898,6 @@
       "cost": 4,
       "power": 4,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -4128,7 +3917,6 @@
       "cost": 4,
       "power": 4,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Cunning"
       ],
@@ -4148,7 +3936,6 @@
       "cost": 5,
       "power": 5,
       "hp": 6,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -4168,7 +3955,6 @@
       "cost": 6,
       "power": 5,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Cunning"
       ],
@@ -4188,7 +3974,6 @@
       "cost": 7,
       "power": 4,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Cunning"
       ],
@@ -4208,7 +3993,6 @@
       "cost": 0,
       "power": 0,
       "hp": 0,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -4226,13 +4010,12 @@
       "cost": 1,
       "power": 0,
       "hp": 0,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Attached unit gains: \"Bounty - Search the top 10 cards of your deck for 2 non-unit cards, reveal them, and draw them. (Put the other cards on the bottom of your deck in a random order.) Then, if this unit isn't unique, discard a card from your hand.\" (When this unit is defeated or captured, your opponent collects its bounty.)",
+      "text": "Attached unit gains: \"Bounty - Search the top 10 cards of your deck for 2 non-unit cards, reveal them, and draw them. (Put the other cards on the bottom of your deck in a random order.) Then, discard a card from your hand.\" (When this unit is defeated or captured, your opponent collects its bounty.)",
       "backText": null,
       "epicAction": null
     },
@@ -4244,7 +4027,6 @@
       "cost": 1,
       "power": 1,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -4262,7 +4044,6 @@
       "cost": 2,
       "power": 2,
       "hp": 0,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -4282,7 +4063,6 @@
       "cost": 2,
       "power": 0,
       "hp": 0,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -4300,7 +4080,6 @@
       "cost": 0,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -4318,7 +4097,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -4336,7 +4114,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -4354,7 +4131,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -4372,7 +4148,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -4390,7 +4165,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -4408,7 +4182,6 @@
       "cost": 6,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -4426,7 +4199,6 @@
       "cost": 2,
       "power": 2,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Villainy"
       ],
@@ -4444,7 +4216,6 @@
       "cost": 2,
       "power": 3,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Villainy"
       ],
@@ -4464,7 +4235,6 @@
       "cost": 2,
       "power": 2,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Villainy"
       ],
@@ -4482,7 +4252,6 @@
       "cost": 3,
       "power": 3,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Villainy"
       ],
@@ -4502,7 +4271,6 @@
       "cost": 3,
       "power": 3,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Villainy"
       ],
@@ -4522,7 +4290,6 @@
       "cost": 3,
       "power": 3,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Villainy"
       ],
@@ -4540,7 +4307,6 @@
       "cost": 4,
       "power": 3,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Villainy"
       ],
@@ -4560,7 +4326,6 @@
       "cost": 6,
       "power": 6,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Villainy"
       ],
@@ -4578,7 +4343,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Villainy"
       ],
@@ -4596,7 +4360,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Villainy"
       ],
@@ -4614,7 +4377,6 @@
       "cost": 2,
       "power": 2,
       "hp": 2,
-      "unique": true,
       "aspects": [
         "Heroism"
       ],
@@ -4632,7 +4394,6 @@
       "cost": 2,
       "power": 1,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Heroism"
       ],
@@ -4650,7 +4411,6 @@
       "cost": 3,
       "power": 2,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Heroism"
       ],
@@ -4670,7 +4430,6 @@
       "cost": 3,
       "power": 2,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Heroism"
       ],
@@ -4690,7 +4449,6 @@
       "cost": 4,
       "power": 2,
       "hp": 5,
-      "unique": false,
       "aspects": [
         "Heroism"
       ],
@@ -4710,7 +4468,6 @@
       "cost": 7,
       "power": 3,
       "hp": 9,
-      "unique": true,
       "aspects": [
         "Heroism"
       ],
@@ -4730,7 +4487,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Heroism"
       ],
@@ -4750,7 +4506,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Heroism"
       ],
@@ -4768,7 +4523,6 @@
       "cost": 1,
       "power": 1,
       "hp": 2,
-      "unique": false,
       "aspects": [],
       "keywords": [],
       "traitCount": 1,
@@ -4784,7 +4538,6 @@
       "cost": 1,
       "power": 0,
       "hp": 4,
-      "unique": true,
       "aspects": [],
       "keywords": [],
       "traitCount": 1,
@@ -4800,7 +4553,6 @@
       "cost": 2,
       "power": 3,
       "hp": 2,
-      "unique": false,
       "aspects": [],
       "keywords": [],
       "traitCount": 3,
@@ -4816,7 +4568,6 @@
       "cost": 2,
       "power": 2,
       "hp": 3,
-      "unique": false,
       "aspects": [],
       "keywords": [],
       "traitCount": 1,
@@ -4832,7 +4583,6 @@
       "cost": 3,
       "power": 3,
       "hp": 3,
-      "unique": true,
       "aspects": [],
       "keywords": [],
       "traitCount": 1,
@@ -4848,7 +4598,6 @@
       "cost": 3,
       "power": 2,
       "hp": 2,
-      "unique": false,
       "aspects": [],
       "keywords": [
         "Restore"
@@ -4866,7 +4615,6 @@
       "cost": 5,
       "power": 4,
       "hp": 4,
-      "unique": false,
       "aspects": [],
       "keywords": [],
       "traitCount": 1,
@@ -4882,8 +4630,9 @@
       "cost": 1,
       "power": 0,
       "hp": 0,
-      "unique": false,
-      "aspects": [],
+      "aspects": [
+        "Green"
+      ],
       "keywords": [],
       "traitCount": 2,
       "text": "Attached unit gains: \"Bounty - Give an Experience token to each of up to 2 units.\" (When this unit is defeated or captured, your opponent collects its bounty.)",
@@ -4898,8 +4647,9 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
-      "aspects": [],
+      "aspects": [
+        "Amber"
+      ],
       "keywords": [],
       "traitCount": 1,
       "text": "Defeat an upgrade.",
@@ -4914,7 +4664,6 @@
       "cost": 5,
       "power": 2,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -4935,7 +4684,6 @@
       "cost": 6,
       "power": 4,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -4956,7 +4704,6 @@
       "cost": 7,
       "power": 2,
       "hp": 9,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -4978,7 +4725,6 @@
       "cost": 5,
       "power": 3,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -4997,7 +4743,6 @@
       "cost": 6,
       "power": 4,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -5016,7 +4761,6 @@
       "cost": 8,
       "power": 4,
       "hp": 10,
-      "unique": true,
       "aspects": [
         "Command",
         "Villainy"
@@ -5035,7 +4779,6 @@
       "cost": 5,
       "power": 2,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Command",
         "Villainy"
@@ -5054,7 +4797,6 @@
       "cost": 6,
       "power": 4,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Command",
         "Heroism"
@@ -5073,7 +4815,6 @@
       "cost": 5,
       "power": 3,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Command",
         "Heroism"
@@ -5094,7 +4835,6 @@
       "cost": 7,
       "power": 5,
       "hp": 8,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -5113,7 +4853,6 @@
       "cost": 6,
       "power": 3,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -5132,7 +4871,6 @@
       "cost": 5,
       "power": 5,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -5153,7 +4891,6 @@
       "cost": 6,
       "power": 4,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -5174,7 +4911,6 @@
       "cost": 4,
       "power": 2,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -5193,7 +4929,6 @@
       "cost": 5,
       "power": 4,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -5212,7 +4947,6 @@
       "cost": 6,
       "power": 3,
       "hp": 9,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -5231,7 +4965,6 @@
       "cost": 6,
       "power": 4,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -5250,7 +4983,6 @@
       "cost": 6,
       "power": 4,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -5269,7 +5001,6 @@
       "cost": null,
       "power": null,
       "hp": 25,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -5287,7 +5018,6 @@
       "cost": null,
       "power": null,
       "hp": 30,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -5305,7 +5035,6 @@
       "cost": null,
       "power": null,
       "hp": 30,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -5323,7 +5052,6 @@
       "cost": null,
       "power": null,
       "hp": 25,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -5343,7 +5071,6 @@
       "cost": null,
       "power": null,
       "hp": 30,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -5361,7 +5088,6 @@
       "cost": null,
       "power": null,
       "hp": 30,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -5379,7 +5105,6 @@
       "cost": null,
       "power": null,
       "hp": 25,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -5397,7 +5122,6 @@
       "cost": null,
       "power": null,
       "hp": 30,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -5415,7 +5139,6 @@
       "cost": null,
       "power": null,
       "hp": 30,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -5433,7 +5156,6 @@
       "cost": null,
       "power": null,
       "hp": 25,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -5451,7 +5173,6 @@
       "cost": null,
       "power": null,
       "hp": 30,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -5469,7 +5190,6 @@
       "cost": null,
       "power": null,
       "hp": 30,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -5487,7 +5207,6 @@
       "cost": 2,
       "power": 2,
       "hp": 3,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -5506,7 +5225,6 @@
       "cost": 2,
       "power": 1,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -5527,7 +5245,6 @@
       "cost": 3,
       "power": 3,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -5546,7 +5263,6 @@
       "cost": 3,
       "power": 3,
       "hp": 3,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -5567,7 +5283,6 @@
       "cost": 4,
       "power": 2,
       "hp": 2,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -5588,7 +5303,6 @@
       "cost": 5,
       "power": 5,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -5607,7 +5321,6 @@
       "cost": 6,
       "power": 5,
       "hp": 5,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -5628,7 +5341,6 @@
       "cost": 7,
       "power": 5,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -5649,7 +5361,6 @@
       "cost": 8,
       "power": 8,
       "hp": 8,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -5668,7 +5379,6 @@
       "cost": 9,
       "power": 8,
       "hp": 8,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -5687,7 +5397,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -5706,7 +5415,6 @@
       "cost": 4,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -5725,7 +5433,6 @@
       "cost": 8,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -5744,7 +5451,6 @@
       "cost": 2,
       "power": 2,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -5765,7 +5471,6 @@
       "cost": 3,
       "power": 2,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -5786,7 +5491,6 @@
       "cost": 4,
       "power": 3,
       "hp": 7,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -5805,7 +5509,6 @@
       "cost": 4,
       "power": 4,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -5824,7 +5527,6 @@
       "cost": 5,
       "power": 4,
       "hp": 6,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -5845,7 +5547,6 @@
       "cost": 6,
       "power": 4,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -5866,7 +5567,6 @@
       "cost": 6,
       "power": 5,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -5887,7 +5587,6 @@
       "cost": 7,
       "power": 6,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -5908,7 +5607,6 @@
       "cost": 8,
       "power": 6,
       "hp": 9,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -5929,7 +5627,6 @@
       "cost": 3,
       "power": 3,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -5948,7 +5645,6 @@
       "cost": 4,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -5967,7 +5663,6 @@
       "cost": 6,
       "power": 4,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Vigilance"
@@ -5988,7 +5683,6 @@
       "cost": 1,
       "power": 1,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Vigilance"
@@ -6009,7 +5703,6 @@
       "cost": 4,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Vigilance"
@@ -6028,7 +5721,6 @@
       "cost": 1,
       "power": 1,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -6046,7 +5738,6 @@
       "cost": 2,
       "power": 2,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -6064,7 +5755,6 @@
       "cost": 2,
       "power": 2,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -6082,7 +5772,6 @@
       "cost": 2,
       "power": 1,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -6100,7 +5789,6 @@
       "cost": 3,
       "power": 2,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -6120,7 +5808,6 @@
       "cost": 3,
       "power": 2,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -6140,7 +5827,6 @@
       "cost": 4,
       "power": 2,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Vigilance"
       ],
@@ -6161,7 +5847,6 @@
       "cost": 4,
       "power": 3,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -6181,7 +5866,6 @@
       "cost": 5,
       "power": 3,
       "hp": 5,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -6201,7 +5885,6 @@
       "cost": 6,
       "power": 4,
       "hp": 6,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -6221,7 +5904,6 @@
       "cost": 1,
       "power": 0,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -6239,7 +5921,6 @@
       "cost": 2,
       "power": 1,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -6259,7 +5940,6 @@
       "cost": 2,
       "power": 2,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -6277,7 +5957,6 @@
       "cost": 2,
       "power": 3,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -6295,7 +5974,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -6313,7 +5991,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -6331,7 +6008,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -6349,7 +6025,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -6367,7 +6042,6 @@
       "cost": 4,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -6385,7 +6059,6 @@
       "cost": 5,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -6403,7 +6076,6 @@
       "cost": 2,
       "power": 1,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Command",
         "Villainy"
@@ -6424,7 +6096,6 @@
       "cost": 2,
       "power": 2,
       "hp": 2,
-      "unique": true,
       "aspects": [
         "Command",
         "Villainy"
@@ -6443,7 +6114,6 @@
       "cost": 2,
       "power": 2,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Command",
         "Villainy"
@@ -6462,7 +6132,6 @@
       "cost": 3,
       "power": 2,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Command",
         "Villainy"
@@ -6481,7 +6150,6 @@
       "cost": 4,
       "power": 2,
       "hp": 3,
-      "unique": true,
       "aspects": [
         "Command",
         "Villainy"
@@ -6500,7 +6168,6 @@
       "cost": 5,
       "power": 3,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Command",
         "Villainy"
@@ -6521,7 +6188,6 @@
       "cost": 6,
       "power": 5,
       "hp": 6,
-      "unique": false,
       "aspects": [
         "Command",
         "Villainy"
@@ -6542,7 +6208,6 @@
       "cost": 7,
       "power": 5,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Command",
         "Villainy"
@@ -6563,7 +6228,6 @@
       "cost": 8,
       "power": 9,
       "hp": 9,
-      "unique": false,
       "aspects": [
         "Command",
         "Villainy"
@@ -6582,7 +6246,6 @@
       "cost": 9,
       "power": 8,
       "hp": 8,
-      "unique": true,
       "aspects": [
         "Command",
         "Villainy"
@@ -6601,7 +6264,6 @@
       "cost": 10,
       "power": 10,
       "hp": 10,
-      "unique": true,
       "aspects": [
         "Command",
         "Villainy"
@@ -6623,7 +6285,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command",
         "Villainy"
@@ -6642,7 +6303,6 @@
       "cost": 5,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command",
         "Villainy"
@@ -6661,7 +6321,6 @@
       "cost": 1,
       "power": 1,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Command",
         "Heroism"
@@ -6680,7 +6339,6 @@
       "cost": 1,
       "power": 1,
       "hp": 2,
-      "unique": true,
       "aspects": [
         "Command",
         "Heroism"
@@ -6699,7 +6357,6 @@
       "cost": 2,
       "power": 3,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Command",
         "Heroism"
@@ -6718,7 +6375,6 @@
       "cost": 2,
       "power": 1,
       "hp": 3,
-      "unique": true,
       "aspects": [
         "Command",
         "Heroism"
@@ -6737,7 +6393,6 @@
       "cost": 3,
       "power": 1,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Command",
         "Heroism"
@@ -6758,7 +6413,6 @@
       "cost": 3,
       "power": 4,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Command",
         "Heroism"
@@ -6779,7 +6433,6 @@
       "cost": 4,
       "power": 2,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Command",
         "Heroism"
@@ -6800,7 +6453,6 @@
       "cost": 5,
       "power": 5,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Command",
         "Heroism"
@@ -6821,7 +6473,6 @@
       "cost": 6,
       "power": 4,
       "hp": 6,
-      "unique": false,
       "aspects": [
         "Command",
         "Heroism"
@@ -6842,7 +6493,6 @@
       "cost": 8,
       "power": 7,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Command",
         "Heroism"
@@ -6863,7 +6513,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command",
         "Heroism"
@@ -6882,7 +6531,6 @@
       "cost": 7,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command",
         "Heroism"
@@ -6901,7 +6549,6 @@
       "cost": 5,
       "power": 5,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Command",
         "Command"
@@ -6920,7 +6567,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command",
         "Command"
@@ -6939,14 +6585,13 @@
       "cost": 4,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command",
         "Command"
       ],
       "keywords": [],
       "traitCount": 1,
-      "text": "Choose two, in any order:\nGive 2 Experience tokens to a unit. \nA friendly unit deals damage equal to its power to a non-unique enemy unit. \nPut this spell into play as a resource.\nReturn a unit from your discard pile to your hand.",
+      "text": "Choose two, in any order:\nGive 2 Experience tokens to a unit. \nA friendly unit deals damage equal to its power to an enemy unit. \nPut this spell into play as a resource.\nReturn a unit from your discard pile to your hand.",
       "backText": null,
       "epicAction": null
     },
@@ -6958,7 +6603,6 @@
       "cost": 1,
       "power": 1,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -6976,7 +6620,6 @@
       "cost": 2,
       "power": 2,
       "hp": 3,
-      "unique": true,
       "aspects": [
         "Command"
       ],
@@ -6994,7 +6637,6 @@
       "cost": 2,
       "power": 1,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -7012,7 +6654,6 @@
       "cost": 2,
       "power": 1,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -7030,7 +6671,6 @@
       "cost": 3,
       "power": 3,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -7050,7 +6690,6 @@
       "cost": 3,
       "power": 3,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -7070,7 +6709,6 @@
       "cost": 4,
       "power": 4,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -7090,7 +6728,6 @@
       "cost": 5,
       "power": 4,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Command"
       ],
@@ -7110,7 +6747,6 @@
       "cost": 5,
       "power": 5,
       "hp": 5,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -7130,7 +6766,6 @@
       "cost": 6,
       "power": 5,
       "hp": 5,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -7151,7 +6786,6 @@
       "cost": 7,
       "power": 0,
       "hp": 0,
-      "unique": true,
       "aspects": [
         "Command"
       ],
@@ -7169,7 +6803,6 @@
       "cost": 8,
       "power": 6,
       "hp": 9,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -7187,7 +6820,6 @@
       "cost": 2,
       "power": 2,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -7205,7 +6837,6 @@
       "cost": 2,
       "power": 2,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -7223,7 +6854,6 @@
       "cost": 5,
       "power": 0,
       "hp": 0,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -7241,7 +6871,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -7259,7 +6888,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -7277,7 +6905,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -7295,7 +6922,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -7313,7 +6939,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -7331,7 +6956,6 @@
       "cost": 1,
       "power": 3,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -7350,7 +6974,6 @@
       "cost": 2,
       "power": 2,
       "hp": 3,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -7369,7 +6992,6 @@
       "cost": 2,
       "power": 2,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -7390,7 +7012,6 @@
       "cost": 3,
       "power": 2,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -7411,7 +7032,6 @@
       "cost": 4,
       "power": 3,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -7430,7 +7050,6 @@
       "cost": 5,
       "power": 3,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -7451,7 +7070,6 @@
       "cost": 6,
       "power": 4,
       "hp": 6,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -7470,7 +7088,6 @@
       "cost": 8,
       "power": 6,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -7491,7 +7108,6 @@
       "cost": 3,
       "power": 3,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -7510,7 +7126,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -7529,7 +7144,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -7548,7 +7162,6 @@
       "cost": 1,
       "power": 2,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -7569,7 +7182,6 @@
       "cost": 2,
       "power": 1,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -7590,7 +7202,6 @@
       "cost": 2,
       "power": 2,
       "hp": 3,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -7609,7 +7220,6 @@
       "cost": 3,
       "power": 3,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -7630,7 +7240,6 @@
       "cost": 3,
       "power": 2,
       "hp": 3,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -7651,7 +7260,6 @@
       "cost": 4,
       "power": 4,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -7672,7 +7280,6 @@
       "cost": 5,
       "power": 5,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -7691,7 +7298,6 @@
       "cost": 6,
       "power": 4,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -7710,7 +7316,6 @@
       "cost": 6,
       "power": 4,
       "hp": 6,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -7731,7 +7336,6 @@
       "cost": 7,
       "power": 5,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -7752,7 +7356,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -7771,7 +7374,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -7790,7 +7392,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -7809,7 +7410,6 @@
       "cost": 4,
       "power": 5,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Aggression"
@@ -7828,7 +7428,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Aggression"
@@ -7849,7 +7448,6 @@
       "cost": 4,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Aggression"
@@ -7868,7 +7466,6 @@
       "cost": 1,
       "power": 2,
       "hp": 2,
-      "unique": true,
       "aspects": [
         "Aggression"
       ],
@@ -7888,7 +7485,6 @@
       "cost": 1,
       "power": 0,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -7908,7 +7504,6 @@
       "cost": 2,
       "power": 2,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -7928,7 +7523,6 @@
       "cost": 2,
       "power": 1,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -7948,7 +7542,6 @@
       "cost": 2,
       "power": 3,
       "hp": 2,
-      "unique": true,
       "aspects": [
         "Aggression"
       ],
@@ -7968,7 +7561,6 @@
       "cost": 3,
       "power": 3,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -7986,7 +7578,6 @@
       "cost": 3,
       "power": 3,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -8004,7 +7595,6 @@
       "cost": 3,
       "power": 4,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -8022,7 +7612,6 @@
       "cost": 4,
       "power": 4,
       "hp": 5,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -8042,7 +7631,6 @@
       "cost": 5,
       "power": 5,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -8062,7 +7650,6 @@
       "cost": 1,
       "power": 1,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -8082,7 +7669,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -8100,7 +7686,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -8120,7 +7705,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -8138,7 +7722,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -8156,7 +7739,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -8174,7 +7756,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -8192,7 +7773,6 @@
       "cost": 5,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -8210,7 +7790,6 @@
       "cost": 5,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -8228,7 +7807,6 @@
       "cost": 6,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -8246,7 +7824,6 @@
       "cost": 1,
       "power": 1,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -8265,7 +7842,6 @@
       "cost": 2,
       "power": 1,
       "hp": 3,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -8286,7 +7862,6 @@
       "cost": 2,
       "power": 2,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -8305,7 +7880,6 @@
       "cost": 3,
       "power": 3,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -8324,7 +7898,6 @@
       "cost": 3,
       "power": 3,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -8345,7 +7918,6 @@
       "cost": 4,
       "power": 2,
       "hp": 8,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -8364,7 +7936,6 @@
       "cost": 5,
       "power": 4,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -8385,7 +7956,6 @@
       "cost": 6,
       "power": 4,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -8406,7 +7976,6 @@
       "cost": 8,
       "power": 8,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -8427,7 +7996,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -8446,7 +8014,6 @@
       "cost": 7,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -8465,7 +8032,6 @@
       "cost": 1,
       "power": 1,
       "hp": 3,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -8486,7 +8052,6 @@
       "cost": 2,
       "power": 2,
       "hp": 2,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -8505,7 +8070,6 @@
       "cost": 2,
       "power": 3,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -8524,7 +8088,6 @@
       "cost": 2,
       "power": 1,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -8543,7 +8106,6 @@
       "cost": 3,
       "power": 3,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -8562,7 +8124,6 @@
       "cost": 3,
       "power": 3,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -8581,7 +8142,6 @@
       "cost": 3,
       "power": 2,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -8603,7 +8163,6 @@
       "cost": 4,
       "power": 3,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -8624,7 +8183,6 @@
       "cost": 5,
       "power": 3,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -8645,7 +8203,6 @@
       "cost": 6,
       "power": 6,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -8666,7 +8223,6 @@
       "cost": 7,
       "power": 6,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -8687,7 +8243,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -8706,7 +8261,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -8725,7 +8279,6 @@
       "cost": 3,
       "power": 3,
       "hp": 3,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Cunning"
@@ -8744,7 +8297,6 @@
       "cost": 5,
       "power": 3,
       "hp": 5,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Cunning"
@@ -8763,7 +8315,6 @@
       "cost": 4,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Cunning"
@@ -8782,7 +8333,6 @@
       "cost": 1,
       "power": 3,
       "hp": 1,
-      "unique": true,
       "aspects": [
         "Cunning"
       ],
@@ -8800,7 +8350,6 @@
       "cost": 1,
       "power": 2,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -8820,7 +8369,6 @@
       "cost": 1,
       "power": 1,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -8838,7 +8386,6 @@
       "cost": 2,
       "power": 2,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -8858,7 +8405,6 @@
       "cost": 2,
       "power": 1,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -8878,7 +8424,6 @@
       "cost": 2,
       "power": 2,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -8898,7 +8443,6 @@
       "cost": 3,
       "power": 4,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -8916,7 +8460,6 @@
       "cost": 4,
       "power": 4,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -8936,7 +8479,6 @@
       "cost": 4,
       "power": 3,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -8954,7 +8496,6 @@
       "cost": 5,
       "power": 5,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -8974,7 +8515,6 @@
       "cost": 1,
       "power": 1,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -8992,7 +8532,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -9010,7 +8549,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -9028,7 +8566,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -9046,7 +8583,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -9064,7 +8600,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -9082,7 +8617,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -9100,7 +8634,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -9118,7 +8651,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -9136,7 +8668,6 @@
       "cost": 4,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -9154,7 +8685,6 @@
       "cost": 6,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -9172,7 +8702,6 @@
       "cost": 1,
       "power": 2,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Villainy"
       ],
@@ -9190,7 +8719,6 @@
       "cost": 2,
       "power": 1,
       "hp": 1,
-      "unique": true,
       "aspects": [
         "Villainy"
       ],
@@ -9208,7 +8736,6 @@
       "cost": 2,
       "power": 2,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Villainy"
       ],
@@ -9226,7 +8753,6 @@
       "cost": 2,
       "power": 3,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Villainy"
       ],
@@ -9244,7 +8770,6 @@
       "cost": 3,
       "power": 3,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Villainy"
       ],
@@ -9264,7 +8789,6 @@
       "cost": 3,
       "power": 3,
       "hp": 3,
-      "unique": true,
       "aspects": [
         "Villainy"
       ],
@@ -9282,7 +8806,6 @@
       "cost": 4,
       "power": 3,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Villainy"
       ],
@@ -9300,7 +8823,6 @@
       "cost": 6,
       "power": 6,
       "hp": 7,
-      "unique": false,
       "aspects": [
         "Villainy"
       ],
@@ -9320,7 +8842,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Villainy"
       ],
@@ -9338,7 +8859,6 @@
       "cost": 4,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Villainy"
       ],
@@ -9356,7 +8876,6 @@
       "cost": 7,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Villainy"
       ],
@@ -9374,7 +8893,6 @@
       "cost": 1,
       "power": 1,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Heroism"
       ],
@@ -9392,7 +8910,6 @@
       "cost": 2,
       "power": 2,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Heroism"
       ],
@@ -9410,7 +8927,6 @@
       "cost": 2,
       "power": 1,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Heroism"
       ],
@@ -9428,7 +8944,6 @@
       "cost": 2,
       "power": 2,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Heroism"
       ],
@@ -9448,7 +8963,6 @@
       "cost": 3,
       "power": 3,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Heroism"
       ],
@@ -9466,7 +8980,6 @@
       "cost": 3,
       "power": 2,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Heroism"
       ],
@@ -9484,7 +8997,6 @@
       "cost": 4,
       "power": 4,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Heroism"
       ],
@@ -9502,7 +9014,6 @@
       "cost": 4,
       "power": 3,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Heroism"
       ],
@@ -9522,7 +9033,6 @@
       "cost": 5,
       "power": 3,
       "hp": 6,
-      "unique": false,
       "aspects": [
         "Heroism"
       ],
@@ -9542,7 +9052,6 @@
       "cost": 0,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Heroism"
       ],
@@ -9560,7 +9069,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Heroism"
       ],
@@ -9578,7 +9086,6 @@
       "cost": 2,
       "power": 2,
       "hp": 3,
-      "unique": false,
       "aspects": [],
       "keywords": [],
       "traitCount": 1,
@@ -9594,7 +9101,6 @@
       "cost": 3,
       "power": 2,
       "hp": 3,
-      "unique": false,
       "aspects": [],
       "keywords": [
         "Raid"
@@ -9612,8 +9118,10 @@
       "cost": 4,
       "power": 3,
       "hp": 5,
-      "unique": false,
-      "aspects": [],
+      "aspects": [
+        "Green",
+        "Blue"
+      ],
       "keywords": [
         "Ambush"
       ],
@@ -9630,7 +9138,6 @@
       "cost": 5,
       "power": 4,
       "hp": 4,
-      "unique": false,
       "aspects": [],
       "keywords": [
         "Sentinel"
@@ -9648,7 +9155,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [],
       "keywords": [],
       "traitCount": 1,
@@ -9664,7 +9170,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [],
       "keywords": [],
       "traitCount": 1,
@@ -9680,7 +9185,6 @@
       "cost": 4,
       "power": 1,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -9699,7 +9203,6 @@
       "cost": 6,
       "power": 2,
       "hp": 8,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -9718,7 +9221,6 @@
       "cost": 6,
       "power": 4,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -9739,7 +9241,6 @@
       "cost": 7,
       "power": 4,
       "hp": 9,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -9760,7 +9261,6 @@
       "cost": 7,
       "power": 5,
       "hp": 9,
-      "unique": true,
       "aspects": [
         "Command",
         "Villainy"
@@ -9781,7 +9281,6 @@
       "cost": 5,
       "power": 3,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Command",
         "Villainy"
@@ -9800,7 +9299,6 @@
       "cost": 5,
       "power": 2,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Command",
         "Heroism"
@@ -9819,7 +9317,6 @@
       "cost": 5,
       "power": 2,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Command",
         "Heroism"
@@ -9840,7 +9337,6 @@
       "cost": 6,
       "power": 6,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -9861,7 +9357,6 @@
       "cost": 5,
       "power": 4,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -9882,7 +9377,6 @@
       "cost": 5,
       "power": 3,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -9901,7 +9395,6 @@
       "cost": 6,
       "power": 5,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -9922,7 +9415,6 @@
       "cost": 7,
       "power": 5,
       "hp": 8,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -9941,7 +9433,6 @@
       "cost": 4,
       "power": 3,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -9960,7 +9451,6 @@
       "cost": 6,
       "power": 4,
       "hp": 8,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -9981,7 +9471,6 @@
       "cost": 5,
       "power": 3,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -10000,7 +9489,6 @@
       "cost": 0,
       "power": 0,
       "hp": 0,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Heroism",
@@ -10020,7 +9508,6 @@
       "cost": 5,
       "power": 3,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -10039,7 +9526,6 @@
       "cost": null,
       "power": null,
       "hp": 26,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -10057,7 +9543,6 @@
       "cost": null,
       "power": null,
       "hp": 30,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -10075,7 +9560,6 @@
       "cost": null,
       "power": null,
       "hp": 30,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -10093,7 +9577,6 @@
       "cost": null,
       "power": null,
       "hp": 24,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -10111,7 +9594,6 @@
       "cost": null,
       "power": null,
       "hp": 30,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -10129,7 +9611,6 @@
       "cost": null,
       "power": null,
       "hp": 30,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -10147,7 +9628,6 @@
       "cost": null,
       "power": null,
       "hp": 25,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -10165,7 +9645,6 @@
       "cost": null,
       "power": null,
       "hp": 30,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -10183,7 +9662,6 @@
       "cost": null,
       "power": null,
       "hp": 30,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -10201,7 +9679,6 @@
       "cost": null,
       "power": null,
       "hp": 26,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -10219,7 +9696,6 @@
       "cost": null,
       "power": null,
       "hp": 30,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -10237,7 +9713,6 @@
       "cost": null,
       "power": null,
       "hp": 30,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -10255,7 +9730,6 @@
       "cost": 2,
       "power": 3,
       "hp": 2,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -10274,7 +9748,6 @@
       "cost": 2,
       "power": 1,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -10293,7 +9766,6 @@
       "cost": 3,
       "power": 3,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -10314,7 +9786,6 @@
       "cost": 3,
       "power": 4,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -10333,7 +9804,6 @@
       "cost": 4,
       "power": 3,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -10354,7 +9824,6 @@
       "cost": 5,
       "power": 3,
       "hp": 5,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -10375,7 +9844,6 @@
       "cost": 6,
       "power": 4,
       "hp": 5,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -10394,7 +9862,6 @@
       "cost": 8,
       "power": 5,
       "hp": 7,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -10415,7 +9882,6 @@
       "cost": 9,
       "power": 7,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -10437,7 +9903,6 @@
       "cost": 0,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -10456,7 +9921,6 @@
       "cost": 4,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Villainy"
@@ -10475,7 +9939,6 @@
       "cost": 1,
       "power": 1,
       "hp": 1,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -10494,7 +9957,6 @@
       "cost": 2,
       "power": 1,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -10515,7 +9977,6 @@
       "cost": 2,
       "power": 0,
       "hp": 5,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -10536,7 +9997,6 @@
       "cost": 3,
       "power": 3,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -10557,7 +10017,6 @@
       "cost": 3,
       "power": 2,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -10578,7 +10037,6 @@
       "cost": 4,
       "power": 0,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -10597,7 +10055,6 @@
       "cost": 5,
       "power": 4,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -10616,7 +10073,6 @@
       "cost": 6,
       "power": 4,
       "hp": 7,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -10635,7 +10091,6 @@
       "cost": 7,
       "power": 4,
       "hp": 9,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -10654,7 +10109,6 @@
       "cost": 3,
       "power": 2,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -10673,7 +10127,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Heroism"
@@ -10692,7 +10145,6 @@
       "cost": 3,
       "power": 3,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Vigilance",
         "Vigilance"
@@ -10711,7 +10163,6 @@
       "cost": 3,
       "power": 1,
       "hp": 8,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Vigilance"
@@ -10730,7 +10181,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Vigilance",
         "Vigilance"
@@ -10749,7 +10199,6 @@
       "cost": 1,
       "power": 1,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -10767,7 +10216,6 @@
       "cost": 1,
       "power": 1,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -10785,7 +10233,6 @@
       "cost": 2,
       "power": 1,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -10803,7 +10250,6 @@
       "cost": 2,
       "power": 2,
       "hp": 5,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -10821,7 +10267,6 @@
       "cost": 3,
       "power": 2,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -10839,7 +10284,6 @@
       "cost": 3,
       "power": 2,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -10860,7 +10304,6 @@
       "cost": 4,
       "power": 3,
       "hp": 5,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -10880,7 +10323,6 @@
       "cost": 4,
       "power": 3,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -10898,7 +10340,6 @@
       "cost": 5,
       "power": 5,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Vigilance"
       ],
@@ -10918,7 +10359,6 @@
       "cost": 6,
       "power": 4,
       "hp": 6,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -10938,7 +10378,6 @@
       "cost": 7,
       "power": 3,
       "hp": 6,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -10958,7 +10397,6 @@
       "cost": 9,
       "power": 10,
       "hp": 10,
-      "unique": true,
       "aspects": [
         "Vigilance"
       ],
@@ -10976,7 +10414,6 @@
       "cost": 1,
       "power": 0,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -10994,7 +10431,6 @@
       "cost": 1,
       "power": 1,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -11012,7 +10448,6 @@
       "cost": 3,
       "power": -2,
       "hp": -2,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -11030,7 +10465,6 @@
       "cost": 4,
       "power": 2,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -11050,7 +10484,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -11068,7 +10501,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -11086,7 +10518,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -11106,7 +10537,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -11124,7 +10554,6 @@
       "cost": 5,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -11142,7 +10571,6 @@
       "cost": 5,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -11160,7 +10588,6 @@
       "cost": 15,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Vigilance"
       ],
@@ -11180,7 +10607,6 @@
       "cost": 2,
       "power": 2,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Command",
         "Villainy"
@@ -11199,7 +10625,6 @@
       "cost": 2,
       "power": 1,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Command",
         "Villainy"
@@ -11218,7 +10643,6 @@
       "cost": 3,
       "power": 4,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Command",
         "Villainy"
@@ -11239,7 +10663,6 @@
       "cost": 3,
       "power": 3,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Command",
         "Villainy"
@@ -11258,7 +10681,6 @@
       "cost": 4,
       "power": 4,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Command",
         "Villainy"
@@ -11277,7 +10699,6 @@
       "cost": 5,
       "power": 2,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Command",
         "Villainy"
@@ -11296,7 +10717,6 @@
       "cost": 6,
       "power": 5,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Command",
         "Villainy"
@@ -11315,7 +10735,6 @@
       "cost": 7,
       "power": 5,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Command",
         "Villainy"
@@ -11336,7 +10755,6 @@
       "cost": 9,
       "power": 8,
       "hp": 8,
-      "unique": false,
       "aspects": [
         "Command",
         "Villainy"
@@ -11357,7 +10775,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command",
         "Villainy"
@@ -11376,7 +10793,6 @@
       "cost": 6,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command",
         "Villainy"
@@ -11395,7 +10811,6 @@
       "cost": 2,
       "power": 2,
       "hp": 2,
-      "unique": true,
       "aspects": [
         "Command",
         "Heroism"
@@ -11416,7 +10831,6 @@
       "cost": 2,
       "power": 1,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Command",
         "Heroism"
@@ -11435,7 +10849,6 @@
       "cost": 3,
       "power": 2,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Command",
         "Heroism"
@@ -11456,7 +10869,6 @@
       "cost": 3,
       "power": 4,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Command",
         "Heroism"
@@ -11477,7 +10889,6 @@
       "cost": 4,
       "power": 3,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Command",
         "Heroism"
@@ -11496,7 +10907,6 @@
       "cost": 5,
       "power": 3,
       "hp": 6,
-      "unique": false,
       "aspects": [
         "Command",
         "Heroism"
@@ -11517,7 +10927,6 @@
       "cost": 5,
       "power": 6,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Command",
         "Heroism"
@@ -11538,7 +10947,6 @@
       "cost": 6,
       "power": 4,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Command",
         "Heroism"
@@ -11557,7 +10965,6 @@
       "cost": 11,
       "power": 6,
       "hp": 7,
-      "unique": false,
       "aspects": [
         "Command",
         "Heroism"
@@ -11578,7 +10985,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command",
         "Heroism"
@@ -11597,7 +11003,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command",
         "Heroism"
@@ -11616,7 +11021,6 @@
       "cost": 2,
       "power": 1,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Command",
         "Command"
@@ -11635,7 +11039,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command",
         "Command"
@@ -11654,7 +11057,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command",
         "Command"
@@ -11673,7 +11075,6 @@
       "cost": 1,
       "power": 1,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -11693,7 +11094,6 @@
       "cost": 1,
       "power": 1,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -11711,7 +11111,6 @@
       "cost": 2,
       "power": 3,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -11729,7 +11128,6 @@
       "cost": 2,
       "power": 1,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -11747,7 +11145,6 @@
       "cost": 2,
       "power": 2,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -11767,7 +11164,6 @@
       "cost": 3,
       "power": 3,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -11785,7 +11181,6 @@
       "cost": 3,
       "power": 2,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Command"
       ],
@@ -11803,7 +11198,6 @@
       "cost": 3,
       "power": 3,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -11821,7 +11215,6 @@
       "cost": 4,
       "power": 3,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -11841,7 +11234,6 @@
       "cost": 5,
       "power": 5,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -11862,7 +11254,6 @@
       "cost": 5,
       "power": 4,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Command"
       ],
@@ -11882,7 +11273,6 @@
       "cost": 6,
       "power": 3,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Command"
       ],
@@ -11902,7 +11292,6 @@
       "cost": 7,
       "power": 0,
       "hp": 0,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -11920,7 +11309,6 @@
       "cost": 8,
       "power": 5,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Command"
       ],
@@ -11941,7 +11329,6 @@
       "cost": 12,
       "power": 7,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Command"
       ],
@@ -11964,7 +11351,6 @@
       "cost": 1,
       "power": 2,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -11984,7 +11370,6 @@
       "cost": 1,
       "power": 0,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -12002,7 +11387,6 @@
       "cost": 3,
       "power": 3,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -12020,7 +11404,6 @@
       "cost": 3,
       "power": 0,
       "hp": 0,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -12038,7 +11421,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -12056,7 +11438,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -12074,7 +11455,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -12092,7 +11472,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -12110,7 +11489,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -12128,7 +11506,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -12146,7 +11523,6 @@
       "cost": 4,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Command"
       ],
@@ -12166,7 +11542,6 @@
       "cost": 2,
       "power": 2,
       "hp": 3,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -12188,7 +11563,6 @@
       "cost": 2,
       "power": 2,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -12207,7 +11581,6 @@
       "cost": 3,
       "power": 3,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -12226,7 +11599,6 @@
       "cost": 3,
       "power": 5,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -12245,7 +11617,6 @@
       "cost": 4,
       "power": 2,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -12266,7 +11637,6 @@
       "cost": 5,
       "power": 5,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -12285,7 +11655,6 @@
       "cost": 6,
       "power": 5,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -12306,7 +11675,6 @@
       "cost": 7,
       "power": 7,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -12325,7 +11693,6 @@
       "cost": 8,
       "power": 6,
       "hp": 3,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -12347,7 +11714,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -12366,7 +11732,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Villainy"
@@ -12385,7 +11750,6 @@
       "cost": 1,
       "power": 1,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -12406,7 +11770,6 @@
       "cost": 2,
       "power": 2,
       "hp": 3,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -12425,7 +11788,6 @@
       "cost": 2,
       "power": 3,
       "hp": 2,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -12446,7 +11808,6 @@
       "cost": 3,
       "power": 2,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -12465,7 +11826,6 @@
       "cost": 3,
       "power": 4,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -12486,7 +11846,6 @@
       "cost": 4,
       "power": 4,
       "hp": 3,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -12505,7 +11864,6 @@
       "cost": 5,
       "power": 6,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -12526,7 +11884,6 @@
       "cost": 5,
       "power": 5,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -12547,7 +11904,6 @@
       "cost": 6,
       "power": 6,
       "hp": 5,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -12568,7 +11924,6 @@
       "cost": 6,
       "power": 4,
       "hp": 8,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -12589,7 +11944,6 @@
       "cost": 10,
       "power": 8,
       "hp": 8,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -12608,7 +11962,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Heroism"
@@ -12627,7 +11980,6 @@
       "cost": 1,
       "power": 3,
       "hp": 1,
-      "unique": true,
       "aspects": [
         "Aggression",
         "Aggression"
@@ -12646,7 +11998,6 @@
       "cost": 2,
       "power": 4,
       "hp": 0,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Aggression"
@@ -12665,7 +12016,6 @@
       "cost": 6,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression",
         "Aggression"
@@ -12684,7 +12034,6 @@
       "cost": 1,
       "power": 0,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -12702,7 +12051,6 @@
       "cost": 2,
       "power": 1,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -12722,7 +12070,6 @@
       "cost": 2,
       "power": 2,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -12742,7 +12089,6 @@
       "cost": 2,
       "power": 2,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -12760,7 +12106,6 @@
       "cost": 3,
       "power": 3,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -12780,7 +12125,6 @@
       "cost": 3,
       "power": 3,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -12800,7 +12144,6 @@
       "cost": 4,
       "power": 3,
       "hp": 5,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -12818,7 +12161,6 @@
       "cost": 4,
       "power": 4,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Aggression"
       ],
@@ -12836,7 +12178,6 @@
       "cost": 6,
       "power": 7,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Aggression"
       ],
@@ -12857,7 +12198,6 @@
       "cost": 7,
       "power": 7,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Aggression"
       ],
@@ -12877,7 +12217,6 @@
       "cost": 7,
       "power": 6,
       "hp": 5,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -12897,7 +12236,6 @@
       "cost": 1,
       "power": 1,
       "hp": 0,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -12915,7 +12253,6 @@
       "cost": 2,
       "power": 0,
       "hp": 0,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -12935,7 +12272,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -12953,7 +12289,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -12971,7 +12306,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -12991,7 +12325,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -13009,7 +12342,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -13027,7 +12359,6 @@
       "cost": 5,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -13045,7 +12376,6 @@
       "cost": 6,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -13063,7 +12393,6 @@
       "cost": 8,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -13081,7 +12410,6 @@
       "cost": 12,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Aggression"
       ],
@@ -13102,7 +12430,6 @@
       "cost": 2,
       "power": 2,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -13123,7 +12450,6 @@
       "cost": 3,
       "power": 3,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -13142,7 +12468,6 @@
       "cost": 4,
       "power": 4,
       "hp": 5,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -13164,7 +12489,6 @@
       "cost": 4,
       "power": 3,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -13185,7 +12509,6 @@
       "cost": 5,
       "power": 4,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -13206,7 +12529,6 @@
       "cost": 5,
       "power": 2,
       "hp": 8,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -13225,7 +12547,6 @@
       "cost": 6,
       "power": 3,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -13246,7 +12567,6 @@
       "cost": 7,
       "power": 7,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -13265,7 +12585,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -13284,7 +12603,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -13303,7 +12621,6 @@
       "cost": 4,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Villainy"
@@ -13322,7 +12639,6 @@
       "cost": 1,
       "power": 2,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -13341,7 +12657,6 @@
       "cost": 2,
       "power": 1,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -13362,7 +12677,6 @@
       "cost": 2,
       "power": 2,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -13381,7 +12695,6 @@
       "cost": 3,
       "power": 3,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -13402,7 +12715,6 @@
       "cost": 4,
       "power": 4,
       "hp": 4,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -13421,7 +12733,6 @@
       "cost": 5,
       "power": 3,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -13444,7 +12755,6 @@
       "cost": 6,
       "power": 6,
       "hp": 7,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -13463,7 +12773,6 @@
       "cost": 7,
       "power": 5,
       "hp": 7,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -13484,7 +12793,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -13503,7 +12811,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -13522,7 +12829,6 @@
       "cost": 5,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Heroism"
@@ -13541,7 +12847,6 @@
       "cost": 2,
       "power": 2,
       "hp": 3,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Cunning"
@@ -13560,7 +12865,6 @@
       "cost": 4,
       "power": 2,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Cunning",
         "Cunning"
@@ -13579,7 +12883,6 @@
       "cost": 4,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning",
         "Cunning"
@@ -13598,7 +12901,6 @@
       "cost": 1,
       "power": 2,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -13618,7 +12920,6 @@
       "cost": 1,
       "power": 0,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -13636,7 +12937,6 @@
       "cost": 2,
       "power": 3,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -13656,7 +12956,6 @@
       "cost": 2,
       "power": 1,
       "hp": 5,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -13674,7 +12973,6 @@
       "cost": 2,
       "power": 2,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -13692,7 +12990,6 @@
       "cost": 2,
       "power": 3,
       "hp": 2,
-      "unique": true,
       "aspects": [
         "Cunning"
       ],
@@ -13710,7 +13007,6 @@
       "cost": 3,
       "power": 3,
       "hp": 3,
-      "unique": true,
       "aspects": [
         "Cunning"
       ],
@@ -13728,7 +13024,6 @@
       "cost": 3,
       "power": 4,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -13746,7 +13041,6 @@
       "cost": 3,
       "power": 2,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -13766,7 +13060,6 @@
       "cost": 4,
       "power": 4,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -13786,7 +13079,6 @@
       "cost": 5,
       "power": 3,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -13806,7 +13098,6 @@
       "cost": 5,
       "power": 5,
       "hp": 5,
-      "unique": true,
       "aspects": [
         "Cunning"
       ],
@@ -13826,7 +13117,6 @@
       "cost": 7,
       "power": 4,
       "hp": 7,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -13846,7 +13136,6 @@
       "cost": 1,
       "power": 1,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -13864,7 +13153,6 @@
       "cost": 2,
       "power": 2,
       "hp": 0,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -13882,7 +13170,6 @@
       "cost": 3,
       "power": 0,
       "hp": 0,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -13900,7 +13187,6 @@
       "cost": 0,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -13918,7 +13204,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -13936,7 +13221,6 @@
       "cost": 1,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -13954,7 +13238,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -13974,7 +13257,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -13992,7 +13274,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -14010,7 +13291,6 @@
       "cost": 4,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Cunning"
       ],
@@ -14028,7 +13308,6 @@
       "cost": 1,
       "power": 1,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Villainy"
       ],
@@ -14048,7 +13327,6 @@
       "cost": 3,
       "power": 1,
       "hp": 1,
-      "unique": false,
       "aspects": [
         "Villainy"
       ],
@@ -14066,7 +13344,6 @@
       "cost": 3,
       "power": 4,
       "hp": 3,
-      "unique": false,
       "aspects": [
         "Villainy"
       ],
@@ -14084,7 +13361,6 @@
       "cost": 4,
       "power": 3,
       "hp": 4,
-      "unique": false,
       "aspects": [
         "Villainy"
       ],
@@ -14104,7 +13380,6 @@
       "cost": 5,
       "power": 4,
       "hp": 5,
-      "unique": false,
       "aspects": [
         "Villainy"
       ],
@@ -14124,7 +13399,6 @@
       "cost": 8,
       "power": 7,
       "hp": 6,
-      "unique": false,
       "aspects": [
         "Villainy"
       ],
@@ -14144,7 +13418,6 @@
       "cost": 8,
       "power": 4,
       "hp": 7,
-      "unique": false,
       "aspects": [
         "Villainy"
       ],
@@ -14162,7 +13435,6 @@
       "cost": 9,
       "power": 6,
       "hp": 5,
-      "unique": false,
       "aspects": [
         "Villainy"
       ],
@@ -14182,7 +13454,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Villainy"
       ],
@@ -14200,7 +13471,6 @@
       "cost": 3,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Villainy"
       ],
@@ -14218,7 +13488,6 @@
       "cost": 4,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Villainy"
       ],
@@ -14236,7 +13505,6 @@
       "cost": 1,
       "power": 1,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Heroism"
       ],
@@ -14256,7 +13524,6 @@
       "cost": 2,
       "power": 3,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Heroism"
       ],
@@ -14274,7 +13541,6 @@
       "cost": 3,
       "power": 3,
       "hp": 2,
-      "unique": false,
       "aspects": [
         "Heroism"
       ],
@@ -14294,7 +13560,6 @@
       "cost": 3,
       "power": 2,
       "hp": 5,
-      "unique": false,
       "aspects": [
         "Heroism"
       ],
@@ -14315,7 +13580,6 @@
       "cost": 5,
       "power": 3,
       "hp": 5,
-      "unique": false,
       "aspects": [
         "Heroism"
       ],
@@ -14335,7 +13599,6 @@
       "cost": 6,
       "power": 5,
       "hp": 5,
-      "unique": false,
       "aspects": [
         "Heroism"
       ],
@@ -14355,7 +13618,6 @@
       "cost": 7,
       "power": 7,
       "hp": 6,
-      "unique": true,
       "aspects": [
         "Heroism"
       ],
@@ -14373,7 +13635,6 @@
       "cost": 8,
       "power": 6,
       "hp": 9,
-      "unique": false,
       "aspects": [
         "Heroism"
       ],
@@ -14393,7 +13654,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Heroism"
       ],
@@ -14411,7 +13671,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Heroism"
       ],
@@ -14429,7 +13688,6 @@
       "cost": 4,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [
         "Heroism"
       ],
@@ -14447,8 +13705,9 @@
       "cost": 2,
       "power": 2,
       "hp": 2,
-      "unique": false,
-      "aspects": [],
+      "aspects": [
+        "Purple"
+      ],
       "keywords": [],
       "traitCount": 2,
       "text": "When Played: Choose a player. They shuffle their discard pile and put it on the bottom of their deck.",
@@ -14463,7 +13722,6 @@
       "cost": 2,
       "power": 1,
       "hp": 4,
-      "unique": false,
       "aspects": [],
       "keywords": [],
       "traitCount": 3,
@@ -14479,7 +13737,6 @@
       "cost": 3,
       "power": 2,
       "hp": 3,
-      "unique": false,
       "aspects": [],
       "keywords": [
         "Raid"
@@ -14497,7 +13754,6 @@
       "cost": 4,
       "power": 2,
       "hp": 4,
-      "unique": false,
       "aspects": [],
       "keywords": [],
       "traitCount": 1,
@@ -14513,7 +13769,6 @@
       "cost": 1,
       "power": 1,
       "hp": 0,
-      "unique": false,
       "aspects": [],
       "keywords": [],
       "traitCount": 2,
@@ -14529,7 +13784,6 @@
       "cost": 2,
       "power": null,
       "hp": null,
-      "unique": false,
       "aspects": [],
       "keywords": [],
       "traitCount": 1,
