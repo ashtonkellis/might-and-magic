@@ -1058,7 +1058,7 @@
       "name": "Poultice Bearer",
       "type": "Unit",
       "cost": 1,
-      "power": 0,
+      "power": 1,
       "hp": 4,
       "unique": false,
       "aspects": [
@@ -10492,7 +10492,7 @@
       "name": "Paired Bulwark",
       "type": "Unit",
       "cost": 2,
-      "power": 0,
+      "power": 1,
       "hp": 3,
       "unique": false,
       "aspects": [
@@ -10503,7 +10503,7 @@
         "Bodyguard"
       ],
       "traitCount": 2,
-      "text": "While you control another Steel unit, this unit gains Bodyguard. (Units in this flank can't attack your non-Bodyguard units or your Commander.) \nWhen Defeated: Create a Steel unit token.",
+      "text": "While you control another Steel unit, this unit gains Bodyguard. (Units in this flank can't attack your non-Bodyguard units or your Commander.)\nWhen Defeated: Give a Shield token to another friendly Steel unit.",
       "backText": null,
       "epicAction": null
     },
@@ -11614,7 +11614,7 @@
       "name": "Trail Reader",
       "type": "Unit",
       "cost": 2,
-      "power": 0,
+      "power": 1,
       "hp": 4,
       "unique": true,
       "aspects": [
@@ -11691,7 +11691,7 @@
       "name": "Goading Scout",
       "type": "Unit",
       "cost": 1,
-      "power": 0,
+      "power": 1,
       "hp": 4,
       "unique": false,
       "aspects": [
@@ -13567,7 +13567,7 @@
       ],
       "keywords": [],
       "traitCount": 2,
-      "text": "Each token unit you create enters play ready. \nOn Attack: If a unit left play this phase, create a Blue Amber token.",
+      "text": "Each friendly unit that costs 2 or less enters play ready.\nOn Attack: If a unit left play this phase, return a unit that costs 2 or less from your discard pile to your hand.",
       "backText": null,
       "epicAction": null
     },
@@ -14381,7 +14381,7 @@
         "Restore"
       ],
       "traitCount": 3,
-      "text": "Restore 3 (When this unit attacks, heal 3 damage from your Commander.) \nWhen Defeated: Create 2 Purple Green tokens.",
+      "text": "Restore 3 (When this unit attacks, heal 3 damage from your Commander.)\nWhen Defeated: Give a Shield token to each friendly unit.",
       "backText": null,
       "epicAction": null
     },
