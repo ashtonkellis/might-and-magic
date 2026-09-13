@@ -409,7 +409,7 @@
       "back": {
         "power": 1,
         "hp": 8,
-        "ability": "Restore 4. (When a friendly unit attacks, heal 4 damage from your Commander.)"
+        "ability": "Restore 4 (When this unit attacks, heal 4 damage from your Commander.)"
       },
       "join": {
         "total": 3,
