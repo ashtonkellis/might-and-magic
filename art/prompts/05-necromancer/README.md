@@ -36,7 +36,7 @@ each orientation. The landscape face is Viol at rest with his ledger; the portra
 | [`reclaimed-reliquary.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/reclaimed-reliquary.txt) | Reclaimed Reliquary | Upgrade | 2 |
 | [`the-ledger-reopened.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/the-ledger-reopened.txt) | The Ledger Reopened | Spell | 2 |
 | [`successor-sought.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/successor-sought.txt) | Successor Sought | Unit | 3 |
-| [`paid-in-kind.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/paid-in-kind.txt) | Paid in Kind | Unit | 4 |
+| [`pledged-remains.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/pledged-remains.txt) | Pledged Remains | Unit | 4 |
 | [`keeper-of-the-ledger.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/keeper-of-the-ledger.txt) | Keeper of the Ledger | Unit | 5 |
 | [`toll-of-three.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/toll-of-three.txt) | Toll of Three | Unit | 6 |
 | [`mass-exhumation.txt`](https://ashtonkellis.github.io/might-and-magic/art/prompts/05-necromancer/mass-exhumation.txt) | Mass Exhumation | Unit | 7 |

@@ -376,7 +376,7 @@ toward a much younger one standing at the edge of the shadow. The younger one ha
 not taken it yet. Between them on the table sits the ledger, closed, and a
 guttering candle with maybe a minute left in it. Still-life staging: everyone is
 posed, nobody is moving.""",
-        "paid-in-kind": """A settled account, arranged as vanitas: a scale on a dark table with a small
+        "pledged-remains": """A settled account, arranged as vanitas: a scale on a dark table with a small
 heap of coin on one pan and, on the other, something plainly worth more and no
 longer of use to its owner. A tired hand rests on the table beside it, not
 touching either pan. The candle is behind the scale so both pans are rim-lit and

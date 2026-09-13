@@ -2043,7 +2043,7 @@
     {
       "id": "SHD-107",
       "class": "05-necromancer",
-      "name": "Paid in Kind",
+      "name": "Pledged Remains",
       "type": "Unit",
       "cost": 4,
       "power": 5,
@@ -14170,7 +14170,7 @@
         "Exploit"
       ],
       "traitCount": 3,
-      "text": "Exploit 2 (While playing this card, defeat up to 2 units you control. This card costs {2} less for each unit defeated this way.)\nWhen Defeated: Create 3 Battle Purple tokens.",
+      "text": "Exploit 2 (While playing this card, defeat up to 2 units you control. This card costs {2} less for each unit defeated this way.)\nWhen Defeated: Return each unit you exploited while playing this card from your discard pile to your hand.",
       "backText": null,
       "epicAction": null
     },
@@ -14451,7 +14451,7 @@
       "aspects": [],
       "keywords": [],
       "traitCount": 2,
-      "text": "When Played: Choose an opponent. They shuffle their discard pile and put it on the bottom of their deck.",
+      "text": "When Played: Choose a player. They shuffle their discard pile and put it on the bottom of their deck.",
       "backText": null,
       "epicAction": null
     },
