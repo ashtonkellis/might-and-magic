@@ -33,6 +33,7 @@
   --ink:#E9E7F1; --ink-soft:#C3BFD6; --muted:#9A96AE;
   --rule:rgba(233,231,241,.16); --rule-strong:rgba(233,231,241,.32); --chip:rgba(233,231,241,.08);
 }
+:root{--bleed:2mm}   /* colour past the cut line, per side, on the print sheet */
 *{box-sizing:border-box}
 body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--body);font-size:16px;-webkit-font-smoothing:antialiased}
 
@@ -387,13 +388,44 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
    untouched, so a copy prints exactly as the original does. */
 @media screen{.card.dupe{display:none}}
 
-/* ---------- print: real 2.5in x 3.5in cards, 9 to a letter page ---------- */
-@page{size:letter portrait;margin:.2in}
+/* ---------- print: real 2.5in x 3.5in cards, 8 to a landscape sheet ----------
+   The sheet is built in the DOM, by paginate() below, rather than left to the
+   browser to fragment a long grid across pages. Letting it fragment is what the
+   site used to do, and it wastes paper: a landscape card spans two of three
+   2.5in columns and strands the third, so the number of cards on a page is
+   whatever happens to fit, and back page N does not line up with front page N.
+   Eight to a landscape sheet rather than nine to a portrait one because each
+   card carries a ring of bleed that three rows of 3.5in no longer leave room
+   for.
+
+   The wrappers are display:contents on screen, so the gallery lays out exactly
+   as if they were not there. That is what lets the sheet be built once, when
+   the cards are rendered, instead of on a beforeprint event -- which iOS Safari
+   does not fire, so a phone printing from the share sheet would have got the
+   old ragged layout. */
+@page{size:letter landscape;margin:.1in}
+@media screen{.print-page,.slot{display:contents}}
 @media print{
   :root{--ink:#000;--ink-soft:#000}
   header.top,.bar,.empty,.noprint{display:none!important}
   body{background:#fff}
-  .grid{display:grid;grid-template-columns:repeat(3,2.5in);gap:0;padding:0;justify-content:center}
+  .grid{display:block;padding:0;gap:0}
+  .print-page{display:grid;grid-template-columns:repeat(4,calc(2.5in + 2*var(--bleed)));
+    grid-auto-rows:calc(3.5in + 2*var(--bleed));justify-content:center;align-content:start;
+    break-after:page;page-break-after:always}
+  .print-page:last-child{break-after:auto;page-break-after:auto}
+  /* The ring carries the card's own two frame colours, so a punch that lands a
+     millimetre or two out still comes up coloured to the edge instead of white.
+     paginate() paints each slot; this only gives it its size. */
+  .slot{display:block;width:calc(2.5in + 2*var(--bleed));height:calc(3.5in + 2*var(--bleed));
+    padding:var(--bleed);overflow:hidden;background-size:cover;background-position:center}
+  .slot .card{margin:0}
+  /* A turned card, rotated in flow. Taking it out of flow to centre it is the
+     obvious fix and it renders on screen, but an absolutely positioned element
+     does not survive Chromium's pagination: every hero front silently vanished
+     from the PDF while the portrait cards beside it printed fine. Rotating about
+     the top-left corner and translating back down needs no centring at all. */
+  .slot .card.wide{transform-origin:0 0;transform:translate(0,3.5in) rotate(-90deg)}
   .card{--frame:.1181in;--inner:.075in;
         width:2.5in;height:3.5in;aspect-ratio:auto;border-radius:0;box-shadow:none;
         outline:.5pt dashed rgba(0,0,0,.35);outline-offset:-.5pt;break-inside:avoid;page-break-inside:avoid;
@@ -410,12 +442,11 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
   .stat.corner.l{left:calc(.05in + var(--frame))}
   .stat.corner.r{right:calc(.05in + var(--frame))}
   .card.up .rules{padding-bottom:.34in}
-  /* landscape, so it occupies two of the 2.5in columns when it shares a sheet
-     with portrait cards; a sheet that is all resources retracks to fit 8. */
-  .card.wide{width:3.5in;height:2.5in;grid-column:span 2}
-  .card.hero.back{width:2.5in;height:3.5in;grid-column:auto}
-  .grid.wide-sheet{grid-template-columns:repeat(2,3.5in)}
-  .grid.wide-sheet .card.wide{grid-column:auto}
+  /* A landscape card keeps its real 3.5x2.5 size and is turned into the same
+     portrait slot as everything else, so every slot on every sheet is one
+     physical card and the backs line up. */
+  .card.wide{width:3.5in;height:2.5in}
+  .card.hero.back{width:2.5in;height:3.5in}
   .htitle b{font-size:13pt} .hkind{font-size:5.8pt}
   .bkind,.bclass{font-size:5.8pt}
   .hrules{font-size:9.4pt} .hjoin .lab{font-size:6pt}
@@ -434,7 +465,7 @@ button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink
 
 <header class="top">
   <div class="spectrum"></div>
-  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V109</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
+  <div class="titlerow"><h1>Cards</h1><span class="badge" id="version">V110</span><span class="offline" id="offline" hidden>offline — showing cached cards</span></div>
   <p class="sub">In the colors of the class each card was chosen for.
      Every card in the game: twenty-one heroes, six resources, and twelve cards
      for each class. Art appears as it lands in <code>art/</code>; a card whose
@@ -777,6 +808,8 @@ function apply(){
     }
   });
 
+  paginate();
+
   const sheet = out.reduce((n, c) => n + (c.print || 1), 0);
   $('count').textContent = sheet === out.length
     ? `${out.length} card${out.length === 1 ? '' : 's'}`
@@ -784,6 +817,79 @@ function apply(){
   $('empty').hidden = out.length > 0;
   $('empty').textContent = out.length ? '' : 'No cards match those filters.';
 }
+
+/* Wraps the rendered cards into explicit sheets of eight, each card in its own
+   slot, so the printed page is laid out here rather than left to the browser to
+   fragment. Both the site's own Print and the PDF builder in tools/ go through
+   this, so there is one sheet layout rather than two that drift apart.
+
+   Every card frames itself with the same gradient -- the --split angle and the
+   two --split-a/--split-b stops -- so the slot's ring is that same gradient
+   again on a slightly larger box, and the colour carries across the cut line
+   instead of meeting it. Three things have to be read rather than assumed:
+
+   The colours. A hero carries --c1/--c2 inline, a class card an inline
+   background, a resource a border colour. Reading the computed background
+   covers none of them: on a hero it resolves to the dark ground the art sits
+   on, which is why every ring once came out black. Copying the class card's
+   inline gradient string is no better -- it is written in terms of var(--split),
+   which is defined on .card and so resolves to nothing out on the slot, which
+   left 252 class cards with a silently white ring.
+
+   The stops. 90deg/50% is right for a portrait card and wrong for a landscape
+   one, which splits on a diagonal. And a percentage cannot just be carried
+   over: it measures along the gradient line, the slot's line is longer than the
+   card's, so the same 48.5% puts the colour change about 2mm off where the card
+   puts it. Anchoring the stops to the middle of the line and offsetting by a
+   length off the CARD's line makes the two meet exactly. CSS gradient-line
+   length for angle t on a WxH box is |W sin t| + |H cos t|, and rotation
+   preserves it, so a turned card can be measured on the box it actually had.
+
+   The turn. A card rotated into its slot takes its frame round with it, so the
+   ring has to turn by the same quarter to stay aligned with it. */
+const PER_PAGE = 8;
+function slotFor(card){
+  const slot = document.createElement('div');
+  slot.className = 'slot';
+  const cs = getComputedStyle(card);
+  const wide = card.classList.contains('wide');
+  let angle = parseFloat(cs.getPropertyValue('--split')) || 90;
+  const pct = v => (parseFloat(v) || 0) / 100;
+  const pa = pct(cs.getPropertyValue('--split-a')) || .485;
+  const pb = pct(cs.getPropertyValue('--split-b')) || .515;
+  let c1 = card.style.getPropertyValue('--c1').trim();
+  let c2 = card.style.getPropertyValue('--c2').trim();
+  if (!c1) {                                  // class card, token, or resource
+    const hex = (card.getAttribute('style') || '').match(/#[0-9a-fA-F]{6}\b/g) || [];
+    c1 = hex[0]; c2 = hex[1];
+  }
+  if (!c1) c1 = cs.borderTopColor;
+  if (!c1) c1 = '#2A2536';
+  if (!c2) c2 = c1;
+  const t = angle * Math.PI / 180;            // on the card's own, unturned box
+  const [cw, ch] = wide ? [3.5, 2.5] : [2.5, 3.5];
+  const line = Math.abs(cw * Math.sin(t)) + Math.abs(ch * Math.cos(t));
+  const at = q => `calc(50% + ${((q - .5) * line).toFixed(4)}in)`;
+  if (wide) angle -= 90;
+  slot.style.background =
+    `linear-gradient(${angle}deg, ${c1} 0 ${at(pa)}, ${c2} ${at(pb)} 100%)`;
+  slot.appendChild(card);                     // move, keeping its fitted --fit
+  return slot;
+}
+function paginate(){
+  const grid = $('grid');
+  const cards = [...grid.querySelectorAll('.card')];
+  const frag = document.createDocumentFragment();
+  for (let i = 0; i < cards.length; i += PER_PAGE) {
+    const page = document.createElement('section');
+    page.className = 'print-page';
+    for (const c of cards.slice(i, i + PER_PAGE)) page.appendChild(slotFor(c));
+    frag.appendChild(page);
+  }
+  grid.replaceChildren(frag);
+  return { total: cards.length, pages: Math.ceil(cards.length / PER_PAGE) };
+}
+window.paginate = paginate;
 
 Promise.all([
   fetch('card-list.json').then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
